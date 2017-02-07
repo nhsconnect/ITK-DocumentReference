@@ -1,0 +1,1 @@
+An extension to detail the information recipient.

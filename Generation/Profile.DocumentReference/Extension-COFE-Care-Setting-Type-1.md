@@ -1,0 +1,1 @@
+An extension to detail the care setting type.

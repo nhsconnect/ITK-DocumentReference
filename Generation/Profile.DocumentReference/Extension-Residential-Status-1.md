@@ -1,0 +1,1 @@
+This Extension resource is constrained to support the residential status for the Patient resource.

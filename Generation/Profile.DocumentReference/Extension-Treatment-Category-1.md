@@ -1,0 +1,1 @@
+This Extension resource is constrained to support the treatment category for the Patient resource.

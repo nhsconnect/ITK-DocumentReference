@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Practitioner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/practitioner.xsd" xmlns="http://hl7.org/fhir">
+	<id value="5e414a77-d394-4248-a631-00e45ddb64a0"/>
+	<meta>
+		<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-practitioner-1"/>
+	</meta>
+	<identifier>
+		<system value="http://fhir.nhs.net/Id/sds-identifier"/>
+		<value value="GP12345600"/>
+	</identifier>
+	<name>
+		<family value="Lorenzo"/>
+		<given value="John"/>
+		<prefix value="Dr"/>
+	</name>
+	<telecom>
+		<system value="phone"/>
+		<value value="01634111222"/>
+		<use value="work"/>
+	</telecom>
+	<telecom>
+		<system value="email"/>
+		<value value="John.Lorenzo@MMC.co.uk"/>
+	</telecom>
+	<practitionerRole>
+		<managingOrganization>
+			<reference value="f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+			<display value="MGP Medical Centre"/>
+		</managingOrganization>
+		<role>
+			<coding>
+				<system value="http://fhir.nhs.net/job-role-name-1"/>
+				<code value="NR9100"/>
+				<display value="Named GP"/>
+			</coding>
+		</role>
+	</practitionerRole>
+</Practitioner>

@@ -1,0 +1,1 @@
+This Extension resource is constrained to support the religious affiliation for the Patient resource.

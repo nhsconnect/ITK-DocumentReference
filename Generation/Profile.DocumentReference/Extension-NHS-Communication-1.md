@@ -1,0 +1,1 @@
+This extension is defined to support communication in the NHS for a resource.

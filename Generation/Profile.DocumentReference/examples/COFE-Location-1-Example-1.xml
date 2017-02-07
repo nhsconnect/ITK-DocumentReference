@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Location xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/location.xsd" xmlns="http://hl7.org/fhir">
+	<id value="01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
+	<meta>
+		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-Location-1"/>
+	</meta>
+	<name value="Accident and emergency department of Leeds Teaching Hospital"/>
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="225728007"/>
+			<display value="Accident and Emergency department"/>
+		</coding>
+	</type>
+</Location>

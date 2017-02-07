@@ -1,0 +1,202 @@
+
+***Furnace log date run: 10 January 2017 1259 ***
+Furnace: Fhir publisher tool version: 2.7.6179.25752
+***Starting generation***
+Source directory: C:\Scratch\COFE-EOLHeader\Generation 
+ Target Directory: C:\Scratch\COFE-EOLHeader\Generated
+Clear down Generated folder
+Copying files into Schemas folder ...
+Copying files into dist folder ...
+Start: creating IGResource.xml
+End: IGResource.xml created
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Create folder Profile.DocumentHeader
+IG Creation - Adding birthPlace to IGResource.xml
+            - Adding Profile.DocumentHeader package to IGResource.xml
+            - Saving birthPlace.xml in StructureDefinition folder
+IG Creation - birthPlace finished
+IG Creation - Adding CareConnect-Encounter-1 to IGResource.xml
+            - Saving CareConnect-Encounter-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Encounter-1 finished
+IG Creation - Adding CareConnect-Patient-1 to IGResource.xml
+            - Saving COFE-Patient-1-Example-2.xml in examples folder
+            - Saving CareConnect-Patient-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Patient-1 finished
+IG Creation - Adding CareConnect-Practitioner-1 to IGResource.xml
+            - Saving CareConnect-Practitioner-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Practitioner-1 finished
+IG Creation - Adding COFE-CDA-Header-Composition-1 to IGResource.xml
+            - Saving COFE-Composition-1-Example-1.xml in examples folder
+            - Saving COFE-CDA-Header-Composition-1.xml in StructureDefinition folder
+IG Creation - COFE-CDA-Header-Composition-1 finished
+IG Creation - Adding COFE-Device-1 to IGResource.xml
+            - Saving COFE-Device-1.xml in StructureDefinition folder
+IG Creation - COFE-Device-1 finished
+IG Creation - Adding COFE-Document-Bundle-1 to IGResource.xml
+            - Saving COFE-Bundle-Example-1.xml in examples folder
+            - Saving COFE-Document-Bundle-1.xml in StructureDefinition folder
+IG Creation - COFE-Document-Bundle-1 finished
+IG Creation - Adding COFE-Location-1 to IGResource.xml
+            - Saving COFE-Location-1-Example-1.xml in examples folder
+            - Saving COFE-Location-1.xml in StructureDefinition folder
+IG Creation - COFE-Location-1 finished
+IG Creation - Adding COFE-Related-Person-1 to IGResource.xml
+            - Saving COFE-RelatedPerson-Example-1.xml in examples folder
+            - Saving COFE-Related-Person-1.xml in StructureDefinition folder
+IG Creation - COFE-Related-Person-1 finished
+IG Creation - Adding Extension-Care-Setting-Type-1 to IGResource.xml
+            - Saving Extension-Care-Setting-Type-1.xml in StructureDefinition folder
+IG Creation - Extension-Care-Setting-Type-1 finished
+IG Creation - Adding Extension-COFE-Authorization-1 to IGResource.xml
+            - Saving Extension-COFE-Authorization-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Authorization-1 finished
+IG Creation - Adding Extension-COFE-Data-Enterer-1 to IGResource.xml
+            - Saving Extension-COFE-Data-Enterer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Data-Enterer-1 finished
+IG Creation - Adding Extension-COFE-Informant-1 to IGResource.xml
+            - Saving Extension-COFE-Informant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Informant-1 finished
+IG Creation - Adding Extension-COFE-Information-Recipient-1 to IGResource.xml
+            - Saving Extension-COFE-Information-Recipient-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Information-Recipient-1 finished
+IG Creation - Adding Extension-COFE-Participant-1 to IGResource.xml
+            - Saving Extension-COFE-Participant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Participant-1 finished
+IG Creation - Adding Extension-COFE-Performer-1 to IGResource.xml
+            - Saving Extension-COFE-Performer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Performer-1 finished
+IG Creation - Adding Extension-Ethnic-Category-1 to IGResource.xml
+            - Saving Extension-Ethnic-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Ethnic-Category-1 finished
+IG Creation - Adding Extension-NHS-Communication-1 to IGResource.xml
+            - Saving Extension-NHS-Communication-1.xml in StructureDefinition folder
+IG Creation - Extension-NHS-Communication-1 finished
+IG Creation - Adding Extension-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-Organ-Donor-1 to IGResource.xml
+            - Saving Extension-Organ-Donor-1.xml in StructureDefinition folder
+IG Creation - Extension-Organ-Donor-1 finished
+IG Creation - Adding Extension-Registration-Details-1 to IGResource.xml
+            - Saving Extension-Registration-Details-1.xml in StructureDefinition folder
+IG Creation - Extension-Registration-Details-1 finished
+IG Creation - Adding Extension-Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Extension-Religious-Affiliation-SnCT-1.xml in StructureDefinition folder
+IG Creation - Extension-Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding Extension-Residential-Status-1 to IGResource.xml
+            - Saving Extension-Residential-Status-1.xml in StructureDefinition folder
+IG Creation - Extension-Residential-Status-1 finished
+IG Creation - Adding Extension-Treatment-Category-1 to IGResource.xml
+            - Saving Extension-Treatment-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Treatment-Category-1 finished
+IG Creation - Adding patient-birthTime to IGResource.xml
+            - Saving patient-birthTime.xml in StructureDefinition folder
+IG Creation - patient-birthTime finished
+IG Creation - Adding Administrative-Gender-1 to IGResource.xml
+            - Saving Administrative-Gender-1.xml in ValueSet folder
+IG Creation - Administrative-Gender-1 finished
+IG Creation - Adding Care-Setting-Type-1 to IGResource.xml
+            - Saving Care-Setting-Type-1.xml in ValueSet folder
+IG Creation - Care-Setting-Type-1 finished
+IG Creation - Adding CDA-Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving CDA-Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - CDA-Encounter-Type-SnCT-1 finished
+IG Creation - Adding cda-person-relationship-type-1 to IGResource.xml
+            - Saving cda-person-relationship-type-1.xml in ValueSet folder
+IG Creation - cda-person-relationship-type-1 finished
+IG Creation - Adding Correspondence-Document-Type-1 to IGResource.xml
+            - Saving Correspondence-Document-Type-1.xml in ValueSet folder
+IG Creation - Correspondence-Document-Type-1 finished
+IG Creation - Adding Device-Type-1 to IGResource.xml
+            - Saving Device-Type-1.xml in ValueSet folder
+IG Creation - Device-Type-1 finished
+IG Creation - Adding Document-Type-1 to IGResource.xml
+            - Saving Document-Type-1.xml in ValueSet folder
+IG Creation - Document-Type-1 finished
+IG Creation - Adding Encounter-Disposition-SnCT-1 to IGResource.xml
+            - Saving Encounter-Disposition-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Disposition-SnCT-1 finished
+IG Creation - Adding Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Type-SnCT-1 finished
+IG Creation - Adding Ethnic-Category-1 to IGResource.xml
+            - Saving Ethnic-Category-1.xml in ValueSet folder
+IG Creation - Ethnic-Category-1 finished
+IG Creation - Adding Finding-SnCT-1 to IGResource.xml
+            - Saving Finding-SnCT-1.xml in ValueSet folder
+IG Creation - Finding-SnCT-1 finished
+IG Creation - Adding Human-Language-1 to IGResource.xml
+            - Saving Human-Language-1.xml in ValueSet folder
+IG Creation - Human-Language-1 finished
+IG Creation - Adding Job-Role-Name-1 to IGResource.xml
+            - Saving Job-Role-Name-1.xml in ValueSet folder
+IG Creation - Job-Role-Name-1 finished
+IG Creation - Adding Language-Ability-Mode-1 to IGResource.xml
+            - Saving Language-Ability-Mode-1.xml in ValueSet folder
+IG Creation - Language-Ability-Mode-1 finished
+IG Creation - Adding Language-Ability-Proficiency-1 to IGResource.xml
+            - Saving Language-Ability-Proficiency-1.xml in ValueSet folder
+IG Creation - Language-Ability-Proficiency-1 finished
+IG Creation - Adding Marital-Status-1 to IGResource.xml
+            - Saving Marital-Status-1.xml in ValueSet folder
+IG Creation - Marital-Status-1 finished
+IG Creation - Adding marital-status-ddmap-1 to IGResource.xml
+            - Saving marital-status-ddmap-1.xml in ValueSet folder
+IG Creation - marital-status-ddmap-1 finished
+IG Creation - Adding nhsnumberverificationstatus-1 to IGResource.xml
+            - Saving nhsnumberverificationstatus-1.xml in ValueSet folder
+IG Creation - nhsnumberverificationstatus-1 finished
+IG Creation - Adding person-stated-gender-ddmap-1 to IGResource.xml
+            - Saving person-stated-gender-ddmap-1.xml in ValueSet folder
+IG Creation - person-stated-gender-ddmap-1 finished
+IG Creation - Adding Referral-Reason-SnCT-1 to IGResource.xml
+            - Saving Referral-Reason-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Reason-SnCT-1 finished
+IG Creation - Adding Referral-Type-SnCT-1 to IGResource.xml
+            - Saving Referral-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Type-SnCT-1 finished
+IG Creation - Adding registration-status-1 to IGResource.xml
+            - Saving registration-status-1.xml in ValueSet folder
+IG Creation - registration-status-1 finished
+IG Creation - Adding registration-type-1 to IGResource.xml
+            - Saving registration-type-1.xml in ValueSet folder
+IG Creation - registration-type-1 finished
+IG Creation - Adding Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Religious-Affiliation-SnCT-1.xml in ValueSet folder
+IG Creation - Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding residential-status-1 to IGResource.xml
+            - Saving residential-status-1.xml in ValueSet folder
+IG Creation - residential-status-1 finished
+IG Creation - Adding Section-Type-SnCT-1 to IGResource.xml
+            - Saving Section-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Section-Type-SnCT-1 finished
+IG Creation - Adding Specialty-1 to IGResource.xml
+            - Saving Specialty-1.xml in ValueSet folder
+IG Creation - Specialty-1 finished
+IG Creation - Adding treatment-category-1 to IGResource.xml
+            - Saving treatment-category-1.xml in ValueSet folder
+IG Creation - treatment-category-1 finished
+Profile Table: IGResource.
+Loading resources into resource store
+Create directory C:\Scratch\COFE-EOLHeader\Generated\Profile.DocumentHeader
+**Error** 
+ Message: StructureDefinition CareConnect-Practitioner-1is not a snapshot! 
+ Stacktrace:    at Hl7.Fhir.Publication.Specification.Profile.IndexFactory.GetContent(String name, PackageComponent implementationGuideComponent) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Specification\Profile\IndexFactory.cs:line 39
+   at Hl7.Fhir.Publication.Processors.Profile.ProfileIndexProcessor.CreateProfileIndex(String name, Stage output, PackageComponent package) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Processors\Profile\ProfileIndexProcessor.cs:line 72
+   at Hl7.Fhir.Publication.Processors.Profile.ProfileIndexProcessor.Process(Document input, Stage output, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Processors\Profile\ProfileIndexProcessor.cs:line 54
+   at Hl7.Fhir.Publication.Framework.Processor.Process(IProcessor processor, Stage input, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Processor.cs:line 16
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, Stage input, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Processor.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, ISelector filter, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Processor.cs:line 38
+   at Hl7.Fhir.Publication.Framework.Statement.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Statement.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Make.Bulk.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Make\Bulk.cs:line 25
+   at Hl7.Fhir.Publication.Framework.Publisher.Publish() in C:\Users\rmk\Source\Repos\FHIR.Publication.DSTU2\Fhir.Publication\Framework\Publisher.cs:line 80 
+ InnerException: 

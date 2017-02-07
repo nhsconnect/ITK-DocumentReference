@@ -1,0 +1,1 @@
+This Extension resource is constrained to support the organ donor status for the Patient resource.

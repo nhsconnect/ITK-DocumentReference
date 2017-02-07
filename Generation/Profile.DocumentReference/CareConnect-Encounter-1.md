@@ -1,0 +1,1 @@
+This Encounter resource in most but not all cases covers an episode of care.

@@ -1,0 +1,776 @@
+
+***Furnace log date run: 12 September 2016 1755 ***
+Furnace: Fhir publisher tool version: 2.7.6075.24962
+***Starting generation***
+Source directory: C:\IOPSDevFHIR\COFE-DocumentHeader\Generation 
+ Target Directory: C:\IOPSDevFHIR\COFE-DocumentHeader\Generated
+Clear down Generated folder
+Copying files into Schemas folder...
+Copying files into dist folder...
+Start: creating IGResource.xml
+End: IGResource.xml created
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Create folder Profile.DocumentHeader
+IG Creation - Adding COFE-CDA-Header-Composition-1 to IGResource.xml
+            - Adding Profile.DocumentHeader package to IGResource.xml
+            - Saving COFE-CDA-Header-Composition-1.xml in StructureDefinition folder
+IG Creation - COFE-CDA-Header-Composition-1 finished
+IG Creation - Adding COFE-Device-1 to IGResource.xml
+            - Saving COFE-Device-1.xml in StructureDefinition folder
+IG Creation - COFE-Device-1 finished
+IG Creation - Adding COFE-Encounter-1 to IGResource.xml
+            - Saving COFE-Encounter-1.xml in StructureDefinition folder
+IG Creation - COFE-Encounter-1 finished
+IG Creation - Adding COFE-Guardian-Identifier-1 to IGResource.xml
+            - Saving COFE-Guardian-Identifier-1.xml in StructureDefinition folder
+IG Creation - COFE-Guardian-Identifier-1 finished
+IG Creation - Adding COFE-Guardian-Organization-1 to IGResource.xml
+            - Saving COFE-Guardian-Organization-1.xml in StructureDefinition folder
+IG Creation - COFE-Guardian-Organization-1 finished
+IG Creation - Adding COFE-Location-1 to IGResource.xml
+            - Saving COFE-Location-1.xml in StructureDefinition folder
+IG Creation - COFE-Location-1 finished
+IG Creation - Adding COFE-Organization-ODS-1 to IGResource.xml
+            - Saving COFE-Organization-ODS-1.xml in StructureDefinition folder
+IG Creation - COFE-Organization-ODS-1 finished
+IG Creation - Adding COFE-Organization-partOf-1 to IGResource.xml
+            - Saving COFE-Organization-partOf-1.xml in StructureDefinition folder
+IG Creation - COFE-Organization-partOf-1 finished
+IG Creation - Adding COFE-Patient-1 to IGResource.xml
+            - Saving NHS-Patient-1.xml in examples folder
+            - Saving COFE-Patient-1.xml in StructureDefinition folder
+IG Creation - COFE-Patient-1 finished
+IG Creation - Adding COFE-Practitioner-1 to IGResource.xml
+            - Saving COFE-Practitioner-1.xml in StructureDefinition folder
+IG Creation - COFE-Practitioner-1 finished
+IG Creation - Adding COFE-Provider-Organization-1 to IGResource.xml
+            - Saving COFE-Provider-Organization-1.xml in StructureDefinition folder
+IG Creation - COFE-Provider-Organization-1 finished
+IG Creation - Adding COFE-Related-Person-1 to IGResource.xml
+            - Saving COFE-Related-Person-1.xml in StructureDefinition folder
+IG Creation - COFE-Related-Person-1 finished
+IG Creation - Adding Extension-COFE-Authorization-1 to IGResource.xml
+            - Saving Extension-COFE-Authorization-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Authorization-1 finished
+IG Creation - Adding Extension-COFE-Birth-Order-Number-1 to IGResource.xml
+            - Saving Extension-COFE-Birth-Order-Number-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Birth-Order-Number-1 finished
+IG Creation - Adding Extension-COFE-Birth-Place-1 to IGResource.xml
+            - Saving Extension-COFE-Birth-Place-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Birth-Place-1 finished
+IG Creation - Adding Extension-COFE-Data-Enterer-1 to IGResource.xml
+            - Saving Extension-COFE-Data-Enterer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Data-Enterer-1 finished
+IG Creation - Adding Extension-COFE-Deceased-Date-Time-1 to IGResource.xml
+            - Saving Extension-COFE-Deceased-Date-Time-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Deceased-Date-Time-1 finished
+IG Creation - Adding Extension-COFE-Effective-Time-1 to IGResource.xml
+            - Saving Extension-COFE-Effective-Time-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Effective-Time-1 finished
+IG Creation - Adding Extension-COFE-Ethnic-Category-1 to IGResource.xml
+            - Saving Extension-COFE-Ethnic-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Ethnic-Category-1 finished
+IG Creation - Adding Extension-COFE-Guardian-Identifier-1 to IGResource.xml
+            - Saving Extension-COFE-Guardian-Identifier-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Guardian-Identifier-1 finished
+IG Creation - Adding Extension-COFE-Informant-1 to IGResource.xml
+            - Saving Extension-COFE-Informant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Informant-1 finished
+IG Creation - Adding Extension-COFE-Information-Recipient-1 to IGResource.xml
+            - Saving Extension-COFE-Information-Recipient-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Information-Recipient-1 finished
+IG Creation - Adding Extension-COFE-iso21090-nullFlavor-1 to IGResource.xml
+            - Saving Extension-COFE-iso21090-nullFlavor-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-iso21090-nullFlavor-1 finished
+IG Creation - Adding Extension-COFE-Language-Ability-Mode-1 to IGResource.xml
+            - Saving Extension-COFE-Language-Ability-Mode-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Language-Ability-Mode-1 finished
+IG Creation - Adding Extension-COFE-Language-Ability-Proficiency-1 to IGResource.xml
+            - Saving Extension-COFE-Language-Ability-Proficiency-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Language-Ability-Proficiency-1 finished
+IG Creation - Adding Extension-COFE-Organization-Role-Status-1 to IGResource.xml
+            - Saving Extension-COFE-Organization-Role-Status-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Organization-Role-Status-1 finished
+IG Creation - Adding Extension-COFE-Participant-1 to IGResource.xml
+            - Saving Extension-COFE-Participant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Participant-1 finished
+IG Creation - Adding Extension-COFE-Performer-1 to IGResource.xml
+            - Saving Extension-COFE-Performer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Performer-1 finished
+IG Creation - Adding Extension-COFE-Religious-Affiliation-1 to IGResource.xml
+            - Saving Extension-COFE-Religious-Affiliation-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Religious-Affiliation-1 finished
+IG Creation - Adding Address-Use-1 to IGResource.xml
+            - Saving Address-Use-1.xml in ValueSet folder
+IG Creation - Address-Use-1 finished
+IG Creation - Adding Administrative-Gender-1 to IGResource.xml
+            - Saving Administrative-Gender-1.xml in ValueSet folder
+IG Creation - Administrative-Gender-1 finished
+IG Creation - Adding Administrative-Gender-DDMap-1 to IGResource.xml
+            - Saving Administrative-Gender-DDMap-1.xml in ValueSet folder
+IG Creation - Administrative-Gender-DDMap-1 finished
+IG Creation - Adding CDA-Care-Setting-Type-SnCT-1 to IGResource.xml
+            - Saving CDA-Care-Setting-Type-SnCT-1.xml in ValueSet folder
+IG Creation - CDA-Care-Setting-Type-SnCT-1 finished
+IG Creation - Adding CDA-Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving CDA-Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - CDA-Encounter-Type-SnCT-1 finished
+IG Creation - Adding CDA-Organization-Provider-Type-1 to IGResource.xml
+            - Saving CDA-Organization-Provider-Type-1.xml in ValueSet folder
+IG Creation - CDA-Organization-Provider-Type-1 finished
+IG Creation - Adding CDA-Organization-Type-1 to IGResource.xml
+            - Saving CDA-Organization-Type-1.xml in ValueSet folder
+IG Creation - CDA-Organization-Type-1 finished
+IG Creation - Adding CDA-Person-Relationship-Type-1 to IGResource.xml
+            - Saving CDA-Person-Relationship-Type-1.xml in ValueSet folder
+IG Creation - CDA-Person-Relationship-Type-1 finished
+IG Creation - Adding Correspondence-Document-Type-1 to IGResource.xml
+            - Saving Correspondence-Document-Type-1.xml in ValueSet folder
+IG Creation - Correspondence-Document-Type-1 finished
+IG Creation - Adding Device-Type-1 to IGResource.xml
+            - Saving Device-Type-1.xml in ValueSet folder
+IG Creation - Device-Type-1 finished
+IG Creation - Adding Encounter-Disposition-SnCT-1 to IGResource.xml
+            - Saving Encounter-Disposition-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Disposition-SnCT-1 finished
+IG Creation - Adding Ethnic-Category-1 to IGResource.xml
+            - Saving Ethnic-Category-1.xml in ValueSet folder
+IG Creation - Ethnic-Category-1 finished
+IG Creation - Adding Guardian-Organization-Type-1 to IGResource.xml
+            - Saving Guardian-Organization-Type-1.xml in ValueSet folder
+IG Creation - Guardian-Organization-Type-1 finished
+IG Creation - Adding Guardian-Role-Type-1 to IGResource.xml
+            - Saving Guardian-Role-Type-1.xml in ValueSet folder
+IG Creation - Guardian-Role-Type-1 finished
+IG Creation - Adding Human-Language-1 to IGResource.xml
+            - Saving Human-Language-1.xml in ValueSet folder
+IG Creation - Human-Language-1 finished
+IG Creation - Adding Job-Role-Name-1 to IGResource.xml
+            - Saving Job-Role-Name-1.xml in ValueSet folder
+IG Creation - Job-Role-Name-1 finished
+IG Creation - Adding Language-Ability-Mode-1 to IGResource.xml
+            - Saving Language-Ability-Mode-1.xml in ValueSet folder
+IG Creation - Language-Ability-Mode-1 finished
+IG Creation - Adding Language-Ability-Proficiency-1 to IGResource.xml
+            - Saving Language-Ability-Proficiency-1.xml in ValueSet folder
+IG Creation - Language-Ability-Proficiency-1 finished
+IG Creation - Adding Marital-Status-1 to IGResource.xml
+            - Saving Marital-Status-1.xml in ValueSet folder
+IG Creation - Marital-Status-1 finished
+IG Creation - Adding Name-Use-1 to IGResource.xml
+            - Saving Name-Use-1.xml in ValueSet folder
+IG Creation - Name-Use-1 finished
+IG Creation - Adding NHS-Number-Status-Indicator-1 to IGResource.xml
+            - Saving NHS-Number-Status-Indicator-1.xml in ValueSet folder
+IG Creation - NHS-Number-Status-Indicator-1 finished
+IG Creation - Adding Organization-Role-Status-1 to IGResource.xml
+            - Saving Organization-Role-Status-1.xml in ValueSet folder
+IG Creation - Organization-Role-Status-1 finished
+IG Creation - Adding Telecom-Use-1 to IGResource.xml
+            - Saving Telecom-Use-1.xml in ValueSet folder
+IG Creation - Telecom-Use-1 finished
+Profile Table: IGResource.
+Loading resources into resource store
+Create directory C:\IOPSDevFHIR\COFE-DocumentHeader\Generated\Profile.DocumentHeader
+Render profile table Profile.DocumentHeader
+Profile Table: Finish - IGResource
+Loading resources into resource store
+Structure Page: Start - Profile.DocumentHeader : COFE-CDA-Header-Composition-1
+Creating structure for COFE-CDA-Header-Composition-1
+ create Bindings table
+*** element Name for Composition.type has not been populated!
+*** element Name for Composition.type.coding.code has not been populated!
+*** element Name for Composition.confidentiality has not been populated!
+ format binding for Composition.type
+ format binding for Composition.type.coding.code
+ format binding for Composition.confidentiality
+Render page COFE-CDA-Header-Composition-1
+Structure Page: Finish - cofe-cda-header-composition-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Device-1
+Creating structure for COFE-Device-1
+ create Bindings table
+*** element Name for Device.type has not been populated!
+*** element Name for Device.type.coding has not been populated!
+ format binding for Device.type
+ format binding for Device.type.coding
+Render page COFE-Device-1
+Structure Page: Finish - cofe-device-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Encounter-1
+Creating structure for COFE-Encounter-1
+ create Bindings table
+*** element Name for Encounter.type has not been populated!
+*** element Name for Encounter.type.coding.code has not been populated!
+*** element Name for Encounter.participant.type has not been populated!
+*** element Name for Encounter.hospitalization.dischargeDisposition has not been populated!
+*** element Name for Encounter.hospitalization.dischargeDisposition.coding.code has not been populated!
+ format binding for Encounter.type
+ format binding for Encounter.type.coding.code
+ format binding for Encounter.participant.type
+ format binding for Encounter.hospitalization.dischargeDisposition
+ format binding for Encounter.hospitalization.dischargeDisposition.coding.code
+Render page COFE-Encounter-1
+Structure Page: Finish - cofe-encounter-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Guardian-Identifier-1
+Creating structure for COFE-Guardian-Identifier-1
+ create Bindings table
+*** element Name for Person.identifier.type has not been populated!
+*** element Name for Person.identifier.type.coding.code has not been populated!
+*** element Name for Person.identifier.type.coding.code has not been populated!
+*** element Name for Person.telecom.use has not been populated!
+ format binding for Person.identifier.type
+ format binding for Person.identifier.type
+ format binding for Person.identifier.type.coding.code
+ format binding for Person.identifier.type
+ format binding for Person.identifier.type
+ format binding for Person.telecom.use
+Render page COFE-Guardian-Identifier-1
+Structure Page: Finish - cofe-guardian-identifier-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Guardian-Organization-1
+Creating structure for COFE-Guardian-Organization-1
+ create Bindings table
+*** element Name for Organization.type has not been populated!
+*** element Name for Organization.type.coding.code has not been populated!
+*** element Name for Organization.telecom.system has not been populated!
+*** element Name for Organization.telecom.use has not been populated!
+*** element Name for Organization.address.use has not been populated!
+*** element Name for Organization.address.type has not been populated!
+ format binding for Organization.type
+ format binding for Organization.type.coding.code
+ format binding for Organization.telecom.system
+ format binding for Organization.telecom.use
+ format binding for Organization.address.use
+ format binding for Organization.address.type
+Render page COFE-Guardian-Organization-1
+Structure Page: Finish - cofe-guardian-organization-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Location-1
+Creating structure for COFE-Location-1
+ create Bindings table
+*** element Name for Location.type has not been populated!
+*** element Name for Location.type.coding.code has not been populated!
+*** element Name for Location.address.use has not been populated!
+ format binding for Location.type
+ format binding for Location.type.coding.code
+ format binding for Location.address.use
+Render page COFE-Location-1
+Structure Page: Finish - cofe-location-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Organization-ODS-1
+Creating structure for COFE-Organization-ODS-1
+ create Bindings table
+Render page COFE-Organization-ODS-1
+Structure Page: Finish - cofe-organization-ods-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Organization-partOf-1
+Creating structure for COFE-Organization-partOf-1
+ create Bindings table
+*** element Name for Organization.type has not been populated!
+*** element Name for Organization.type.coding has not been populated!
+*** element Name for Organization.type.coding.code has not been populated!
+*** element Name for Organization.telecom.system has not been populated!
+*** element Name for Organization.telecom.use has not been populated!
+ format binding for Organization.type
+ format binding for Organization.type.coding
+ format binding for Organization.type.coding.code
+ format binding for Organization.telecom.system
+ format binding for Organization.telecom.use
+Render page COFE-Organization-partOf-1
+Structure Page: Finish - cofe-organization-partof-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Patient-1
+Creating structure for COFE-Patient-1
+ create Bindings table
+*** element Name for Patient.identifier.type has not been populated!
+*** element Name for Patient.identifier.type.coding has not been populated!
+*** element Name for Patient.name.use has not been populated!
+*** element Name for Patient.telecom.system has not been populated!
+*** element Name for Patient.telecom.use has not been populated!
+*** element Name for Patient.gender has not been populated!
+*** element Name for Patient.address.use has not been populated!
+*** element Name for Patient.maritalStatus has not been populated!
+*** element Name for Patient.maritalStatus.coding.code has not been populated!
+*** element Name for Patient.contact.relationship.coding.code has not been populated!
+*** element Name for Patient.contact.name.use has not been populated!
+*** element Name for Patient.contact.telecom.system has not been populated!
+*** element Name for Patient.contact.telecom.use has not been populated!
+*** element Name for Patient.communication.language has not been populated!
+*** element Name for Patient.communication.language.coding has not been populated!
+*** element Name for Patient.communication.language.coding.code has not been populated!
+ format binding for Patient.identifier.type
+ format binding for Patient.identifier.type
+ format binding for Patient.identifier.type.coding.code
+ format binding for Patient.identifier.type
+ format binding for Patient.identifier.type
+ format binding for Patient.identifier.type.coding
+ format binding for Patient.name.use
+ format binding for Patient.telecom.system
+ format binding for Patient.telecom.use
+ format binding for Patient.gender
+ format binding for Patient.address.use
+ format binding for Patient.maritalStatus
+ format binding for Patient.maritalStatus.coding.code
+ format binding for Patient.contact.relationship
+ format binding for Patient.contact.relationship.coding.code
+ format binding for Patient.communication.language
+ format binding for Patient.communication.language.coding
+ format binding for Patient.communication.language.coding.code
+Render page COFE-Patient-1
+Structure Page: Finish - cofe-patient-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Practitioner-1
+Creating structure for COFE-Practitioner-1
+ create Bindings table
+*** element Name for Practitioner.name.use has not been populated!
+*** element Name for Practitioner.telecom.system has not been populated!
+*** element Name for Practitioner.telecom.use has not been populated!
+*** element Name for Practitioner.address.use has not been populated!
+*** element Name for Practitioner.practitionerRole.role has not been populated!
+*** element Name for Practitioner.practitionerRole.role.coding has not been populated!
+*** element Name for Practitioner.practitionerRole.role.coding.code has not been populated!
+ format binding for Practitioner.name.use
+ format binding for Practitioner.telecom.system
+ format binding for Practitioner.telecom.use
+ format binding for Practitioner.address.use
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.practitionerRole.role.coding
+ format binding for Practitioner.practitionerRole.role.coding.code
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.practitionerRole.role
+Render page COFE-Practitioner-1
+Structure Page: Finish - cofe-practitioner-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Provider-Organization-1
+Creating structure for COFE-Provider-Organization-1
+ create Bindings table
+*** element Name for Organization.type.coding has not been populated!
+*** element Name for Organization.type.coding.code has not been populated!
+*** element Name for Organization.telecom.system has not been populated!
+*** element Name for Organization.telecom.use has not been populated!
+*** element Name for Organization.address.use has not been populated!
+ format binding for Organization.type
+ format binding for Organization.type.coding
+ format binding for Organization.type.coding.code
+ format binding for Organization.telecom.system
+ format binding for Organization.telecom.use
+ format binding for Organization.address.use
+Render page COFE-Provider-Organization-1
+Structure Page: Finish - cofe-provider-organization-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : COFE-Related-Person-1
+Creating structure for COFE-Related-Person-1
+ create Bindings table
+*** element Name for RelatedPerson.relationship.coding has not been populated!
+*** element Name for RelatedPerson.name.use has not been populated!
+*** element Name for RelatedPerson.telecom.system has not been populated!
+*** element Name for RelatedPerson.telecom.use has not been populated!
+*** element Name for RelatedPerson.address.use has not been populated!
+ format binding for RelatedPerson.relationship
+ format binding for RelatedPerson.relationship.coding
+ format binding for RelatedPerson.name.use
+ format binding for RelatedPerson.telecom.system
+ format binding for RelatedPerson.telecom.use
+ format binding for RelatedPerson.address.use
+Render page COFE-Related-Person-1
+Structure Page: Finish - cofe-related-person-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Authorization-1
+Creating structure for Extension-COFE-Authorization-1
+ create Bindings table
+Render page Extension-COFE-Authorization-1
+Structure Page: Finish - extension-cofe-authorization-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Birth-Order-Number-1
+Creating structure for Extension-COFE-Birth-Order-Number-1
+ create Bindings table
+Render page Extension-COFE-Birth-Order-Number-1
+Structure Page: Finish - extension-cofe-birth-order-number-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Birth-Place-1
+Creating structure for Extension-COFE-Birth-Place-1
+ create Bindings table
+Render page Extension-COFE-Birth-Place-1
+Structure Page: Finish - extension-cofe-birth-place-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Data-Enterer-1
+Creating structure for Extension-COFE-Data-Enterer-1
+ create Bindings table
+Render page Extension-COFE-Data-Enterer-1
+Structure Page: Finish - extension-cofe-data-enterer-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Deceased-Date-Time-1
+Creating structure for Extension-COFE-Deceased-Date-Time-1
+ create Bindings table
+Render page Extension-COFE-Deceased-Date-Time-1
+Structure Page: Finish - extension-cofe-deceased-date-time-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Effective-Time-1
+Creating structure for Extension-COFE-Effective-Time-1
+ create Bindings table
+Render page Extension-COFE-Effective-Time-1
+Structure Page: Finish - extension-cofe-effective-time-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Ethnic-Category-1
+Creating structure for Extension-COFE-Ethnic-Category-1
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Ethnic-Category-1
+Structure Page: Finish - extension-cofe-ethnic-category-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Guardian-Identifier-1
+Creating structure for Extension-COFE-Guardian-Identifier-1
+ create Bindings table
+Render page Extension-COFE-Guardian-Identifier-1
+Structure Page: Finish - extension-cofe-guardian-identifier-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Informant-1
+Creating structure for Extension-COFE-Informant-1
+ create Bindings table
+Render page Extension-COFE-Informant-1
+Structure Page: Finish - extension-cofe-informant-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Information-Recipient-1
+Creating structure for Extension-COFE-Information-Recipient-1
+ create Bindings table
+Render page Extension-COFE-Information-Recipient-1
+Structure Page: Finish - extension-cofe-information-recipient-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-iso21090-nullFlavor-1
+Creating structure for Extension-COFE-iso21090-nullFlavor-1
+ create Bindings table
+Render page Extension-COFE-iso21090-nullFlavor-1
+Structure Page: Finish - extension-cofe-iso21090-nullflavor-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Language-Ability-Mode-1
+Creating structure for Extension-COFE-Language-Ability-Mode-1
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Language-Ability-Mode-1
+Structure Page: Finish - extension-cofe-language-ability-mode-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Language-Ability-Proficiency-1
+Creating structure for Extension-COFE-Language-Ability-Proficiency-1
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Language-Ability-Proficiency-1
+Structure Page: Finish - extension-cofe-language-ability-proficiency-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Organization-Role-Status-1
+Creating structure for Extension-COFE-Organization-Role-Status-1
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Organization-Role-Status-1
+Structure Page: Finish - extension-cofe-organization-role-status-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Participant-1
+Creating structure for Extension-COFE-Participant-1
+ create Bindings table
+Render page Extension-COFE-Participant-1
+Structure Page: Finish - extension-cofe-participant-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Performer-1
+Creating structure for Extension-COFE-Performer-1
+ create Bindings table
+Render page Extension-COFE-Performer-1
+Structure Page: Finish - extension-cofe-performer-1
+Create example files
+Create resource files.
+Structure Page: Start - Profile.DocumentHeader : Extension-COFE-Religious-Affiliation-1
+Creating structure for Extension-COFE-Religious-Affiliation-1
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Religious-Affiliation-1
+Structure Page: Finish - extension-cofe-religious-affiliation-1
+Create example files
+Create resource files.
+Dictionary Page: IGResource.
+Loading resources into resource store
+ Create directory: C:\IOPSDevFHIR\COFE-DocumentHeader\Generated\Profile.DocumentHeader
+Render dictionary page for COFE-CDA-Header-Composition-1
+Render dictionary page for COFE-Device-1
+Render dictionary page for COFE-Encounter-1
+Render dictionary page for COFE-Guardian-Identifier-1
+Render dictionary page for COFE-Guardian-Organization-1
+Render dictionary page for COFE-Location-1
+Render dictionary page for COFE-Organization-ODS-1
+Render dictionary page for COFE-Organization-partOf-1
+Render dictionary page for COFE-Patient-1
+Render dictionary page for COFE-Practitioner-1
+Render dictionary page for COFE-Provider-Organization-1
+Render dictionary page for COFE-Related-Person-1
+Render dictionary page for Extension-COFE-Authorization-1
+Render dictionary page for Extension-COFE-Birth-Order-Number-1
+Render dictionary page for Extension-COFE-Birth-Place-1
+Render dictionary page for Extension-COFE-Data-Enterer-1
+Render dictionary page for Extension-COFE-Deceased-Date-Time-1
+Render dictionary page for Extension-COFE-Effective-Time-1
+Render dictionary page for Extension-COFE-Ethnic-Category-1
+Render dictionary page for Extension-COFE-Guardian-Identifier-1
+Render dictionary page for Extension-COFE-Informant-1
+Render dictionary page for Extension-COFE-Information-Recipient-1
+Render dictionary page for Extension-COFE-iso21090-nullFlavor-1
+Render dictionary page for Extension-COFE-Language-Ability-Mode-1
+Render dictionary page for Extension-COFE-Language-Ability-Proficiency-1
+Render dictionary page for Extension-COFE-Organization-Role-Status-1
+Render dictionary page for Extension-COFE-Participant-1
+Render dictionary page for Extension-COFE-Performer-1
+Render dictionary page for Extension-COFE-Religious-Affiliation-1
+Loading resources into resource store
+Loading resources into resource store
+Loading resources into resource store
+Valueset Page: Start - Address Use
+Creating valueset for Address Use
+*** Address Use has no Copyright description!
+*** Address Use has no OID!
+     Get Summary table
+     Get concept values
+Render page address-use-1
+Valueset Page: Finish - address-use-1
+Create resource files.
+Valueset Page: Start - Administrative Gender
+Creating valueset for Administrative Gender
+*** Administrative Gender has no Copyright description!
+     Get Summary table
+     Get contained resources
+ Map resources Administrative Gender with administrative-gender-ddmap-1
+ ***administrative-gender-ddmap-1 has codesystem  concept Male has no definition!
+ ***administrative-gender-ddmap-1 has codesystem  concept Female has no definition!
+ ***administrative-gender-ddmap-1 has codesystem  concept Not Specified has no definition!
+ ***administrative-gender-ddmap-1 has codesystem  concept Not Known has no definition!
+Render page administrative-gender-1
+Valueset Page: Finish - administrative-gender-1
+Create resource files.
+Valueset Page: Start - Administrative Gender NHS Data Model and Dictionary
+Creating valueset for Administrative Gender NHS Data Model and Dictionary
+*** Administrative Gender NHS Data Model and Dictionary has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page administrative-gender-ddmap-1
+Valueset Page: Finish - administrative-gender-ddmap-1
+Create resource files.
+Valueset Page: Start - CDA Care Setting Type SnCT
+Creating valueset for CDA Care Setting Type SnCT
+     Get Summary table
+     Get Content Logical Definition
+Render page cda-care-setting-type-snct-1
+Valueset Page: Finish - cda-care-setting-type-snct-1
+Create resource files.
+Valueset Page: Start - CDA Encounter Type SnCT
+Creating valueset for CDA Encounter Type SnCT
+     Get Summary table
+     Get Content Logical Definition
+Render page cda-encounter-type-snct-1
+Valueset Page: Finish - cda-encounter-type-snct-1
+Create resource files.
+Valueset Page: Start - CDA Organization Provider Type
+Creating valueset for CDA Organization Provider Type
+*** CDA Organization Provider Type has no Copyright description!
+*** CDA Organization Provider Type has no OID!
+     Get Summary table
+     Get concept values
+Render page cda-organization-provider-type-1
+Valueset Page: Finish - cda-organization-provider-type-1
+Create resource files.
+Valueset Page: Start - CDA Organization Type
+Creating valueset for CDA Organization Type
+*** CDA Organization Type has no Copyright description!
+*** CDA Organization Type has no OID!
+     Get Summary table
+     Get concept values
+Render page cda-organization-type-1
+Valueset Page: Finish - cda-organization-type-1
+Create resource files.
+Valueset Page: Start - CDA Person Relationship Type
+Creating valueset for CDA Person Relationship Type
+*** CDA Person Relationship Type has no Copyright description!
+*** CDA Person Relationship Type has no OID!
+     Get Summary table
+     Get concept values
+Render page cda-person-relationship-type-1
+Valueset Page: Finish - cda-person-relationship-type-1
+Create resource files.
+Valueset Page: Start - Correspondence Document Type
+Creating valueset for Correspondence Document Type
+*** Correspondence Document Type has no Copyright description!
+*** Correspondence Document Type has no OID!
+     Get Summary table
+     Get concept values
+Render page correspondence-document-type-1
+Valueset Page: Finish - correspondence-document-type-1
+Create resource files.
+Valueset Page: Start - Device Type
+Creating valueset for Device Type
+*** Device Type has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page device-type-1
+Valueset Page: Finish - device-type-1
+Create resource files.
+Valueset Page: Start - Encounter Disposition SnCT
+Creating valueset for Encounter Disposition SnCT
+*** Encounter Disposition SnCT has no Copyright description!
+*** Encounter Disposition SnCT has no OID!
+     Get Summary table
+Render page encounter-disposition-snct-1
+Valueset Page: Finish - encounter-disposition-snct-1
+Create resource files.
+Valueset Page: Start - Ethnic Category
+Creating valueset for Ethnic Category
+*** Ethnic Category has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page ethnic-category-1
+Valueset Page: Finish - ethnic-category-1
+Create resource files.
+Valueset Page: Start - Guardian Organization Type
+Creating valueset for Guardian Organization Type
+*** Guardian Organization Type has no Copyright description!
+*** Guardian Organization Type has no OID!
+     Get Summary table
+     Get concept values
+Render page guardian-organization-type-1
+Valueset Page: Finish - guardian-organization-type-1
+Create resource files.
+Valueset Page: Start - Guardian Role Type
+Creating valueset for Guardian Role Type
+*** Guardian Role Type has no Copyright description!
+*** Guardian Role Type has no OID!
+     Get Summary table
+     Get concept values
+Render page guardian-role-type-1
+Valueset Page: Finish - guardian-role-type-1
+Create resource files.
+Valueset Page: Start - Human Language
+Creating valueset for Human Language
+*** Human Language has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page human-language-1
+Valueset Page: Finish - human-language-1
+Create resource files.
+Valueset Page: Start - Job Role Name
+Creating valueset for Job Role Name
+*** Job Role Name has no Copyright description!
+*** Job Role Name has no OID!
+     Get Summary table
+     Get concept values
+Render page job-role-name-1
+Valueset Page: Finish - job-role-name-1
+Create resource files.
+Valueset Page: Start - Language Ability Mode
+Creating valueset for Language Ability Mode
+*** Language Ability Mode has no Copyright description!
+*** Language Ability Mode has no OID!
+     Get Summary table
+     Get concept values
+Render page language-ability-mode-1
+Valueset Page: Finish - language-ability-mode-1
+Create resource files.
+Valueset Page: Start - Language Ability Proficiency
+Creating valueset for Language Ability Proficiency
+*** Language Ability Proficiency has no Copyright description!
+*** Language Ability Proficiency has no OID!
+     Get Summary table
+     Get concept values
+Render page language-ability-proficiency-1
+Valueset Page: Finish - language-ability-proficiency-1
+Create resource files.
+Valueset Page: Start - Marital Status
+Creating valueset for Marital Status
+*** Marital Status has no Copyright description!
+*** Marital Status has no OID!
+     Get Summary table
+     Get concept values
+Render page marital-status-1
+Valueset Page: Finish - marital-status-1
+Create resource files.
+Valueset Page: Start - Name Use
+Creating valueset for Name Use
+*** Name Use has no Copyright description!
+*** Name Use has no OID!
+     Get Summary table
+     Get concept values
+Render page name-use-1
+Valueset Page: Finish - name-use-1
+Create resource files.
+Valueset Page: Start - NHS Number Status Indicator
+Creating valueset for NHS Number Status Indicator
+*** NHS Number Status Indicator has no Copyright description!
+*** NHS Number Status Indicator has no OID!
+     Get Summary table
+     Get concept values
+Render page nhs-number-status-indicator-1
+Valueset Page: Finish - nhs-number-status-indicator-1
+Create resource files.
+Valueset Page: Start - Organization Role Status
+Creating valueset for Organization Role Status
+*** Organization Role Status has no Copyright description!
+*** Organization Role Status has no OID!
+     Get Summary table
+     Get concept values
+Render page organization-role-status-1
+Valueset Page: Finish - organization-role-status-1
+Create resource files.
+Valueset Page: Start - Telecom Use
+Creating valueset for Telecom Use
+*** Telecom Use has no Copyright description!
+*** Telecom Use has no OID!
+     Get Summary table
+     Get concept values
+Render page telecom-use-1
+Valueset Page: Finish - telecom-use-1
+Create resource files.
+Examples Index: Start
+Target examples directory C:\IOPSDevFHIR\COFE-DocumentHeader\Generated\Chapter.5.Examples created
+Loading resources into resource store
+examples.html created
+Examples Index: Finish
+ValueSets Index: Start
+Target valuesets directory C:\IOPSDevFHIR\COFE-DocumentHeader\Generated\Chapter.6.Valuesets created
+Loading resources into resource store
+valuesets.html created
+Valuesets Index: Finish
+Clear down xml in resources\OperationDefinitions folder
+Clear down json in resources\OperationDefinitions folder
+***Rendering complete. Output to directory C:\IOPSDevFHIR\COFE-DocumentHeader\Generated***

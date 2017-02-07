@@ -1,0 +1,1 @@
+This Organization resource represents a healthcare organisation.

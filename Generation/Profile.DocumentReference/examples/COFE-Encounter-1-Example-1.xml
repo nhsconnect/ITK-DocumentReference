@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
+<Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/encounter.xsd" xmlns="http://hl7.org/fhir">
+	<id value="4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
+	<meta>
+		<profile value="http://hl7.org.uk/fhir/CareConnect-Encounter-1"/>
+	</meta>
+	<identifier>
+		<value value="13c73015-d8fa-4844-8d68-4f856883eca8"/>
+	</identifier>
+	<status value="finished"/>
+	<type>
+		<coding>
+			<system value="http://snomed.info/sct"/>
+			<code value="4525004"/>
+			<display value="Emergency department patient visit"/>
+		</coding>
+	</type>
+	<patient>
+		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
+		<display value="Richard Smith"/>
+	</patient>
+	<period>
+		<start value="2015-02-12T09:00:00+00:00"/>
+		<end value="2016-02-16T09:00:00+00:00"/>
+	</period>
+	<hospitalization>
+		<dischargeDisposition>
+			<coding>
+				<system value="http://snomed.info/sct"/>
+				<code value="306689006"/>
+				<display value="Discharge to home"/>
+			</coding>
+		</dischargeDisposition>
+	</hospitalization>
+	<location>
+		<location>
+			<reference value="Location/01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
+			<display value="Accident and Emergency department"/>
+		</location>
+	</location>
+</Encounter>

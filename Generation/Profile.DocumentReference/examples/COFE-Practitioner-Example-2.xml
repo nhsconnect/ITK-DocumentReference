@@ -22,7 +22,7 @@
 		</managingOrganization>
 		<role>
 			<coding>
-				<system value="http://fhir.nhs.net/job-role-name-1"/>
+				<system value="https://fhir.nhs.uk/job-role-name-1"/>
 				<code value="NR0700"/>
 				<display value="Community Nurse"/>
 			</coding>

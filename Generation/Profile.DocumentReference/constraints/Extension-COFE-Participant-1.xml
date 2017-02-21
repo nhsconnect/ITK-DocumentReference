@@ -3,7 +3,7 @@
   <meta>
     <lastUpdated value="2015-09-22T20:02:49.724+10:00" />
   </meta>
-  <url value="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
   <name value="Extension-COFE-Participant-1" />
   <status value="draft" />
   <publisher value="NHS Digital" />
@@ -67,7 +67,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -87,7 +87,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
         <aggregation value="referenced" />
       </type>
       <mapping>
@@ -132,7 +132,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -152,7 +152,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
         <aggregation value="referenced" />
       </type>
       <mapping>

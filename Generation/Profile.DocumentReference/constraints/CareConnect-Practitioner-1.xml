@@ -22,7 +22,7 @@
       <display value="Dr John Lorenzo" />
     </tag>
   </meta>
-  <url value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
   <name value="CareConnect-Practitioner-1" />
   <status value="draft" />
   <publisher value="HL7 UK" />
@@ -916,7 +916,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/sds-user-id" />
+      <fixedUri value="https://fhir.nhs.uk/Id/sds-user-id" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -2952,7 +2952,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -3587,7 +3587,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -4594,7 +4594,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -5074,7 +5074,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/sds-user-id" />
+      <fixedUri value="https://fhir.nhs.uk/Id/sds-user-id" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -5648,7 +5648,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -5668,7 +5668,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -5696,7 +5696,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="rim" />

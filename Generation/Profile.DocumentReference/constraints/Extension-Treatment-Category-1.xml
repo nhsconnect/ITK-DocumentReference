@@ -3,7 +3,7 @@
   <meta>
     <lastUpdated value="2016-08-03T00:00:00+01:00" />
   </meta>
-  <url value="http://fhir.nhs.net/StructureDefinition/extension-treatment-category-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-treatment-category-1" />
   <version value="1.0" />
   <name value="Extension-Treatment-Category-1" />
   <status value="draft" />
@@ -50,7 +50,7 @@
       <binding>
         <strength value="required" />
         <description value="The treatment category of the patient" />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/treatment-category-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/treatment-category-1" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -73,7 +73,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-treatment-category-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-treatment-category-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -98,7 +98,7 @@
       <binding>
         <strength value="required" />
         <description value="A vocabulary that identifies the treatment category for this patient." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/treatment-category-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/treatment-category-1" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -125,7 +125,7 @@
       <binding>
         <strength value="required" />
         <description value="The treatment category of the patient" />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/treatment-category-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/treatment-category-1" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -148,7 +148,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-treatment-category-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-treatment-category-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -173,7 +173,7 @@
       <binding>
         <strength value="required" />
         <description value="A vocabulary that identifies the treatment category for this patient." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/treatment-category-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/treatment-category-1" />
       </binding>
       <mapping>
         <identity value="rim" />

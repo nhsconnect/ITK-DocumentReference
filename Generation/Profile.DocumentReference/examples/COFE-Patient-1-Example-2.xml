@@ -98,7 +98,7 @@
 				</coding>
 			</valueCodeableConcept>
 		</extension>
-		<system value="http://fhir.nhs.net/Id/nhs-number"/>
+		<system value="https://fhir.nhs.uk/Id/nhs-number"/>
 		<value value="1352465790"/>
 	</identifier>
 	<active value="true"/>

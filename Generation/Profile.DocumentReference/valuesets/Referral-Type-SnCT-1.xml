@@ -3,7 +3,7 @@
 	<meta>
 		<lastUpdated value="2007-11-26T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/referraltype-snct-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/referraltype-snct-1"/>
 	<name value="Referral Type SnCT"/>
 	<status value="active"/>
 	<description value="A code from the SNOMED Clinical Terminology UK coding system which represent a referral by either a service or person . This vocab contains distinct set of codes. Any leaf concept code from the SNOMED CT UK 'Referral by Person' or 'Referral by Service' concept with concept original id 307834000  or 307835004."/>

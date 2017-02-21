@@ -3,12 +3,12 @@
 	<meta>
 		<lastUpdated value="2016-08-03T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/registration-status-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/registration-status-1"/>
 	<name value="Registration Status"/>
 	<status value="active"/>
 	<description value="A vocabulary that identifies the status of registration for a patient at a healthcare organisation."/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/registration-status-1"/>
+		<system value="https://fhir.nhs.uk/registration-status-1"/>
 		<concept>
 			<code value="A"/>
 			<display value="Active"/>

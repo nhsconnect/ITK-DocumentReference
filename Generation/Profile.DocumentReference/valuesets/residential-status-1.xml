@@ -3,12 +3,12 @@
 	<meta>
 		<lastUpdated value="2016-08-03T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/residential-status-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/residential-status-1"/>
 	<name value="Residential Status"/>
 	<status value="active"/>
 	<description value="A vocabulary that identifies the residential status of the patient. "/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/residential-status-1"/>
+		<system value="https://fhir.nhs.uk/residential-status-1"/>
 		<concept>
 			<code value="H"/>
 			<display value="UK Resident"/>

@@ -15,7 +15,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/cofe-documentreference-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
   <version value="1" />
   <name value="COFE-DocumentReference-1" />
   <status value="draft" />
@@ -90,7 +90,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-data-enterer-1" />
       </type>
     </element>
     <element>
@@ -102,7 +102,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
       </type>
     </element>
     <element>
@@ -114,7 +114,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1" />
       </type>
     </element>
     <element>
@@ -126,7 +126,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
       </type>
     </element>
     <element>
@@ -138,7 +138,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-performer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-performer-1" />
       </type>
     </element>
     <element>
@@ -150,7 +150,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-authorization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-authorization-1" />
       </type>
     </element>
     <element>
@@ -616,7 +616,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -1136,7 +1136,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -1208,7 +1208,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -1249,7 +1249,7 @@
         <strength value="preferred" />
         <description value="Precise type of clinical document." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/document-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/document-type-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -1285,7 +1285,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
       </type>
     </element>
     <element>
@@ -1308,7 +1308,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Type of a document." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/document-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -1403,7 +1403,7 @@
       <binding>
         <strength value="preferred" />
         <description value="A set of codes to classify the type of document." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/document-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -1767,7 +1767,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -1802,7 +1802,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -1871,7 +1871,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -2327,7 +2327,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/DocumentReference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -2828,7 +2828,8 @@
       <type>
         <code value="uri" />
       </type>
-      <exampleUri value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1" />
+      <fixedUri value="http://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
+      <exampleUri value="http://www.acme.com/logo-small.png" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -3162,7 +3163,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -4579,7 +4580,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -4652,7 +4653,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -4747,7 +4748,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-data-enterer-1" />
       </type>
     </element>
     <element>
@@ -4759,7 +4760,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
       </type>
     </element>
     <element>
@@ -4771,7 +4772,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1" />
       </type>
     </element>
     <element>
@@ -4783,7 +4784,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-participant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
       </type>
     </element>
     <element>
@@ -4795,7 +4796,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-performer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-performer-1" />
       </type>
     </element>
     <element>
@@ -4807,8 +4808,38 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-authorization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-authorization-1" />
       </type>
+    </element>
+    <element>
+      <path value="DocumentReference.masterIdentifier.assigner" />
+      <short value="Organization that issued id (may be just text)" />
+      <definition value="Organization that issued/manages the identifier." />
+      <comments value="The reference may be just a text description of the assigner." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Identifier.assigner" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
+      </type>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="v2" />
+        <map value="CX.4 / (CX.4,CX.9,CX.10)" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper" />
+      </mapping>
+      <mapping>
+        <identity value="servd" />
+        <map value="./IdentifierIssuingAuthority" />
+      </mapping>
     </element>
     <element>
       <path value="DocumentReference.identifier" />
@@ -5011,7 +5042,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -5040,7 +5071,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -5081,7 +5112,7 @@
         <strength value="preferred" />
         <description value="Precise type of clinical document." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/document-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/document-type-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -5117,7 +5148,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-cofe-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
       </type>
     </element>
     <element>
@@ -5140,7 +5171,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Type of a document." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/document-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -5235,7 +5266,7 @@
       <binding>
         <strength value="preferred" />
         <description value="A set of codes to classify the type of document." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/document-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -5354,7 +5385,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -5389,7 +5420,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -5417,6 +5448,44 @@
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
+      </mapping>
+    </element>
+    <element>
+      <path value="DocumentReference.authenticator" />
+      <short value="Who/what authenticated the document" />
+      <definition value="Which person or organization authenticates that this document is valid." />
+      <comments value="Represents a participant within the author institution who has legally authenticated or attested the document. Legal authentication implies that a document has been signed manually or electronically by the legal Authenticator." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="DocumentReference.authenticator" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="Reference" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
+      </type>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="v2" />
+        <map value="TXA-10" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value=".participation[typeCode=&quot;AUTHEN&quot;].role[classCode=&quot;ASSIGNED&quot;]" />
+      </mapping>
+      <mapping>
+        <identity value="xds" />
+        <map value="DocumentEntry.legalAuthenticator" />
+      </mapping>
+      <mapping>
+        <identity value="w5" />
+        <map value="who.witness" />
       </mapping>
     </element>
     <element>
@@ -5453,6 +5522,31 @@
       <mapping>
         <identity value="w5" />
         <map value="status" />
+      </mapping>
+    </element>
+    <element>
+      <path value="DocumentReference.relatesTo.target" />
+      <short value="Target of the relationship" />
+      <definition value="The target document of this relationship." />
+      <min value="1" />
+      <max value="1" />
+      <base>
+        <path value="DocumentReference.relatesTo.target" />
+        <min value="1" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
+      </type>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value=".target[classCode=&quot;DOC&quot;, moodCode=&quot;EVN&quot;].id" />
+      </mapping>
+      <mapping>
+        <identity value="xds" />
+        <map value="DocumentEntry Associations reference" />
       </mapping>
     </element>
     <element>
@@ -5529,7 +5623,8 @@
       <type>
         <code value="uri" />
       </type>
-      <exampleUri value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1" />
+      <fixedUri value="http://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
+      <exampleUri value="http://www.acme.com/logo-small.png" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -5553,7 +5648,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -5589,6 +5684,36 @@
       </mapping>
     </element>
     <element>
+      <path value="DocumentReference.context.related.identifier.assigner" />
+      <short value="Organization that issued id (may be just text)" />
+      <definition value="Organization that issued/manages the identifier." />
+      <comments value="The reference may be just a text description of the assigner." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Identifier.assigner" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
+      </type>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="v2" />
+        <map value="CX.4 / (CX.4,CX.9,CX.10)" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="II.assigningAuthorityName but note that this is an improper use by the definition of the field.  Also Role.scoper" />
+      </mapping>
+      <mapping>
+        <identity value="servd" />
+        <map value="./IdentifierIssuingAuthority" />
+      </mapping>
+    </element>
+    <element>
       <path value="DocumentReference.context.related.ref" />
       <short value="Related Resource" />
       <definition value="Related Resource to this DocumentReference. If both id and ref are present they shall refer to the same thing." />
@@ -5602,7 +5727,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />

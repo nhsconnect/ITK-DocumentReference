@@ -3,7 +3,7 @@
 	<meta>
 		<lastUpdated value="2016-10-10T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/document-type-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/document-type-1"/>
 	<name value="Document Type"/>
 	<status value="active"/>
 	<description value="A code from the SNOMED Clinical Terminology UK coding system that describes a clinical document type. Any code from the SNOMED CT UK 'Document Type' subset with subset original id 1061000000133; the corresponding SNOMED CT UK Refset fully specified name is 'Document type simple reference set (foundation metadata concept)' with Refset Id 999000741000000100."/>

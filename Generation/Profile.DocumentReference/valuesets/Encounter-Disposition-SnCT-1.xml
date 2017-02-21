@@ -3,7 +3,7 @@
 	<meta>
 		<lastUpdated value="2007-08-02"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/encounter-disposition-snct-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/encounter-disposition-snct-1"/>
 	<name value="Encounter Disposition SnCT"/>
 	<status value="active"/>
 	<description value="A subset of the Snomed-CT clinical terminology (i.e. coding system) intended for use in the UK, previously named SnomedCTUK, that describes the way in which the encounter ended. Any code from the SNOMED CT UK 'Encounter Typedisposition' subset with subset original id 1971000000139; the corresponding SNOMED CT UK Refset fully specified name is 'Encounter disposition simple reference set (foundation metadata concept)' with Refset Id 999000751000000102."/>

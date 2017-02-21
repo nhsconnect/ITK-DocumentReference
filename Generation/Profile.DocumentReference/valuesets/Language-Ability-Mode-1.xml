@@ -6,12 +6,12 @@
 	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
 		<valueUri value="urn:oid:2.16.840.1.113883.5.60"/>
 	</extension>
-  <url value="http://fhir.nhs.net/ValueSet/language-ability-mode-1"/>
+  <url value="https://fhir.nhs.uk/ValueSet/language-ability-mode-1"/>
   <name value="Language Ability Mode"/>
   <status value="active"/>
   <description value="A valueset to describe the mode the patient can communicate in, representing the method of expression of the language."/>
   <codeSystem>
-    <system value="http://fhir.nhs.net/language-ability-mode-1"/>
+    <system value="https://fhir.nhs.uk/language-ability-mode-1"/>
        <concept>
         <code value="ESGN"/>
         <display value="Expressed signed"/>

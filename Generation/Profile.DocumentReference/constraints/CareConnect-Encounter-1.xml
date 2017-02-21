@@ -15,7 +15,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/careconnect-encounter-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
   <version value="1.0" />
   <name value="CareConnect-Encounter-1" />
   <status value="draft" />
@@ -68,7 +68,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-careconnect-encountertransport-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-careconnect-encountertransport-1" />
       </type>
     </element>
     <element>
@@ -528,7 +528,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -1478,7 +1478,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -2036,11 +2036,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
       </type>
       <type>
         <code value="RelatedPerson" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -3332,7 +3332,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -3404,7 +3404,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -4899,7 +4899,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -5310,7 +5310,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -5476,7 +5476,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -5543,7 +5543,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -5635,7 +5635,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-careconnect-encountertransport-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-careconnect-encountertransport-1" />
       </type>
     </element>
     <element>
@@ -5712,7 +5712,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -5968,7 +5968,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -5997,11 +5997,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
       </type>
       <type>
         <code value="RelatedPerson" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -6314,7 +6314,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <isSummary value="true" />
       <mapping>
@@ -6343,7 +6343,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="rim" />
@@ -6600,7 +6600,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -6644,7 +6644,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -6672,7 +6672,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
       </type>
       <mapping>
         <identity value="v2" />
@@ -6696,7 +6696,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
       </type>
       <mapping>
         <identity value="rim" />

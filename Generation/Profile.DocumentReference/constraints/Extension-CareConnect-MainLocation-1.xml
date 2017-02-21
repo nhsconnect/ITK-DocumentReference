@@ -6,7 +6,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/extension-careconnect-mainlocation-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-careconnect-mainlocation-1" />
   <name value="extension-careconnect-mainlocation-1" />
   <status value="draft" />
   <publisher value="HL7 UK" />
@@ -55,7 +55,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
     </element>
     <element>
@@ -74,7 +74,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-careconnect-mainlocation-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-careconnect-mainlocation-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -232,7 +232,7 @@
       <max value="1" />
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
       </type>
     </element>
     <element>
@@ -251,7 +251,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-careconnect-mainlocation-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-careconnect-mainlocation-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />

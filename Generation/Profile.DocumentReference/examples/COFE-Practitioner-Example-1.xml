@@ -28,7 +28,7 @@
 		</managingOrganization>
 		<role>
 			<coding>
-				<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+				<system value="https://fhir.nhs.uk/ValueSet/sds-job-role-name-1"/>
 				<code value="NR0110"/>
 				<display value="Specialist Registrar"/>
 			</coding>

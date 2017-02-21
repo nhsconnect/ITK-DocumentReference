@@ -13,7 +13,7 @@
       <code value="1" />
     </tag>
   </meta>
-  <url value="http://fhir.nhs.net/StructureDefinition/cofe-document-bundle-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-document-bundle-1" />
   <name value="COFE-Document-Bundle-1" />
   <status value="draft" />
   <publisher value="NHS Digital" />

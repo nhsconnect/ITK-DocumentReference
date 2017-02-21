@@ -12,7 +12,7 @@
         <reference value="http://hl7.org/fhir/ValueSet/administrative-gender"/>
       </sourceReference>
       <targetReference>
-        <reference value="http://fhir.nhs.net/ValueSet/person-stated-gender-ddmap-1"/>
+        <reference value="https://fhir.nhs.uk/ValueSet/person-stated-gender-ddmap-1"/>
       </targetReference>
       <element>
         <code value="male"/>
@@ -53,7 +53,7 @@
 		<valueUri value="urn:oid:2.16.840.1.113883.4.642.2.1"/>
 	</extension>
 <!--      DD MAPPING CODES     -->
-  <url value="http://fhir.nhs.net/ValueSet/administrative-gender-1"/>
+  <url value="https://fhir.nhs.uk/ValueSet/administrative-gender-1"/>
   <name value="Administrative Gender"/>
 <status value="active"/>
 <description value="The gender of a person used for administrative purposes."/>

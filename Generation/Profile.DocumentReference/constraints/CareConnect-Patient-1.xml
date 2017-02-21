@@ -12,7 +12,7 @@
       <code value="6" />
     </tag>
   </meta>
-  <url value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
   <version value="1.0" />
   <name value="CareConnect-Patient-1" />
   <status value="draft" />
@@ -76,7 +76,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-registration-details-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-registration-details-1" />
       </type>
     </element>
     <element>
@@ -100,7 +100,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-ethnic-category-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-ethnic-category-1" />
       </type>
     </element>
     <element>
@@ -112,7 +112,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-religious-affiliation-snct-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-religious-affiliation-snct-1" />
       </type>
     </element>
     <element>
@@ -124,7 +124,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-organ-donor-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-organ-donor-1" />
       </type>
     </element>
     <element>
@@ -136,7 +136,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-residential-status-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-residential-status-1" />
       </type>
     </element>
     <element>
@@ -148,7 +148,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-treatment-category-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-treatment-category-1" />
       </type>
     </element>
     <element>
@@ -160,7 +160,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-nhs-communication-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-nhs-communication-1" />
       </type>
     </element>
     <element>
@@ -488,7 +488,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/nhs-number" />
+      <fixedUri value="https://fhir.nhs.uk/Id/nhs-number" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -739,7 +739,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-nhsnumberverificationstatus-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-nhsnumberverificationstatus-1" />
       </type>
     </element>
     <element>
@@ -1031,7 +1031,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/nhs-number" />
+      <fixedUri value="https://fhir.nhs.uk/Id/nhs-number" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -1695,7 +1695,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -2934,7 +2934,7 @@
         <strength value="required" />
         <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/administrative-gender-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/administrative-gender-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -3423,7 +3423,7 @@
         <strength value="required" />
         <description value="The domestic partnership status of a person." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/marital-status-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/marital-status-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -3981,7 +3981,7 @@
         <strength value="required" />
         <description value="The kind of relationship to the patient" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -4017,7 +4017,7 @@
       <binding>
         <strength value="required" />
         <description value="A code taken from the CDA Person Relationship Type list of codes." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -4048,7 +4048,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -5141,7 +5141,7 @@
         <strength value="required" />
         <description value="The gender of a person used for administrative purposes" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/administrative-gender-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/administrative-gender-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -5171,7 +5171,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <condition value="pat-1" />
@@ -6161,7 +6161,7 @@
         <strength value="required" />
         <description value="A human language" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/human-language-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/human-language-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -6223,7 +6223,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/ValueSet/human-language-1" />
+      <fixedUri value="https://fhir.nhs.uk/ValueSet/human-language-1" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -6431,12 +6431,12 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
         <aggregation value="referenced" />
       </type>
       <isModifier value="false" />
@@ -6468,7 +6468,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -6587,7 +6587,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
       </type>
       <isModifier value="true" />
       <mapping>
@@ -6722,7 +6722,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-registration-details-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-registration-details-1" />
       </type>
     </element>
     <element>
@@ -6746,7 +6746,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-ethnic-category-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-ethnic-category-1" />
       </type>
     </element>
     <element>
@@ -6758,7 +6758,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-religious-affiliation-snct-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-religious-affiliation-snct-1" />
       </type>
     </element>
     <element>
@@ -6770,7 +6770,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-organ-donor-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-organ-donor-1" />
       </type>
     </element>
     <element>
@@ -6782,7 +6782,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-residential-status-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-residential-status-1" />
       </type>
     </element>
     <element>
@@ -6794,7 +6794,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-treatment-category-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-treatment-category-1" />
       </type>
     </element>
     <element>
@@ -6806,7 +6806,7 @@
       <max value="*" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-nhs-communication-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-nhs-communication-1" />
       </type>
     </element>
     <element>
@@ -6927,7 +6927,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/nhs-number" />
+      <fixedUri value="https://fhir.nhs.uk/Id/nhs-number" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -7082,7 +7082,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/extension-nhsnumberverificationstatus-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-nhsnumberverificationstatus-1" />
       </type>
     </element>
     <element>
@@ -7167,7 +7167,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/Id/nhs-number" />
+      <fixedUri value="https://fhir.nhs.uk/Id/nhs-number" />
       <exampleUri value="http://www.acme.com/identifiers/patient or urn:ietf:rfc:3986 if the Identifier.value itself is a full uri" />
       <isSummary value="true" />
       <mapping>
@@ -7320,7 +7320,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -8042,7 +8042,7 @@
         <strength value="required" />
         <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/administrative-gender-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/administrative-gender-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -8497,7 +8497,7 @@
         <strength value="required" />
         <description value="The domestic partnership status of a person." />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/marital-status-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/marital-status-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -8714,7 +8714,7 @@
         <strength value="required" />
         <description value="The kind of relationship to the patient" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -8750,7 +8750,7 @@
       <binding>
         <strength value="required" />
         <description value="A code taken from the CDA Person Relationship Type list of codes." />
-        <valueSetUri value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
       </binding>
       <mapping>
         <identity value="v2" />
@@ -8781,7 +8781,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -9515,7 +9515,7 @@
         <strength value="required" />
         <description value="The gender of a person used for administrative purposes" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/administrative-gender-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/administrative-gender-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -9545,7 +9545,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <condition value="pat-1" />
@@ -9680,7 +9680,7 @@
         <strength value="required" />
         <description value="A human language" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/human-language-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/human-language-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -9742,7 +9742,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/ValueSet/human-language-1" />
+      <fixedUri value="https://fhir.nhs.uk/ValueSet/human-language-1" />
       <isSummary value="true" />
       <mapping>
         <identity value="v2" />
@@ -9950,12 +9950,12 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-practitioner-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-practitioner-1" />
         <aggregation value="referenced" />
       </type>
       <isModifier value="false" />
@@ -9987,7 +9987,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -10082,7 +10082,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
       </type>
       <isModifier value="true" />
       <mapping>

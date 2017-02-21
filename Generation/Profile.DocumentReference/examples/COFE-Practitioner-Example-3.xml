@@ -6,7 +6,7 @@
 		<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-practitioner-1"/>
 	</meta>
 	<identifier>
-		<system value="http://fhir.nhs.net/Id/sds-identifier"/>
+		<system value="https://fhir.nhs.uk/Id/sds-identifier"/>
 		<value value="GP12345600"/>
 	</identifier>
 	<name>
@@ -30,7 +30,7 @@
 		</managingOrganization>
 		<role>
 			<coding>
-				<system value="http://fhir.nhs.net/job-role-name-1"/>
+				<system value="https://fhir.nhs.uk/job-role-name-1"/>
 				<code value="NR9100"/>
 				<display value="Named GP"/>
 			</coding>

@@ -6,7 +6,7 @@
 		<profile value="http://hl7.org/fhir/StructureDefinition/CareConnect-organization-1"/>
 	</meta>
 	<identifier>
-		<system value="http://fhir.nhs.net/Id/ods-organization-code"/>
+		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
 		<value value="GP123456"/>
 	</identifier>
 	<type>

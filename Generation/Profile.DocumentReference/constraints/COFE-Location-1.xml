@@ -16,7 +16,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
   <name value="COFE-Location-1" />
   <status value="draft" />
   <publisher value="NHS Digital" />
@@ -524,7 +524,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -1921,7 +1921,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -1987,7 +1987,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
         <aggregation value="referenced" />
       </type>
       <mapping>
@@ -2077,7 +2077,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -2143,7 +2143,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/careconnect-organization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-organization-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -2166,7 +2166,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://fhir.nhs.net/StructureDefinition/cofe-location-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-location-1" />
         <aggregation value="referenced" />
       </type>
       <mapping>

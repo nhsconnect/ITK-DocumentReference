@@ -5,12 +5,12 @@
 	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
 		<valueUri value="urn:oid:2.16.840.1.113883.2.1.3.2.4.17.70"/>
 	</extension>
-	<url value="http://fhir.nhs.net/ValueSet/human-language-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/human-language-1"/>
 	<name value="Human Language"/>
 	<status value="active"/>
 	<description value="A language used by human beings. It includes languages that use any of the senses, e.g. sight and touch as well as sound. It is based on the ISO 639-1 two character language codes, plus five extensions required by NPfIT. These make use of the area reserved by ISO 639 for local use and include a digit to distinguish them from any current ISO 639-1 codes."/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/human-language-1"/>
+		<system value="https://fhir.nhs.uk/human-language-1"/>
 		<concept>
 			<code value="q1"/>
 			<display value="Braille"/>

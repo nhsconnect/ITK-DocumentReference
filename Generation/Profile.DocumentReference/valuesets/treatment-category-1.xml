@@ -3,12 +3,12 @@
 	<meta>
 		<lastUpdated value="2016-08-03T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/treatment-category-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/treatment-category-1"/>
 	<name value="Treatment Category"/>
 	<status value="active"/>
 	<description value="A vocabulary that identifies the treatment category for this patient. "/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/treatment-category-1"/>
+		<system value="https://fhir.nhs.uk/treatment-category-1"/>
 		<concept>
 			<code value="1"/>
 			<display value="Exempt from payment - subject to reciprocal health agreement"/>

@@ -6,7 +6,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/extension-nhsnumberverificationstatus-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-nhsnumberverificationstatus-1" />
   <name value="Extension-NHSNumberVerificationStatus-1" />
   <status value="draft" />
   <publisher value="HL7 UK" />
@@ -56,7 +56,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-nhsnumberverificationstatus-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-nhsnumberverificationstatus-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -80,7 +80,7 @@
         <strength value="required" />
         <description value="NHS number verification status" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/ValueSet/nhsnumberverificationstatus-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/nhsnumberverificationstatus-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -126,7 +126,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.net/StructureDefinition/extension-nhsnumberverificationstatus-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-nhsnumberverificationstatus-1" />
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -150,7 +150,7 @@
         <strength value="required" />
         <description value="NHS number verification status" />
         <valueSetReference>
-          <reference value="http://fhir.nhs.net/nhsnumberverificationstatus-1" />
+          <reference value="https://fhir.nhs.uk/nhsnumberverificationstatus-1" />
         </valueSetReference>
       </binding>
       <mapping>

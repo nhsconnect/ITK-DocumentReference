@@ -3,12 +3,12 @@
 	<meta>
 		<lastUpdated value="2013-11-27"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/job-role-name-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/job-role-name-1"/>
 	<name value="Job Role Name"/>
 	<status value="active"/>
 	<description value="Identifies the job role associated with the person where the information is not known to SDS."/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/ValueSet/job-role-name-1"/>
+		<system value="https://fhir.nhs.uk/ValueSet/job-role-name-1"/>
 		<concept>
 			<code value="NR0010"/>
 			<display value="Medical Director"/>

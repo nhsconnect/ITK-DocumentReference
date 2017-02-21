@@ -6,12 +6,12 @@
 		<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
 		<valueUri value="urn:oid:2.16.840.1.113883.5.61"/>
 	</extension>
-  <url value="http://fhir.nhs.net/ValueSet/language-ability-proficiency-1"/>
+  <url value="https://fhir.nhs.uk/ValueSet/language-ability-proficiency-1"/>
   <name value="Language Ability Proficiency"/>
   <status value="active"/>
   <description value="A valueset to describe the level of proficiency in communicating a language."/>
   <codeSystem>
-    <system value="http://fhir.nhs.net/language-ability-proficiency-1"/>
+    <system value="https://fhir.nhs.uk/language-ability-proficiency-1"/>
        <concept>
         <code value="E"/>
         <display value="Excellent"/>

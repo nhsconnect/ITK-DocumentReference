@@ -5,12 +5,12 @@
 	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-oid">
 		<valueUri value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.45"/>
 	</extension>
-	<url value="http://fhir.nhs.net/ValueSet/cda-person-relationship-type-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1"/>
 	<name value="CDA Person Relationship Type"/>
 	<status value="active"/>
 	<description value="A relationship between one person and another. These relationships are not necessarily mutually exclusive, for example a parent may be a child's next of kin. Includes the set of values defined in e-GIF Person Relationship Type"/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/cda-person-relationship-type-1"/>
+		<system value="https://fhir.nhs.uk/cda-person-relationship-type-1"/>
 		<concept>
 			<code value="01"/>
 			<display value="Spouse"/>

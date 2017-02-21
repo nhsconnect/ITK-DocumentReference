@@ -12,7 +12,7 @@
 				<reference value="http://hl7.org/fhir/ValueSet/marital-status"/>
 			</sourceReference>
 			<targetReference>
-				<reference value="http://fhir.nhs.net/ValueSet/marital-status-ddmap-1"/>
+				<reference value="https://fhir.nhs.uk/ValueSet/marital-status-ddmap-1"/>
 			</targetReference>
 			<element>
 				<codeSystem value="http://hl7.org/fhir/marital-status"/>
@@ -81,7 +81,7 @@
 		<valueUri value="urn:oid:2.16.840.1.113883.4.642.2.19"/>
 	</extension>
 	<!--      DD MAPPING CODES     -->
-	<url value="http://fhir.nhs.net/ValueSet/marital-status-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/marital-status-1"/>
 	<name value="Marital Status"/>
 	<status value="draft"/>
 	<date value="2015-10-24T07:41:03+11:00"/>

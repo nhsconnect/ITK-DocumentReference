@@ -3,12 +3,12 @@
 	<meta>
 		<lastUpdated value="2016-08-03T00:00:00+01:00"/>
 	</meta>
-	<url value="http://fhir.nhs.net/ValueSet/registration-type-1"/>
+	<url value="https://fhir.nhs.uk/ValueSet/registration-type-1"/>
 	<name value="Registration Type"/>
 	<status value="active"/>
 	<description value="A vocabulary that identifies the type of registration for a patient at a healthcare organisation. "/>
 	<codeSystem>
-		<system value="http://fhir.nhs.net/registration-type-1"/>
+		<system value="https://fhir.nhs.uk/registration-type-1"/>
 		<concept>
 			<code value="R"/>
 			<display value="Fully Registered"/>

@@ -3,7 +3,7 @@
 <Bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/bundle.xsd">
 	<id value="320d7908-d1ae-48aa-b055-94561076b945"/>
 	<meta>
-		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-document-bundle-1"/>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-document-bundle-1"/>
 	</meta>
 	<type value="document"/>
 	<entry>
@@ -11,23 +11,23 @@
 			<DocumentReference>
 	<id value="d81fac1b-1bf5-4e8c-a16c-eeead038e77d"/>
 	<meta>
-		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-documentreference-1"/>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1"/>
 	</meta>
 <!-- Information Recipient 1 -->
-	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
+	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
 		<valueReference>
 			<reference value="Practitioner/8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
 			<display value="Mrs Angela Smith"/>
 		</valueReference>
 	</extension>
 	<!-- Information Recipient 2 -->
-	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-information-recipient-1">
+	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
 		<valueReference>
 			<reference value="Practitioner/5e414a77-d394-4248-a631-00e45ddb64a0"/>
 			<display value="Dr John Lorenzo"/>
 		</valueReference>
 	</extension>
-	<extension url="http://fhir.nhs.net/StructureDefinition/extension-cofe-care-setting-type-1">
+	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1">
 		<valueCodeableConcept>
 			<coding>
 				<system value="http://snomed.info/sct"/>
@@ -98,7 +98,7 @@
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="http://fhir.nhs.net/job-role-name-1"/>
+							<system value="https://fhir.nhs.uk/job-role-name-1"/>
 							<code value="NR0700"/>
 							<display value="Community Nurse"/>
 						</coding>
@@ -116,7 +116,7 @@
 					<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-practitioner-1"/>
 				</meta>
 				<identifier>
-					<system value="http://fhir.nhs.net/Id/sds-identifier"/>
+					<system value="https://fhir.nhs.uk/Id/sds-identifier"/>
 					<value value="GP12345600"/>
 				</identifier>
 				<name>
@@ -140,7 +140,7 @@
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="http://fhir.nhs.net/job-role-name-1"/>
+							<system value="https://fhir.nhs.uk/job-role-name-1"/>
 							<code value="NR9100"/>
 							<display value="Named GP"/>
 						</coding>
@@ -158,7 +158,7 @@
 					<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-organization-1"/>
 				</meta>
 				<identifier>
-					<system value="http://fhir.nhs.net/Id/ods-organization-code"/>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
 					<value value="GP123456"/>
 				</identifier>
 				<type>
@@ -289,7 +289,7 @@
 							</coding>
 						</valueCodeableConcept>
 					</extension>
-					<system value="http://fhir.nhs.net/Id/nhs-number"/>
+					<system value="https://fhir.nhs.uk/Id/nhs-number"/>
 					<value value="1352465790"/>
 				</identifier>
 				<active value="true"/>
@@ -377,7 +377,7 @@
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="http://fhir.nhs.net/ValueSet/sds-job-role-name-1"/>
+							<system value="https://fhir.nhs.uk/ValueSet/sds-job-role-name-1"/>
 							<code value="NR0110"/>
 							<display value="Specialist Registrar"/>
 						</coding>
@@ -435,7 +435,7 @@
 			<Location>
 				<id value="01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
 				<meta>
-					<profile value="http://fhir.nhs.net/StructureDefinition/cofe-Location-1"/>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-Location-1"/>
 				</meta>
 				<name value="Accident and emergency department of Leeds Teaching Hospital"/>
 				<type>
@@ -456,7 +456,7 @@
 					<profile value="http://hl7.org.uk/fhir/CareConnect-Organization-1"/>
 				</meta>
 				<identifier>
-					<system value="http://fhir.nhs.net/Id/ods-organization-code"/>
+					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
 					<value value="RY6"/>
 				</identifier>
 				<type>
@@ -488,7 +488,7 @@
 			<Binary>
 	<id value="1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
 	<meta>
-		<profile value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1"/>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1"/>
 	</meta>
 <contentType value="application/pdf"/>
 <content value="JVBERi0xLjQKJeLjz9MKMSAwIG9iagogICA8PCAKICAgICAgL1RpdGxlICgpCiAgICAgIC9BdXRo

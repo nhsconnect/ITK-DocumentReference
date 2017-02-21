@@ -15,7 +15,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="3" />
   </extension>
-  <url value="http://fhir.nhs.net/StructureDefinition/cofe-binary-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
   <name value="COFE-Binary-1" />
   <status value="draft" />
   <publisher value="NHS Digital" />

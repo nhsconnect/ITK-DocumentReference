@@ -1,1 +1,1 @@
-This Practitioner profile is a constrained version of the Practitioner resource which carries information about the healthcare professional.
+A CareConnect profile which carries information about the healthcare professional.

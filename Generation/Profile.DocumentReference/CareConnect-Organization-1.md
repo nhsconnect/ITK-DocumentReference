@@ -1,1 +1,1 @@
-This Organization resource represents a healthcare organisation.
+A CareConnect profile which carries details of the Organization.

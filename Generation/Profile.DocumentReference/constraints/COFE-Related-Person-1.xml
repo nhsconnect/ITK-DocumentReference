@@ -602,7 +602,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Patient-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -2268,7 +2268,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-patient-1" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Patient-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />

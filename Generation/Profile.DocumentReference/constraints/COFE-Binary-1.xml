@@ -9,7 +9,7 @@
     </tag>
     <tag>
       <system value="urn:hscic:publishOrder" />
-      <code value="15" />
+      <code value="3" />
     </tag>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">

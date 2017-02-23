@@ -1,0 +1,616 @@
+
+***Furnace log date run: 23 February 2017 1422 ***
+Furnace: Fhir publisher tool version: 2.7.6256.31052
+***Starting generation***
+Source directory: C:\git\NHS-FHIR-CDA-DOCREF\Generation 
+ Target Directory: C:\git\NHS-FHIR-CDA-DOCREF\Generated
+Clear down Generated folder
+Copying files into Schemas folder ...
+Copying files into dist folder ...
+Start: creating IGResource.xml
+End: IGResource.xml created
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Create folder Profile.DocumentReference
+IG Creation - Adding birthPlace to IGResource.xml
+            - Adding Profile.DocumentReference package to IGResource.xml
+            - Saving birthPlace.xml in StructureDefinition folder
+IG Creation - birthPlace finished
+IG Creation - Adding CareConnect-Encounter-1 to IGResource.xml
+            - Saving COFE-Encounter-1-Example-1.xml in examples folder
+            - Saving CareConnect-Encounter-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Encounter-1 finished
+IG Creation - Adding CareConnect-Location-1 to IGResource.xml
+            - Saving CareConnect-Location-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Location-1 finished
+IG Creation - Adding CareConnect-Organization-1 to IGResource.xml
+            - Saving CareConnect-Organization-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Organization-1 finished
+IG Creation - Adding CareConnect-Patient-1 to IGResource.xml
+            - Saving CareConnect-Patient-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Patient-1 finished
+IG Creation - Adding CareConnect-Practitioner-1 to IGResource.xml
+            - Saving CareConnect-Practitioner-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Practitioner-1 finished
+IG Creation - Adding COFE-Binary-1 to IGResource.xml
+            - Saving COFE-Binary-Example-1.xml in examples folder
+            - Saving COFE-Binary-1.xml in StructureDefinition folder
+IG Creation - COFE-Binary-1 finished
+IG Creation - Adding COFE-Device-1 to IGResource.xml
+            - Saving COFE-Device-1.xml in StructureDefinition folder
+IG Creation - COFE-Device-1 finished
+IG Creation - Adding COFE-Document-Bundle-1 to IGResource.xml
+            - Saving COFE-Bundle-Example-1.xml in examples folder
+            - Saving COFE-Document-Bundle-1.xml in StructureDefinition folder
+IG Creation - COFE-Document-Bundle-1 finished
+IG Creation - Adding COFE-DocumentReference-1 to IGResource.xml
+            - Saving COFE-DocumentReference-Example-1.xml in examples folder
+            - Saving COFE-DocumentReference-1.xml in StructureDefinition folder
+IG Creation - COFE-DocumentReference-1 finished
+IG Creation - Adding COFE-Related-Person-1 to IGResource.xml
+            - Saving COFE-Related-Person-1.xml in StructureDefinition folder
+IG Creation - COFE-Related-Person-1 finished
+IG Creation - Adding Extension-Care-Setting-Type-1 to IGResource.xml
+            - Saving Extension-Care-Setting-Type-1.xml in StructureDefinition folder
+IG Creation - Extension-Care-Setting-Type-1 finished
+IG Creation - Adding Extension-CareConnect-ActivePeriod-1 to IGResource.xml
+            - Saving Extension-CareConnect-ActivePeriod-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ActivePeriod-1 finished
+IG Creation - Adding Extension-CareConnect-EncounterTransport-1 to IGResource.xml
+            - Saving Extension-CareConnect-EncounterTransport-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EncounterTransport-1 finished
+IG Creation - Adding Extension-CareConnect-EthnicCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-EthnicCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EthnicCategory-1 finished
+IG Creation - Adding Extension-CareConnect-MainLocation-1 to IGResource.xml
+            - Saving Extension-CareConnect-MainLocation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-MainLocation-1 finished
+IG Creation - Adding Extension-CareConnect-NHSCommunication-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSCommunication-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSCommunication-1 finished
+IG Creation - Adding Extension-CareConnect-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-CareConnect-OrganDonor-1 to IGResource.xml
+            - Saving Extension-CareConnect-OrganDonor-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-OrganDonor-1 finished
+IG Creation - Adding Extension-CareConnect-RegistrationDetails-1 to IGResource.xml
+            - Saving Extension-CareConnect-RegistrationDetails-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-RegistrationDetails-1 finished
+IG Creation - Adding Extension-CareConnect-ReligiousAffiliation-1 to IGResource.xml
+            - Saving Extension-CareConnect-ReligiousAffiliation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ReligiousAffiliation-1 finished
+IG Creation - Adding Extension-CareConnect-ResidentialStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-ResidentialStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ResidentialStatus-1 finished
+IG Creation - Adding Extension-CareConnect-TreatmentCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-TreatmentCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-TreatmentCategory-1 finished
+IG Creation - Adding Extension-COFE-Authorization-1 to IGResource.xml
+            - Saving Extension-COFE-Authorization-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Authorization-1 finished
+IG Creation - Adding Extension-COFE-Data-Enterer-1 to IGResource.xml
+            - Saving Extension-COFE-Data-Enterer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Data-Enterer-1 finished
+IG Creation - Adding Extension-COFE-Informant-1 to IGResource.xml
+            - Saving Extension-COFE-Informant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Informant-1 finished
+IG Creation - Adding Extension-COFE-Information-Recipient-1 to IGResource.xml
+            - Saving Extension-COFE-Information-Recipient-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Information-Recipient-1 finished
+IG Creation - Adding Extension-COFE-Participant-1 to IGResource.xml
+            - Saving Extension-COFE-Participant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Participant-1 finished
+IG Creation - Adding Extension-COFE-Performer-1 to IGResource.xml
+            - Saving Extension-COFE-Performer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Performer-1 finished
+IG Creation - Adding Extension-Ethnic-Category-1 to IGResource.xml
+            - Saving Extension-Ethnic-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Ethnic-Category-1 finished
+IG Creation - Adding Extension-NHS-Communication-1 to IGResource.xml
+            - Saving Extension-NHS-Communication-1.xml in StructureDefinition folder
+IG Creation - Extension-NHS-Communication-1 finished
+IG Creation - Adding Extension-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-Organ-Donor-1 to IGResource.xml
+            - Saving Extension-Organ-Donor-1.xml in StructureDefinition folder
+IG Creation - Extension-Organ-Donor-1 finished
+IG Creation - Adding Extension-Registration-Details-1 to IGResource.xml
+            - Saving Extension-Registration-Details-1.xml in StructureDefinition folder
+IG Creation - Extension-Registration-Details-1 finished
+IG Creation - Adding Extension-Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Extension-Religious-Affiliation-SnCT-1.xml in StructureDefinition folder
+IG Creation - Extension-Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding Extension-Residential-Status-1 to IGResource.xml
+            - Saving Extension-Residential-Status-1.xml in StructureDefinition folder
+IG Creation - Extension-Residential-Status-1 finished
+IG Creation - Adding Extension-Treatment-Category-1 to IGResource.xml
+            - Saving Extension-Treatment-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Treatment-Category-1 finished
+IG Creation - Adding patient-birthTime to IGResource.xml
+            - Saving patient-birthTime.xml in StructureDefinition folder
+IG Creation - patient-birthTime finished
+IG Creation - Adding Administrative-Gender-1 to IGResource.xml
+            - Saving Administrative-Gender-1.xml in ValueSet folder
+IG Creation - Administrative-Gender-1 finished
+IG Creation - Adding Care-Setting-Type-1 to IGResource.xml
+            - Saving Care-Setting-Type-1.xml in ValueSet folder
+IG Creation - Care-Setting-Type-1 finished
+IG Creation - Adding CareConnect-AdministrativeGender-1 to IGResource.xml
+            - Saving CareConnect-AdministrativeGender-1.xml in ValueSet folder
+IG Creation - CareConnect-AdministrativeGender-1 finished
+IG Creation - Adding CareConnect-EthnicCategory-1 to IGResource.xml
+            - Saving CareConnect-EthnicCategory-1.xml in ValueSet folder
+IG Creation - CareConnect-EthnicCategory-1 finished
+IG Creation - Adding CareConnect-HumanLanguage-1 to IGResource.xml
+            - Saving CareConnect-HumanLanguage-1.xml in ValueSet folder
+IG Creation - CareConnect-HumanLanguage-1 finished
+IG Creation - Adding CareConnect-LanguageAbilityMode-1 to IGResource.xml
+            - Saving CareConnect-LanguageAbilityMode-1.xml in ValueSet folder
+IG Creation - CareConnect-LanguageAbilityMode-1 finished
+IG Creation - Adding CareConnect-LanguageAbilityProficiency-1 to IGResource.xml
+            - Saving CareConnect-LanguageAbilityProficiency-1.xml in ValueSet folder
+IG Creation - CareConnect-LanguageAbilityProficiency-1 finished
+IG Creation - Adding CareConnect-MaritalStatus-1 to IGResource.xml
+            - Saving CareConnect-MaritalStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-MaritalStatus-1 finished
+IG Creation - Adding CareConnect-MaritalStatus-DDMAP-1 to IGResource.xml
+            - Saving CareConnect-MaritalStatus-DDMAP-1.xml in ValueSet folder
+IG Creation - CareConnect-MaritalStatus-DDMAP-1 finished
+IG Creation - Adding CareConnect-NhsNumberVerificationStatus-1 to IGResource.xml
+            - Saving CareConnect-NhsNumberVerificationStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-NhsNumberVerificationStatus-1 finished
+IG Creation - Adding CareConnect-PersonRelationshipType-1 to IGResource.xml
+            - Saving CareConnect-PersonRelationshipType-1.xml in ValueSet folder
+IG Creation - CareConnect-PersonRelationshipType-1 finished
+IG Creation - Adding CareConnect-PersonStatedGender-DDMAP-1 to IGResource.xml
+            - Saving CareConnect-PersonStatedGender-DDMAP-1.xml in ValueSet folder
+IG Creation - CareConnect-PersonStatedGender-DDMAP-1 finished
+IG Creation - Adding CareConnect-RegistrationStatus-1 to IGResource.xml
+            - Saving CareConnect-RegistrationStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-RegistrationStatus-1 finished
+IG Creation - Adding CareConnect-RegistrationType-1 to IGResource.xml
+            - Saving CareConnect-RegistrationType-1.xml in ValueSet folder
+IG Creation - CareConnect-RegistrationType-1 finished
+IG Creation - Adding CareConnect-ReligiousAffiliation-1 to IGResource.xml
+            - Saving CareConnect-ReligiousAffiliation-1.xml in ValueSet folder
+IG Creation - CareConnect-ReligiousAffiliation-1 finished
+IG Creation - Adding CareConnect-ResidentialStatus-1 to IGResource.xml
+            - Saving CareConnect-ResidentialStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-ResidentialStatus-1 finished
+IG Creation - Adding CareConnect-SDSJobRoleName-1 to IGResource.xml
+            - Saving CareConnect-SDSJobRoleName-1.xml in ValueSet folder
+IG Creation - CareConnect-SDSJobRoleName-1 finished
+IG Creation - Adding CareConnect-TreatmentCategory-1 to IGResource.xml
+            - Saving CareConnect-TreatmentCategory-1.xml in ValueSet folder
+IG Creation - CareConnect-TreatmentCategory-1 finished
+IG Creation - Adding CDA-Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving CDA-Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - CDA-Encounter-Type-SnCT-1 finished
+IG Creation - Adding cda-person-relationship-type-1 to IGResource.xml
+            - Saving cda-person-relationship-type-1.xml in ValueSet folder
+IG Creation - cda-person-relationship-type-1 finished
+IG Creation - Adding Correspondence-Document-Type-1 to IGResource.xml
+            - Saving Correspondence-Document-Type-1.xml in ValueSet folder
+IG Creation - Correspondence-Document-Type-1 finished
+IG Creation - Adding Device-Type-1 to IGResource.xml
+            - Saving Device-Type-1.xml in ValueSet folder
+IG Creation - Device-Type-1 finished
+IG Creation - Adding Document-Type-1 to IGResource.xml
+            - Saving Document-Type-1.xml in ValueSet folder
+IG Creation - Document-Type-1 finished
+IG Creation - Adding Encounter-Disposition-SnCT-1 to IGResource.xml
+            - Saving Encounter-Disposition-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Disposition-SnCT-1 finished
+IG Creation - Adding Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Type-SnCT-1 finished
+IG Creation - Adding Ethnic-Category-1 to IGResource.xml
+            - Saving Ethnic-Category-1.xml in ValueSet folder
+IG Creation - Ethnic-Category-1 finished
+IG Creation - Adding Finding-SnCT-1 to IGResource.xml
+            - Saving Finding-SnCT-1.xml in ValueSet folder
+IG Creation - Finding-SnCT-1 finished
+IG Creation - Adding Human-Language-1 to IGResource.xml
+            - Saving Human-Language-1.xml in ValueSet folder
+IG Creation - Human-Language-1 finished
+IG Creation - Adding Job-Role-Name-1 to IGResource.xml
+            - Saving Job-Role-Name-1.xml in ValueSet folder
+IG Creation - Job-Role-Name-1 finished
+IG Creation - Adding Language-Ability-Mode-1 to IGResource.xml
+            - Saving Language-Ability-Mode-1.xml in ValueSet folder
+IG Creation - Language-Ability-Mode-1 finished
+IG Creation - Adding Language-Ability-Proficiency-1 to IGResource.xml
+            - Saving Language-Ability-Proficiency-1.xml in ValueSet folder
+IG Creation - Language-Ability-Proficiency-1 finished
+IG Creation - Adding Marital-Status-1 to IGResource.xml
+            - Saving Marital-Status-1.xml in ValueSet folder
+IG Creation - Marital-Status-1 finished
+IG Creation - Adding marital-status-ddmap-1 to IGResource.xml
+            - Saving marital-status-ddmap-1.xml in ValueSet folder
+IG Creation - marital-status-ddmap-1 finished
+IG Creation - Adding nhsnumberverificationstatus-1 to IGResource.xml
+            - Saving nhsnumberverificationstatus-1.xml in ValueSet folder
+IG Creation - nhsnumberverificationstatus-1 finished
+IG Creation - Adding person-stated-gender-ddmap-1 to IGResource.xml
+            - Saving person-stated-gender-ddmap-1.xml in ValueSet folder
+IG Creation - person-stated-gender-ddmap-1 finished
+IG Creation - Adding Referral-Reason-SnCT-1 to IGResource.xml
+            - Saving Referral-Reason-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Reason-SnCT-1 finished
+IG Creation - Adding Referral-Type-SnCT-1 to IGResource.xml
+            - Saving Referral-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Type-SnCT-1 finished
+IG Creation - Adding registration-status-1 to IGResource.xml
+            - Saving registration-status-1.xml in ValueSet folder
+IG Creation - registration-status-1 finished
+IG Creation - Adding registration-type-1 to IGResource.xml
+            - Saving registration-type-1.xml in ValueSet folder
+IG Creation - registration-type-1 finished
+IG Creation - Adding Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Religious-Affiliation-SnCT-1.xml in ValueSet folder
+IG Creation - Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding residential-status-1 to IGResource.xml
+            - Saving residential-status-1.xml in ValueSet folder
+IG Creation - residential-status-1 finished
+IG Creation - Adding sds-job-role-name-1 to IGResource.xml
+            - Saving sds-job-role-name-1.xml in ValueSet folder
+IG Creation - sds-job-role-name-1 finished
+IG Creation - Adding Section-Type-SnCT-1 to IGResource.xml
+            - Saving Section-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Section-Type-SnCT-1 finished
+IG Creation - Adding Specialty-1 to IGResource.xml
+            - Saving Specialty-1.xml in ValueSet folder
+IG Creation - Specialty-1 finished
+IG Creation - Adding treatment-category-1 to IGResource.xml
+            - Saving treatment-category-1.xml in ValueSet folder
+IG Creation - treatment-category-1 finished
+Profile Table: IGResource.
+Loading resources into resource store
+Create directory C:\git\NHS-FHIR-CDA-DOCREF\Generated\Profile.DocumentReference
+Render profile table Profile.DocumentReference
+Profile Table: Finish - IGResource
+Loading resources into resource store
+Structure Page: Start - Profile.DocumentReference : birthPlace
+Creating structure for birthPlace
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page birthPlace
+Structure Page: Finish - birthplace
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Encounter-1
+Creating structure for CareConnect-Encounter-1
+CreateRow Encounter( Encounter )
+CreateRow Encounter.extension( Encounter )
+CreateRow Encounter.extension( Encounter )
+CreateRow Encounter.identifier( Encounter )
+CreateRow Encounter.identifier.use( Encounter )
+CreateRow Encounter.identifier.type( Encounter )
+CreateRow Encounter.identifier.type.coding( Encounter )
+CreateRow Encounter.identifier.type.coding.system( Encounter )
+CreateRow Encounter.identifier.type.coding.version( Encounter )
+CreateRow Encounter.identifier.type.coding.code( Encounter )
+CreateRow Encounter.identifier.type.coding.display( Encounter )
+CreateRow Encounter.identifier.type.coding.userSelected( Encounter )
+CreateRow Encounter.identifier.type.text( Encounter )
+CreateRow Encounter.identifier.system( Encounter )
+CreateRow Encounter.identifier.value( Encounter )
+CreateRow Encounter.identifier.period( Encounter )
+CreateRow Encounter.identifier.period.start( Encounter )
+CreateRow Encounter.identifier.period.end( Encounter )
+CreateRow Encounter.identifier.assigner( Encounter )
+CreateRow Encounter.identifier.assigner.reference( Encounter )
+CreateRow Encounter.identifier.assigner.display( Encounter )
+CreateRow Encounter.status( Encounter )
+CreateRow Encounter.statusHistory( Encounter )
+CreateRow Encounter.statusHistory.modifierExtension( Encounter )
+CreateRow Encounter.statusHistory.status( Encounter )
+CreateRow Encounter.statusHistory.period( Encounter )
+CreateRow Encounter.statusHistory.period.start( Encounter )
+CreateRow Encounter.statusHistory.period.end( Encounter )
+CreateRow Encounter.class( Encounter )
+CreateRow Encounter.type( Encounter )
+CreateRow Encounter.type.coding( Encounter )
+CreateRow Encounter.type.coding( Encounter )
+CreateRow Encounter.type.coding.system( Encounter )
+CreateRow Encounter.type.coding.code( Encounter )
+CreateRow Encounter.type.coding.display( Encounter )
+CreateRow Encounter.type.coding.userSelected( Encounter )
+CreateRow Encounter.type.text( Encounter )
+CreateRow Encounter.priority( Encounter )
+CreateRow Encounter.priority.coding( Encounter )
+CreateRow Encounter.priority.coding.system( Encounter )
+CreateRow Encounter.priority.coding.version( Encounter )
+CreateRow Encounter.priority.coding.code( Encounter )
+CreateRow Encounter.priority.coding.display( Encounter )
+CreateRow Encounter.priority.coding.userSelected( Encounter )
+CreateRow Encounter.priority.text( Encounter )
+CreateRow Encounter.patient( Encounter )
+CreateRow Encounter.patient.reference( Encounter )
+CreateRow Encounter.patient.display( Encounter )
+CreateRow Encounter.episodeOfCare( Encounter )
+CreateRow Encounter.episodeOfCare.reference( Encounter )
+CreateRow Encounter.episodeOfCare.display( Encounter )
+CreateRow Encounter.incomingReferral( Encounter )
+CreateRow Encounter.incomingReferral.reference( Encounter )
+CreateRow Encounter.incomingReferral.display( Encounter )
+CreateRow Encounter.participant( Encounter )
+CreateRow Encounter.participant.modifierExtension( Encounter )
+CreateRow Encounter.participant.type( Encounter )
+CreateRow Encounter.participant.type.coding( Encounter )
+CreateRow Encounter.participant.type.coding.system( Encounter )
+CreateRow Encounter.participant.type.coding.version( Encounter )
+CreateRow Encounter.participant.type.coding.code( Encounter )
+CreateRow Encounter.participant.type.coding.display( Encounter )
+CreateRow Encounter.participant.type.coding.userSelected( Encounter )
+CreateRow Encounter.participant.type.text( Encounter )
+CreateRow Encounter.participant.period( Encounter )
+CreateRow Encounter.participant.period.start( Encounter )
+CreateRow Encounter.participant.period.end( Encounter )
+CreateRow Encounter.participant.individual( Encounter )
+CreateRow Encounter.appointment( Encounter )
+CreateRow Encounter.appointment.reference( Encounter )
+CreateRow Encounter.appointment.display( Encounter )
+CreateRow Encounter.period( Encounter )
+CreateRow Encounter.period.start( Encounter )
+CreateRow Encounter.period.end( Encounter )
+CreateRow Encounter.length( Encounter )
+CreateRow Encounter.length.value( Encounter )
+CreateRow Encounter.length.comparator( Encounter )
+CreateRow Encounter.length.unit( Encounter )
+CreateRow Encounter.length.system( Encounter )
+CreateRow Encounter.length.code( Encounter )
+CreateRow Encounter.reason( Encounter )
+CreateRow Encounter.reason.coding( Encounter )
+CreateRow Encounter.reason.coding( Encounter )
+CreateRow Encounter.reason.coding.system( Encounter )
+CreateRow Encounter.reason.coding.code( Encounter )
+CreateRow Encounter.reason.coding.display( Encounter )
+CreateRow Encounter.reason.coding.userSelected( Encounter )
+CreateRow Encounter.reason.text( Encounter )
+CreateRow Encounter.indication( Encounter )
+CreateRow Encounter.hospitalization( Encounter )
+CreateRow Encounter.hospitalization.modifierExtension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.use( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.system( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.version( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.code( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.display( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.text( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.system( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.value( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.start( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.end( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.reference( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.display( Encounter )
+CreateRow Encounter.hospitalization.origin( Encounter )
+CreateRow Encounter.hospitalization.origin.reference( Encounter )
+CreateRow Encounter.hospitalization.origin.display( Encounter )
+CreateRow Encounter.hospitalization.admitSource( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.system( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.version( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.code( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.display( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.admitSource.text( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.reference( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.display( Encounter )
+CreateRow Encounter.hospitalization.reAdmission( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.system( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.code( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.display( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.text( Encounter )
+CreateRow Encounter.hospitalization.dietPreference( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.system( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.version( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.code( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.display( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.text( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.system( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.version( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.code( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.display( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.text( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.system( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.version( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.code( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.display( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.text( Encounter )
+CreateRow Encounter.hospitalization.destination( Encounter )
+CreateRow Encounter.hospitalization.destination.reference( Encounter )
+CreateRow Encounter.hospitalization.destination.display( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.system( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.version( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.code( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.display( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.text( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.reference( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.display( Encounter )
+CreateRow Encounter.location( Encounter )
+CreateRow Encounter.location.modifierExtension( Encounter )
+CreateRow Encounter.location.location( Encounter )
+CreateRow Encounter.location.location.reference( Encounter )
+CreateRow Encounter.location.location.display( Encounter )
+CreateRow Encounter.location.status( Encounter )
+CreateRow Encounter.location.period( Encounter )
+CreateRow Encounter.location.period.start( Encounter )
+CreateRow Encounter.location.period.end( Encounter )
+CreateRow Encounter.serviceProvider( Encounter )
+CreateRow Encounter.serviceProvider.reference( Encounter )
+CreateRow Encounter.serviceProvider.display( Encounter )
+CreateRow Encounter.partOf( Encounter )
+CreateRow Encounter.partOf.reference( Encounter )
+CreateRow Encounter.partOf.display( Encounter )
+ create Bindings table
+ format binding for Encounter.identifier.use
+ format binding for Encounter.identifier.type
+ format binding for Encounter.status
+ format binding for Encounter.class
+ format binding for Encounter.type
+ format binding for Encounter.type.coding
+ format binding for Encounter.priority
+ format binding for Encounter.participant.type
+ format binding for Encounter.length.comparator
+ format binding for Encounter.reason
+ format binding for Encounter.reason.coding
+ format binding for Encounter.hospitalization.admitSource
+ format binding for Encounter.hospitalization.reAdmission
+ format binding for Encounter.hospitalization.dietPreference
+ format binding for Encounter.hospitalization.specialCourtesy
+ format binding for Encounter.hospitalization.specialArrangement
+ format binding for Encounter.hospitalization.dischargeDisposition
+ format binding for Encounter.location.status
+Render page CareConnect-Encounter-1
+Structure Page: Finish - careconnect-encounter-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Location-1
+Creating structure for CareConnect-Location-1
+CreateRow Location( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier.system( Location )
+CreateRow Location.identifier.value( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier.use( Location )
+CreateRow Location.identifier.type( Location )
+CreateRow Location.identifier.type.coding( Location )
+CreateRow Location.identifier.type.coding.system( Location )
+CreateRow Location.identifier.type.coding.version( Location )
+CreateRow Location.identifier.type.coding.code( Location )
+CreateRow Location.identifier.type.coding.display( Location )
+CreateRow Location.identifier.type.coding.userSelected( Location )
+CreateRow Location.identifier.type.text( Location )
+CreateRow Location.identifier.system( Location )
+CreateRow Location.identifier.value( Location )
+CreateRow Location.identifier.period( Location )
+CreateRow Location.identifier.period.start( Location )
+CreateRow Location.identifier.period.end( Location )
+CreateRow Location.identifier.assigner( Location )
+CreateRow Location.identifier.assigner.reference( Location )
+CreateRow Location.identifier.assigner.display( Location )
+CreateRow Location.status( Location )
+CreateRow Location.name( Location )
+CreateRow Location.description( Location )
+CreateRow Location.mode( Location )
+CreateRow Location.type( Location )
+CreateRow Location.type.coding( Location )
+CreateRow Location.type.coding.system( Location )
+CreateRow Location.type.coding.version( Location )
+CreateRow Location.type.coding.code( Location )
+CreateRow Location.type.coding.display( Location )
+CreateRow Location.type.coding.userSelected( Location )
+CreateRow Location.type.text( Location )
+CreateRow Location.telecom( Location )
+CreateRow Location.telecom.system( Location )
+CreateRow Location.telecom.value( Location )
+CreateRow Location.telecom.use( Location )
+CreateRow Location.telecom.rank( Location )
+CreateRow Location.telecom.period( Location )
+CreateRow Location.telecom.period.start( Location )
+CreateRow Location.telecom.period.end( Location )
+CreateRow Location.address( Location )
+CreateRow Location.address.use( Location )
+CreateRow Location.address.type( Location )
+CreateRow Location.address.text( Location )
+CreateRow Location.address.line( Location )
+CreateRow Location.address.city( Location )
+CreateRow Location.address.district( Location )
+CreateRow Location.address.postalCode( Location )
+CreateRow Location.address.country( Location )
+CreateRow Location.address.period( Location )
+CreateRow Location.address.period.start( Location )
+CreateRow Location.address.period.end( Location )
+CreateRow Location.physicalType( Location )
+CreateRow Location.physicalType.coding( Location )
+CreateRow Location.physicalType.coding.system( Location )
+CreateRow Location.physicalType.coding.version( Location )
+CreateRow Location.physicalType.coding.code( Location )
+CreateRow Location.physicalType.coding.display( Location )
+CreateRow Location.physicalType.coding.userSelected( Location )
+CreateRow Location.physicalType.text( Location )
+CreateRow Location.position( Location )
+CreateRow Location.position.modifierExtension( Location )
+CreateRow Location.position.longitude( Location )
+CreateRow Location.position.latitude( Location )
+CreateRow Location.position.altitude( Location )
+CreateRow Location.managingOrganization( Location )
+CreateRow Location.managingOrganization.reference( Location )
+CreateRow Location.managingOrganization.display( Location )
+CreateRow Location.partOf( Location )
+CreateRow Location.partOf.reference( Location )
+CreateRow Location.partOf.display( Location )
+ create Bindings table
+ format binding for Location.identifier.use
+ format binding for Location.identifier.type
+ format binding for Location.status
+ format binding for Location.mode
+ format binding for Location.type
+ format binding for Location.telecom.system
+ format binding for Location.telecom.use
+ format binding for Location.address.use
+ format binding for Location.address.type
+ format binding for Location.physicalType
+Render page CareConnect-Location-1
+Structure Page: Finish - careconnect-location-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Organization-1
+Creating structure for CareConnect-Organization-1
+CreateRow Organization( Organization )
+CreateRow Organization.extension( Organization )
+CreateRow Organization.extension( Organization )
+**Error** 
+ Message: Object reference not set to an instance of an object. 
+ Stacktrace:    at Hl7.Fhir.Publication.Specification.Profile.Structure.Rows.ExtensionRow.ExtensionDescription() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Rows\ExtensionRow.cs:line 83
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Rows.ExtensionRow.get_Value() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Rows\ExtensionRow.cs:line 52
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Factory.CreateRow(ElementDefinition elementDefinition, StructureDefinition profile, Boolean showMissing, ICollection`1 rows, ElementNavigator navigator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Factory.cs:line 194
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Factory.GetElementRow(ICollection`1 rows, ElementNavigator navigator, StructureDefinition profile, Boolean showMissing) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Factory.cs:line 116
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Factory.CreateRow(ElementDefinition elementDefinition, StructureDefinition profile, Boolean showMissing, ICollection`1 rows, ElementNavigator navigator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Factory.cs:line 238
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Factory.GetElementRow(ICollection`1 rows, ElementNavigator navigator, StructureDefinition profile, Boolean showMissing) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Factory.cs:line 116
+   at Hl7.Fhir.Publication.Specification.Profile.Structure.Factory.GenerateStructure(StructureDefinition structure, Boolean isDifferential) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Specification\Profile\Structure\Factory.cs:line 92
+   at Hl7.Fhir.Publication.Processors.Profile.StructureProcessor.CreateStructureDefinitionPage(ResourceComponent resource) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\Profile\StructureProcessor.cs:line 113
+   at Hl7.Fhir.Publication.Processors.Profile.StructureProcessor.CreatePagesInPackage() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\Profile\StructureProcessor.cs:line 91
+   at Hl7.Fhir.Publication.Processors.Profile.StructureProcessor.Process(Document input, Stage output, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\Profile\StructureProcessor.cs:line 63
+   at Hl7.Fhir.Publication.Framework.Processor.Process(IProcessor processor, Stage input, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 16
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, Stage input, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, ISelector filter, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 38
+   at Hl7.Fhir.Publication.Framework.Statement.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Statement.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Make.Bulk.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Make\Bulk.cs:line 25
+   at Hl7.Fhir.Publication.Framework.Publisher.Publish() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Publisher.cs:line 80 
+ InnerException: 

@@ -1,31 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-02-10T17:19:10.439+00:00" />
+    <lastUpdated value="2017-03-02T11:33:00.382+00:00" />
   </meta>
-  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
-    <valueInteger value="1" />
-  </extension>
-  <url value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-OrganDonor-1" />
+  <url value="http://hl7.org/fhir/StructureDefinition/organization-period" />
   <version value="1.0.0" />
-  <name value="Extension-CareConnect-OrganDonor-1" />
+  <name value="organization-period" />
   <status value="active" />
-  <publisher value="HL7 UK" />
-  <description value="This extension is constrained to represent the organ donor status for a patient." />
+  <publisher value="HL7" />
+  <date value="2017-03-02T10:33:25.2534267Z" />
+  <description value="The date range that this organization should be considered available." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="1.0.2" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
   <contextType value="resource" />
-  <context value="Patient" />
+  <context value="Organization" />
   <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <snapshot>
     <element>
       <path value="Extension" />
-      <short value="An indicator that the patient is listed as an organ donor" />
-      <definition value="An indicator that the patient is listed as an organ donor." />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
       <min value="0" />
-      <max value="1" />
+      <max value="*" />
       <base>
         <path value="Element" />
         <min value="0" />
@@ -37,14 +36,13 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
         <human value="All FHIR elements must have a @value or children" />
         <xpath value="@value|f:*|h:div" />
       </constraint>
-      <isModifier value="false" />
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -72,7 +70,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -104,7 +102,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -135,11 +133,11 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-OrganDonor-1" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/organization-period" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -156,9 +154,9 @@
       </mapping>
     </element>
     <element>
-      <path value="Extension.valueBoolean" />
-      <short value="An indicator that the patient is listed as an organ donor" />
-      <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
+      <path value="Extension.valuePeriod" />
+      <short value="The date range that this organization should be considered available." />
+      <definition value="The date range that this organization should be considered available." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -167,19 +165,18 @@
         <max value="1" />
       </base>
       <type>
-        <code value="boolean" />
+        <code value="Period" />
       </type>
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
         <human value="All FHIR elements must have a @value or children" />
         <xpath value="@value|f:*|h:div" />
       </constraint>
-      <isModifier value="false" />
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -193,22 +190,18 @@
   <differential>
     <element>
       <path value="Extension" />
-      <short value="An indicator that the patient is listed as an organ donor" />
-      <definition value="An indicator that the patient is listed as an organ donor." />
-      <max value="1" />
-      <isModifier value="false" />
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-OrganDonor-1" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/organization-period" />
     </element>
     <element>
-      <path value="Extension.valueBoolean" />
-      <short value="An indicator that the patient is listed as an organ donor" />
+      <path value="Extension.valuePeriod" />
+      <short value="The date range that this organization should be considered available." />
+      <definition value="The date range that this organization should be considered available." />
       <type>
-        <code value="boolean" />
+        <code value="Period" />
       </type>
-      <isModifier value="false" />
     </element>
   </differential>
 </StructureDefinition>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-02-10T17:19:07.029+00:00" />
+    <lastUpdated value="2017-03-02T11:31:25.793+00:00" />
   </meta>
-  <url value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-ActivePeriod-1" />
+  <url value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
   <version value="1.0.0" />
-  <name value="Extension-CareConnect-ActivePeriod-1" />
-  <status value="active" />
-  <publisher value="HL7 UK" />
-  <description value="This extension is constrained to represent the active period of an organization (may contain only a start date)." />
+  <name value="patient-cadavericDonor" />
+  <status value="draft" />
+  <publisher value="HL7" />
+  <date value="2017-03-02T11:03:30.7389606Z" />
+  <description value="Flag indicating whether the patient authorized the donation of body parts after death." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
-  <fhirVersion value="1.0.1" />
+  <fhirVersion value="1.0.2" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
   <contextType value="resource" />
-  <context value="Organization.active" />
-  <context value="Location.status" />
+  <context value="Patient" />
   <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <snapshot>
     <element>
       <path value="Extension" />
-      <short value="Active period" />
-      <definition value="The active period of an organization (may contain only a start date)." />
+      <short value="Base for all elements" />
+      <definition value="Optional Extensions Element - found in all resources." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -36,7 +36,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -70,7 +70,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -102,7 +102,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -133,11 +133,11 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-ActivePeriod-1" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -154,9 +154,9 @@
       </mapping>
     </element>
     <element>
-      <path value="Extension.valuePeriod" />
-      <short value="Active period" />
-      <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
+      <path value="Extension.valueBoolean" />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -165,12 +165,12 @@
         <max value="1" />
       </base>
       <type>
-        <code value="Period" />
+        <code value="boolean" />
       </type>
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -190,18 +190,18 @@
   <differential>
     <element>
       <path value="Extension" />
-      <short value="Active period" />
-      <definition value="The active period of an organization (may contain only a start date)." />
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-ActivePeriod-1" />
+      <fixedUri value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
     </element>
     <element>
-      <path value="Extension.valuePeriod" />
-      <short value="Active period" />
+      <path value="Extension.valueBoolean" />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <min value="0" />
       <type>
-        <code value="Period" />
+        <code value="boolean" />
       </type>
     </element>
   </differential>

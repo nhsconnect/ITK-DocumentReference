@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T09:57:53.874+00:00" />
+    <lastUpdated value="2017-03-02T11:26:25.354+00:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
-      <code value="4" />
+      <code value="3" />
     </tag>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
@@ -455,9 +455,9 @@
     </element>
     <element>
       <path value="Patient.extension" />
-      <name value="organDonor" />
-      <short value="An indicator that the patient is listed as an organ donor" />
-      <definition value="An indicator that the patient is listed as an organ donor." />
+      <name value="patient-cadavericDonor" />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -470,7 +470,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-OrganDonor-1" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -482,7 +482,6 @@
         <human value="All FHIR elements must have a @value or children" />
         <xpath value="@value|f:*|h:div" />
       </constraint>
-      <isModifier value="false" />
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -5473,7 +5472,7 @@
       <definition value="The patient's other names" />
       <comments value="A patient may have multiple names with different uses or applicable periods. For animals, the name is a &quot;HumanName&quot; in the sense that is assigned and used by humans and has the same patterns." />
       <requirements value="Need to be able to track the patient by multiple names. Examples are your official name and a partner name." />
-      <min value="1" />
+      <min value="0" />
       <max value="*" />
       <base>
         <path value="Patient.name" />
@@ -6609,6 +6608,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="required" />
+        <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-AdministrativeGender-1" />
         </valueSetReference>
@@ -6750,7 +6750,7 @@
     </element>
     <element>
       <path value="Patient.birthDate.extension" />
-      <name value="patient-BirthTime" />
+      <name value="patient-birthTime" />
       <short value="The time of day that the Patient was born. This includes the date to ensure that the timezone information can be communicated effectively." />
       <definition value="The time of day that the Patient was born. This includes the date to ensure that the timezone information can be communicated effectively." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -7657,6 +7657,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="required" />
+        <description value="The domestic partnership status of a person." />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-MaritalStatus-1" />
         </valueSetReference>
@@ -8811,6 +8812,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="extensible" />
+        <description value="The nature of the relationship between a patient and a contact person for that patient." />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-PersonRelationshipType-1" />
         </valueSetReference>
@@ -11205,6 +11207,7 @@
       </constraint>
       <binding>
         <strength value="required" />
+        <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-AdministrativeGender-1" />
         </valueSetReference>
@@ -14692,10 +14695,14 @@
     </element>
     <element>
       <path value="Patient.extension" />
-      <name value="organDonor" />
+      <name value="patient-cadavericDonor" />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <min value="0" />
+      <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-OrganDonor-1" />
+        <profile value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
       </type>
     </element>
     <element>
@@ -14846,6 +14853,8 @@
       <name value="other" />
       <short value="The patient's other names" />
       <definition value="The patient's other names" />
+      <min value="0" />
+      <max value="*" />
     </element>
     <element>
       <path value="Patient.name.use" />
@@ -14900,7 +14909,7 @@
     </element>
     <element>
       <path value="Patient.birthDate.extension" />
-      <name value="patient-BirthTime" />
+      <name value="patient-birthTime" />
       <type>
         <code value="Extension" />
         <profile value="http://hl7.org/fhir/StructureDefinition/patient-birthTime" />

@@ -1,0 +1,118 @@
+
+***Furnace log date run: 02 March 2017 1042 ***
+Furnace: Fhir publisher tool version: 2.7.6256.31052
+***Starting generation***
+Source directory: C:\git\NHS-FHIR-CDA-DOCREF\Generation 
+ Target Directory: C:\git\NHS-FHIR-CDA-DOCREF\Generated
+Clear down Generated folder
+Copying files into Schemas folder ...
+Copying files into dist folder ...
+Start: creating IGResource.xml
+End: IGResource.xml created
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Create folder Profile.DocumentReference
+IG Creation - Adding birthPlace to IGResource.xml
+            - Adding Profile.DocumentReference package to IGResource.xml
+            - Saving birthPlace.xml in StructureDefinition folder
+IG Creation - birthPlace finished
+IG Creation - Adding CareConnect-Encounter-1 to IGResource.xml
+            - Saving CareConnect-Encounter-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Encounter-1 finished
+IG Creation - Adding CareConnect-Location-1 to IGResource.xml
+            - Saving CareConnect-Location-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Location-1 finished
+IG Creation - Adding CareConnect-Organization-1 to IGResource.xml
+            - Saving CareConnect-Organization-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Organization-1 finished
+IG Creation - Adding CareConnect-Patient-1 to IGResource.xml
+            - Saving CareConnect-Patient-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Patient-1 finished
+IG Creation - Adding CareConnect-Practitioner-1 to IGResource.xml
+            - Saving CareConnect-Practitioner-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Practitioner-1 finished
+IG Creation - Adding COFE-Binary-1 to IGResource.xml
+            - Saving COFE-Binary-Example-1.xml in examples folder
+            - Saving COFE-Binary-1.xml in StructureDefinition folder
+IG Creation - COFE-Binary-1 finished
+IG Creation - Adding COFE-Device-1 to IGResource.xml
+            - Saving COFE-Device-1.xml in StructureDefinition folder
+IG Creation - COFE-Device-1 finished
+IG Creation - Adding COFE-Document-Bundle-1 to IGResource.xml
+            - Saving COFE-Bundle-Example-1.xml in examples folder
+            - Saving COFE-Document-Bundle-1.xml in StructureDefinition folder
+IG Creation - COFE-Document-Bundle-1 finished
+IG Creation - Adding COFE-DocumentReference-1 to IGResource.xml
+            - Saving COFE-DocumentReference-Example-1.xml in examples folder
+            - Saving COFE-DocumentReference-1.xml in StructureDefinition folder
+IG Creation - COFE-DocumentReference-1 finished
+IG Creation - Adding COFE-Related-Person-1 to IGResource.xml
+            - Saving COFE-Related-Person-1.xml in StructureDefinition folder
+IG Creation - COFE-Related-Person-1 finished
+IG Creation - Adding Extension-Care-Setting-Type-1 to IGResource.xml
+            - Saving Extension-Care-Setting-Type-1.xml in StructureDefinition folder
+IG Creation - Extension-Care-Setting-Type-1 finished
+IG Creation - Adding Extension-CareConnect-ActivePeriod-1 to IGResource.xml
+            - Saving Extension-CareConnect-ActivePeriod-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ActivePeriod-1 finished
+IG Creation - Adding Extension-CareConnect-EncounterTransport-1 to IGResource.xml
+            - Saving Extension-CareConnect-EncounterTransport-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EncounterTransport-1 finished
+IG Creation - Adding Extension-CareConnect-EthnicCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-EthnicCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EthnicCategory-1 finished
+IG Creation - Adding Extension-CareConnect-MainLocation-1 to IGResource.xml
+            - Saving Extension-CareConnect-MainLocation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-MainLocation-1 finished
+IG Creation - Adding Extension-CareConnect-NHSCommunication-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSCommunication-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSCommunication-1 finished
+IG Creation - Adding Extension-CareConnect-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-CareConnect-OrganDonor-1 to IGResource.xml
+            - Saving Extension-CareConnect-OrganDonor-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-OrganDonor-1 finished
+IG Creation - Adding Extension-CareConnect-RegistrationDetails-1 to IGResource.xml
+            - Saving Extension-CareConnect-RegistrationDetails-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-RegistrationDetails-1 finished
+IG Creation - Adding Extension-CareConnect-ReligiousAffiliation-1 to IGResource.xml
+            - Saving Extension-CareConnect-ReligiousAffiliation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ReligiousAffiliation-1 finished
+IG Creation - Adding Extension-CareConnect-ResidentialStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-ResidentialStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ResidentialStatus-1 finished
+IG Creation - Adding Extension-CareConnect-TreatmentCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-TreatmentCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-TreatmentCategory-1 finished
+IG Creation - Adding Extension-Coding-SCTDescID to IGResource.xml
+**Error** 
+ Message:  Could not find .md file for Extension-Coding-SCTDescID! 
+ C:\git\NHS-FHIR-CDA-DOCREF\Generation\Profile.DocumentReference\extension-coding-sctdescid.md is required 
+ Stacktrace:    at Hl7.Fhir.Publication.ImplementationGuide.ResourceFactory.CreateResource(ResourceComponent resource, String mdFilePath) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\ImplementationGuide\ResourceFactory.cs:line 66
+   at Hl7.Fhir.Publication.ImplementationGuide.ResourceFactory.CreateProfileResource(String mdFileName) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\ImplementationGuide\ResourceFactory.cs:line 41
+   at Hl7.Fhir.Publication.ImplementationGuide.Factory.AddResourceAsProfile(ResourceFactory resourceFactory) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\ImplementationGuide\Factory.cs:line 136
+   at Hl7.Fhir.Publication.Processors.ImplementationGuide.PackageBuilder.AddStructureDefinition() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\ImplementationGuide\PackageBuilder.cs:line 46
+   at Hl7.Fhir.Publication.Processors.ImplementationGuide.IgPackageProcessor.AddResourceToImplementationGuide() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\ImplementationGuide\PackageProcessor.cs:line 122
+   at Hl7.Fhir.Publication.Processors.ImplementationGuide.IgPackageProcessor.Process(Document input, Stage output, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\ImplementationGuide\PackageProcessor.cs:line 95
+   at Hl7.Fhir.Publication.Framework.Processor.Process(IProcessor processor, Stage input, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 16
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, Stage input, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, ISelector filter, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 38
+   at Hl7.Fhir.Publication.Framework.Statement.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Statement.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Make.Bulk.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Make\Bulk.cs:line 25
+   at Hl7.Fhir.Publication.Processors.MakeForAllProcessor.Process(Document input, Stage output, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Processors\MakeForAllProcessor.cs:line 42
+   at Hl7.Fhir.Publication.Framework.Processor.Process(IProcessor processor, Stage input, Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 16
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, Stage input, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Processor.Process(PipeLine pipeline, ISelector filter, Log log, IDirectoryCreator fileCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Processor.cs:line 38
+   at Hl7.Fhir.Publication.Framework.Statement.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Statement.cs:line 31
+   at Hl7.Fhir.Publication.Framework.Make.Bulk.Execute(Log log, IDirectoryCreator directoryCreator) in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Make\Bulk.cs:line 25
+   at Hl7.Fhir.Publication.Framework.Publisher.Publish() in C:\Users\rmk\Source\Repos\FHIRGEN-DSTU2\Fhir.Publication\Framework\Publisher.cs:line 80 
+ InnerException: 

@@ -154,6 +154,17 @@
       </type>
     </element>
     <element>
+      <path value="DocumentReference.extension" />
+      <name value="CareSettingType" />
+      <short value="Care Setting Type" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+      </type>
+    </element>
+    <element>
       <path value="DocumentReference.masterIdentifier" />
       <short value="Master Version Specific Identifier" />
       <definition value="Document identifier as assigned by the source of the document. This identifier is specific to this version of the document. This unique identifier may be used elsewhere to identify this version of the document." />
@@ -1268,25 +1279,6 @@
         <identity value="w5" />
         <map value="class" />
       </mapping>
-    </element>
-    <element>
-      <path value="DocumentReference.type.extension" />
-      <slicing>
-        <discriminator value="url" />
-        <rules value="openAtEnd" />
-      </slicing>
-    </element>
-    <element>
-      <path value="DocumentReference.type.extension" />
-      <name value="CareSettingType" />
-      <short value="Care Setting Type" />
-      <definition value="Optional Extensions Element - found in all resources." />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
-      </type>
     </element>
     <element>
       <path value="DocumentReference.type.coding" />
@@ -4812,6 +4804,17 @@
       </type>
     </element>
     <element>
+      <path value="DocumentReference.extension" />
+      <name value="CareSettingType" />
+      <short value="Care Setting Type" />
+      <min value="0" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+      </type>
+    </element>
+    <element>
       <path value="DocumentReference.masterIdentifier.assigner" />
       <short value="Organization that issued id (may be just text)" />
       <definition value="Organization that issued/manages the identifier." />
@@ -5131,25 +5134,6 @@
         <identity value="w5" />
         <map value="class" />
       </mapping>
-    </element>
-    <element>
-      <path value="DocumentReference.type.extension" />
-      <slicing>
-        <discriminator value="url" />
-        <rules value="openAtEnd" />
-      </slicing>
-    </element>
-    <element>
-      <path value="DocumentReference.type.extension" />
-      <name value="CareSettingType" />
-      <short value="Care Setting Type" />
-      <definition value="Optional Extensions Element - found in all resources." />
-      <min value="0" />
-      <max value="1" />
-      <type>
-        <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
-      </type>
     </element>
     <element>
       <path value="DocumentReference.type.coding" />

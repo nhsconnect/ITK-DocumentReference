@@ -3163,7 +3163,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Encounter-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -5648,7 +5648,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/careconnect-encounter-1" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Encounter-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />

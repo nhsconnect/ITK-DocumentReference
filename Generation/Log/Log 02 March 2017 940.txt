@@ -1,0 +1,2604 @@
+
+***Furnace log date run: 02 March 2017 940 ***
+Furnace: Fhir publisher tool version: 2.7.6256.31052
+***Starting generation***
+Source directory: C:\git\NHS-FHIR-CDA-DOCREF\Generation 
+ Target Directory: C:\git\NHS-FHIR-CDA-DOCREF\Generated
+Clear down Generated folder
+Copying files into Schemas folder ...
+Copying files into dist folder ...
+Start: creating IGResource.xml
+End: IGResource.xml created
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Markdown rendering - index 	: index.md
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Razor rendering index
+Create folder Profile.DocumentReference
+IG Creation - Adding birthPlace to IGResource.xml
+            - Adding Profile.DocumentReference package to IGResource.xml
+            - Saving birthPlace.xml in StructureDefinition folder
+IG Creation - birthPlace finished
+IG Creation - Adding CareConnect-Encounter-1 to IGResource.xml
+            - Saving CareConnect-Encounter-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Encounter-1 finished
+IG Creation - Adding CareConnect-Location-1 to IGResource.xml
+            - Saving CareConnect-Location-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Location-1 finished
+IG Creation - Adding CareConnect-Organization-1 to IGResource.xml
+            - Saving CareConnect-Organization-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Organization-1 finished
+IG Creation - Adding CareConnect-Patient-1 to IGResource.xml
+            - Saving CareConnect-Patient-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Patient-1 finished
+IG Creation - Adding CareConnect-Practitioner-1 to IGResource.xml
+            - Saving CareConnect-Practitioner-1.xml in StructureDefinition folder
+IG Creation - CareConnect-Practitioner-1 finished
+IG Creation - Adding COFE-Binary-1 to IGResource.xml
+            - Saving COFE-Binary-Example-1.xml in examples folder
+            - Saving COFE-Binary-1.xml in StructureDefinition folder
+IG Creation - COFE-Binary-1 finished
+IG Creation - Adding COFE-Device-1 to IGResource.xml
+            - Saving COFE-Device-1.xml in StructureDefinition folder
+IG Creation - COFE-Device-1 finished
+IG Creation - Adding COFE-Document-Bundle-1 to IGResource.xml
+            - Saving COFE-Bundle-Example-1.xml in examples folder
+            - Saving COFE-Document-Bundle-1.xml in StructureDefinition folder
+IG Creation - COFE-Document-Bundle-1 finished
+IG Creation - Adding COFE-DocumentReference-1 to IGResource.xml
+            - Saving COFE-DocumentReference-Example-1.xml in examples folder
+            - Saving COFE-DocumentReference-1.xml in StructureDefinition folder
+IG Creation - COFE-DocumentReference-1 finished
+IG Creation - Adding COFE-Related-Person-1 to IGResource.xml
+            - Saving COFE-Related-Person-1.xml in StructureDefinition folder
+IG Creation - COFE-Related-Person-1 finished
+IG Creation - Adding Extension-Care-Setting-Type-1 to IGResource.xml
+            - Saving Extension-Care-Setting-Type-1.xml in StructureDefinition folder
+IG Creation - Extension-Care-Setting-Type-1 finished
+IG Creation - Adding Extension-CareConnect-ActivePeriod-1 to IGResource.xml
+            - Saving Extension-CareConnect-ActivePeriod-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ActivePeriod-1 finished
+IG Creation - Adding Extension-CareConnect-EncounterTransport-1 to IGResource.xml
+            - Saving Extension-CareConnect-EncounterTransport-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EncounterTransport-1 finished
+IG Creation - Adding Extension-CareConnect-EthnicCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-EthnicCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-EthnicCategory-1 finished
+IG Creation - Adding Extension-CareConnect-MainLocation-1 to IGResource.xml
+            - Saving Extension-CareConnect-MainLocation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-MainLocation-1 finished
+IG Creation - Adding Extension-CareConnect-NHSCommunication-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSCommunication-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSCommunication-1 finished
+IG Creation - Adding Extension-CareConnect-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-CareConnect-OrganDonor-1 to IGResource.xml
+            - Saving Extension-CareConnect-OrganDonor-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-OrganDonor-1 finished
+IG Creation - Adding Extension-CareConnect-RegistrationDetails-1 to IGResource.xml
+            - Saving Extension-CareConnect-RegistrationDetails-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-RegistrationDetails-1 finished
+IG Creation - Adding Extension-CareConnect-ReligiousAffiliation-1 to IGResource.xml
+            - Saving Extension-CareConnect-ReligiousAffiliation-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ReligiousAffiliation-1 finished
+IG Creation - Adding Extension-CareConnect-ResidentialStatus-1 to IGResource.xml
+            - Saving Extension-CareConnect-ResidentialStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-ResidentialStatus-1 finished
+IG Creation - Adding Extension-CareConnect-TreatmentCategory-1 to IGResource.xml
+            - Saving Extension-CareConnect-TreatmentCategory-1.xml in StructureDefinition folder
+IG Creation - Extension-CareConnect-TreatmentCategory-1 finished
+IG Creation - Adding Extension-COFE-Authorization-1 to IGResource.xml
+            - Saving Extension-COFE-Authorization-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Authorization-1 finished
+IG Creation - Adding Extension-COFE-Data-Enterer-1 to IGResource.xml
+            - Saving Extension-COFE-Data-Enterer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Data-Enterer-1 finished
+IG Creation - Adding Extension-COFE-Informant-1 to IGResource.xml
+            - Saving Extension-COFE-Informant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Informant-1 finished
+IG Creation - Adding Extension-COFE-Information-Recipient-1 to IGResource.xml
+            - Saving Extension-COFE-Information-Recipient-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Information-Recipient-1 finished
+IG Creation - Adding Extension-COFE-Participant-1 to IGResource.xml
+            - Saving Extension-COFE-Participant-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Participant-1 finished
+IG Creation - Adding Extension-COFE-Performer-1 to IGResource.xml
+            - Saving Extension-COFE-Performer-1.xml in StructureDefinition folder
+IG Creation - Extension-COFE-Performer-1 finished
+IG Creation - Adding Extension-Ethnic-Category-1 to IGResource.xml
+            - Saving Extension-Ethnic-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Ethnic-Category-1 finished
+IG Creation - Adding Extension-NHS-Communication-1 to IGResource.xml
+            - Saving Extension-NHS-Communication-1.xml in StructureDefinition folder
+IG Creation - Extension-NHS-Communication-1 finished
+IG Creation - Adding Extension-NHSNumberVerificationStatus-1 to IGResource.xml
+            - Saving Extension-NHSNumberVerificationStatus-1.xml in StructureDefinition folder
+IG Creation - Extension-NHSNumberVerificationStatus-1 finished
+IG Creation - Adding Extension-Organ-Donor-1 to IGResource.xml
+            - Saving Extension-Organ-Donor-1.xml in StructureDefinition folder
+IG Creation - Extension-Organ-Donor-1 finished
+IG Creation - Adding Extension-Registration-Details-1 to IGResource.xml
+            - Saving Extension-Registration-Details-1.xml in StructureDefinition folder
+IG Creation - Extension-Registration-Details-1 finished
+IG Creation - Adding Extension-Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Extension-Religious-Affiliation-SnCT-1.xml in StructureDefinition folder
+IG Creation - Extension-Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding Extension-Residential-Status-1 to IGResource.xml
+            - Saving Extension-Residential-Status-1.xml in StructureDefinition folder
+IG Creation - Extension-Residential-Status-1 finished
+IG Creation - Adding Extension-Treatment-Category-1 to IGResource.xml
+            - Saving Extension-Treatment-Category-1.xml in StructureDefinition folder
+IG Creation - Extension-Treatment-Category-1 finished
+IG Creation - Adding patient-birthTime to IGResource.xml
+            - Saving patient-birthTime.xml in StructureDefinition folder
+IG Creation - patient-birthTime finished
+IG Creation - Adding Administrative-Gender-1 to IGResource.xml
+            - Saving Administrative-Gender-1.xml in ValueSet folder
+IG Creation - Administrative-Gender-1 finished
+IG Creation - Adding Care-Setting-Type-1 to IGResource.xml
+            - Saving Care-Setting-Type-1.xml in ValueSet folder
+IG Creation - Care-Setting-Type-1 finished
+IG Creation - Adding CareConnect-AdministrativeGender-1 to IGResource.xml
+            - Saving CareConnect-AdministrativeGender-1.xml in ValueSet folder
+IG Creation - CareConnect-AdministrativeGender-1 finished
+IG Creation - Adding CareConnect-EncounterType-1 to IGResource.xml
+            - Saving CareConnect-EncounterType-1.xml in ValueSet folder
+IG Creation - CareConnect-EncounterType-1 finished
+IG Creation - Adding CareConnect-EthnicCategory-1 to IGResource.xml
+            - Saving CareConnect-EthnicCategory-1.xml in ValueSet folder
+IG Creation - CareConnect-EthnicCategory-1 finished
+IG Creation - Adding CareConnect-HumanLanguage-1 to IGResource.xml
+            - Saving CareConnect-HumanLanguage-1.xml in ValueSet folder
+IG Creation - CareConnect-HumanLanguage-1 finished
+IG Creation - Adding CareConnect-LanguageAbilityMode-1 to IGResource.xml
+            - Saving CareConnect-LanguageAbilityMode-1.xml in ValueSet folder
+IG Creation - CareConnect-LanguageAbilityMode-1 finished
+IG Creation - Adding CareConnect-LanguageAbilityProficiency-1 to IGResource.xml
+            - Saving CareConnect-LanguageAbilityProficiency-1.xml in ValueSet folder
+IG Creation - CareConnect-LanguageAbilityProficiency-1 finished
+IG Creation - Adding CareConnect-ManufacturedMaterialSnCT-1 to IGResource.xml
+            - Saving CareConnect-ManufacturedMaterialSnCT-1.xml in ValueSet folder
+IG Creation - CareConnect-ManufacturedMaterialSnCT-1 finished
+IG Creation - Adding CareConnect-MaritalStatus-1 to IGResource.xml
+            - Saving CareConnect-MaritalStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-MaritalStatus-1 finished
+IG Creation - Adding CareConnect-MaritalStatus-DDMAP-1 to IGResource.xml
+            - Saving CareConnect-MaritalStatus-DDMAP-1.xml in ValueSet folder
+IG Creation - CareConnect-MaritalStatus-DDMAP-1 finished
+IG Creation - Adding CareConnect-MedicationDosageMethod-1 to IGResource.xml
+            - Saving CareConnect-MedicationDosageMethod-1.xml in ValueSet folder
+IG Creation - CareConnect-MedicationDosageMethod-1 finished
+IG Creation - Adding CareConnect-MedicationDosageRoute-1 to IGResource.xml
+            - Saving CareConnect-MedicationDosageRoute-1.xml in ValueSet folder
+IG Creation - CareConnect-MedicationDosageRoute-1 finished
+IG Creation - Adding CareConnect-MedicationFlag-1 to IGResource.xml
+            - Saving CareConnect-MedicationFlag-1.xml in ValueSet folder
+IG Creation - CareConnect-MedicationFlag-1 finished
+IG Creation - Adding CareConnect-MedicationSupplyType-1 to IGResource.xml
+            - Saving CareConnect-MedicationSupplyType-1.xml in ValueSet folder
+IG Creation - CareConnect-MedicationSupplyType-1 finished
+IG Creation - Adding CareConnect-NhsNumberVerificationStatus-1 to IGResource.xml
+            - Saving CareConnect-NhsNumberVerificationStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-NhsNumberVerificationStatus-1 finished
+IG Creation - Adding CareConnect-PersonRelationshipType-1 to IGResource.xml
+            - Saving CareConnect-PersonRelationshipType-1.xml in ValueSet folder
+IG Creation - CareConnect-PersonRelationshipType-1 finished
+IG Creation - Adding CareConnect-PersonStatedGender-DDMAP-1 to IGResource.xml
+            - Saving CareConnect-PersonStatedGender-DDMAP-1.xml in ValueSet folder
+IG Creation - CareConnect-PersonStatedGender-DDMAP-1 finished
+IG Creation - Adding CareConnect-RegistrationStatus-1 to IGResource.xml
+            - Saving CareConnect-RegistrationStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-RegistrationStatus-1 finished
+IG Creation - Adding CareConnect-RegistrationType-1 to IGResource.xml
+            - Saving CareConnect-RegistrationType-1.xml in ValueSet folder
+IG Creation - CareConnect-RegistrationType-1 finished
+IG Creation - Adding CareConnect-ReligiousAffiliation-1 to IGResource.xml
+            - Saving CareConnect-ReligiousAffiliation-1.xml in ValueSet folder
+IG Creation - CareConnect-ReligiousAffiliation-1 finished
+IG Creation - Adding CareConnect-ResidentialStatus-1 to IGResource.xml
+            - Saving CareConnect-ResidentialStatus-1.xml in ValueSet folder
+IG Creation - CareConnect-ResidentialStatus-1 finished
+IG Creation - Adding CareConnect-SDSJobRoleName-1 to IGResource.xml
+            - Saving CareConnect-SDSJobRoleName-1.xml in ValueSet folder
+IG Creation - CareConnect-SDSJobRoleName-1 finished
+IG Creation - Adding CareConnect-TreatmentCategory-1 to IGResource.xml
+            - Saving CareConnect-TreatmentCategory-1.xml in ValueSet folder
+IG Creation - CareConnect-TreatmentCategory-1 finished
+IG Creation - Adding CDA-Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving CDA-Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - CDA-Encounter-Type-SnCT-1 finished
+IG Creation - Adding cda-person-relationship-type-1 to IGResource.xml
+            - Saving cda-person-relationship-type-1.xml in ValueSet folder
+IG Creation - cda-person-relationship-type-1 finished
+IG Creation - Adding Correspondence-Document-Type-1 to IGResource.xml
+            - Saving Correspondence-Document-Type-1.xml in ValueSet folder
+IG Creation - Correspondence-Document-Type-1 finished
+IG Creation - Adding Device-Type-1 to IGResource.xml
+            - Saving Device-Type-1.xml in ValueSet folder
+IG Creation - Device-Type-1 finished
+IG Creation - Adding Document-Type-1 to IGResource.xml
+            - Saving Document-Type-1.xml in ValueSet folder
+IG Creation - Document-Type-1 finished
+IG Creation - Adding Encounter-Disposition-SnCT-1 to IGResource.xml
+            - Saving Encounter-Disposition-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Disposition-SnCT-1 finished
+IG Creation - Adding Encounter-Type-SnCT-1 to IGResource.xml
+            - Saving Encounter-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Encounter-Type-SnCT-1 finished
+IG Creation - Adding Ethnic-Category-1 to IGResource.xml
+            - Saving Ethnic-Category-1.xml in ValueSet folder
+IG Creation - Ethnic-Category-1 finished
+IG Creation - Adding Finding-SnCT-1 to IGResource.xml
+            - Saving Finding-SnCT-1.xml in ValueSet folder
+IG Creation - Finding-SnCT-1 finished
+IG Creation - Adding Human-Language-1 to IGResource.xml
+            - Saving Human-Language-1.xml in ValueSet folder
+IG Creation - Human-Language-1 finished
+IG Creation - Adding Job-Role-Name-1 to IGResource.xml
+            - Saving Job-Role-Name-1.xml in ValueSet folder
+IG Creation - Job-Role-Name-1 finished
+IG Creation - Adding Language-Ability-Mode-1 to IGResource.xml
+            - Saving Language-Ability-Mode-1.xml in ValueSet folder
+IG Creation - Language-Ability-Mode-1 finished
+IG Creation - Adding Language-Ability-Proficiency-1 to IGResource.xml
+            - Saving Language-Ability-Proficiency-1.xml in ValueSet folder
+IG Creation - Language-Ability-Proficiency-1 finished
+IG Creation - Adding Marital-Status-1 to IGResource.xml
+            - Saving Marital-Status-1.xml in ValueSet folder
+IG Creation - Marital-Status-1 finished
+IG Creation - Adding marital-status-ddmap-1 to IGResource.xml
+            - Saving marital-status-ddmap-1.xml in ValueSet folder
+IG Creation - marital-status-ddmap-1 finished
+IG Creation - Adding nhsnumberverificationstatus-1 to IGResource.xml
+            - Saving nhsnumberverificationstatus-1.xml in ValueSet folder
+IG Creation - nhsnumberverificationstatus-1 finished
+IG Creation - Adding person-stated-gender-ddmap-1 to IGResource.xml
+            - Saving person-stated-gender-ddmap-1.xml in ValueSet folder
+IG Creation - person-stated-gender-ddmap-1 finished
+IG Creation - Adding Referral-Reason-SnCT-1 to IGResource.xml
+            - Saving Referral-Reason-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Reason-SnCT-1 finished
+IG Creation - Adding Referral-Type-SnCT-1 to IGResource.xml
+            - Saving Referral-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Referral-Type-SnCT-1 finished
+IG Creation - Adding registration-status-1 to IGResource.xml
+            - Saving registration-status-1.xml in ValueSet folder
+IG Creation - registration-status-1 finished
+IG Creation - Adding registration-type-1 to IGResource.xml
+            - Saving registration-type-1.xml in ValueSet folder
+IG Creation - registration-type-1 finished
+IG Creation - Adding Religious-Affiliation-SnCT-1 to IGResource.xml
+            - Saving Religious-Affiliation-SnCT-1.xml in ValueSet folder
+IG Creation - Religious-Affiliation-SnCT-1 finished
+IG Creation - Adding residential-status-1 to IGResource.xml
+            - Saving residential-status-1.xml in ValueSet folder
+IG Creation - residential-status-1 finished
+IG Creation - Adding sds-job-role-name-1 to IGResource.xml
+            - Saving sds-job-role-name-1.xml in ValueSet folder
+IG Creation - sds-job-role-name-1 finished
+IG Creation - Adding Section-Type-SnCT-1 to IGResource.xml
+            - Saving Section-Type-SnCT-1.xml in ValueSet folder
+IG Creation - Section-Type-SnCT-1 finished
+IG Creation - Adding Specialty-1 to IGResource.xml
+            - Saving Specialty-1.xml in ValueSet folder
+IG Creation - Specialty-1 finished
+IG Creation - Adding treatment-category-1 to IGResource.xml
+            - Saving treatment-category-1.xml in ValueSet folder
+IG Creation - treatment-category-1 finished
+Profile Table: IGResource.
+Loading resources into resource store
+Create directory C:\git\NHS-FHIR-CDA-DOCREF\Generated\Profile.DocumentReference
+Render profile table Profile.DocumentReference
+Profile Table: Finish - IGResource
+Loading resources into resource store
+Structure Page: Start - Profile.DocumentReference : birthPlace
+Creating structure for birthPlace
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page birthPlace
+Structure Page: Finish - birthplace
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Encounter-1
+Creating structure for CareConnect-Encounter-1
+CreateRow Encounter( Encounter )
+CreateRow Encounter.id( Encounter )
+CreateRow Encounter.meta( Encounter )
+CreateRow Encounter.implicitRules( Encounter )
+CreateRow Encounter.language( Encounter )
+CreateRow Encounter.text( Encounter )
+CreateRow Encounter.contained( Encounter )
+CreateRow Encounter.extension( Encounter )
+CreateRow Encounter.extension( Encounter )
+CreateRow Encounter.modifierExtension( Encounter )
+CreateRow Encounter.identifier( Encounter )
+CreateRow Encounter.identifier.id( Encounter )
+CreateRow Encounter.identifier.extension( Encounter )
+CreateRow Encounter.identifier.use( Encounter )
+CreateRow Encounter.identifier.type( Encounter )
+CreateRow Encounter.identifier.type.id( Encounter )
+CreateRow Encounter.identifier.type.extension( Encounter )
+CreateRow Encounter.identifier.type.coding( Encounter )
+CreateRow Encounter.identifier.type.coding.id( Encounter )
+CreateRow Encounter.identifier.type.coding.extension( Encounter )
+CreateRow Encounter.identifier.type.coding.system( Encounter )
+CreateRow Encounter.identifier.type.coding.version( Encounter )
+CreateRow Encounter.identifier.type.coding.code( Encounter )
+CreateRow Encounter.identifier.type.coding.display( Encounter )
+CreateRow Encounter.identifier.type.coding.userSelected( Encounter )
+CreateRow Encounter.identifier.type.text( Encounter )
+CreateRow Encounter.identifier.system( Encounter )
+CreateRow Encounter.identifier.value( Encounter )
+CreateRow Encounter.identifier.period( Encounter )
+CreateRow Encounter.identifier.period.id( Encounter )
+CreateRow Encounter.identifier.period.extension( Encounter )
+CreateRow Encounter.identifier.period.start( Encounter )
+CreateRow Encounter.identifier.period.end( Encounter )
+CreateRow Encounter.identifier.assigner( Encounter )
+CreateRow Encounter.identifier.assigner.id( Encounter )
+CreateRow Encounter.identifier.assigner.extension( Encounter )
+CreateRow Encounter.identifier.assigner.reference( Encounter )
+CreateRow Encounter.identifier.assigner.display( Encounter )
+CreateRow Encounter.status( Encounter )
+CreateRow Encounter.statusHistory( Encounter )
+CreateRow Encounter.statusHistory.id( Encounter )
+CreateRow Encounter.statusHistory.extension( Encounter )
+CreateRow Encounter.statusHistory.modifierExtension( Encounter )
+CreateRow Encounter.statusHistory.status( Encounter )
+CreateRow Encounter.statusHistory.period( Encounter )
+CreateRow Encounter.statusHistory.period.id( Encounter )
+CreateRow Encounter.statusHistory.period.extension( Encounter )
+CreateRow Encounter.statusHistory.period.start( Encounter )
+CreateRow Encounter.statusHistory.period.end( Encounter )
+CreateRow Encounter.class( Encounter )
+CreateRow Encounter.type( Encounter )
+CreateRow Encounter.type.id( Encounter )
+CreateRow Encounter.type.extension( Encounter )
+CreateRow Encounter.type.coding( Encounter )
+CreateRow Encounter.type.coding( Encounter )
+CreateRow Encounter.type.coding.id( Encounter )
+CreateRow Encounter.type.coding.extension( Encounter )
+CreateRow Encounter.type.coding.system( Encounter )
+CreateRow Encounter.type.coding.code( Encounter )
+CreateRow Encounter.type.coding.display( Encounter )
+CreateRow Encounter.type.coding.userSelected( Encounter )
+CreateRow Encounter.type.text( Encounter )
+CreateRow Encounter.priority( Encounter )
+CreateRow Encounter.priority.id( Encounter )
+CreateRow Encounter.priority.extension( Encounter )
+CreateRow Encounter.priority.coding( Encounter )
+CreateRow Encounter.priority.coding.id( Encounter )
+CreateRow Encounter.priority.coding.extension( Encounter )
+CreateRow Encounter.priority.coding.system( Encounter )
+CreateRow Encounter.priority.coding.version( Encounter )
+CreateRow Encounter.priority.coding.code( Encounter )
+CreateRow Encounter.priority.coding.display( Encounter )
+CreateRow Encounter.priority.coding.userSelected( Encounter )
+CreateRow Encounter.priority.text( Encounter )
+CreateRow Encounter.patient( Encounter )
+CreateRow Encounter.patient.id( Encounter )
+CreateRow Encounter.patient.extension( Encounter )
+CreateRow Encounter.patient.reference( Encounter )
+CreateRow Encounter.patient.display( Encounter )
+CreateRow Encounter.episodeOfCare( Encounter )
+CreateRow Encounter.episodeOfCare.id( Encounter )
+CreateRow Encounter.episodeOfCare.extension( Encounter )
+CreateRow Encounter.episodeOfCare.reference( Encounter )
+CreateRow Encounter.episodeOfCare.display( Encounter )
+CreateRow Encounter.incomingReferral( Encounter )
+CreateRow Encounter.incomingReferral.id( Encounter )
+CreateRow Encounter.incomingReferral.extension( Encounter )
+CreateRow Encounter.incomingReferral.reference( Encounter )
+CreateRow Encounter.incomingReferral.display( Encounter )
+CreateRow Encounter.participant( Encounter )
+CreateRow Encounter.participant.id( Encounter )
+CreateRow Encounter.participant.extension( Encounter )
+CreateRow Encounter.participant.modifierExtension( Encounter )
+CreateRow Encounter.participant.type( Encounter )
+CreateRow Encounter.participant.type.id( Encounter )
+CreateRow Encounter.participant.type.extension( Encounter )
+CreateRow Encounter.participant.type.coding( Encounter )
+CreateRow Encounter.participant.type.coding.id( Encounter )
+CreateRow Encounter.participant.type.coding.extension( Encounter )
+CreateRow Encounter.participant.type.coding.system( Encounter )
+CreateRow Encounter.participant.type.coding.version( Encounter )
+CreateRow Encounter.participant.type.coding.code( Encounter )
+CreateRow Encounter.participant.type.coding.display( Encounter )
+CreateRow Encounter.participant.type.coding.userSelected( Encounter )
+CreateRow Encounter.participant.type.text( Encounter )
+CreateRow Encounter.participant.period( Encounter )
+CreateRow Encounter.participant.period.id( Encounter )
+CreateRow Encounter.participant.period.extension( Encounter )
+CreateRow Encounter.participant.period.start( Encounter )
+CreateRow Encounter.participant.period.end( Encounter )
+CreateRow Encounter.participant.individual( Encounter )
+CreateRow Encounter.appointment( Encounter )
+CreateRow Encounter.appointment.id( Encounter )
+CreateRow Encounter.appointment.extension( Encounter )
+CreateRow Encounter.appointment.reference( Encounter )
+CreateRow Encounter.appointment.display( Encounter )
+CreateRow Encounter.period( Encounter )
+CreateRow Encounter.period.id( Encounter )
+CreateRow Encounter.period.extension( Encounter )
+CreateRow Encounter.period.start( Encounter )
+CreateRow Encounter.period.end( Encounter )
+CreateRow Encounter.length( Encounter )
+CreateRow Encounter.length.id( Encounter )
+CreateRow Encounter.length.extension( Encounter )
+CreateRow Encounter.length.value( Encounter )
+CreateRow Encounter.length.comparator( Encounter )
+CreateRow Encounter.length.unit( Encounter )
+CreateRow Encounter.length.system( Encounter )
+CreateRow Encounter.length.code( Encounter )
+CreateRow Encounter.reason( Encounter )
+CreateRow Encounter.reason.id( Encounter )
+CreateRow Encounter.reason.extension( Encounter )
+CreateRow Encounter.reason.coding( Encounter )
+CreateRow Encounter.reason.coding( Encounter )
+CreateRow Encounter.reason.coding.id( Encounter )
+CreateRow Encounter.reason.coding.extension( Encounter )
+CreateRow Encounter.reason.coding.system( Encounter )
+CreateRow Encounter.reason.coding.code( Encounter )
+CreateRow Encounter.reason.coding.display( Encounter )
+CreateRow Encounter.reason.coding.userSelected( Encounter )
+CreateRow Encounter.reason.text( Encounter )
+CreateRow Encounter.indication( Encounter )
+CreateRow Encounter.hospitalization( Encounter )
+CreateRow Encounter.hospitalization.id( Encounter )
+CreateRow Encounter.hospitalization.extension( Encounter )
+CreateRow Encounter.hospitalization.modifierExtension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.id( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.extension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.use( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.id( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.extension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.id( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.system( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.version( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.code( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.display( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.type.text( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.system( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.value( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.id( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.extension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.start( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.period.end( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.id( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.extension( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.reference( Encounter )
+CreateRow Encounter.hospitalization.preAdmissionIdentifier.assigner.display( Encounter )
+CreateRow Encounter.hospitalization.origin( Encounter )
+CreateRow Encounter.hospitalization.origin.id( Encounter )
+CreateRow Encounter.hospitalization.origin.extension( Encounter )
+CreateRow Encounter.hospitalization.origin.reference( Encounter )
+CreateRow Encounter.hospitalization.origin.display( Encounter )
+CreateRow Encounter.hospitalization.admitSource( Encounter )
+CreateRow Encounter.hospitalization.admitSource.id( Encounter )
+CreateRow Encounter.hospitalization.admitSource.extension( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.id( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.system( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.version( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.code( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.display( Encounter )
+CreateRow Encounter.hospitalization.admitSource.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.admitSource.text( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.id( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.extension( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.reference( Encounter )
+CreateRow Encounter.hospitalization.admittingDiagnosis.display( Encounter )
+CreateRow Encounter.hospitalization.reAdmission( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.id( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.extension( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.id( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.system( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.code( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.display( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.reAdmission.text( Encounter )
+CreateRow Encounter.hospitalization.dietPreference( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.id( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.extension( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.id( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.system( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.version( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.code( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.display( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.dietPreference.text( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.id( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.extension( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.id( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.system( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.version( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.code( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.display( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.specialCourtesy.text( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.id( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.extension( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.id( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.system( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.version( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.code( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.display( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.specialArrangement.text( Encounter )
+CreateRow Encounter.hospitalization.destination( Encounter )
+CreateRow Encounter.hospitalization.destination.id( Encounter )
+CreateRow Encounter.hospitalization.destination.extension( Encounter )
+CreateRow Encounter.hospitalization.destination.reference( Encounter )
+CreateRow Encounter.hospitalization.destination.display( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.id( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.extension( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.id( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.extension( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.system( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.version( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.code( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.display( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.coding.userSelected( Encounter )
+CreateRow Encounter.hospitalization.dischargeDisposition.text( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.id( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.extension( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.reference( Encounter )
+CreateRow Encounter.hospitalization.dischargeDiagnosis.display( Encounter )
+CreateRow Encounter.location( Encounter )
+CreateRow Encounter.location.id( Encounter )
+CreateRow Encounter.location.extension( Encounter )
+CreateRow Encounter.location.modifierExtension( Encounter )
+CreateRow Encounter.location.location( Encounter )
+CreateRow Encounter.location.location.id( Encounter )
+CreateRow Encounter.location.location.extension( Encounter )
+CreateRow Encounter.location.location.reference( Encounter )
+CreateRow Encounter.location.location.display( Encounter )
+CreateRow Encounter.location.status( Encounter )
+CreateRow Encounter.location.period( Encounter )
+CreateRow Encounter.location.period.id( Encounter )
+CreateRow Encounter.location.period.extension( Encounter )
+CreateRow Encounter.location.period.start( Encounter )
+CreateRow Encounter.location.period.end( Encounter )
+CreateRow Encounter.serviceProvider( Encounter )
+CreateRow Encounter.serviceProvider.id( Encounter )
+CreateRow Encounter.serviceProvider.extension( Encounter )
+CreateRow Encounter.serviceProvider.reference( Encounter )
+CreateRow Encounter.serviceProvider.display( Encounter )
+CreateRow Encounter.partOf( Encounter )
+CreateRow Encounter.partOf.id( Encounter )
+CreateRow Encounter.partOf.extension( Encounter )
+CreateRow Encounter.partOf.reference( Encounter )
+CreateRow Encounter.partOf.display( Encounter )
+ create Bindings table
+ format binding for Encounter.language
+ format binding for Encounter.identifier.use
+ format binding for Encounter.identifier.type
+ format binding for Encounter.status
+ format binding for Encounter.class
+ format binding for Encounter.type
+ format binding for Encounter.type.coding
+ format binding for Encounter.priority
+ format binding for Encounter.participant.type
+ format binding for Encounter.length.comparator
+ format binding for Encounter.reason
+ format binding for Encounter.hospitalization.admitSource
+ format binding for Encounter.hospitalization.reAdmission
+ format binding for Encounter.hospitalization.dietPreference
+ format binding for Encounter.hospitalization.specialCourtesy
+ format binding for Encounter.hospitalization.specialArrangement
+ format binding for Encounter.hospitalization.dischargeDisposition
+ format binding for Encounter.location.status
+Render page CareConnect-Encounter-1
+Structure Page: Finish - careconnect-encounter-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Location-1
+Creating structure for CareConnect-Location-1
+CreateRow Location( Location )
+CreateRow Location.id( Location )
+CreateRow Location.meta( Location )
+CreateRow Location.implicitRules( Location )
+CreateRow Location.language( Location )
+CreateRow Location.text( Location )
+CreateRow Location.contained( Location )
+CreateRow Location.extension( Location )
+CreateRow Location.modifierExtension( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier.id( Location )
+CreateRow Location.identifier.extension( Location )
+CreateRow Location.identifier.system( Location )
+CreateRow Location.identifier.value( Location )
+CreateRow Location.identifier( Location )
+CreateRow Location.identifier.id( Location )
+CreateRow Location.identifier.extension( Location )
+CreateRow Location.identifier.use( Location )
+CreateRow Location.identifier.type( Location )
+CreateRow Location.identifier.type.id( Location )
+CreateRow Location.identifier.type.extension( Location )
+CreateRow Location.identifier.type.coding( Location )
+CreateRow Location.identifier.type.coding.id( Location )
+CreateRow Location.identifier.type.coding.extension( Location )
+CreateRow Location.identifier.type.coding.system( Location )
+CreateRow Location.identifier.type.coding.version( Location )
+CreateRow Location.identifier.type.coding.code( Location )
+CreateRow Location.identifier.type.coding.display( Location )
+CreateRow Location.identifier.type.coding.userSelected( Location )
+CreateRow Location.identifier.type.text( Location )
+CreateRow Location.identifier.system( Location )
+CreateRow Location.identifier.value( Location )
+CreateRow Location.identifier.period( Location )
+CreateRow Location.identifier.period.id( Location )
+CreateRow Location.identifier.period.extension( Location )
+CreateRow Location.identifier.period.start( Location )
+CreateRow Location.identifier.period.end( Location )
+CreateRow Location.identifier.assigner( Location )
+CreateRow Location.identifier.assigner.id( Location )
+CreateRow Location.identifier.assigner.extension( Location )
+CreateRow Location.identifier.assigner.reference( Location )
+CreateRow Location.identifier.assigner.display( Location )
+CreateRow Location.status( Location )
+CreateRow Location.name( Location )
+CreateRow Location.description( Location )
+CreateRow Location.mode( Location )
+CreateRow Location.type( Location )
+CreateRow Location.type.id( Location )
+CreateRow Location.type.extension( Location )
+CreateRow Location.type.coding( Location )
+CreateRow Location.type.coding.id( Location )
+CreateRow Location.type.coding.extension( Location )
+CreateRow Location.type.coding.system( Location )
+CreateRow Location.type.coding.version( Location )
+CreateRow Location.type.coding.code( Location )
+CreateRow Location.type.coding.display( Location )
+CreateRow Location.type.coding.userSelected( Location )
+CreateRow Location.type.text( Location )
+CreateRow Location.telecom( Location )
+CreateRow Location.telecom.id( Location )
+CreateRow Location.telecom.extension( Location )
+CreateRow Location.telecom.system( Location )
+CreateRow Location.telecom.value( Location )
+CreateRow Location.telecom.use( Location )
+CreateRow Location.telecom.rank( Location )
+CreateRow Location.telecom.period( Location )
+CreateRow Location.telecom.period.id( Location )
+CreateRow Location.telecom.period.extension( Location )
+CreateRow Location.telecom.period.start( Location )
+CreateRow Location.telecom.period.end( Location )
+CreateRow Location.address( Location )
+CreateRow Location.address.id( Location )
+CreateRow Location.address.extension( Location )
+CreateRow Location.address.use( Location )
+CreateRow Location.address.type( Location )
+CreateRow Location.address.text( Location )
+CreateRow Location.address.line( Location )
+CreateRow Location.address.city( Location )
+CreateRow Location.address.district( Location )
+CreateRow Location.address.postalCode( Location )
+CreateRow Location.address.country( Location )
+CreateRow Location.address.period( Location )
+CreateRow Location.address.period.id( Location )
+CreateRow Location.address.period.extension( Location )
+CreateRow Location.address.period.start( Location )
+CreateRow Location.address.period.end( Location )
+CreateRow Location.physicalType( Location )
+CreateRow Location.physicalType.id( Location )
+CreateRow Location.physicalType.extension( Location )
+CreateRow Location.physicalType.coding( Location )
+CreateRow Location.physicalType.coding.id( Location )
+CreateRow Location.physicalType.coding.extension( Location )
+CreateRow Location.physicalType.coding.system( Location )
+CreateRow Location.physicalType.coding.version( Location )
+CreateRow Location.physicalType.coding.code( Location )
+CreateRow Location.physicalType.coding.display( Location )
+CreateRow Location.physicalType.coding.userSelected( Location )
+CreateRow Location.physicalType.text( Location )
+CreateRow Location.position( Location )
+CreateRow Location.position.id( Location )
+CreateRow Location.position.extension( Location )
+CreateRow Location.position.modifierExtension( Location )
+CreateRow Location.position.longitude( Location )
+CreateRow Location.position.latitude( Location )
+CreateRow Location.position.altitude( Location )
+CreateRow Location.managingOrganization( Location )
+CreateRow Location.managingOrganization.id( Location )
+CreateRow Location.managingOrganization.extension( Location )
+CreateRow Location.managingOrganization.reference( Location )
+CreateRow Location.managingOrganization.display( Location )
+CreateRow Location.partOf( Location )
+CreateRow Location.partOf.id( Location )
+CreateRow Location.partOf.extension( Location )
+CreateRow Location.partOf.reference( Location )
+CreateRow Location.partOf.display( Location )
+ create Bindings table
+ format binding for Location.language
+ format binding for Location.identifier.use
+ format binding for Location.identifier.type
+ format binding for Location.status
+ format binding for Location.mode
+ format binding for Location.type
+ format binding for Location.telecom.system
+ format binding for Location.telecom.use
+ format binding for Location.address.use
+ format binding for Location.address.type
+ format binding for Location.physicalType
+Render page CareConnect-Location-1
+Structure Page: Finish - careconnect-location-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Organization-1
+Creating structure for CareConnect-Organization-1
+CreateRow Organization( Organization )
+CreateRow Organization.id( Organization )
+CreateRow Organization.meta( Organization )
+CreateRow Organization.implicitRules( Organization )
+CreateRow Organization.language( Organization )
+CreateRow Organization.text( Organization )
+CreateRow Organization.contained( Organization )
+CreateRow Organization.extension( Organization )
+CreateRow Organization.extension( Organization )
+CreateRow Organization.modifierExtension( Organization )
+CreateRow Organization.identifier( Organization )
+CreateRow Organization.identifier( Organization )
+CreateRow Organization.identifier.id( Organization )
+CreateRow Organization.identifier.extension( Organization )
+CreateRow Organization.identifier.system( Organization )
+CreateRow Organization.identifier.value( Organization )
+CreateRow Organization.identifier( Organization )
+CreateRow Organization.identifier.id( Organization )
+CreateRow Organization.identifier.extension( Organization )
+CreateRow Organization.identifier.system( Organization )
+CreateRow Organization.identifier.value( Organization )
+CreateRow Organization.identifier( Organization )
+CreateRow Organization.identifier.id( Organization )
+CreateRow Organization.identifier.extension( Organization )
+CreateRow Organization.identifier.use( Organization )
+CreateRow Organization.identifier.type( Organization )
+CreateRow Organization.identifier.type.id( Organization )
+CreateRow Organization.identifier.type.extension( Organization )
+CreateRow Organization.identifier.type.coding( Organization )
+CreateRow Organization.identifier.type.coding.id( Organization )
+CreateRow Organization.identifier.type.coding.extension( Organization )
+CreateRow Organization.identifier.type.coding.system( Organization )
+CreateRow Organization.identifier.type.coding.version( Organization )
+CreateRow Organization.identifier.type.coding.code( Organization )
+CreateRow Organization.identifier.type.coding.display( Organization )
+CreateRow Organization.identifier.type.coding.userSelected( Organization )
+CreateRow Organization.identifier.type.text( Organization )
+CreateRow Organization.identifier.system( Organization )
+CreateRow Organization.identifier.value( Organization )
+CreateRow Organization.identifier.period( Organization )
+CreateRow Organization.identifier.period.id( Organization )
+CreateRow Organization.identifier.period.extension( Organization )
+CreateRow Organization.identifier.period.start( Organization )
+CreateRow Organization.identifier.period.end( Organization )
+CreateRow Organization.identifier.assigner( Organization )
+CreateRow Organization.identifier.assigner.id( Organization )
+CreateRow Organization.identifier.assigner.extension( Organization )
+CreateRow Organization.identifier.assigner.reference( Organization )
+CreateRow Organization.identifier.assigner.display( Organization )
+CreateRow Organization.active( Organization )
+CreateRow Organization.active.id( Organization )
+CreateRow Organization.active.extension( Organization )
+CreateRow Organization.active.extension( Organization )
+CreateRow Organization.active.value( Organization )
+CreateRow Organization.type( Organization )
+CreateRow Organization.type.id( Organization )
+CreateRow Organization.type.extension( Organization )
+CreateRow Organization.type.coding( Organization )
+CreateRow Organization.type.coding.id( Organization )
+CreateRow Organization.type.coding.extension( Organization )
+CreateRow Organization.type.coding.system( Organization )
+CreateRow Organization.type.coding.code( Organization )
+CreateRow Organization.type.coding.display( Organization )
+CreateRow Organization.type.text( Organization )
+CreateRow Organization.name( Organization )
+CreateRow Organization.telecom( Organization )
+CreateRow Organization.telecom.id( Organization )
+CreateRow Organization.telecom.extension( Organization )
+CreateRow Organization.telecom.system( Organization )
+CreateRow Organization.telecom.value( Organization )
+CreateRow Organization.telecom.use( Organization )
+CreateRow Organization.telecom.rank( Organization )
+CreateRow Organization.telecom.period( Organization )
+CreateRow Organization.telecom.period.id( Organization )
+CreateRow Organization.telecom.period.extension( Organization )
+CreateRow Organization.telecom.period.start( Organization )
+CreateRow Organization.telecom.period.end( Organization )
+CreateRow Organization.address( Organization )
+CreateRow Organization.address.id( Organization )
+CreateRow Organization.address.extension( Organization )
+CreateRow Organization.address.use( Organization )
+CreateRow Organization.address.type( Organization )
+CreateRow Organization.address.text( Organization )
+CreateRow Organization.address.line( Organization )
+CreateRow Organization.address.city( Organization )
+CreateRow Organization.address.district( Organization )
+CreateRow Organization.address.postalCode( Organization )
+CreateRow Organization.address.country( Organization )
+CreateRow Organization.address.period( Organization )
+CreateRow Organization.address.period.id( Organization )
+CreateRow Organization.address.period.extension( Organization )
+CreateRow Organization.address.period.start( Organization )
+CreateRow Organization.address.period.end( Organization )
+CreateRow Organization.partOf( Organization )
+CreateRow Organization.partOf.id( Organization )
+CreateRow Organization.partOf.extension( Organization )
+CreateRow Organization.partOf.reference( Organization )
+CreateRow Organization.partOf.display( Organization )
+CreateRow Organization.contact( Organization )
+CreateRow Organization.contact.id( Organization )
+CreateRow Organization.contact.extension( Organization )
+CreateRow Organization.contact.modifierExtension( Organization )
+CreateRow Organization.contact.purpose( Organization )
+CreateRow Organization.contact.purpose.id( Organization )
+CreateRow Organization.contact.purpose.extension( Organization )
+CreateRow Organization.contact.purpose.coding( Organization )
+CreateRow Organization.contact.purpose.coding.id( Organization )
+CreateRow Organization.contact.purpose.coding.extension( Organization )
+CreateRow Organization.contact.purpose.coding.system( Organization )
+CreateRow Organization.contact.purpose.coding.version( Organization )
+CreateRow Organization.contact.purpose.coding.code( Organization )
+CreateRow Organization.contact.purpose.coding.display( Organization )
+CreateRow Organization.contact.purpose.coding.userSelected( Organization )
+CreateRow Organization.contact.purpose.text( Organization )
+CreateRow Organization.contact.name( Organization )
+CreateRow Organization.contact.name.id( Organization )
+CreateRow Organization.contact.name.extension( Organization )
+CreateRow Organization.contact.name.family( Organization )
+CreateRow Organization.contact.name.given( Organization )
+CreateRow Organization.contact.name.prefix( Organization )
+CreateRow Organization.contact.name.suffix( Organization )
+CreateRow Organization.contact.telecom( Organization )
+CreateRow Organization.contact.telecom.id( Organization )
+CreateRow Organization.contact.telecom.extension( Organization )
+CreateRow Organization.contact.telecom.system( Organization )
+CreateRow Organization.contact.telecom.value( Organization )
+CreateRow Organization.contact.telecom.use( Organization )
+CreateRow Organization.contact.telecom.rank( Organization )
+CreateRow Organization.contact.telecom.period( Organization )
+CreateRow Organization.contact.telecom.period.id( Organization )
+CreateRow Organization.contact.telecom.period.extension( Organization )
+CreateRow Organization.contact.telecom.period.start( Organization )
+CreateRow Organization.contact.telecom.period.end( Organization )
+CreateRow Organization.contact.address( Organization )
+CreateRow Organization.contact.address.id( Organization )
+CreateRow Organization.contact.address.extension( Organization )
+CreateRow Organization.contact.address.use( Organization )
+CreateRow Organization.contact.address.type( Organization )
+CreateRow Organization.contact.address.text( Organization )
+CreateRow Organization.contact.address.line( Organization )
+CreateRow Organization.contact.address.city( Organization )
+CreateRow Organization.contact.address.district( Organization )
+CreateRow Organization.contact.address.postalCode( Organization )
+CreateRow Organization.contact.address.country( Organization )
+CreateRow Organization.contact.address.period( Organization )
+CreateRow Organization.contact.address.period.id( Organization )
+CreateRow Organization.contact.address.period.extension( Organization )
+CreateRow Organization.contact.address.period.start( Organization )
+CreateRow Organization.contact.address.period.end( Organization )
+ create Bindings table
+ format binding for Organization.language
+ format binding for Organization.identifier.use
+ format binding for Organization.identifier.type
+ format binding for Organization.type
+ format binding for Organization.telecom.system
+ format binding for Organization.telecom.use
+ format binding for Organization.address.use
+ format binding for Organization.address.type
+ format binding for Organization.contact.purpose
+Render page CareConnect-Organization-1
+Structure Page: Finish - careconnect-organization-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Patient-1
+Creating structure for CareConnect-Patient-1
+CreateRow Patient( Patient )
+CreateRow Patient.id( Patient )
+CreateRow Patient.meta( Patient )
+CreateRow Patient.implicitRules( Patient )
+CreateRow Patient.language( Patient )
+CreateRow Patient.text( Patient )
+CreateRow Patient.contained( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.extension( Patient )
+CreateRow Patient.modifierExtension( Patient )
+CreateRow Patient.identifier( Patient )
+CreateRow Patient.identifier( Patient )
+CreateRow Patient.identifier.id( Patient )
+CreateRow Patient.identifier.extension( Patient )
+CreateRow Patient.identifier.extension( Patient )
+CreateRow Patient.identifier.system( Patient )
+CreateRow Patient.identifier.value( Patient )
+CreateRow Patient.identifier( Patient )
+CreateRow Patient.identifier.id( Patient )
+CreateRow Patient.identifier.extension( Patient )
+CreateRow Patient.identifier.use( Patient )
+CreateRow Patient.identifier.type( Patient )
+CreateRow Patient.identifier.type.id( Patient )
+CreateRow Patient.identifier.type.extension( Patient )
+CreateRow Patient.identifier.type.coding( Patient )
+CreateRow Patient.identifier.type.coding.id( Patient )
+CreateRow Patient.identifier.type.coding.extension( Patient )
+CreateRow Patient.identifier.type.coding.system( Patient )
+CreateRow Patient.identifier.type.coding.version( Patient )
+CreateRow Patient.identifier.type.coding.code( Patient )
+CreateRow Patient.identifier.type.coding.display( Patient )
+CreateRow Patient.identifier.type.coding.userSelected( Patient )
+CreateRow Patient.identifier.type.text( Patient )
+CreateRow Patient.identifier.system( Patient )
+CreateRow Patient.identifier.value( Patient )
+CreateRow Patient.identifier.period( Patient )
+CreateRow Patient.identifier.period.id( Patient )
+CreateRow Patient.identifier.period.extension( Patient )
+CreateRow Patient.identifier.period.start( Patient )
+CreateRow Patient.identifier.period.end( Patient )
+CreateRow Patient.identifier.assigner( Patient )
+CreateRow Patient.identifier.assigner.id( Patient )
+CreateRow Patient.identifier.assigner.extension( Patient )
+CreateRow Patient.identifier.assigner.reference( Patient )
+CreateRow Patient.identifier.assigner.display( Patient )
+CreateRow Patient.active( Patient )
+CreateRow Patient.name( Patient )
+CreateRow Patient.name( Patient )
+CreateRow Patient.name.id( Patient )
+CreateRow Patient.name.extension( Patient )
+CreateRow Patient.name.use( Patient )
+CreateRow Patient.name.text( Patient )
+CreateRow Patient.name.family( Patient )
+CreateRow Patient.name.given( Patient )
+CreateRow Patient.name.prefix( Patient )
+CreateRow Patient.name.suffix( Patient )
+CreateRow Patient.name.period( Patient )
+CreateRow Patient.name.period.id( Patient )
+CreateRow Patient.name.period.extension( Patient )
+CreateRow Patient.name.period.start( Patient )
+CreateRow Patient.name( Patient )
+CreateRow Patient.name.id( Patient )
+CreateRow Patient.name.extension( Patient )
+CreateRow Patient.name.use( Patient )
+CreateRow Patient.name.text( Patient )
+CreateRow Patient.name.family( Patient )
+CreateRow Patient.name.given( Patient )
+CreateRow Patient.name.prefix( Patient )
+CreateRow Patient.name.suffix( Patient )
+CreateRow Patient.name.period( Patient )
+CreateRow Patient.name.period.id( Patient )
+CreateRow Patient.name.period.extension( Patient )
+CreateRow Patient.name.period.start( Patient )
+CreateRow Patient.name.period.end( Patient )
+CreateRow Patient.telecom( Patient )
+CreateRow Patient.telecom.id( Patient )
+CreateRow Patient.telecom.extension( Patient )
+CreateRow Patient.telecom.system( Patient )
+CreateRow Patient.telecom.value( Patient )
+CreateRow Patient.telecom.use( Patient )
+CreateRow Patient.telecom.period( Patient )
+CreateRow Patient.telecom.period.id( Patient )
+CreateRow Patient.telecom.period.extension( Patient )
+CreateRow Patient.telecom.period.start( Patient )
+CreateRow Patient.telecom.period.end( Patient )
+CreateRow Patient.gender( Patient )
+CreateRow Patient.birthDate( Patient )
+CreateRow Patient.birthDate.id( Patient )
+CreateRow Patient.birthDate.extension( Patient )
+CreateRow Patient.birthDate.extension( Patient )
+CreateRow Patient.birthDate.value( Patient )
+CreateRow Patient.deceased[x]( Patient )
+CreateRow Patient.address( Patient )
+CreateRow Patient.address.id( Patient )
+CreateRow Patient.address.extension( Patient )
+CreateRow Patient.address.use( Patient )
+CreateRow Patient.address.type( Patient )
+CreateRow Patient.address.text( Patient )
+CreateRow Patient.address.line( Patient )
+CreateRow Patient.address.city( Patient )
+CreateRow Patient.address.district( Patient )
+CreateRow Patient.address.postalCode( Patient )
+CreateRow Patient.address.country( Patient )
+CreateRow Patient.address.period( Patient )
+CreateRow Patient.address.period.id( Patient )
+CreateRow Patient.address.period.extension( Patient )
+CreateRow Patient.address.period.start( Patient )
+CreateRow Patient.address.period.end( Patient )
+CreateRow Patient.maritalStatus( Patient )
+CreateRow Patient.maritalStatus.id( Patient )
+CreateRow Patient.maritalStatus.extension( Patient )
+CreateRow Patient.maritalStatus.coding( Patient )
+CreateRow Patient.maritalStatus.coding.id( Patient )
+CreateRow Patient.maritalStatus.coding.extension( Patient )
+CreateRow Patient.maritalStatus.coding.system( Patient )
+CreateRow Patient.maritalStatus.coding.code( Patient )
+CreateRow Patient.maritalStatus.coding.display( Patient )
+CreateRow Patient.multipleBirth[x]( Patient )
+CreateRow Patient.contact( Patient )
+CreateRow Patient.contact.id( Patient )
+CreateRow Patient.contact.extension( Patient )
+CreateRow Patient.contact.modifierExtension( Patient )
+CreateRow Patient.contact.relationship( Patient )
+CreateRow Patient.contact.relationship.id( Patient )
+CreateRow Patient.contact.relationship.extension( Patient )
+CreateRow Patient.contact.relationship.coding( Patient )
+CreateRow Patient.contact.relationship.coding.id( Patient )
+CreateRow Patient.contact.relationship.coding.extension( Patient )
+CreateRow Patient.contact.relationship.coding.system( Patient )
+CreateRow Patient.contact.relationship.coding.code( Patient )
+CreateRow Patient.contact.relationship.coding.display( Patient )
+CreateRow Patient.contact.name( Patient )
+CreateRow Patient.contact.name.id( Patient )
+CreateRow Patient.contact.name.extension( Patient )
+CreateRow Patient.contact.name.use( Patient )
+CreateRow Patient.contact.name.family( Patient )
+CreateRow Patient.contact.name.given( Patient )
+CreateRow Patient.contact.name.prefix( Patient )
+CreateRow Patient.contact.name.suffix( Patient )
+CreateRow Patient.contact.telecom( Patient )
+CreateRow Patient.contact.telecom.id( Patient )
+CreateRow Patient.contact.telecom.extension( Patient )
+CreateRow Patient.contact.telecom.system( Patient )
+CreateRow Patient.contact.telecom.value( Patient )
+CreateRow Patient.contact.telecom.use( Patient )
+CreateRow Patient.contact.telecom.period( Patient )
+CreateRow Patient.contact.telecom.period.id( Patient )
+CreateRow Patient.contact.telecom.period.extension( Patient )
+CreateRow Patient.contact.telecom.period.start( Patient )
+CreateRow Patient.contact.telecom.period.end( Patient )
+CreateRow Patient.contact.address( Patient )
+CreateRow Patient.contact.address.id( Patient )
+CreateRow Patient.contact.address.extension( Patient )
+CreateRow Patient.contact.address.use( Patient )
+CreateRow Patient.contact.address.type( Patient )
+CreateRow Patient.contact.address.text( Patient )
+CreateRow Patient.contact.address.line( Patient )
+CreateRow Patient.contact.address.city( Patient )
+CreateRow Patient.contact.address.district( Patient )
+CreateRow Patient.contact.address.postalCode( Patient )
+CreateRow Patient.contact.address.country( Patient )
+CreateRow Patient.contact.address.period( Patient )
+CreateRow Patient.contact.address.period.id( Patient )
+CreateRow Patient.contact.address.period.extension( Patient )
+CreateRow Patient.contact.address.period.start( Patient )
+CreateRow Patient.contact.address.period.end( Patient )
+CreateRow Patient.contact.gender( Patient )
+CreateRow Patient.contact.organization( Patient )
+CreateRow Patient.contact.organization.id( Patient )
+CreateRow Patient.contact.organization.extension( Patient )
+CreateRow Patient.contact.organization.reference( Patient )
+CreateRow Patient.contact.organization.display( Patient )
+CreateRow Patient.contact.period( Patient )
+CreateRow Patient.contact.period.id( Patient )
+CreateRow Patient.contact.period.extension( Patient )
+CreateRow Patient.contact.period.start( Patient )
+CreateRow Patient.contact.period.end( Patient )
+CreateRow Patient.careProvider( Patient )
+CreateRow Patient.managingOrganization( Patient )
+CreateRow Patient.managingOrganization.id( Patient )
+CreateRow Patient.managingOrganization.extension( Patient )
+CreateRow Patient.managingOrganization.reference( Patient )
+CreateRow Patient.managingOrganization.display( Patient )
+CreateRow Patient.link( Patient )
+CreateRow Patient.link.id( Patient )
+CreateRow Patient.link.extension( Patient )
+CreateRow Patient.link.modifierExtension( Patient )
+CreateRow Patient.link.other( Patient )
+CreateRow Patient.link.other.id( Patient )
+CreateRow Patient.link.other.extension( Patient )
+CreateRow Patient.link.other.reference( Patient )
+CreateRow Patient.link.other.display( Patient )
+CreateRow Patient.link.type( Patient )
+ create Bindings table
+ format binding for Patient.language
+ format binding for Patient.extension
+ format binding for Patient.extension
+ format binding for Patient.identifier.use
+ format binding for Patient.identifier.type
+ format binding for Patient.name.use
+ format binding for Patient.telecom.system
+ format binding for Patient.telecom.use
+ format binding for Patient.gender
+ format binding for Patient.address.use
+ format binding for Patient.address.type
+ format binding for Patient.maritalStatus
+ format binding for Patient.photo.contentType
+ format binding for Patient.contact.relationship
+ format binding for Patient.animal.species
+ format binding for Patient.animal.breed
+ format binding for Patient.animal.genderStatus
+ format binding for Patient.link.type
+Render page CareConnect-Patient-1
+Structure Page: Finish - careconnect-patient-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : CareConnect-Practitioner-1
+Creating structure for CareConnect-Practitioner-1
+CreateRow Practitioner( Practitioner )
+CreateRow Practitioner.id( Practitioner )
+CreateRow Practitioner.meta( Practitioner )
+CreateRow Practitioner.implicitRules( Practitioner )
+CreateRow Practitioner.language( Practitioner )
+CreateRow Practitioner.text( Practitioner )
+CreateRow Practitioner.contained( Practitioner )
+CreateRow Practitioner.extension( Practitioner )
+CreateRow Practitioner.extension( Practitioner )
+CreateRow Practitioner.modifierExtension( Practitioner )
+CreateRow Practitioner.identifier( Practitioner )
+CreateRow Practitioner.identifier( Practitioner )
+CreateRow Practitioner.identifier.id( Practitioner )
+CreateRow Practitioner.identifier.extension( Practitioner )
+CreateRow Practitioner.identifier.system( Practitioner )
+CreateRow Practitioner.identifier.value( Practitioner )
+CreateRow Practitioner.identifier( Practitioner )
+CreateRow Practitioner.identifier.id( Practitioner )
+CreateRow Practitioner.identifier.extension( Practitioner )
+CreateRow Practitioner.identifier.system( Practitioner )
+CreateRow Practitioner.identifier.value( Practitioner )
+CreateRow Practitioner.identifier( Practitioner )
+CreateRow Practitioner.identifier.id( Practitioner )
+CreateRow Practitioner.identifier.extension( Practitioner )
+CreateRow Practitioner.identifier.use( Practitioner )
+CreateRow Practitioner.identifier.type( Practitioner )
+CreateRow Practitioner.identifier.type.id( Practitioner )
+CreateRow Practitioner.identifier.type.extension( Practitioner )
+CreateRow Practitioner.identifier.type.coding( Practitioner )
+CreateRow Practitioner.identifier.type.coding.id( Practitioner )
+CreateRow Practitioner.identifier.type.coding.extension( Practitioner )
+CreateRow Practitioner.identifier.type.coding.system( Practitioner )
+CreateRow Practitioner.identifier.type.coding.version( Practitioner )
+CreateRow Practitioner.identifier.type.coding.code( Practitioner )
+CreateRow Practitioner.identifier.type.coding.display( Practitioner )
+CreateRow Practitioner.identifier.type.coding.userSelected( Practitioner )
+CreateRow Practitioner.identifier.type.text( Practitioner )
+CreateRow Practitioner.identifier.system( Practitioner )
+CreateRow Practitioner.identifier.value( Practitioner )
+CreateRow Practitioner.identifier.period( Practitioner )
+CreateRow Practitioner.identifier.period.id( Practitioner )
+CreateRow Practitioner.identifier.period.extension( Practitioner )
+CreateRow Practitioner.identifier.period.start( Practitioner )
+CreateRow Practitioner.identifier.period.end( Practitioner )
+CreateRow Practitioner.identifier.assigner( Practitioner )
+CreateRow Practitioner.identifier.assigner.id( Practitioner )
+CreateRow Practitioner.identifier.assigner.extension( Practitioner )
+CreateRow Practitioner.identifier.assigner.reference( Practitioner )
+CreateRow Practitioner.identifier.assigner.display( Practitioner )
+CreateRow Practitioner.active( Practitioner )
+CreateRow Practitioner.name( Practitioner )
+CreateRow Practitioner.name.id( Practitioner )
+CreateRow Practitioner.name.extension( Practitioner )
+CreateRow Practitioner.name.family( Practitioner )
+CreateRow Practitioner.name.given( Practitioner )
+CreateRow Practitioner.name.prefix( Practitioner )
+CreateRow Practitioner.name.suffix( Practitioner )
+CreateRow Practitioner.telecom( Practitioner )
+CreateRow Practitioner.telecom.id( Practitioner )
+CreateRow Practitioner.telecom.extension( Practitioner )
+CreateRow Practitioner.telecom.system( Practitioner )
+CreateRow Practitioner.telecom.value( Practitioner )
+CreateRow Practitioner.telecom.use( Practitioner )
+CreateRow Practitioner.telecom.rank( Practitioner )
+CreateRow Practitioner.telecom.period( Practitioner )
+CreateRow Practitioner.telecom.period.id( Practitioner )
+CreateRow Practitioner.telecom.period.extension( Practitioner )
+CreateRow Practitioner.telecom.period.start( Practitioner )
+CreateRow Practitioner.telecom.period.end( Practitioner )
+CreateRow Practitioner.address( Practitioner )
+CreateRow Practitioner.address.id( Practitioner )
+CreateRow Practitioner.address.extension( Practitioner )
+CreateRow Practitioner.address.use( Practitioner )
+CreateRow Practitioner.address.type( Practitioner )
+CreateRow Practitioner.address.text( Practitioner )
+CreateRow Practitioner.address.line( Practitioner )
+CreateRow Practitioner.address.city( Practitioner )
+CreateRow Practitioner.address.district( Practitioner )
+CreateRow Practitioner.address.postalCode( Practitioner )
+CreateRow Practitioner.address.country( Practitioner )
+CreateRow Practitioner.address.period( Practitioner )
+CreateRow Practitioner.address.period.id( Practitioner )
+CreateRow Practitioner.address.period.extension( Practitioner )
+CreateRow Practitioner.address.period.start( Practitioner )
+CreateRow Practitioner.address.period.end( Practitioner )
+CreateRow Practitioner.gender( Practitioner )
+CreateRow Practitioner.birthDate( Practitioner )
+CreateRow Practitioner.photo( Practitioner )
+CreateRow Practitioner.photo.id( Practitioner )
+CreateRow Practitioner.photo.extension( Practitioner )
+CreateRow Practitioner.photo.contentType( Practitioner )
+CreateRow Practitioner.photo.language( Practitioner )
+CreateRow Practitioner.photo.data( Practitioner )
+CreateRow Practitioner.photo.url( Practitioner )
+CreateRow Practitioner.photo.size( Practitioner )
+CreateRow Practitioner.photo.hash( Practitioner )
+CreateRow Practitioner.photo.title( Practitioner )
+CreateRow Practitioner.photo.creation( Practitioner )
+CreateRow Practitioner.practitionerRole( Practitioner )
+CreateRow Practitioner.practitionerRole( Practitioner )
+CreateRow Practitioner.practitionerRole.id( Practitioner )
+CreateRow Practitioner.practitionerRole.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.modifierExtension( Practitioner )
+CreateRow Practitioner.practitionerRole.managingOrganization( Practitioner )
+CreateRow Practitioner.practitionerRole.managingOrganization.id( Practitioner )
+CreateRow Practitioner.practitionerRole.managingOrganization.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.managingOrganization.reference( Practitioner )
+CreateRow Practitioner.practitionerRole.managingOrganization.display( Practitioner )
+CreateRow Practitioner.practitionerRole.role( Practitioner )
+CreateRow Practitioner.practitionerRole.role.id( Practitioner )
+CreateRow Practitioner.practitionerRole.role.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding.id( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding.system( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding.code( Practitioner )
+CreateRow Practitioner.practitionerRole.role.coding.display( Practitioner )
+CreateRow Practitioner.practitionerRole.role.text( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.id( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.id( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.system( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.version( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.code( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.display( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.coding.userSelected( Practitioner )
+CreateRow Practitioner.practitionerRole.specialty.text( Practitioner )
+CreateRow Practitioner.practitionerRole.period( Practitioner )
+CreateRow Practitioner.practitionerRole.period.id( Practitioner )
+CreateRow Practitioner.practitionerRole.period.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.period.start( Practitioner )
+CreateRow Practitioner.practitionerRole.period.end( Practitioner )
+CreateRow Practitioner.practitionerRole.location( Practitioner )
+CreateRow Practitioner.practitionerRole.location.id( Practitioner )
+CreateRow Practitioner.practitionerRole.location.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.location.reference( Practitioner )
+CreateRow Practitioner.practitionerRole.location.display( Practitioner )
+CreateRow Practitioner.practitionerRole.healthcareService( Practitioner )
+CreateRow Practitioner.practitionerRole.healthcareService.id( Practitioner )
+CreateRow Practitioner.practitionerRole.healthcareService.extension( Practitioner )
+CreateRow Practitioner.practitionerRole.healthcareService.reference( Practitioner )
+CreateRow Practitioner.practitionerRole.healthcareService.display( Practitioner )
+CreateRow Practitioner.qualification( Practitioner )
+CreateRow Practitioner.qualification.id( Practitioner )
+CreateRow Practitioner.qualification.extension( Practitioner )
+CreateRow Practitioner.qualification.modifierExtension( Practitioner )
+CreateRow Practitioner.qualification.identifier( Practitioner )
+CreateRow Practitioner.qualification.identifier.id( Practitioner )
+CreateRow Practitioner.qualification.identifier.extension( Practitioner )
+CreateRow Practitioner.qualification.identifier.use( Practitioner )
+CreateRow Practitioner.qualification.identifier.type( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.id( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.extension( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.id( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.extension( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.system( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.version( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.code( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.display( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.coding.userSelected( Practitioner )
+CreateRow Practitioner.qualification.identifier.type.text( Practitioner )
+CreateRow Practitioner.qualification.identifier.system( Practitioner )
+CreateRow Practitioner.qualification.identifier.value( Practitioner )
+CreateRow Practitioner.qualification.identifier.period( Practitioner )
+CreateRow Practitioner.qualification.identifier.period.id( Practitioner )
+CreateRow Practitioner.qualification.identifier.period.extension( Practitioner )
+CreateRow Practitioner.qualification.identifier.period.start( Practitioner )
+CreateRow Practitioner.qualification.identifier.period.end( Practitioner )
+CreateRow Practitioner.qualification.identifier.assigner( Practitioner )
+CreateRow Practitioner.qualification.identifier.assigner.id( Practitioner )
+CreateRow Practitioner.qualification.identifier.assigner.extension( Practitioner )
+CreateRow Practitioner.qualification.identifier.assigner.reference( Practitioner )
+CreateRow Practitioner.qualification.identifier.assigner.display( Practitioner )
+CreateRow Practitioner.qualification.code( Practitioner )
+CreateRow Practitioner.qualification.code.id( Practitioner )
+CreateRow Practitioner.qualification.code.extension( Practitioner )
+CreateRow Practitioner.qualification.code.coding( Practitioner )
+CreateRow Practitioner.qualification.code.coding.id( Practitioner )
+CreateRow Practitioner.qualification.code.coding.extension( Practitioner )
+CreateRow Practitioner.qualification.code.coding.system( Practitioner )
+CreateRow Practitioner.qualification.code.coding.version( Practitioner )
+CreateRow Practitioner.qualification.code.coding.code( Practitioner )
+CreateRow Practitioner.qualification.code.coding.display( Practitioner )
+CreateRow Practitioner.qualification.code.coding.userSelected( Practitioner )
+CreateRow Practitioner.qualification.code.text( Practitioner )
+CreateRow Practitioner.qualification.period( Practitioner )
+CreateRow Practitioner.qualification.period.id( Practitioner )
+CreateRow Practitioner.qualification.period.extension( Practitioner )
+CreateRow Practitioner.qualification.period.start( Practitioner )
+CreateRow Practitioner.qualification.period.end( Practitioner )
+CreateRow Practitioner.qualification.issuer( Practitioner )
+CreateRow Practitioner.qualification.issuer.id( Practitioner )
+CreateRow Practitioner.qualification.issuer.extension( Practitioner )
+CreateRow Practitioner.qualification.issuer.reference( Practitioner )
+CreateRow Practitioner.qualification.issuer.display( Practitioner )
+ create Bindings table
+ format binding for Practitioner.language
+ format binding for Practitioner.identifier.use
+ format binding for Practitioner.identifier.type
+ format binding for Practitioner.telecom.system
+ format binding for Practitioner.telecom.use
+ format binding for Practitioner.address.use
+ format binding for Practitioner.address.type
+ format binding for Practitioner.gender
+ format binding for Practitioner.photo.contentType
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.practitionerRole.specialty
+ format binding for Practitioner.practitionerRole.role
+ format binding for Practitioner.qualification.code
+Render page CareConnect-Practitioner-1
+Structure Page: Finish - careconnect-practitioner-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : COFE-Binary-1
+Creating structure for COFE-Binary-1
+CreateRow Binary( Binary )
+CreateRow Binary.contentType( Binary )
+CreateRow Binary.content( Binary )
+ create Bindings table
+ format binding for Binary.contentType
+Render page COFE-Binary-1
+Structure Page: Finish - cofe-binary-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : COFE-Device-1
+Creating structure for COFE-Device-1
+CreateRow Device( Device )
+CreateRow Device.identifier( Device )
+CreateRow Device.identifier.value( Device )
+CreateRow Device.identifier.assigner( Device )
+CreateRow Device.identifier.assigner.reference( Device )
+CreateRow Device.identifier.assigner.display( Device )
+CreateRow Device.type( Device )
+CreateRow Device.type.coding( Device )
+CreateRow Device.type.coding.system( Device )
+CreateRow Device.type.coding.code( Device )
+CreateRow Device.type.coding.display( Device )
+CreateRow Device.type.coding.userSelected( Device )
+CreateRow Device.note( Device )
+CreateRow Device.note.author[x]( Device )
+CreateRow Device.note.time( Device )
+CreateRow Device.note.text( Device )
+CreateRow Device.status( Device )
+CreateRow Device.manufacturer( Device )
+CreateRow Device.model( Device )
+CreateRow Device.version( Device )
+CreateRow Device.manufactureDate( Device )
+CreateRow Device.expiry( Device )
+CreateRow Device.lotNumber( Device )
+CreateRow Device.owner( Device )
+CreateRow Device.owner.reference( Device )
+CreateRow Device.owner.display( Device )
+CreateRow Device.location( Device )
+CreateRow Device.location.reference( Device )
+CreateRow Device.location.display( Device )
+CreateRow Device.patient( Device )
+CreateRow Device.patient.reference( Device )
+CreateRow Device.patient.display( Device )
+CreateRow Device.contact( Device )
+CreateRow Device.contact.system( Device )
+CreateRow Device.contact.value( Device )
+CreateRow Device.contact.use( Device )
+CreateRow Device.contact.rank( Device )
+CreateRow Device.contact.period( Device )
+CreateRow Device.contact.period.start( Device )
+CreateRow Device.contact.period.end( Device )
+CreateRow Device.url( Device )
+ create Bindings table
+ format binding for Device.type
+ format binding for Device.type.coding
+ format binding for Device.status
+ format binding for Device.contact.system
+ format binding for Device.contact.use
+Render page COFE-Device-1
+Structure Page: Finish - cofe-device-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : COFE-Document-Bundle-1
+Creating structure for COFE-Document-Bundle-1
+CreateRow Bundle( Bundle )
+CreateRow Bundle.type( Bundle )
+CreateRow Bundle.entry( Bundle )
+CreateRow Bundle.entry.modifierExtension( Bundle )
+CreateRow Bundle.entry.resource( Bundle )
+ create Bindings table
+ format binding for Bundle.type
+ format binding for Bundle.entry.search.mode
+ format binding for Bundle.entry.request.method
+ format binding for Bundle.signature.type
+ format binding for Bundle.signature.contentType
+Render page COFE-Document-Bundle-1
+Structure Page: Finish - cofe-document-bundle-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : COFE-DocumentReference-1
+Creating structure for COFE-DocumentReference-1
+CreateRow DocumentReference( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.extension( DocumentReference )
+CreateRow DocumentReference.masterIdentifier( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.use( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding.system( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding.version( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding.code( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding.display( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.type.text( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.system( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.value( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.period( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.period.start( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.period.end( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.assigner( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.assigner.reference( DocumentReference )
+CreateRow DocumentReference.masterIdentifier.assigner.display( DocumentReference )
+CreateRow DocumentReference.identifier( DocumentReference )
+CreateRow DocumentReference.identifier.value( DocumentReference )
+CreateRow DocumentReference.subject( DocumentReference )
+CreateRow DocumentReference.type( DocumentReference )
+CreateRow DocumentReference.type.extension( DocumentReference )
+CreateRow DocumentReference.type.extension( DocumentReference )
+CreateRow DocumentReference.type.coding( DocumentReference )
+CreateRow DocumentReference.type.coding.system( DocumentReference )
+CreateRow DocumentReference.type.coding.code( DocumentReference )
+CreateRow DocumentReference.type.coding.display( DocumentReference )
+CreateRow DocumentReference.class( DocumentReference )
+CreateRow DocumentReference.class.coding( DocumentReference )
+CreateRow DocumentReference.class.coding.system( DocumentReference )
+CreateRow DocumentReference.class.coding.version( DocumentReference )
+CreateRow DocumentReference.class.coding.code( DocumentReference )
+CreateRow DocumentReference.class.coding.display( DocumentReference )
+CreateRow DocumentReference.class.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.class.text( DocumentReference )
+CreateRow DocumentReference.author( DocumentReference )
+CreateRow DocumentReference.custodian( DocumentReference )
+CreateRow DocumentReference.custodian.reference( DocumentReference )
+CreateRow DocumentReference.custodian.display( DocumentReference )
+CreateRow DocumentReference.authenticator( DocumentReference )
+CreateRow DocumentReference.created( DocumentReference )
+CreateRow DocumentReference.indexed( DocumentReference )
+CreateRow DocumentReference.status( DocumentReference )
+CreateRow DocumentReference.docStatus( DocumentReference )
+CreateRow DocumentReference.docStatus.coding( DocumentReference )
+CreateRow DocumentReference.docStatus.coding.system( DocumentReference )
+CreateRow DocumentReference.docStatus.coding.version( DocumentReference )
+CreateRow DocumentReference.docStatus.coding.code( DocumentReference )
+CreateRow DocumentReference.docStatus.coding.display( DocumentReference )
+CreateRow DocumentReference.docStatus.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.docStatus.text( DocumentReference )
+CreateRow DocumentReference.relatesTo( DocumentReference )
+CreateRow DocumentReference.relatesTo.modifierExtension( DocumentReference )
+CreateRow DocumentReference.relatesTo.code( DocumentReference )
+CreateRow DocumentReference.relatesTo.target( DocumentReference )
+CreateRow DocumentReference.relatesTo.target.reference( DocumentReference )
+CreateRow DocumentReference.relatesTo.target.display( DocumentReference )
+CreateRow DocumentReference.description( DocumentReference )
+CreateRow DocumentReference.securityLabel( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding.system( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding.version( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding.code( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding.display( DocumentReference )
+CreateRow DocumentReference.securityLabel.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.securityLabel.text( DocumentReference )
+CreateRow DocumentReference.content( DocumentReference )
+CreateRow DocumentReference.content.modifierExtension( DocumentReference )
+CreateRow DocumentReference.content.attachment( DocumentReference )
+CreateRow DocumentReference.content.attachment.contentType( DocumentReference )
+CreateRow DocumentReference.content.attachment.language( DocumentReference )
+CreateRow DocumentReference.content.attachment.data( DocumentReference )
+CreateRow DocumentReference.content.attachment.url( DocumentReference )
+CreateRow DocumentReference.content.attachment.size( DocumentReference )
+CreateRow DocumentReference.content.attachment.hash( DocumentReference )
+CreateRow DocumentReference.content.attachment.title( DocumentReference )
+CreateRow DocumentReference.content.attachment.creation( DocumentReference )
+CreateRow DocumentReference.content.format( DocumentReference )
+CreateRow DocumentReference.content.format.system( DocumentReference )
+CreateRow DocumentReference.content.format.version( DocumentReference )
+CreateRow DocumentReference.content.format.code( DocumentReference )
+CreateRow DocumentReference.content.format.display( DocumentReference )
+CreateRow DocumentReference.content.format.userSelected( DocumentReference )
+CreateRow DocumentReference.context( DocumentReference )
+CreateRow DocumentReference.context.modifierExtension( DocumentReference )
+CreateRow DocumentReference.context.encounter( DocumentReference )
+CreateRow DocumentReference.context.encounter.reference( DocumentReference )
+CreateRow DocumentReference.context.encounter.display( DocumentReference )
+CreateRow DocumentReference.context.event( DocumentReference )
+CreateRow DocumentReference.context.event.coding( DocumentReference )
+CreateRow DocumentReference.context.event.coding.system( DocumentReference )
+CreateRow DocumentReference.context.event.coding.version( DocumentReference )
+CreateRow DocumentReference.context.event.coding.code( DocumentReference )
+CreateRow DocumentReference.context.event.coding.display( DocumentReference )
+CreateRow DocumentReference.context.event.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.context.event.text( DocumentReference )
+CreateRow DocumentReference.context.period( DocumentReference )
+CreateRow DocumentReference.context.period.start( DocumentReference )
+CreateRow DocumentReference.context.period.end( DocumentReference )
+CreateRow DocumentReference.context.facilityType( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding.system( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding.version( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding.code( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding.display( DocumentReference )
+CreateRow DocumentReference.context.facilityType.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.context.facilityType.text( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding.system( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding.version( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding.code( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding.display( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.context.practiceSetting.text( DocumentReference )
+CreateRow DocumentReference.context.sourcePatientInfo( DocumentReference )
+CreateRow DocumentReference.context.sourcePatientInfo.reference( DocumentReference )
+CreateRow DocumentReference.context.sourcePatientInfo.display( DocumentReference )
+CreateRow DocumentReference.context.related( DocumentReference )
+CreateRow DocumentReference.context.related.modifierExtension( DocumentReference )
+CreateRow DocumentReference.context.related.identifier( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.use( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding.system( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding.version( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding.code( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding.display( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.coding.userSelected( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.type.text( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.system( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.value( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.period( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.period.start( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.period.end( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.assigner( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.assigner.reference( DocumentReference )
+CreateRow DocumentReference.context.related.identifier.assigner.display( DocumentReference )
+CreateRow DocumentReference.context.related.ref( DocumentReference )
+CreateRow DocumentReference.context.related.ref.reference( DocumentReference )
+CreateRow DocumentReference.context.related.ref.display( DocumentReference )
+ create Bindings table
+ format binding for DocumentReference.masterIdentifier.use
+ format binding for DocumentReference.masterIdentifier.type
+ format binding for DocumentReference.type
+ format binding for DocumentReference.type.coding
+ format binding for DocumentReference.type.coding.code
+ format binding for DocumentReference.class
+ format binding for DocumentReference.status
+ format binding for DocumentReference.docStatus
+ format binding for DocumentReference.relatesTo.code
+ format binding for DocumentReference.securityLabel
+ format binding for DocumentReference.content.attachment.contentType
+ format binding for DocumentReference.content.attachment.language
+ format binding for DocumentReference.content.format
+ format binding for DocumentReference.context.event
+ format binding for DocumentReference.context.facilityType
+ format binding for DocumentReference.context.practiceSetting
+Render page COFE-DocumentReference-1
+Structure Page: Finish - cofe-documentreference-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : COFE-Related-Person-1
+Creating structure for COFE-Related-Person-1
+CreateRow RelatedPerson( RelatedPerson )
+CreateRow RelatedPerson.identifier( RelatedPerson )
+CreateRow RelatedPerson.identifier.use( RelatedPerson )
+CreateRow RelatedPerson.identifier.type( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding.system( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding.version( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding.code( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding.display( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.coding.userSelected( RelatedPerson )
+CreateRow RelatedPerson.identifier.type.text( RelatedPerson )
+CreateRow RelatedPerson.identifier.system( RelatedPerson )
+CreateRow RelatedPerson.identifier.value( RelatedPerson )
+CreateRow RelatedPerson.identifier.period( RelatedPerson )
+CreateRow RelatedPerson.identifier.period.start( RelatedPerson )
+CreateRow RelatedPerson.identifier.period.end( RelatedPerson )
+CreateRow RelatedPerson.identifier.assigner( RelatedPerson )
+CreateRow RelatedPerson.identifier.assigner.display( RelatedPerson )
+CreateRow RelatedPerson.patient( RelatedPerson )
+CreateRow RelatedPerson.patient.reference( RelatedPerson )
+CreateRow RelatedPerson.patient.display( RelatedPerson )
+CreateRow RelatedPerson.relationship( RelatedPerson )
+CreateRow RelatedPerson.relationship.coding( RelatedPerson )
+CreateRow RelatedPerson.relationship.coding.system( RelatedPerson )
+CreateRow RelatedPerson.relationship.coding.code( RelatedPerson )
+CreateRow RelatedPerson.relationship.coding.display( RelatedPerson )
+CreateRow RelatedPerson.name( RelatedPerson )
+CreateRow RelatedPerson.name.use( RelatedPerson )
+CreateRow RelatedPerson.name.text( RelatedPerson )
+CreateRow RelatedPerson.name.family( RelatedPerson )
+CreateRow RelatedPerson.name.given( RelatedPerson )
+CreateRow RelatedPerson.name.prefix( RelatedPerson )
+CreateRow RelatedPerson.name.suffix( RelatedPerson )
+CreateRow RelatedPerson.name.period( RelatedPerson )
+CreateRow RelatedPerson.name.period.start( RelatedPerson )
+CreateRow RelatedPerson.name.period.end( RelatedPerson )
+CreateRow RelatedPerson.telecom( RelatedPerson )
+CreateRow RelatedPerson.telecom.system( RelatedPerson )
+CreateRow RelatedPerson.telecom.value( RelatedPerson )
+CreateRow RelatedPerson.telecom.use( RelatedPerson )
+CreateRow RelatedPerson.telecom.rank( RelatedPerson )
+CreateRow RelatedPerson.telecom.period( RelatedPerson )
+CreateRow RelatedPerson.telecom.period.start( RelatedPerson )
+CreateRow RelatedPerson.telecom.period.end( RelatedPerson )
+CreateRow RelatedPerson.gender( RelatedPerson )
+CreateRow RelatedPerson.birthDate( RelatedPerson )
+CreateRow RelatedPerson.address( RelatedPerson )
+CreateRow RelatedPerson.address.use( RelatedPerson )
+CreateRow RelatedPerson.address.type( RelatedPerson )
+CreateRow RelatedPerson.address.text( RelatedPerson )
+CreateRow RelatedPerson.address.line( RelatedPerson )
+CreateRow RelatedPerson.address.city( RelatedPerson )
+CreateRow RelatedPerson.address.district( RelatedPerson )
+CreateRow RelatedPerson.address.postalCode( RelatedPerson )
+CreateRow RelatedPerson.address.country( RelatedPerson )
+CreateRow RelatedPerson.address.period( RelatedPerson )
+CreateRow RelatedPerson.address.period.start( RelatedPerson )
+CreateRow RelatedPerson.address.period.end( RelatedPerson )
+CreateRow RelatedPerson.period( RelatedPerson )
+CreateRow RelatedPerson.period.start( RelatedPerson )
+CreateRow RelatedPerson.period.end( RelatedPerson )
+ create Bindings table
+ format binding for RelatedPerson.identifier.use
+ format binding for RelatedPerson.identifier.type
+ format binding for RelatedPerson.relationship
+ format binding for RelatedPerson.relationship.coding
+ format binding for RelatedPerson.name.use
+ format binding for RelatedPerson.telecom.system
+ format binding for RelatedPerson.telecom.use
+ format binding for RelatedPerson.gender
+ format binding for RelatedPerson.address.use
+ format binding for RelatedPerson.address.type
+ format binding for RelatedPerson.photo.contentType
+ format binding for RelatedPerson.photo.language
+Render page COFE-Related-Person-1
+Structure Page: Finish - cofe-related-person-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Care-Setting-Type-1
+Creating structure for Extension-COFE-Care-Setting-Type-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+ format binding for Extension.value[x]
+Render page Extension-COFE-Care-Setting-Type-1
+Structure Page: Finish - extension-cofe-care-setting-type-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-ActivePeriod-1
+Creating structure for Extension-CareConnect-ActivePeriod-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valuePeriod( Extension )
+ create Bindings table
+Render page Extension-CareConnect-ActivePeriod-1
+Structure Page: Finish - extension-careconnect-activeperiod-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-EncounterTransport-1
+Creating structure for Extension-CareConnect-EncounterTransport-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valuePeriod( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueString( Extension )
+CreateRow Extension.url( Extension )
+ create Bindings table
+Render page Extension-CareConnect-EncounterTransport-1
+Structure Page: Finish - extension-careconnect-encountertransport-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-EthnicCategory-1
+Creating structure for Extension-CareConnect-EthnicCategory-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension.valueCodeableConcept
+Render page Extension-CareConnect-EthnicCategory-1
+Structure Page: Finish - extension-careconnect-ethniccategory-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-MainLocation-1
+Creating structure for Extension-CareConnect-MainLocation-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueReference( Extension )
+ create Bindings table
+Render page Extension-CareConnect-MainLocation-1
+Structure Page: Finish - extension-careconnect-mainlocation-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-NHSCommunication-1
+Creating structure for Extension-CareConnect-NHSCommunication-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueBoolean( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueBoolean( Extension )
+CreateRow Extension.url( Extension )
+ create Bindings table
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+Render page Extension-CareConnect-NHSCommunication-1
+Structure Page: Finish - extension-careconnect-nhscommunication-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-NHSNumberVerificationStatus-1
+Creating structure for Extension-CareConnect-NHSNumberVerificationStatus-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension.valueCodeableConcept
+Render page Extension-CareConnect-NHSNumberVerificationStatus-1
+Structure Page: Finish - extension-careconnect-nhsnumberverificationstatus-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-OrganDonor-1
+Creating structure for Extension-CareConnect-OrganDonor-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueBoolean( Extension )
+ create Bindings table
+Render page Extension-CareConnect-OrganDonor-1
+Structure Page: Finish - extension-careconnect-organdonor-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-RegistrationDetails-1
+Creating structure for Extension-CareConnect-RegistrationDetails-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valuePeriod( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.id( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.url( Extension )
+ create Bindings table
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+Render page Extension-CareConnect-RegistrationDetails-1
+Structure Page: Finish - extension-careconnect-registrationdetails-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-ReligiousAffiliation-1
+Creating structure for Extension-CareConnect-ReligiousAffiliation-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension.valueCodeableConcept
+Render page Extension-CareConnect-ReligiousAffiliation-1
+Structure Page: Finish - extension-careconnect-religiousaffiliation-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-ResidentialStatus-1
+Creating structure for Extension-CareConnect-ResidentialStatus-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.valueCodeableConcept
+Render page Extension-CareConnect-ResidentialStatus-1
+Structure Page: Finish - extension-careconnect-residentialstatus-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-CareConnect-TreatmentCategory-1
+Creating structure for Extension-CareConnect-TreatmentCategory-1
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.valueCodeableConcept
+Render page Extension-CareConnect-TreatmentCategory-1
+Structure Page: Finish - extension-careconnect-treatmentcategory-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Authorization-1
+Creating structure for Extension-COFE-Authorization-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Authorization-1
+Structure Page: Finish - extension-cofe-authorization-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Data-Enterer-1
+Creating structure for Extension-COFE-Data-Enterer-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Data-Enterer-1
+Structure Page: Finish - extension-cofe-data-enterer-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Informant-1
+Creating structure for Extension-COFE-Informant-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Informant-1
+Structure Page: Finish - extension-cofe-informant-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Information-Recipient-1
+Creating structure for Extension-COFE-Information-Recipient-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Information-Recipient-1
+Structure Page: Finish - extension-cofe-information-recipient-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Participant-1
+Creating structure for Extension-COFE-Participant-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Participant-1
+Structure Page: Finish - extension-cofe-participant-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-COFE-Performer-1
+Creating structure for Extension-COFE-Performer-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-COFE-Performer-1
+Structure Page: Finish - extension-cofe-performer-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Ethnic-Category-1
+Creating structure for Extension-Ethnic-Category-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.value[x]
+Render page Extension-Ethnic-Category-1
+Structure Page: Finish - extension-ethnic-category-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-NHS-Communication-1
+Creating structure for Extension-NHS-Communication-1
+CreateRow Extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueBoolean( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueBoolean( Extension )
+CreateRow Extension.url( Extension )
+ create Bindings table
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+Render page Extension-NHS-Communication-1
+Structure Page: Finish - extension-nhs-communication-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-NHSNumberVerificationStatus-1
+Creating structure for Extension-NHSNumberVerificationStatus-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueCodeableConcept( Extension )
+ create Bindings table
+ format binding for Extension.valueCodeableConcept
+Render page Extension-NHSNumberVerificationStatus-1
+Structure Page: Finish - extension-nhsnumberverificationstatus-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Organ-Donor-1
+Creating structure for Extension-Organ-Donor-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+Render page Extension-Organ-Donor-1
+Structure Page: Finish - extension-organ-donor-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Registration-Details-1
+Creating structure for Extension-Registration-Details-1
+CreateRow Extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valuePeriod( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.extension.extension( Extension )
+CreateRow Extension.extension.url( Extension )
+CreateRow Extension.extension.valueCodeableConcept( Extension )
+CreateRow Extension.url( Extension )
+ create Bindings table
+ format binding for Extension.extension.valueCodeableConcept
+ format binding for Extension.extension.valueCodeableConcept
+Render page Extension-Registration-Details-1
+Structure Page: Finish - extension-registration-details-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Religious-Affiliation-SnCT-1
+Creating structure for Extension-Religious-Affiliation-SnCT-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.value[x]
+Render page Extension-Religious-Affiliation-SnCT-1
+Structure Page: Finish - extension-religious-affiliation-snct-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Residential-Status-1
+Creating structure for Extension-Residential-Status-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.value[x]
+Render page Extension-Residential-Status-1
+Structure Page: Finish - extension-residential-status-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Extension-Treatment-Category-1
+Creating structure for Extension-Treatment-Category-1
+CreateRow Extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.value[x]( Extension )
+ create Bindings table
+ format binding for Extension
+ format binding for Extension.value[x]
+Render page Extension-Treatment-Category-1
+Structure Page: Finish - extension-treatment-category-1
+Create example files
+Create resource files (Structure Definitions)
+Structure Page: Start - Profile.DocumentReference : Patient-BirthTime
+Creating structure for Patient-BirthTime
+CreateRow Extension( Extension )
+CreateRow Extension.id( Extension )
+CreateRow Extension.extension( Extension )
+CreateRow Extension.url( Extension )
+CreateRow Extension.valueDateTime( Extension )
+ create Bindings table
+Render page Patient-BirthTime
+Structure Page: Finish - patient-birthtime
+Create example files
+Create resource files (Structure Definitions)
+Dictionary Page: IGResource.
+Loading resources into resource store
+ Create directory: C:\git\NHS-FHIR-CDA-DOCREF\Generated\Profile.DocumentReference
+Render dictionary page for birthPlace
+Render dictionary page for CareConnect-Encounter-1
+Render dictionary page for CareConnect-Location-1
+Render dictionary page for CareConnect-Organization-1
+Render dictionary page for CareConnect-Patient-1
+Render dictionary page for CareConnect-Practitioner-1
+Render dictionary page for COFE-Binary-1
+Render dictionary page for COFE-Device-1
+Render dictionary page for COFE-Document-Bundle-1
+Render dictionary page for COFE-DocumentReference-1
+Render dictionary page for COFE-Related-Person-1
+Render dictionary page for Extension-COFE-Care-Setting-Type-1
+Render dictionary page for Extension-CareConnect-ActivePeriod-1
+Render dictionary page for Extension-CareConnect-EncounterTransport-1
+Render dictionary page for Extension-CareConnect-EthnicCategory-1
+Render dictionary page for Extension-CareConnect-MainLocation-1
+Render dictionary page for Extension-CareConnect-NHSCommunication-1
+Render dictionary page for Extension-CareConnect-NHSNumberVerificationStatus-1
+Render dictionary page for Extension-CareConnect-OrganDonor-1
+Render dictionary page for Extension-CareConnect-RegistrationDetails-1
+Render dictionary page for Extension-CareConnect-ReligiousAffiliation-1
+Render dictionary page for Extension-CareConnect-ResidentialStatus-1
+Render dictionary page for Extension-CareConnect-TreatmentCategory-1
+Render dictionary page for Extension-COFE-Authorization-1
+Render dictionary page for Extension-COFE-Data-Enterer-1
+Render dictionary page for Extension-COFE-Informant-1
+Render dictionary page for Extension-COFE-Information-Recipient-1
+Render dictionary page for Extension-COFE-Participant-1
+Render dictionary page for Extension-COFE-Performer-1
+Render dictionary page for Extension-Ethnic-Category-1
+Render dictionary page for Extension-NHS-Communication-1
+Render dictionary page for Extension-NHSNumberVerificationStatus-1
+Render dictionary page for Extension-Organ-Donor-1
+Render dictionary page for Extension-Registration-Details-1
+Render dictionary page for Extension-Religious-Affiliation-SnCT-1
+Render dictionary page for Extension-Residential-Status-1
+Render dictionary page for Extension-Treatment-Category-1
+Render dictionary page for Patient-BirthTime
+Loading resources into resource store
+Loading resources into resource store
+Loading resources into resource store
+Valueset Page: Start - Administrative Gender
+Creating valueset for Administrative Gender - https://fhir.nhs.uk/ValueSet/administrative-gender-1
+*** Administrative Gender has no Copyright description!
+     Get Summary table
+     Get concept values
+     Get contained resources
+ Map resources Administrative Gender with person-stated-gender-ddmap-1
+ ***person-stated-gender-ddmap-1 has codesystem  concept Male has no definition!
+ ***person-stated-gender-ddmap-1 has codesystem  concept Female has no definition!
+ ***person-stated-gender-ddmap-1 has codesystem  concept Indeterminate (unable to be classified as either male or female) has no definition!
+ ***person-stated-gender-ddmap-1 has codesystem  concept Not Known (not recorded) has no definition!
+Render page administrative-gender-1
+Valueset Page: Finish - administrative-gender-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Setting Type
+Creating valueset for Care Setting Type - https://fhir.nhs.uk/ValueSet/care-setting-type-1
+*** Care Setting Type has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page care-setting-type-1
+Valueset Page: Finish - care-setting-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Administrative Gender
+Creating valueset for Care Connect Administrative Gender - https://fhir.hl7.org.uk/ValueSet/CareConnect-AdministrativeGender-1
+*** Care Connect Administrative Gender has no Copyright description!
+     Get Summary table
+     Get concept values
+     Get contained resources
+ Map resources Care Connect Administrative Gender with CareConnect-PersonStatedGender-DDMAP-1
+ ***CareConnect-PersonStatedGender-DDMAP-1 has codesystem  concept Male has no definition!
+ ***CareConnect-PersonStatedGender-DDMAP-1 has codesystem  concept Female has no definition!
+ ***CareConnect-PersonStatedGender-DDMAP-1 has codesystem  concept Indeterminate (unable to be classified as either male or female) has no definition!
+ ***CareConnect-PersonStatedGender-DDMAP-1 has codesystem  concept Not Known (not recorded) has no definition!
+Render page CareConnect-AdministrativeGender-1
+Valueset Page: Finish - careconnect-administrativegender-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Encounter Type
+Creating valueset for Care Connect Encounter Type - https://fhir.hl7.org.uk/ValueSet/CareConnect-EncounterType-1
+*** Care Connect Encounter Type has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-EncounterType-1
+Valueset Page: Finish - careconnect-encountertype-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Ethnic Category
+Creating valueset for Care Connect Ethnic Category - https://fhir.hl7.org.uk/ValueSet/CareConnect-EthnicCategory-1
+*** Care Connect Ethnic Category has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-EthnicCategory-1
+Valueset Page: Finish - careconnect-ethniccategory-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Human Language
+Creating valueset for Care Connect Human Language - https://fhir.hl7.org.uk/ValueSet/CareConnect-HumanLanguage-1
+*** Care Connect Human Language has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-HumanLanguage-1
+Valueset Page: Finish - careconnect-humanlanguage-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Language Ability Mode
+Creating valueset for Care Connect Language Ability Mode - https://fhir.hl7.org.uk/ValueSet/CareConnect-LanguageAbilityMode-1
+*** Care Connect Language Ability Mode has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-LanguageAbilityMode-1
+Valueset Page: Finish - careconnect-languageabilitymode-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Language Ability Proficiency
+Creating valueset for Care Connect Language Ability Proficiency - https://fhir.hl7.org.uk/ValueSet/CareConnect-LanguageAbilityProficiency-1
+*** Care Connect Language Ability Proficiency has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-LanguageAbilityProficiency-1
+Valueset Page: Finish - careconnect-languageabilityproficiency-1
+Create resource files (ValueSets)
+Valueset Page: Start - CareConnect-ManufacturedMaterialSnCT-1
+Creating valueset for CareConnect-ManufacturedMaterialSnCT-1 - https://fhir.hl7.org.uk/ValueSet/CareConnect-ManufacturedMaterialSnCT-1
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-ManufacturedMaterialSnCT-1
+Valueset Page: Finish - careconnect-manufacturedmaterialsnct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Marital Status
+Creating valueset for Care Connect Marital Status - https://fhir.hl7.org.uk/ValueSet/CareConnect-MaritalStatus-1
+*** Care Connect Marital Status has no Copyright description!
+     Get Summary table
+     Get concept values
+     Get Content Logical Definition
+     Get contained resources
+ Map resources Care Connect Marital Status with CareConnect-MaritalStatus-DDMAP-1
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Single has no definition!
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Married/Civil Partner has no definition!
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Divorced/Person whose Civil Partnership has been dissolved has no definition!
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Widowed/Surviving Civil Partner has no definition!
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Separated has no definition!
+ ***CareConnect-MaritalStatus-DDMAP-1 has codesystem  concept Not disclosed has no definition!
+Render page CareConnect-MaritalStatus-1
+Valueset Page: Finish - careconnect-maritalstatus-1
+Create resource files (ValueSets)
+Valueset Page: Start - Marital Status NHS Data Model and Dictionary
+Creating valueset for Marital Status NHS Data Model and Dictionary - https://fhir.hl7.org.uk/ValueSet/CareConnect-MaritalStatus-DDMAP-1
+*** Marital Status NHS Data Model and Dictionary has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-MaritalStatus-DDMAP-1
+Valueset Page: Finish - careconnect-maritalstatus-ddmap-1
+Create resource files (ValueSets)
+Valueset Page: Start - CareConnect-MedicationDosageMethod-1
+Creating valueset for CareConnect-MedicationDosageMethod-1 - https://fhir.hl7.org.uk/ValueSet/CareConnect-MedicationDosageMethod-1
+*** CareConnect-MedicationDosageMethod-1 has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-MedicationDosageMethod-1
+Valueset Page: Finish - careconnect-medicationdosagemethod-1
+Create resource files (ValueSets)
+Valueset Page: Start - CareConnect-MedicationDosageRoute-1
+Creating valueset for CareConnect-MedicationDosageRoute-1 - https://fhir.hl7.org.uk/ValueSet/CareConnect-MedicationDosageRoute-1
+*** CareConnect-MedicationDosageRoute-1 has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-MedicationDosageRoute-1
+Valueset Page: Finish - careconnect-medicationdosageroute-1
+Create resource files (ValueSets)
+Valueset Page: Start - CareConnect-MedicationFlag-1
+Creating valueset for CareConnect-MedicationFlag-1 - https://fhir.hl7.org.uk/ValueSet/CareConnect-MedicationFlag-1
+*** CareConnect-MedicationFlag-1 has no Copyright description!
+*** CareConnect-MedicationFlag-1 has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-MedicationFlag-1
+Valueset Page: Finish - careconnect-medicationflag-1
+Create resource files (ValueSets)
+Valueset Page: Start - CareConnect-MedicationSupplyType-1
+Creating valueset for CareConnect-MedicationSupplyType-1 - https://fhir.hl7.org.uk/ValueSet/CareConnect-MedicationSupplyType-1
+*** CareConnect-MedicationSupplyType-1 has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-MedicationSupplyType-1
+Valueset Page: Finish - careconnect-medicationsupplytype-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect NHS Number Verification Status
+Creating valueset for Care Connect NHS Number Verification Status - https://fhir.hl7.org.uk/ValueSet/CareConnect-NHSNumberVerificationStatus-1
+*** Care Connect NHS Number Verification Status has no Copyright description!
+*** Care Connect NHS Number Verification Status has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-NHSNumberVerificationStatus-1
+Valueset Page: Finish - careconnect-nhsnumberverificationstatus-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Person Relationship Type
+Creating valueset for Care Connect Person Relationship Type - https://fhir.hl7.org.uk/ValueSet/CareConnect-PersonRelationshipType-1
+*** Care Connect Person Relationship Type has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-PersonRelationshipType-1
+Valueset Page: Finish - careconnect-personrelationshiptype-1
+Create resource files (ValueSets)
+Valueset Page: Start - Person Stated Gender Code NHS Data Model and Dictionary
+Creating valueset for Person Stated Gender Code NHS Data Model and Dictionary - https://fhir.hl7.org.uk/ValueSet/CareConnect-PersonStatedGender-DDMAP-1
+*** Person Stated Gender Code NHS Data Model and Dictionary has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page CareConnect-PersonStatedGender-DDMAP-1
+Valueset Page: Finish - careconnect-personstatedgender-ddmap-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Registration Status
+Creating valueset for Care Connect Registration Status - https://fhir.hl7.org.uk/ValueSet/CareConnect-RegistrationStatus-1
+*** Care Connect Registration Status has no Copyright description!
+*** Care Connect Registration Status has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-RegistrationStatus-1
+Valueset Page: Finish - careconnect-registrationstatus-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Registration Type
+Creating valueset for Care Connect Registration Type - https://fhir.hl7.org.uk/ValueSet/CareConnect-RegistrationType-1
+*** Care Connect Registration Type has no Copyright description!
+*** Care Connect Registration Type has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-RegistrationType-1
+Valueset Page: Finish - careconnect-registrationtype-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Religious Affiliation
+Creating valueset for Care Connect Religious Affiliation - https://fhir.hl7.org.uk/ValueSet/CareConnect-ReligiousAffiliation-1
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-ReligiousAffiliation-1
+Valueset Page: Finish - careconnect-religiousaffiliation-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Residential Status
+Creating valueset for Care Connect Residential Status - https://fhir.hl7.org.uk/ValueSet/CareConnect-ResidentialStatus-1
+*** Care Connect Residential Status has no Copyright description!
+*** Care Connect Residential Status has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-ResidentialStatus-1
+Valueset Page: Finish - careconnect-residentialstatus-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect SDS Job Role Name
+Creating valueset for Care Connect SDS Job Role Name - https://fhir.hl7.org.uk/ValueSet/CareConnect-SDSJobRoleName-1
+*** Care Connect SDS Job Role Name has no Copyright description!
+     Get Summary table
+     Get Content Logical Definition
+Render page CareConnect-SDSJobRoleName-1
+Valueset Page: Finish - careconnect-sdsjobrolename-1
+Create resource files (ValueSets)
+Valueset Page: Start - Care Connect Treatment Category
+Creating valueset for Care Connect Treatment Category - https://fhir.hl7.org.uk/ValueSet/CareConnect-TreatmentCategory-1
+*** Care Connect Treatment Category has no Copyright description!
+*** Care Connect Treatment Category has no OID!
+     Get Summary table
+     Get concept values
+Render page CareConnect-TreatmentCategory-1
+Valueset Page: Finish - careconnect-treatmentcategory-1
+Create resource files (ValueSets)
+Valueset Page: Start - CDA Encounter Type SnCT
+Creating valueset for CDA Encounter Type SnCT - https://fhir.nhs.uk/ValueSet/cda-encounter-type-snct-1
+     Get Summary table
+     Get Content Logical Definition
+Render page cda-encounter-type-snct-1
+Valueset Page: Finish - cda-encounter-type-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - CDA Person Relationship Type
+Creating valueset for CDA Person Relationship Type - https://fhir.nhs.uk/ValueSet/cda-person-relationship-type-1
+*** CDA Person Relationship Type has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page cda-person-relationship-type-1
+Valueset Page: Finish - cda-person-relationship-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Correspondence Document Type
+Creating valueset for Correspondence Document Type - https://fhir.nhs.uk/ValueSet/correspondence-document-type-1
+*** Correspondence Document Type has no OID!
+     Get Summary table
+Render page correspondence-document-type-1
+Valueset Page: Finish - correspondence-document-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Device Type
+Creating valueset for Device Type - https://fhir.nhs.uk/ValueSet/device-type-1
+*** Device Type has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page device-type-1
+Valueset Page: Finish - device-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Document Type
+Creating valueset for Document Type - https://fhir.nhs.uk/ValueSet/document-type-1
+*** Document Type has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page document-type-1
+Valueset Page: Finish - document-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Encounter Disposition SnCT
+Creating valueset for Encounter Disposition SnCT - https://fhir.nhs.uk/ValueSet/encounter-disposition-snct-1
+*** Encounter Disposition SnCT has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page encounter-disposition-snct-1
+Valueset Page: Finish - encounter-disposition-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Encounter Type SnCT
+Creating valueset for Encounter Type SnCT - https://fhir.nhs.uk/ValueSet/encounter-type-snct-1
+*** Encounter Type SnCT has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page encounter-type-snct-1
+Valueset Page: Finish - encounter-type-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Ethnic Category
+Creating valueset for Ethnic Category - https://fhir.nhs.uk/ValueSet/ethnic-category-1
+*** Ethnic Category has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page ethnic-category-1
+Valueset Page: Finish - ethnic-category-1
+Create resource files (ValueSets)
+Valueset Page: Start - Finding SnCT
+Creating valueset for Finding SnCT - https://fhir.nhs.uk/ValueSet/finding-snct-1
+     Get Summary table
+     Get Content Logical Definition
+Render page finding-snct-1
+Valueset Page: Finish - finding-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Human Language
+Creating valueset for Human Language - https://fhir.nhs.uk/ValueSet/human-language-1
+*** Human Language has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page human-language-1
+Valueset Page: Finish - human-language-1
+Create resource files (ValueSets)
+Valueset Page: Start - Job Role Name
+Creating valueset for Job Role Name - https://fhir.nhs.uk/ValueSet/job-role-name-1
+*** Job Role Name has no Copyright description!
+*** Job Role Name has no OID!
+     Get Summary table
+     Get concept values
+Render page job-role-name-1
+Valueset Page: Finish - job-role-name-1
+Create resource files (ValueSets)
+Valueset Page: Start - Language Ability Mode
+Creating valueset for Language Ability Mode - https://fhir.nhs.uk/ValueSet/language-ability-mode-1
+*** Language Ability Mode has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page language-ability-mode-1
+Valueset Page: Finish - language-ability-mode-1
+Create resource files (ValueSets)
+Valueset Page: Start - Language Ability Proficiency
+Creating valueset for Language Ability Proficiency - https://fhir.nhs.uk/ValueSet/language-ability-proficiency-1
+*** Language Ability Proficiency has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page language-ability-proficiency-1
+Valueset Page: Finish - language-ability-proficiency-1
+Create resource files (ValueSets)
+Valueset Page: Start - Marital Status
+Creating valueset for Marital Status - https://fhir.nhs.uk/ValueSet/marital-status-1
+*** Marital Status has no Copyright description!
+     Get Summary table
+     Get concept values
+     Get Content Logical Definition
+     Get contained resources
+ Map resources Marital Status with marital-status-ddmap-1
+ ***marital-status-ddmap-1 has codesystem  concept Single has no definition!
+ ***marital-status-ddmap-1 has codesystem  concept Married/Civil Partner has no definition!
+ ***marital-status-ddmap-1 has codesystem  concept Divorced/Person whose Civil Partnership has been dissolved has no definition!
+ ***marital-status-ddmap-1 has codesystem  concept Widowed/Surviving Civil Partner has no definition!
+ ***marital-status-ddmap-1 has codesystem  concept Separated has no definition!
+ ***marital-status-ddmap-1 has codesystem  concept Not disclosed has no definition!
+Render page marital-status-1
+Valueset Page: Finish - marital-status-1
+Create resource files (ValueSets)
+Valueset Page: Start - Marital Status NHS Data Model and Dictionary
+Creating valueset for Marital Status NHS Data Model and Dictionary - https://fhir.nhs.uk/ValueSet/marital-status-ddmap-1
+*** Marital Status NHS Data Model and Dictionary has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page marital-status-ddmap-1
+Valueset Page: Finish - marital-status-ddmap-1
+Create resource files (ValueSets)
+Valueset Page: Start - NHS Number Verification Status
+Creating valueset for NHS Number Verification Status - https://fhir.nhs.uk/ValueSet/nhsnumberverificationstatus-1
+*** NHS Number Verification Status has no Copyright description!
+*** NHS Number Verification Status has no OID!
+     Get Summary table
+     Get concept values
+Render page nhsnumberverificationstatus-1
+Valueset Page: Finish - nhsnumberverificationstatus-1
+Create resource files (ValueSets)
+Valueset Page: Start - Person Stated Gender Code NHS Data Model and Dictionary
+Creating valueset for Person Stated Gender Code NHS Data Model and Dictionary - https://fhir.nhs.uk/ValueSet/person-stated-gender-ddmap-1
+*** Person Stated Gender Code NHS Data Model and Dictionary has no Copyright description!
+     Get Summary table
+     Get concept values
+Render page person-stated-gender-ddmap-1
+Valueset Page: Finish - person-stated-gender-ddmap-1
+Create resource files (ValueSets)
+Valueset Page: Start - Referral Reason SnCT
+Creating valueset for Referral Reason SnCT - https://fhir.nhs.uk/ValueSet/referral-reason-snct-1
+*** Referral Reason SnCT has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page referral-reason-snct-1
+Valueset Page: Finish - referral-reason-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Referral Type SnCT
+Creating valueset for Referral Type SnCT - https://fhir.nhs.uk/ValueSet/referraltype-snct-1
+*** Referral Type SnCT has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page referraltype-snct-1
+Valueset Page: Finish - referraltype-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Registration Status
+Creating valueset for Registration Status - https://fhir.nhs.uk/ValueSet/registration-status-1
+*** Registration Status has no Copyright description!
+*** Registration Status has no OID!
+     Get Summary table
+     Get concept values
+Render page registration-status-1
+Valueset Page: Finish - registration-status-1
+Create resource files (ValueSets)
+Valueset Page: Start - Registration Type
+Creating valueset for Registration Type - https://fhir.nhs.uk/ValueSet/registration-type-1
+*** Registration Type has no Copyright description!
+*** Registration Type has no OID!
+     Get Summary table
+     Get concept values
+Render page registration-type-1
+Valueset Page: Finish - registration-type-1
+Create resource files (ValueSets)
+Valueset Page: Start - Religious Affiliation SnCT
+Creating valueset for Religious Affiliation SnCT - https://fhir.nhs.uk/ValueSet/religious-affiliation-snct-1
+     Get Summary table
+     Get Content Logical Definition
+Render page religious-affiliation-snct-1
+Valueset Page: Finish - religious-affiliation-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Residential Status
+Creating valueset for Residential Status - https://fhir.nhs.uk/ValueSet/residential-status-1
+*** Residential Status has no Copyright description!
+*** Residential Status has no OID!
+     Get Summary table
+     Get concept values
+Render page residential-status-1
+Valueset Page: Finish - residential-status-1
+Create resource files (ValueSets)
+Valueset Page: Start - SDS Job Role Name
+Creating valueset for SDS Job Role Name - https://fhir.nhs.uk/ValueSet/sds-job-role-name-1
+*** SDS Job Role Name has no Copyright description!
+     Get Summary table
+     Get Content Logical Definition
+Render page sds-job-role-name-1
+Valueset Page: Finish - sds-job-role-name-1
+Create resource files (ValueSets)
+Valueset Page: Start - Section Type SnCT
+Creating valueset for Section Type SnCT - https://fhir.nhs.uk/ValueSet/section-type-snct-1
+*** Section Type SnCT has no OID!
+     Get Summary table
+     Get Content Logical Definition
+Render page section-type-snct-1
+Valueset Page: Finish - section-type-snct-1
+Create resource files (ValueSets)
+Valueset Page: Start - Referral Request Specialty
+Creating valueset for Referral Request Specialty - https://fhir.nhs.uk/ValueSet/Specialty-1
+*** Referral Request Specialty has no Copyright description!
+*** Referral Request Specialty has no OID!
+     Get Summary table
+Render page Specialty-1
+Valueset Page: Finish - specialty-1
+Create resource files (ValueSets)
+Valueset Page: Start - Treatment Category
+Creating valueset for Treatment Category - https://fhir.nhs.uk/ValueSet/treatment-category-1
+*** Treatment Category has no Copyright description!
+*** Treatment Category has no OID!
+     Get Summary table
+     Get concept values
+Render page treatment-category-1
+Valueset Page: Finish - treatment-category-1
+Create resource files (ValueSets)
+Examples Index: Start
+Target examples directory C:\git\NHS-FHIR-CDA-DOCREF\Generated\Chapter.5.Examples created
+Loading resources into resource store
+examples.html created
+Examples Index: Finish
+Clear down json in resources\ValueSets folder
+Clear down json in resources\StructureDefinitions folder
+Clear down xml in resources\OperationDefinitions folder
+Clear down json in resources\OperationDefinitions folder
+***Rendering complete. Output to directory C:\git\NHS-FHIR-CDA-DOCREF\Generated***

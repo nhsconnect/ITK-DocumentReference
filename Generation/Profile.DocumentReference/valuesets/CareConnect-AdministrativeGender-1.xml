@@ -61,7 +61,7 @@
 	<name value="Care Connect Administrative Gender"/>
 	<status value="active"/>
 	<description value="The gender of a person used for administrative purposes."/>
-	<requirements value="The codes listed in this FHIR ValueSet have a 'Required' binding; for conformance the Administrative Gender element SHALL include a code listed below. Concept Maps for this value set: https://fhir.hl7.org.uk/CareConnect-PersonStatedGender-DDMAP-1.valueset.xml"/>
+	<requirements value="The codes listed in this FHIR ValueSet have a 'Required' binding; for conformance the Administrative Gender element SHALL include a code listed below."/>
 	<codeSystem>
 		<system value="http://hl7.org/fhir/administrative-gender"/>
 		<concept>

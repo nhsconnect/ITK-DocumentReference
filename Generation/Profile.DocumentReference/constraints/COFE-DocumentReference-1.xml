@@ -11,11 +11,6 @@
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
     </tag>
-    <tag>
-      <system value="urn:hscic:examples" />
-      <code value="COFE-DocumentReference-Example-2" />
-      <display value="Rendered example of a document reference for EOL, containing an encoded text file." />
-    </tag>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2" />

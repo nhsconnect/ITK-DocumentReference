@@ -147,7 +147,50 @@
   </div>
   <div class="panel-body">
     <div xmlns="">
-      <p>The 'COFE-Document-Bundle-1' is a document. The first resource is the Composition 'COFE-CDA-Header-Composition-1', followed by supporting resources.</p>
+      <p>The COFE-Document-Bundle-1 bundle resource profile is used in the CDA on FHIR Document Reference interface as a container to collect the following profiles: </p>
+      <ul>
+        <li>
+          <strong>
+            <a href="cofe-documentreference-1.html">COFE-DocumentReference-1</a>
+          </strong>  An NHS Digital Composition profile which is used to describe a PDF document that is made available to a health or social care system, establish context and stores its contents in a base64 binary encoded format.</li>
+        <li>
+          <strong>
+            <a href="cofe-binary-1.html">COFE-Binary-1</a>
+          </strong>  An NHS Digital profile which stores a health or social care PDF document in a base64 binary format.  
+</li>
+        <li>
+          <strong>
+            <a href="careconnect-patient-1.html">CareConnect-Patient-1</a>
+          </strong>  A CareConnect profile which carries the patient demographic details.</li>
+        <li>
+          <strong>
+            <a href="careconnect-practitioner-1.html">CareConnect-Practitioner-1</a>
+          </strong>  A CareConnect profile which carries information about the healthcare professional.</li>
+        <li>
+          <strong>
+            <a href="cofe-related-person-1.html">COFE-Related-Person-1</a>
+          </strong> An NHS Digital profile which carries information for a person with a relationship with the patient.</li>
+        <li>
+          <strong>
+            <a href="careconnect-organization-1.html">CareConnect-Organization-1</a>
+          </strong>  A CareConnect profile which carries details of the Organization.</li>
+        <li>
+          <strong>
+            <a href="cofe-location-1.html">COFE-Location-1</a>
+          </strong>  An NHS Digital profile which carries information and details on the physical location and the services provided.</li>
+        <li>
+          <strong>
+            <a href="cofe-device-1.html">COFE-Device-1</a>
+          </strong>  An NHS Digital profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.</li>
+      </ul>
+      <hr />
+      <p>
+        <strong>Examples</strong>
+      </p>
+      <p>The following example contains a composition resource and has been converted to a txt file  to allow better viewing within a web browser, xml copies are available within the examples folder within this specification.</p>
+      <p>This is an example of an eDischarge document Bundle <a href="../Chapter.5.Examples/COFE-DocumentReference-Bundle-1-Example.txt">COFE-XML-1.txt</a></p>
+      <p>This is an example of an eDischarge document Bundle after rendering <a href="../Chapter.5.Examples/COFE-DocumentReference-Bundle-1-Example.html">COFE-Rendered-1.html</a></p>
+      <hr />
     </div>
   </div>
 </div>

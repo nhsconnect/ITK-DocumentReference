@@ -11,6 +11,11 @@
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
     </tag>
+    <tag>
+      <system value="urn:hscic:examples" />
+      <code value="COFE-DocumentReference-Example-2" />
+      <display value="Rendered example of a document reference for EOL, containing an encoded text file." />
+    </tag>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2" />
@@ -1242,7 +1247,7 @@
     </element>
     <element>
       <path value="DocumentReference.type" />
-      <short value="Kind of document (LOINC if possible)" />
+      <short value="A set of codes to classify the type of document." />
       <definition value="Specifies the particular kind of document referenced  (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the document referenced." />
       <comments value="Key metadata element describing the document, used in searching/filtering." />
       <min value="1" />
@@ -1760,6 +1765,11 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1" />
+        <aggregation value="referenced" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />
@@ -5097,7 +5107,7 @@
     </element>
     <element>
       <path value="DocumentReference.type" />
-      <short value="Kind of document (LOINC if possible)" />
+      <short value="A set of codes to classify the type of document." />
       <definition value="Specifies the particular kind of document referenced  (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the document referenced." />
       <comments value="Key metadata element describing the document, used in searching/filtering." />
       <min value="1" />
@@ -5370,6 +5380,11 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1" />
+        <aggregation value="referenced" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
         <aggregation value="referenced" />
       </type>
       <isSummary value="true" />

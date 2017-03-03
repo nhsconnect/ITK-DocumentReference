@@ -1,0 +1,1332 @@
+<html xmlns="http://hl7.org/fhir" xmlns:fhir="http://hl7.org/fhir" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:saxon="http://saxon.sf.net/">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+      <title>FHIR Renderer</title><style type="text/css">
+						body { color: #000000; font-size: 12pt; line-height: normal; font-family: Verdana, Arial, sans-serif; margin: 10px; }
+						h1 { font-size: 14pt; font-weight: bold; color: #000000; margin-top: 5px; margin-bottom: 15px;}
+						h2 { font-size: 12pt; font-weight: bold; color: #000000; margin-top: 5px; margin-bottom: 15px; }
+						h3 { font-size: 10pt; font-weight: bold; color: #000000; margin-top: 5px; margin-bottom: 15px; }
+						h4 { font-size: 10pt; font-weight: bold; text-decoration: underline; color: #000000; margin-top: 5px; margin-bottom: 15px; }
+						h5 { font-size: 10pt; font-weight: normal; text-decoration: underline;  color: #000000; margin-top: 5px; margin-bottom: 15px; }
+						h6 { font-size: 10pt; font-weight: normal; color: #000000; margin-top: 5px; margin-bottom: 15px; }
+						table { border: 0px solid #000000; table-layout: fixed; text-align: left; width: 100%;}
+						th.default {padding: 3px; color: #000000; background-color: #eeeeee; text-align: left;}
+						th {padding: 3px;}
+						td {padding: 3px;}
+						/*Banner styles*/
+						div.banner {margin-bottom: 30px; border: 1px solid #000000; background-color: #eeeeee;}
+						div.banner TABLE {border: 1px solid black; background-color: #ffffff; margin-bottom: 5px; }
+						div.banner TD {background-color: #eeeeee; vertical-align: top; padding: 3px; font-weight: normal; font-size: 12pt;}
+						div.banner TH {background-color: #dddddd; vertical-align: top; padding: 3px; font-weight: bold; font-size: 12pt;}
+						div.banner TABLE P {margin: 0;}
+						div.banner-partial-cream {margin-bottom: 30px; border: 1px solid #000000; background-color: #ffffee; padding-left: 5px;}
+						div.banner-partial-cream TABLE {border: 0px; background-color: #ffffee;}
+						div.banner-partial-cream TD {background-color: #ffffee; vertical-align: top; padding: 3px; font-weight: bold; font-size: 12pt;}
+						div.banner-partial-cream TH {background-color: #ffffee; vertical-align: top; padding: 3px; font-weight: normal; font-style:italic; font-size: 12pt;}
+						div.banner-partial-cream TABLE P {margin: 0;}
+						div.banner-partial-violet {margin-bottom: 30px; border: 1px solid #000000; background-color: #eeeeff; padding-left: 5px;}
+						div.banner-partial-violet TABLE {border: 0px; background-color: #eeeeff; }
+						div.banner-partial-violet TD {background-color: #eeeeff; vertical-align: top; padding: 3px; font-weight: bold; font-size: 12pt;}
+						div.banner-partial-violet TH {background-color: #ffffee; vertical-align: top; padding: 3px; font-weight: normal; font-style:italic; font-size: 12pt;}
+						div.banner-partial-violet TABLE P {margin: 0;}
+						div.banner-partial-gray {margin-bottom: 30px; border: 0px solid #000000; background-color: #ffffff; padding-left: 5px;}
+						div.banner-partial-gray TABLE {border: 1px solid black; background-color: #ffffff; margin-bottom: 5px; }
+						div.banner-partial-gray TD {background-color: #eeeeee; vertical-align: top; padding: 3px; font-weight: normal; font-size: 12pt;}
+						div.banner-partial-gray TH {background-color: #dddddd; vertical-align: top; padding: 3px; font-weight: bold; font-size: 12pt;}
+						div.banner-partial-gray TABLE P {margin: 0; }
+						
+						.label {font-style:italic; font-weight: normal;}
+						.bold {font-weight: bold;}
+						.bold-italic {font-style:italic; font-weight: bold;}
+						
+						/******************** CONFIG OPTIONS FOR RENDERING - START ********************/
+						/************************************************************************************************/
+						/* The FHIR Renderer has two options to either display the Full resource with all elements or a Partial resource with chosen elements,
+							to hide a particular view then un-comment the statement to hide, e.g. un-comment display:none so it will not display that particular view. */
+						#bundledetails-full {display: none;}
+						#full-resources {display: none;}
+						//#partial-resources {display: none;}
+						/**********************************************************************************************/
+						/******************** CONFIG OPTIONS FOR RENDERING - END ********************/
+				</style></head>
+   <body>
+      <div id="bundledetails-full">
+         <div id="bundledetails">
+            <h2>Bundle Details</h2> Bundle id: 320d7908-d1ae-48aa-b055-94561076b945<br></br>Type: document<br></br></div>
+      </div>
+      <div id="partial-resources">
+         <div id="patient-header-partial" class="banner-partial-cream">
+            <h2>Patient Demographics</h2>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Patient name</th>
+                     <th>Date of birth</th>
+                     <th>Gender</th>
+                     <th>Ethnicity:</th>
+                     <th>Identifier</th>
+                  </tr>
+                  <tr>
+                     <td>Smith, Richard (Mr)</td>
+                     <td>01-Jan-1957</td>
+                     <td>male</td>
+                     <td>British, Mixed British</td>
+                     <td><span class="label">Number present and verified</span><br></br>1352465790<br></br><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <p></p>
+            <table>
+               <tbody>
+                  <tr>
+                     <td>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td><span class="label">Home address</span></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>21, Grove Street</td>
+                              </tr>
+                              <tr>
+                                 <td>Overtown</td>
+                              </tr>
+                              <tr>
+                                 <td>Leeds</td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>LS21 1PF</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <p></p>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>GP Practice</th>
+                  </tr>
+                  <tr>
+                     <td>MGP Medical Centre
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <table>
+                                       <tr>
+                                          <td><span class="label">Work address</span></td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                       </tr>
+                                       <tr>
+                                          <td>1 MGP House</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Overtown</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Leeds</td>
+                                       </tr>
+                                       <tr>
+                                          <td>LS21 7PA</td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                       </tr>
+                                       <tr>
+                                          <td></td>
+                                       </tr>
+                                    </table>
+                                 </td>
+                                 <td><span class="label">Work phone: </span>01634111223<br></br><span class="label">Email: </span>Admin@MMC.co.uk<br></br></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <p></p>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>GP Practice Code</th>
+                  </tr>
+                  <tr>
+                     <td>GP123456</td>
+                  </tr>
+               </tbody>
+            </table>
+            <table>
+               <tbody>
+                  <tr>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="banner-partial-gray">
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Encoded Content</th>
+                  </tr>
+                  <tr>
+                     <td><a href="outputencodedcode.html">Click here to view encoded data</a></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="banner-partial-cream">
+            <table>
+               <tbody>
+                  <tr>
+                     <td><span class="label">Document Created</span></td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Document Owner</span></td>
+                     <td>Leeds Community Healthcare NHS Trust</td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Authored By</span></td>
+                     <td>Jones, Tom (Mr)</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="banner-partial-violet">
+            <h2>Discharge Summary</h2>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><span class="label">Encounter Type </span></td>
+                     <td>Emergency department patient visit</td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Encounter Time </span></td>
+                     <td>12-Feb-2015 09:00 to 16-Feb-2016 09:00</td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Encounter Disposition </span></td>
+                     <td>Discharge to home</td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Care Setting Type </span></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="banner-partial-cream">
+            <table>
+               <tbody>
+                  <tr>
+                     <td><span class="bold">Other participant(s) in this document</span></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <table>
+               <tbody>
+                  <tr>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div class="banner-partial-cream">
+            <table>
+               <tbody>
+                  <tr>
+                     <td><span class="label">Document ID</span></td>
+                     <td></td>
+                     <td><span class="label">Version</span></td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Primary Recipient</span></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+                  <tr>
+                     <td><span class="label">Copy Recipient</span></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+      <div id="full-resources">
+         <div id="patient-full" class="banner">
+            <h1>Patient Demographics</h1>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Name: </strong></th>
+                     <th><strong>Family: </strong></th>
+                     <th><strong>Given: </strong></th>
+                     <th><strong>Prefix: </strong></th>
+                     <th><strong>Suffix: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>usual</td>
+                     <td></td>
+                     <td>Smith<br></br></td>
+                     <td>Richard<br></br></td>
+                     <td>Mr<br></br></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><strong>Date of Birth: </strong><br></br>1957-01-01
+                     </td>
+                     <td><strong>Gender: </strong><br></br>male
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Identifier: </strong></th>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Type: </strong></th>
+                     <th><strong>System: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                     <th><strong>Assigner: </strong></th>
+                  </tr>
+                  <tr></tr>
+                  <tr></tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><strong>Deceased DateTime: </strong><br></br></td>
+                     <td><strong>Deceased Boolean: </strong><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Address: </strong><br></br>home
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>21, Grove Street</td>
+                              </tr>
+                              <tr>
+                                 <td>Overtown</td>
+                              </tr>
+                              <tr>
+                                 <td>Leeds</td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>LS21 1PF</td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><strong>maritalStatus system: </strong><br></br>http://hl7.org/fhir/marital-status
+                     </td>
+                     <td><strong>maritalStatus version: </strong><br></br></td>
+                     <td><strong>maritalStatus code: </strong><br></br>M
+                     </td>
+                     <td><strong>maritalStatus display: </strong><br></br>Married
+                     </td>
+                     <td><strong>maritalStatus userselected: </strong><br></br></td>
+                     <td><strong>maritalStatus text: </strong><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><strong>multipleBirthBoolean: </strong><br></br></td>
+                     <td><strong>multipleBirthInteger: </strong><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Photo contentType: </strong></th>
+                     <th><strong>Photo language: </strong></th>
+                     <th><strong>Photo data: </strong></th>
+                     <th><strong>Photo url: </strong></th>
+                     <th><strong>Photo size: </strong></th>
+                     <th><strong>Photo hash: </strong></th>
+                     <th><strong>Photo title: </strong></th>
+                     <th><strong>Photo creation: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Contact <br></br> Relationship System
+                     </th>
+                     <th>Relationship Version</th>
+                     <th>Relationship Code</th>
+                     <th>Relationship Display</th>
+                     <th>Relationship userSelected</th>
+                  </tr>
+                  <tr>
+                     <td>http://hl7.org.uk/fhir/ValueSet/CareConnect-PersonRelationshipType</td>
+                     <td></td>
+                     <td>01</td>
+                     <td>Spouse</td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Name: </strong></th>
+                     <th><strong>Family: </strong></th>
+                     <th><strong>Given: </strong></th>
+                     <th><strong>Prefix: </strong></th>
+                     <th><strong>Suffix: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>usual</td>
+                     <td></td>
+                     <td>Smith<br></br></td>
+                     <td>Joy<br></br></td>
+                     <td>Mrs<br></br></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Address: </strong><br></br></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                     <td><strong>System: </strong>phone<br></br><strong>Value: </strong>0712345678<br></br><strong>Use: </strong>mobile<br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br><strong>System: </strong>email<br></br><strong>Value: </strong>mrssmith@mymail.com<br></br><strong>Use: </strong><br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Gender:</strong></th>
+                     <th><strong>Organization Reference:</strong></th>
+                     <th><strong>Organization Display:</strong></th>
+                     <th><strong>Period Start:</strong></th>
+                     <th><strong>Period End:</strong></th>
+                  </tr>
+                  <tr>
+                     <td>female</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Communication</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>System:</strong></th>
+                     <th><strong>Code:</strong></th>
+                     <th><strong>Display:</strong></th>
+                     <th><strong>Text:</strong></th>
+                     <th><strong>Preferred:</strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Care Provider</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>Reference:</strong></th>
+                     <th><strong>Display:</strong></th>
+                  </tr>
+                  <tr>
+                     <td>Organization/f9f24f89-646b-4a19-a6b1-cabfa3b612e1</td>
+                     <td>MGP Medical Centre</td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Managing Organization</strong><table>
+               <tbody>
+                  <tr>
+                     <th>Reference:</th>
+                     <th>Display:</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Link</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>Other reference:</strong></th>
+                     <th><strong>Type:</strong></th>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <div id="practitioner" class="banner">
+            <h1>Practitioner</h1>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Identifier: </strong></th>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Type: </strong></th>
+                     <th><strong>System: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                     <th><strong>Assigner: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>GP12345600</td>
+                     <td></td>
+                     <td></td>
+                     <td>https://fhir.nhs.uk/Id/sds-identifier</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Name: </strong></th>
+                     <th><strong>Family: </strong></th>
+                     <th><strong>Given: </strong></th>
+                     <th><strong>Prefix: </strong></th>
+                     <th><strong>Suffix: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                     <td>Smith<br></br>Lorenzo<br></br>Jones<br></br></td>
+                     <td>Angela<br></br>John<br></br>Tom<br></br></td>
+                     <td>Mrs<br></br>Dr<br></br>Mr<br></br></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td>
+                        <table>
+                           <tbody>
+                              <tr>
+                                 <td><strong>Address: </strong><br></br></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>Leeds Teaching Hospital</td>
+                              </tr>
+                              <tr>
+                                 <td>Great George Street</td>
+                              </tr>
+                              <tr>
+                                 <td>Leeds</td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td>LS1 3EX</td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                              <tr>
+                                 <td></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </td>
+                     <td><strong>System: </strong>phone<br></br><strong>Value: </strong>01136323200<br></br><strong>Use: </strong>work<br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br><strong>System: </strong>phone<br></br><strong>Value: </strong>01634111222<br></br><strong>Use: </strong>work<br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br><strong>System: </strong>email<br></br><strong>Value: </strong>John.Lorenzo@MMC.co.uk<br></br><strong>Use: </strong><br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br><strong>System: </strong>phone<br></br><strong>Value: </strong>01136323200<br></br><strong>Use: </strong>work<br></br><strong>Rank: </strong><br></br><strong>Period Start: </strong><br></br><strong>Period End: </strong><br></br><br></br></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <td><strong>Active: </strong></td>
+                     <td><strong>Gender: </strong></td>
+                     <td><strong>Date of Birth: </strong></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Photo contentType: </strong></th>
+                     <th><strong>Photo language: </strong></th>
+                     <th><strong>Photo data: </strong></th>
+                     <th><strong>Photo url: </strong></th>
+                     <th><strong>Photo size: </strong></th>
+                     <th><strong>Photo hash: </strong></th>
+                     <th><strong>Photo title: </strong></th>
+                     <th><strong>Photo creation: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Managing Organization Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>f9f24f89-646b-4a19-a6b1-cabfa3b612e1</td>
+                     <td>MGP Medical Centre</td>
+                  </tr>
+                  <tr>
+                     <th><strong>Role Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>https://fhir.nhs.uk/job-role-name-1</td>
+                     <td></td>
+                     <td>NR0700</td>
+                     <td>Community Nurse</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Specialty Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Location Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Health care Service Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Managing Organization Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>f9f24f89-646b-4a19-a6b1-cabfa3b612e1</td>
+                     <td>MGP Medical Centre</td>
+                  </tr>
+                  <tr>
+                     <th><strong>Role Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>https://fhir.nhs.uk/job-role-name-1</td>
+                     <td></td>
+                     <td>NR9100</td>
+                     <td>Named GP</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Specialty Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Location Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Health care Service Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Managing Organization Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>Organization/e1580b71-99bd-4c5b-8d54-9b420418135f</td>
+                     <td>Leeds Community Healthcare NHS Trust</td>
+                  </tr>
+                  <tr>
+                     <th><strong>Role Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>https://fhir.nhs.uk/ValueSet/sds-job-role-name-1</td>
+                     <td></td>
+                     <td>NR0110</td>
+                     <td>Specialist Registrar</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Specialty Coding System: </strong></th>
+                     <th><strong>Version: </strong></th>
+                     <th><strong>Code: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>userSelected: </strong></th>
+                     <th><strong>Text: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Location Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Health care Service Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Qualification</strong><strong>Communication</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>System:</strong></th>
+                     <th><strong>Code:</strong></th>
+                     <th><strong>Display:</strong></th>
+                     <th><strong>Text:</strong></th>
+                     <th><strong>Preferred:</strong></th>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+         <hr></hr>
+         <div class="banner-partial-gray"></div>
+         <div id="encounter" class="banner">
+            <h1>Encounter</h1>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Identifier: </strong></th>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Type: </strong></th>
+                     <th><strong>System: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                     <th><strong>Assigner: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>13c73015-d8fa-4844-8d68-4f856883eca8</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Status</strong></th>
+                     <th><strong>Class</strong></th>
+                  </tr>
+                  <tr>
+                     <td>finished</td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <table>
+               <tbody>
+                  <tr>
+                     <th><strong>Status History: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Type System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+                  <tr>
+                     <td>http://snomed.info/sct</td>
+                     <td></td>
+                     <td>4525004</td>
+                     <td>Emergency department patient visit</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Priority System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Patient Reference: </th>
+                     <th>Display: </th>
+                  </tr>
+                  <tr>
+                     <td>Patient/31686b67-9f20-4644-9a54-193d2f91de57</td>
+                     <td>Richard Smith</td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>episodeOfCare Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>incomingReferral Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Participant</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>Type Code/Display: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                     <th><strong>Individual Reference: </strong></th>
+                     <th><strong>Individual Display: </strong></th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Appointment Reference: </th>
+                     <th>Display: </th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Period Start: </th>
+                     <th>Period End: </th>
+                  </tr>
+                  <tr>
+                     <td>2015-02-12T09:00:00+00:00</td>
+                     <td>2016-02-16T09:00:00+00:00</td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Length Value: </th>
+                     <th>Comparator: </th>
+                     <th>Unit: </th>
+                     <th>System: </th>
+                     <th>Code: </th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Reason System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Indication Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Hospitalization</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>preAdmissionIdentifier: </strong></th>
+                     <th><strong>Use: </strong></th>
+                     <th><strong>Type: </strong></th>
+                     <th><strong>System: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                     <th><strong>Assigner: </strong></th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Origin Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>admitSource System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>admittingDiagnosis Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>reAdmission System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>dietPreference System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>specialCourtesy System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>specialArrangement System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>Destination Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>dischargeDisposition System</th>
+                     <th>Version</th>
+                     <th>Code</th>
+                     <th>Display</th>
+                     <th>userSelected</th>
+                     <th>Text</th>
+                  </tr>
+                  <tr>
+                     <td>http://snomed.info/sct</td>
+                     <td></td>
+                     <td>306689006</td>
+                     <td>Discharge to home</td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>dischargeDiagnosis Reference</th>
+                     <th>Display</th>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr><strong>Location</strong><table>
+               <tbody>
+                  <tr>
+                     <th><strong>Reference: </strong></th>
+                     <th><strong>Display: </strong></th>
+                     <th><strong>Status: </strong></th>
+                     <th><strong>Period Start: </strong></th>
+                     <th><strong>Period End: </strong></th>
+                  </tr>
+                  <tr>
+                     <td>Location/01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3</td>
+                     <td>Accident and Emergency department</td>
+                     <td></td>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>serviceProvider Reference: </th>
+                     <th>Display: </th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            <hr></hr>
+            <table>
+               <tbody>
+                  <tr>
+                     <th>partOf Reference: </th>
+                     <th>Display: </th>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>
+      </div>
+   </body>
+</html>

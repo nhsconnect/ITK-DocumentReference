@@ -1297,11 +1297,6 @@
         <code value="Coding" />
       </type>
       <isSummary value="true" />
-      <binding>
-        <strength value="preferred" />
-        <description value="Type of a document." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
-      </binding>
       <mapping>
         <identity value="v2" />
         <map value="C*E.1-8, C*E.10-22" />
@@ -1392,11 +1387,6 @@
       </type>
       <exampleCode value="373942005" />
       <isSummary value="true" />
-      <binding>
-        <strength value="preferred" />
-        <description value="A set of codes to classify the type of document." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
-      </binding>
       <mapping>
         <identity value="v2" />
         <map value="C*E.1" />
@@ -5157,11 +5147,6 @@
         <code value="Coding" />
       </type>
       <isSummary value="true" />
-      <binding>
-        <strength value="preferred" />
-        <description value="Type of a document." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
-      </binding>
       <mapping>
         <identity value="v2" />
         <map value="C*E.1-8, C*E.10-22" />
@@ -5252,11 +5237,6 @@
       </type>
       <exampleCode value="373942005" />
       <isSummary value="true" />
-      <binding>
-        <strength value="preferred" />
-        <description value="A set of codes to classify the type of document." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/document-type-1" />
-      </binding>
       <mapping>
         <identity value="v2" />
         <map value="C*E.1" />

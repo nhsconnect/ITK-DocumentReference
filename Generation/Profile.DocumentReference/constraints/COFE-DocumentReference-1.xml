@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-09T21:18:46.828+01:00" />
+    <lastUpdated value="2017-07-10T12:47:16.986+01:00" />
     <tag>
       <system value="urn:hscic:examples" />
       <code value="COFE-DocumentReference-Example-1" />
@@ -3717,7 +3717,7 @@
       <requirements value="Helps humans to assess whether the document is of interest when viewing a list of documents." />
       <alias value="kind" />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.class" />
         <min value="0" />
@@ -5205,7 +5205,7 @@
       <short value="Relationships to other documents" />
       <definition value="Relationships that this document has with other document references that already exist." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.relatesTo" />
         <min value="0" />
@@ -5625,7 +5625,7 @@
       <comments value="The confidentiality codes can carry multiple vocabulary items. HL7 has developed an understanding of security and privacy tags that might be desirable in a Document Sharing environment, called HL7 Healthcare Privacy and Security Classification System (HCS). The following specification is recommended but not mandated, as the vocabulary bindings are an administrative domain responsibility. The use of this method is up to the policy domain such as the XDS Affinity Domain or other Trust Domain where all parties including sender and recipients are trusted to appropriately tag and enforce.   In the HL7 Healthcare Privacy and Security Classification (HCS) there are code systems specific to Confidentiality, Sensitivity, Integrity, and Handling Caveats. Some values would come from a local vocabulary as they are related to workflow roles and special projects." />
       <requirements value="Use of the Health Care Privacy/Security Classification (HCS) system of security-tag use is recommended." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.securityLabel" />
         <min value="0" />
@@ -6491,7 +6491,7 @@
       <comments value="The base64-encoded data SHALL be expressed in the same character set as the base resource XML or JSON." />
       <requirements value="The data needs to able to be transmitted inline." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="Attachment.data" />
         <min value="0" />
@@ -6540,7 +6540,6 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
       <exampleUri value="http://www.acme.com/logo-small.png" />
       <condition value="ele-1" />
       <constraint>
@@ -6573,7 +6572,7 @@
       <comments value="The number of bytes is redundant if the data is provided as a base64binary, but is useful if the data is provided as a url reference." />
       <requirements value="Representing the size allows applications to determine whether they should fetch the content automatically in advance, or refuse to fetch it at all." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="Attachment.size" />
         <min value="0" />
@@ -6716,7 +6715,7 @@
       <definition value="An identifier of the document encoding, structure, and template that the document conforms to beyond the base format indicated in the mimeType." />
       <comments value="Note that while IHE mostly issues URNs for format types, not all documents can be identified by a URI." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.content.format" />
         <min value="0" />
@@ -7387,7 +7386,7 @@
       <definition value="This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the typeCode, such as a &quot;History and Physical Report&quot; in which the procedure being documented is necessarily a &quot;History and Physical&quot; act." />
       <comments value="An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.event" />
         <min value="0" />
@@ -8099,7 +8098,7 @@
       <definition value="The kind of facility where the patient was seen." />
       <comments value="Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.facilityType" />
         <min value="0" />
@@ -8609,7 +8608,7 @@
       <comments value="The value set for this content has an example binding because it is a value set decided by community policy. Other examples exist for consideration: * HITSP created the table HITSP/C80 Table 2-148 Clinical Specialty Value Set (a value set based upon SNOMED CT which is referenced by Direct (XDR and XDM for Direct Messaging Specification, Version 1), as well as Nationwide Health Information Network (NHIN).  Query for Documents, Web Service Interface Specification, V 3.0, 07/27/2011 * ELGA (Austria) (ELGA CDA Implementie-rungsleitf??den Registrierung von CDA Dokumenten f??r ELGA mit IHE Cross-Enterprise Document Sharing: XDS Metadaten (XDSDocumentEntry), [1.2.40.0.34.7.6.3] * XDS Connect-a-thon practiceSettingCode." />
       <requirements value="This is an important piece of metadata that providers often rely upon to quickly sort and/or filter out to find specific content." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.practiceSetting" />
         <min value="0" />
@@ -9117,7 +9116,7 @@
       <short value="Patient demographics from source" />
       <definition value="The Patient Information as known when the document was published. May be a reference to a version specific, or contained." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.sourcePatientInfo" />
         <min value="0" />
@@ -9307,7 +9306,7 @@
       <definition value="Related identifiers or resources associated with the DocumentReference." />
       <comments value="May be identifiers or resources that caused the DocumentReference or referenced Document to be created." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.related" />
         <min value="0" />
@@ -10964,6 +10963,10 @@
       <max value="0" />
     </element>
     <element>
+      <path value="DocumentReference.class" />
+      <max value="0" />
+    </element>
+    <element>
       <path value="DocumentReference.author" />
       <min value="1" />
       <type>
@@ -11009,11 +11012,19 @@
       </binding>
     </element>
     <element>
+      <path value="DocumentReference.relatesTo" />
+      <max value="0" />
+    </element>
+    <element>
       <path value="DocumentReference.relatesTo.target" />
       <type>
         <code value="Reference" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
       </type>
+    </element>
+    <element>
+      <path value="DocumentReference.securityLabel" />
+      <max value="0" />
     </element>
     <element>
       <path value="DocumentReference.content.attachment.contentType" />
@@ -11024,8 +11035,16 @@
       <exampleCode value="GBR" />
     </element>
     <element>
-      <path value="DocumentReference.content.attachment.url" />
-      <fixedUri value="http://fhir.nhs.uk/StructureDefinition/cofe-binary-1" />
+      <path value="DocumentReference.content.attachment.data" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.content.attachment.size" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.content.format" />
+      <max value="0" />
     </element>
     <element>
       <path value="DocumentReference.context.encounter" />
@@ -11037,6 +11056,26 @@
     <element>
       <path value="DocumentReference.context.encounter.reference" />
       <min value="1" />
+    </element>
+    <element>
+      <path value="DocumentReference.context.event" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.context.facilityType" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.context.practiceSetting" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.context.sourcePatientInfo" />
+      <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.context.related" />
+      <max value="0" />
     </element>
     <element>
       <path value="DocumentReference.context.related.identifier.assigner" />

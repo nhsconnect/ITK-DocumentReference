@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-02-10T17:19:49.894+00:00" />
+    <lastUpdated value="2017-06-08T11:55:07.229+01:00" />
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="1" />
@@ -13,6 +13,7 @@
   <publisher value="HL7 UK" />
   <description value="This extension is constrained to represent the additional registration information for a patient." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="1.0.2" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
@@ -23,7 +24,7 @@
     <element>
       <path value="Extension" />
       <short value="Additional registration information for the Patient resource" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="Additional registration information for the Patient resource." />
       <min value="0" />
       <max value="1" />
       <base>
@@ -37,7 +38,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -71,7 +72,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -107,7 +108,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -144,7 +145,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -178,7 +179,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -210,7 +211,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -241,10 +242,11 @@
       <type>
         <code value="uri" />
       </type>
+      <fixedUri value="registrationPeriod" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -262,8 +264,8 @@
     </element>
     <element>
       <path value="Extension.extension.valuePeriod" />
-      <short value="Value of extension" />
-      <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
+      <short value="The period of time during which the Patient registration applies" />
+      <definition value="The period of time during which the Patient registration applies." />
       <min value="1" />
       <max value="1" />
       <base>
@@ -277,7 +279,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -314,7 +316,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -348,7 +350,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -380,7 +382,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -411,10 +413,11 @@
       <type>
         <code value="uri" />
       </type>
+      <fixedUri value="registrationType" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -447,7 +450,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -491,7 +494,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -525,7 +528,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -557,7 +560,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -588,10 +591,11 @@
       <type>
         <code value="uri" />
       </type>
+      <fixedUri value="registrationStatus" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -624,7 +628,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -666,7 +670,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -795,7 +799,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -816,6 +820,7 @@
     <element>
       <path value="Extension" />
       <short value="Additional registration information for the Patient resource" />
+      <definition value="Additional registration information for the Patient resource." />
       <max value="1" />
     </element>
     <element>
@@ -834,7 +839,13 @@
       <max value="1" />
     </element>
     <element>
+      <path value="Extension.extension.url" />
+      <fixedUri value="registrationPeriod" />
+    </element>
+    <element>
       <path value="Extension.extension.valuePeriod" />
+      <short value="The period of time during which the Patient registration applies" />
+      <definition value="The period of time during which the Patient registration applies." />
       <min value="1" />
       <type>
         <code value="Period" />
@@ -847,6 +858,10 @@
       <definition value="The type of patient registration at the healthcare organisation." />
       <min value="1" />
       <max value="1" />
+    </element>
+    <element>
+      <path value="Extension.extension.url" />
+      <fixedUri value="registrationType" />
     </element>
     <element>
       <path value="Extension.extension.valueCodeableConcept" />
@@ -871,6 +886,10 @@
       <definition value="The registration status for this patient at the healthcare organisation." />
       <min value="1" />
       <max value="1" />
+    </element>
+    <element>
+      <path value="Extension.extension.url" />
+      <fixedUri value="registrationStatus" />
     </element>
     <element>
       <path value="Extension.extension.valueCodeableConcept" />

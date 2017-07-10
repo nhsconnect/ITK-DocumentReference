@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-02-10T17:19:08.949+00:00" />
+    <lastUpdated value="2017-03-01T12:21:18.455+00:00" />
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0" />
@@ -13,6 +13,7 @@
   <publisher value="HL7 UK" />
   <description value="This extension is constrained to represent a reference to the main location for an organization." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="1.0.2" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
@@ -38,7 +39,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -72,7 +73,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -104,7 +105,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -139,7 +140,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -159,7 +160,7 @@
       <path value="Extension.valueReference" />
       <short value="Main location" />
       <definition value="Reference to the main location for an organization." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Extension.value[x]" />
@@ -173,7 +174,7 @@
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
-          <valueString value="*" />
+          <valueString value="children()" />
         </extension>
         <key value="ele-1" />
         <severity value="error" />
@@ -205,6 +206,7 @@
       <path value="Extension.valueReference" />
       <short value="Main location" />
       <definition value="Reference to the main location for an organization." />
+      <min value="1" />
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1" />

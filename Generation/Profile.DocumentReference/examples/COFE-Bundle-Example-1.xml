@@ -17,14 +17,12 @@
 	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
 		<valueReference>
 			<reference value="Practitioner/8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
-			<display value="Mrs Angela Smith"/>
 		</valueReference>
 	</extension>
 	<!-- Information Recipient 2 -->
 	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
 		<valueReference>
 			<reference value="Practitioner/5e414a77-d394-4248-a631-00e45ddb64a0"/>
-			<display value="Dr John Lorenzo"/>
 		</valueReference>
 	</extension>
 	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1">

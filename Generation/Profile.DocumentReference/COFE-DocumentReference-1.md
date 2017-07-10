@@ -1,1 +1,1 @@
-CDA On FHIR Document Header Composition
+This constrained FHIR document reference resource is used to include attached pre-existing documents such as a pdf document requesting further information about a patient or containing other types of supporting information. The Binary Resource is referenced within DocumentReference and is used to carry the actual embedded document.

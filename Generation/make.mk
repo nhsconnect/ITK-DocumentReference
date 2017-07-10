@@ -14,7 +14,7 @@ select IGResource.xml >> dict $template >> save
 select IGResource.xml >> operation $template >> save
 select IGResource.xml >> valueset $template >> save
 select IGResource.xml >> exampleIndex $template >> save
-//select IGResource.xml >> valuesetIndex $template >> save
+select IGResource.xml >> valuesetIndex $template >> save
 
 
 // Copy static files

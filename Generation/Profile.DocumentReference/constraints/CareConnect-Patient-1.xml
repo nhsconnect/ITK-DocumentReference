@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T11:26:25.354+00:00" />
+    <lastUpdated value="2017-07-09T21:30:00.841+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="4" />
@@ -13,7 +13,7 @@
   <url value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Patient-1" />
   <version value="1.0.0" />
   <name value="CareConnect-Patient-1" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="HL7 UK" />
   <description value="The Patient resource represents the patient involved in the provision of healthcare related services." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
@@ -343,7 +343,7 @@
       <path value="Patient.extension" />
       <name value="registrationDetails" />
       <short value="Additional registration information for the Patient resource" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="Additional registration information for the Patient resource." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -456,7 +456,7 @@
     <element>
       <path value="Patient.extension" />
       <name value="patient-cadavericDonor" />
-      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death" />
       <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -2870,7 +2870,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -4275,7 +4275,6 @@
       <path value="Patient.name" />
       <slicing>
         <discriminator value="use" />
-        <discriminator value="period.end" />
         <ordered value="false" />
         <rules value="openAtEnd" />
       </slicing>
@@ -7895,7 +7894,7 @@
       <type>
         <code value="uri" />
       </type>
-      <exampleUri value="http://hl7.org/fhir/ValueSet/marital-status" />
+      <exampleUri value="http://hl7.org/fhir/v3/MaritalStatus" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -11243,7 +11242,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <condition value="pat-1" />
@@ -14696,9 +14695,6 @@
     <element>
       <path value="Patient.extension" />
       <name value="patient-cadavericDonor" />
-      <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
-      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
-      <min value="0" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -14786,6 +14782,10 @@
     <element>
       <path value="Patient.identifier.assigner" />
       <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <path value="Patient.identifier" />
@@ -14812,7 +14812,6 @@
       <path value="Patient.name" />
       <slicing>
         <discriminator value="use" />
-        <discriminator value="period.end" />
         <ordered value="false" />
         <rules value="openAtEnd" />
       </slicing>
@@ -14853,8 +14852,6 @@
       <name value="other" />
       <short value="The patient's other names" />
       <definition value="The patient's other names" />
-      <min value="0" />
-      <max value="*" />
     </element>
     <element>
       <path value="Patient.name.use" />
@@ -14960,7 +14957,7 @@
     <element>
       <path value="Patient.maritalStatus.coding.system" />
       <min value="1" />
-      <exampleUri value="http://hl7.org/fhir/ValueSet/marital-status" />
+      <exampleUri value="http://hl7.org/fhir/v3/MaritalStatus" />
     </element>
     <element>
       <path value="Patient.maritalStatus.coding.version" />
@@ -15089,6 +15086,13 @@
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-AdministrativeGender-1" />
         </valueSetReference>
       </binding>
+    </element>
+    <element>
+      <path value="Patient.contact.organization" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">

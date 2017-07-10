@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T13:18:03.536+00:00" />
+    <lastUpdated value="2017-07-09T21:34:35.747+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
-      <code value="6" />
+      <code value="7" />
     </tag>
   </meta>
-  <url value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Encounter-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1" />
   <version value="1.0.0" />
-  <name value="CareConnect-Encounter-1" />
-  <status value="draft" />
+  <name value="CareConnect-COFE-Encounter-1" />
+  <status value="active" />
   <publisher value="HL7 UK" />
   <date value="2017-02-22T13:44:33.2447401Z" />
   <description value="The encounter resource represents an encounter between a care professional and the patient (or patient's record)." />
   <copyright value="Copyright © 2016 HL7 UK&#xD;&#xA;&#xD;&#xA;Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at&#xD;&#xA;&#xD;&#xA;http://www.apache.org/licenses/LICENSE-2.0&#xD;&#xA;&#xD;&#xA;Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.&#xD;&#xA;&#xD;&#xA;HL7® FHIR® standard Copyright © 2011+ HL7&#xD;&#xA;&#xD;&#xA;The HL7® FHIR® standard is used under the FHIR license. You may obtain a copy of the FHIR license at&#xD;&#xA;&#xD;&#xA;https://www.hl7.org/fhir/license.html" />
+  <fhirVersion value="1.0.2" />
   <kind value="resource" />
   <constrainedType value="Encounter" />
   <abstract value="false" />
@@ -324,9 +325,9 @@
     </element>
     <element>
       <path value="Encounter.extension" />
-      <name value="Encounter Transport" />
+      <name value="encounterTransport" />
       <short value="Encounter transport" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="Encounter transport." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -1383,10 +1384,6 @@
         <min value="0" />
         <max value="1" />
       </base>
-      <type>
-        <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
-      </type>
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
@@ -2644,9 +2641,9 @@
     </element>
     <element>
       <path value="Encounter.type.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
+      <name value="snomedCTDescriptionID" />
       <short value="The SNOMED CT Description ID for the display" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="The SNOMED CT Description ID for the display." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -2972,6 +2969,10 @@
       <isSummary value="true" />
       <binding>
         <strength value="preferred" />
+        <description value="Indicates the urgency of the encounter." />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/encounter-priority" />
+        </valueSetReference>
       </binding>
       <mapping>
         <identity value="rim" />
@@ -6273,9 +6274,9 @@
     </element>
     <element>
       <path value="Encounter.reason.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
+      <name value="snomedCTDescriptionID" />
       <short value="The SNOMED CT Description ID for the display" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="The SNOMED CT Description ID for the display." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -6580,7 +6581,7 @@
       <comments value="For systems that need to know which was the primary diagnosis, these will be marked with the standard extension primaryDiagnosis (which is a sequence value rather than a flag, 1 = primary diagnosis)." />
       <alias value="Admission diagnosis" />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="Encounter.indication" />
         <min value="0" />
@@ -6588,11 +6589,11 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Condition" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
       </type>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Procedure" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Procedure-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -8636,7 +8637,7 @@
       <short value="The admitting diagnosis as reported by admitting practitioner" />
       <definition value="The admitting diagnosis field is used to record the diagnosis codes as reported by admitting practitioner. This could be different or in addition to the conditions reported as reason-condition(s) for the encounter." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="Encounter.hospitalization.admittingDiagnosis" />
         <min value="0" />
@@ -8644,7 +8645,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Condition" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -9408,9 +9409,9 @@
     </element>
     <element>
       <path value="Encounter.hospitalization.reAdmission.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
+      <name value="snomedCTDescriptionID" />
       <short value="The SNOMED CT Description ID for the display" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <definition value="The SNOMED CT Description ID for the display." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
@@ -9737,6 +9738,10 @@
       <isSummary value="true" />
       <binding>
         <strength value="extensible" />
+        <description value="Medical, cultural or ethical food preferences to help with catering requirements." />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/encounter-diet" />
+        </valueSetReference>
       </binding>
       <mapping>
         <identity value="rim" />
@@ -11935,7 +11940,7 @@
       <short value="The final diagnosis given a patient before release from the hospital after all testing, surgery, and workup are complete" />
       <definition value="The final diagnosis given a patient before release from the hospital after all testing, surgery, and workup are complete." />
       <min value="0" />
-      <max value="*" />
+      <max value="0" />
       <base>
         <path value="Encounter.hospitalization.dischargeDiagnosis" />
         <min value="0" />
@@ -11943,7 +11948,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Condition" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -12884,7 +12889,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -13070,7 +13075,7 @@
     </element>
     <element>
       <path value="Encounter.extension" />
-      <name value="Encounter Transport" />
+      <name value="encounterTransport" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-EncounterTransport-1" />
@@ -13086,10 +13091,6 @@
     </element>
     <element>
       <path value="Encounter.identifier.assigner" />
-      <type>
-        <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
-      </type>
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
@@ -13122,8 +13123,7 @@
     </element>
     <element>
       <path value="Encounter.type.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
-      <short value="The SNOMED CT Description ID for the display" />
+      <name value="snomedCTDescriptionID" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -13192,8 +13192,7 @@
     </element>
     <element>
       <path value="Encounter.reason.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
-      <short value="The SNOMED CT Description ID for the display" />
+      <name value="snomedCTDescriptionID" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -13218,6 +13217,18 @@
       <min value="1" />
     </element>
     <element>
+      <path value="Encounter.indication" />
+      <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
+      </type>
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Procedure-1" />
+      </type>
+    </element>
+    <element>
       <path value="Encounter.hospitalization.preAdmissionIdentifier.system" />
       <min value="1" />
     </element>
@@ -13237,6 +13248,14 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1" />
+      </type>
+    </element>
+    <element>
+      <path value="Encounter.hospitalization.admittingDiagnosis" />
+      <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
       </type>
     </element>
     <element>
@@ -13261,8 +13280,7 @@
     </element>
     <element>
       <path value="Encounter.hospitalization.reAdmission.coding.extension" />
-      <name value="Extension-Coding-SCTDescID" />
-      <short value="The SNOMED CT Description ID for the display" />
+      <name value="snomedCTDescriptionID" />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -13300,6 +13318,14 @@
       </type>
     </element>
     <element>
+      <path value="Encounter.hospitalization.dischargeDiagnosis" />
+      <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Condition-1" />
+      </type>
+    </element>
+    <element>
       <path value="Encounter.location.location" />
       <type>
         <code value="Reference" />
@@ -13317,7 +13343,7 @@
       <path value="Encounter.partOf" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1" />
       </type>
     </element>
   </differential>

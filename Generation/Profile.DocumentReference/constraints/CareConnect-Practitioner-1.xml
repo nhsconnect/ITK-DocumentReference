@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T14:03:18.506+00:00" />
+    <lastUpdated value="2017-07-09T21:31:07.41+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
-      <code value="5" />
+      <code value="6" />
     </tag>
   </meta>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
@@ -2582,7 +2582,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -3757,7 +3757,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -7063,6 +7063,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="required" />
+        <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-AdministrativeGender-1" />
         </valueSetReference>
@@ -9859,6 +9860,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="required" />
+        <description value="The role a person plays representing an organization" />
         <valueSetReference>
           <reference value="https://fhir.hl7.org.uk/ValueSet/CareConnect-SDSJobRoleName-1" />
         </valueSetReference>
@@ -11080,10 +11082,6 @@
         <min value="0" />
         <max value="*" />
       </base>
-      <type>
-        <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Location" />
-      </type>
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1" />
@@ -12577,7 +12575,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -14228,6 +14226,10 @@
     <element>
       <path value="Practitioner.identifier.assigner" />
       <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <path value="Practitioner.identifier" />
@@ -14258,6 +14260,10 @@
     <element>
       <path value="Practitioner.identifier.assigner" />
       <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <path value="Practitioner.identifier" />
@@ -14423,11 +14429,14 @@
       <path value="Practitioner.practitionerRole.location" />
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Location" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1" />
       </type>
+    </element>
+    <element>
+      <path value="Practitioner.qualification.identifier.assigner" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
     </element>
     <element>

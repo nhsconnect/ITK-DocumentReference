@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T13:17:29.571+00:00" />
+    <lastUpdated value="2017-07-09T21:30:37.462+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="5" />
@@ -77,12 +77,6 @@
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
           <valueString value="identifier or name" />
         </extension>
-        <key value="org-1" />
-        <severity value="error" />
-        <human value="The organization SHALL at least have a name or an id, and possibly more than one" />
-        <xpath value="count(f:identifier | f:name) &gt; 0" />
-      </constraint>
-      <constraint>
         <key value="org-1" />
         <severity value="error" />
         <human value="The organization SHALL at least have a name or an id, and possibly more than one" />
@@ -388,7 +382,7 @@
     <element>
       <path value="Organization.extension" />
       <name value="organization-period" />
-      <short value="The date range that this organization should be considered available." />
+      <short value="The date range that this organization should be considered available" />
       <definition value="The date range that this organization should be considered available." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -2635,7 +2629,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -3811,7 +3805,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -5247,9 +5241,7 @@
       <binding>
         <strength value="example" />
         <description value="Used to categorize the organization" />
-        <valueSetReference>
-          <reference value="http://hl7.org/fhir/ValueSet/organization-type" />
-        </valueSetReference>
+        <valueSetUri value="http://hl7.org/fhir/ValueSet/organization-type" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -9803,12 +9795,6 @@
       <type>
         <code value="Organization" />
       </type>
-      <constraint>
-        <key value="org-1" />
-        <severity value="error" />
-        <human value="The organization SHALL at least have a name or an id, and possibly more than one" />
-        <xpath value="count(f:identifier | f:name) &gt; 0" />
-      </constraint>
     </element>
     <element>
       <path value="Organization.extension" />
@@ -9829,8 +9815,6 @@
     <element>
       <path value="Organization.extension" />
       <name value="organization-period" />
-      <short value="The date range that this organization should be considered available." />
-      <definition value="The date range that this organization should be considered available." />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -9876,6 +9860,10 @@
     <element>
       <path value="Organization.identifier.assigner" />
       <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <path value="Organization.identifier" />
@@ -9908,6 +9896,10 @@
     <element>
       <path value="Organization.identifier.assigner" />
       <max value="0" />
+      <type>
+        <code value="Reference" />
+        <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
+      </type>
     </element>
     <element>
       <path value="Organization.identifier" />
@@ -9934,6 +9926,13 @@
       <path value="Organization.active" />
       <short value="Date the organization became active, and if inactive, the date the organization became inactive." />
       <definition value="Date the organization became active, and if inactive, the date the organization became inactive." />
+    </element>
+    <element>
+      <path value="Organization.type" />
+      <binding>
+        <strength value="example" />
+        <valueSetUri value="http://hl7.org/fhir/ValueSet/organization-type" />
+      </binding>
     </element>
     <element>
       <path value="Organization.type.coding.system" />

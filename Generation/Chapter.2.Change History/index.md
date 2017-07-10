@@ -7,6 +7,8 @@
  - Made the CareConnect-COFE-Encounter-1.indication,  hospitalization.admittingDiagnosis and hospitalization.dischargeDiagnosis 0..0 cardinality.
  -  - Replaced reference to CareConnect-Encounter-1 with CareConnect-COFE-Encounter-1 at CareConnect-COFE-Encounter-1.partOf.
  - Replaced reference to CareConnect-Encounter-1 with CareConnect-COFE-Encounter-1 at COFE-DocumentReference-1.context.encounter.
+ - Corrected valueset at url https://fhir.nhs.uk/ValueSet/document-type-1.
+ - Removed the following elements from COFE-DocumentReference-1:- relatesTo, securityLabel, content.format, context.event, context.facilityType, context.practiceSetting, context.sourcePatientInfo, context.related
 
 ### Version: 1.0; Status: Draft A #
 

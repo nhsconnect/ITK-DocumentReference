@@ -26,6 +26,9 @@ Each resource has an "id" element which contains the logical identity of the res
 Each FHIR resource profile contains an element "meta", of type "Meta", which is a set of metadata that provides technical and workflow context to the resource.
 | Metadata Item | Type | Usage | | :---- | :---- | :---- | | profile (0..*) | [uri] | This defines resource profiles that are described in the FHIR Document section of the DMS e.g. NHS-Patient [http://hl7.org/fhir/StructureDefinition/Patient] |
 
+**Contained Element/Resources**
+
+Please note that the contained element in the profiles in this specification should not be implemented.
 
 **Further Information**
 

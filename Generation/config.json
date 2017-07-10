@@ -10,6 +10,6 @@
   "OPERATIONS_XML"   : "FALSE",
   "OPERATIONS_JSON" : "FALSE",
   "DMS_TITLE"		:   "CDA On FHIR England - Document Reference",
-  "DMS_VERSION"		:	"Version 1.0 : DRAFT A",
+  "DMS_VERSION"		:	"1.0.0-alpha.1",
   "SCHEMAS"			:	"TRUE"
 }

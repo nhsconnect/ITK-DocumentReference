@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T11:31:25.793+00:00" />
+    <lastUpdated value="2017-06-09T11:25:55.529+01:00" />
   </meta>
   <url value="http://hl7.org/fhir/StructureDefinition/patient-cadavericDonor" />
   <version value="1.0.0" />
   <name value="patient-cadavericDonor" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="HL7" />
   <date value="2017-03-02T11:03:30.7389606Z" />
   <description value="Flag indicating whether the patient authorized the donation of body parts after death." />
@@ -21,8 +21,8 @@
   <snapshot>
     <element>
       <path value="Extension" />
-      <short value="Base for all elements" />
-      <definition value="Optional Extensions Element - found in all resources." />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death" />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -190,6 +190,8 @@
   <differential>
     <element>
       <path value="Extension" />
+      <short value="Flag indicating whether the patient authorized the donation of body parts after death" />
+      <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
     </element>
     <element>
       <path value="Extension.url" />
@@ -199,7 +201,6 @@
       <path value="Extension.valueBoolean" />
       <short value="Flag indicating whether the patient authorized the donation of body parts after death." />
       <definition value="Flag indicating whether the patient authorized the donation of body parts after death." />
-      <min value="0" />
       <type>
         <code value="boolean" />
       </type>

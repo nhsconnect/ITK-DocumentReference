@@ -23,7 +23,7 @@
     </telecom>
   </contact>
   <date value="2015-09-22T11:02:49+01:00" />
-  <description value="This resource identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device." />
+  <description value="An NHS Digital profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device." />
   <copyright value="Copyright © 2016 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.1" />
   <kind value="resource" />
@@ -1559,6 +1559,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="preferred" />
+        <description value="Defines the nature of the device and the kind of functionality/services/behavior that may be expected from it." />
         <valueSetUri value="https://fhir.nhs.uk/ValueSet/device-type-1" />
       </binding>
       <mapping>
@@ -2169,7 +2170,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -3784,7 +3785,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-related-person-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1" />
       </type>
     </element>
     <element>

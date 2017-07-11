@@ -107,13 +107,16 @@
 												<a href='../Chapter.5.Examples/examples.html'>Examples</a>
 											</li>
 											<li>
+												<a href='../Chapter.6.Valuesets/valuesets.html'>Valuesets</a>
+											</li>
+											<li>
 												<a href='../Chapter.7.Glossary/index.html'>Glossary</a>
 											</li>
 
                             </ul>
 							
                             <p class="navbar-text pull-right" style="padding-right: 10px;padding-top: 3px;">
-                                <span class="label label-default"  style="font-size: 95%;">Version 1.0 : DRAFT A</span>
+                                <span class="label label-default"  style="font-size: 95%;">1.0.0-alpha.1</span>
                             </p>
 
                         </div>
@@ -158,12 +161,9 @@
 <li>Patient Details</li>
 </ul>
 <p>This specification has been produced to enable the &quot;NonXML Body&quot; approach supported by CDA to be supported in FHIR. The structure and approach do differ, however the principle is the same.</p>
-<p>The FHIR Specification uses the Document Reference resource in place of the CDA header structure. The information carried in the Document Reference, which can be used as meta data is  similar to what is available in CDA. The Binary Resource is used to carry the actual embedded document. As in CDA the embedded document is base64 encoded and has a MIME type to identify the format/type of embedded document.</p>
+<p>The FHIR Specification uses the Document Reference resource in place of the CDA header structure to allow the inclusion of pre-existing documents which are non-FHIR based within a message bundle. A pertinent example could be a pdf document requesting further information about a patient or containing other types of supporting information. The Binary Resource is used to carry the actual embedded document. As in CDA the embedded document is base64 encoded and has a MIME type to identify the format/type of embedded document. For more information on FHIR documents and their implementation, please consult the relevant <a href="https://www.hl7.org/fhir/DSTU2/documents.html">FHIR document guidelines</a>.</p>
 <p><strong>Further Information</strong></p>
 <p>This FHIR Document reference specification is based on and intended to be used alongside the published <a href="http://hl7.org/fhir/index.html">FHIR DSTU2 1.0.1</a> (October 2015) specification. </p>
-<p><font color="red"><strong>Note</strong></p>
-<p>This FHIR Document specification is published as a 'work in progress' version and as such is subject to change. As it is a DRAFT, it is not in an implementable state. It has been published to show the direction of travel and to serve as a discussion document for parties involved with the implementation of CDA On FHIR England  Document communications.
-</font></p>
 
 									</div>
 							

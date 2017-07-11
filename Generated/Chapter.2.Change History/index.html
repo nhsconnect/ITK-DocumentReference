@@ -107,13 +107,16 @@
 												<a href='../Chapter.5.Examples/examples.html'>Examples</a>
 											</li>
 											<li>
+												<a href='../Chapter.6.Valuesets/valuesets.html'>Valuesets</a>
+											</li>
+											<li>
 												<a href='../Chapter.7.Glossary/index.html'>Glossary</a>
 											</li>
 
                             </ul>
 							
                             <p class="navbar-text pull-right" style="padding-right: 10px;padding-top: 3px;">
-                                <span class="label label-default"  style="font-size: 95%;">Version 1.0 : DRAFT A</span>
+                                <span class="label label-default"  style="font-size: 95%;">1.0.0-alpha.1</span>
                             </p>
 
                         </div>
@@ -145,6 +148,20 @@
 							
 									<div class="panel panel - default">
 											<h1>Change History</h1>
+<h3>Version 1.0.0-alpha.1</h3>
+<ul>
+<li>Updated all CareConnect profiles to latest versions.</li>
+<li>Renamed CareConnect-Encounter-1 to CareConnect-COFE-Encounter-1.</li>
+<li>Made the CareConnect-COFE-Encounter-1.indication,  hospitalization.admittingDiagnosis and hospitalization.dischargeDiagnosis 0..0 cardinality.</li>
+<li>- Replaced reference to CareConnect-Encounter-1 with CareConnect-COFE-Encounter-1 at CareConnect-COFE-Encounter-1.partOf.</li>
+<li>Replaced reference to CareConnect-Encounter-1 with CareConnect-COFE-Encounter-1 at COFE-DocumentReference-1.context.encounter.</li>
+<li>Corrected valueset at url https://fhir.nhs.uk/ValueSet/document-type-1.</li>
+<li>Removed the following elements from COFE-DocumentReference-1:- relatesTo, securityLabel, content.format, context.event, context.facilityType, context.practiceSetting, context.sourcePatientInfo, context.related.</li>
+<li>Replaced Extension-Care-Setting-Type-1 profile with Extension-COFE-Care-Setting-Type-1.</li>
+<li>Made all values in extensions mandatory.</li>
+<li>Added CareConnect-Practitioner-1 as a reference within Extension-COFE-Informant-1.</li>
+<li>Added COFE-Related-Person-1 and CareConnect-Patient-1 as references within Extension-COFE-Information-Recipient-1.   </li>
+</ul>
 <h3>Version: 1.0; Status: Draft A</h3>
 <p>First draft of CDA On FHIR England - Document Reference DMS (Version 1.0 Draft A).</p>
 

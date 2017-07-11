@@ -107,13 +107,16 @@
 												<a href='../Chapter.5.Examples/examples.html'>Examples</a>
 											</li>
 											<li>
+												<a href='../Chapter.6.Valuesets/valuesets.html'>Valuesets</a>
+											</li>
+											<li>
 												<a href='../Chapter.7.Glossary/index.html'>Glossary</a>
 											</li>
 
                             </ul>
 							
                             <p class="navbar-text pull-right" style="padding-right: 10px;padding-top: 3px;">
-                                <span class="label label-default"  style="font-size: 95%;">Version 1.0 : DRAFT A</span>
+                                <span class="label label-default"  style="font-size: 95%;">1.0.0-alpha.1</span>
                             </p>
 
                         </div>
@@ -430,9 +433,7 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td>
-            <p>The date range that this organization should be considered available.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>
@@ -924,15 +925,13 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td>
-            <p>The kind of organization that this is.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..1 ?</td>
+          <td>0..*</td>
         </tr>
         <tr>
           <td>
@@ -940,29 +939,12 @@
           </td>
           <td>
             <div class="binding-description" xmlns="http://www.w3.org/1999/xhtml">
-              <p>Used to categorize the organization</p>
               <p>For example codes, see <a href="http://hl7.org/fhir/ValueSet/organization-type">http://hl7.org/fhir/ValueSet/organization-type</a></p>; other codes may be used where these codes are not suitable</div>
           </td>
         </tr>
         <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#codeableconcept" xmlns="http://www.w3.org/1999/xhtml">CodeableConcept</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>Need to be able to track the kind of organization that this is - different organization types have different uses.</p>
-          </td>
-        </tr>
-        <tr>
           <td width="150px">Comments</td>
-          <td>
-            <p>Organizations can be corporations, wards, sections, clinical teams, government departments, etc. Note that code is generally a classifier of the type of organization; in many applications, codes are used to identity a particular organization (say, ward) as opposed to another of the same type - these are identifiers, not codes.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td colspan="2" class="structure">

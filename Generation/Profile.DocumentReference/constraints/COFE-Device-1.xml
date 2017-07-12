@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T09:55:46.042+00:00" />
+    <lastUpdated value="2017-07-11T16:14:41.447+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -1351,7 +1351,6 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
-        <aggregation value="referenced" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2597,7 +2596,6 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
-        <aggregation value="referenced" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -3434,7 +3432,6 @@
       <type>
         <code value="positiveInt" />
       </type>
-      <exampleInteger value="1" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3732,7 +3729,6 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
-        <aggregation value="referenced" />
       </type>
     </element>
     <element>
@@ -3778,7 +3774,7 @@
       <max value="0" />
     </element>
     <element>
-      <path value="Device.note.author[x]" />
+      <path value="Device.note.authorReference" />
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1" />
@@ -3805,7 +3801,6 @@
       <type>
         <code value="Reference" />
         <profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1" />
-        <aggregation value="referenced" />
       </type>
     </element>
     <element>
@@ -3852,10 +3847,6 @@
     <element>
       <path value="Device.contact.use" />
       <exampleCode value="work" />
-    </element>
-    <element>
-      <path value="Device.contact.rank" />
-      <exampleInteger value="1" />
     </element>
   </differential>
 </StructureDefinition>

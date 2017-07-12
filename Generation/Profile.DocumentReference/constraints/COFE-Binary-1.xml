@@ -1,12 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-03-02T14:06:08.504+00:00" />
-    <tag>
-      <system value="urn:hscic:examples" />
-      <code value="COFE-Binary-Example-1" />
-      <display value="Example of an encoded text document (txt)" />
-    </tag>
+    <lastUpdated value="2017-07-11T17:12:05.833+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="3" />

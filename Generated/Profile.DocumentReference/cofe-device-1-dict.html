@@ -1152,13 +1152,15 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td></td>
+          <td>
+            <p>The individual responsible for making the annotation.</p>
+          </td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..*</td>
+          <td>0..1 ?</td>
         </tr>
         <tr>
           <td>
@@ -2065,21 +2067,29 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td></td>
+          <td>
+            <p>Specifies a preferred order in which to use a set of contacts. Contacts are ranked with lower values coming before higher values.</p>
+          </td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..*</td>
+          <td>0..1 ?</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
+          </td>
+          <td>
+            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#positiveint" xmlns="http://www.w3.org/1999/xhtml">PositiveInt</a>
+          </td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Example</td>
-          <td>1</td>
+          <td>
+            <p>Note that rank does not necessarily follow the order in which the contacts are represented in the instance.</p>
+          </td>
         </tr>
         <tr>
           <td colspan="2" class="structure">

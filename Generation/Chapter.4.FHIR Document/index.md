@@ -24,6 +24,6 @@ The various downloads (including Schema files) and reference implementations are
 
 [CDA On FHIR England - Document Reference Header]: ../Profile.DocumentReference/Profile.DocumentReference.html
 [Profiling FHIR]: http://hl7.org/fhir/DSTU2/profiling.html
-[FHIR website]: http://hl7.org/fhir/index.html
-[Base Resource Definitions]: http://hl7.org/fhir/resource.html
+[FHIR website]: http://hl7.org/fhir/DSTU2/index.html
+[Base Resource Definitions]: http://hl7.org/fhir/DSTU2/resource.html
 [downloaded as PDF]:COFEDocumentHeaderHTMLv0.1.pdf

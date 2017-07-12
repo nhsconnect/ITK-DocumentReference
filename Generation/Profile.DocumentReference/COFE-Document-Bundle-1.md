@@ -1,19 +1,19 @@
 The COFE-Document-Bundle-1 bundle resource profile is used in the CDA on FHIR Document Reference interface as a container to collect the following profiles: 
 
-- **[COFE-DocumentReference-1]**  An NHS Digital Composition profile which is used to describe a PDF document that is made available to a health or social care system, establish context and stores its contents in a base64 binary encoded format.
+- **[COFE-DocumentReference-1]**  An NHS Digital DocumentReference profile used to carry base64 encoded binary content defined by a format other than FHIR  for example a PDF file or an image file. This content must be included in the message bundle.
 - **[COFE-Binary-1]**  An NHS Digital profile which stores a health or social care PDF document in a base64 binary format.  
 - **[CareConnect-Patient-1]**  A CareConnect profile which carries the patient demographic details.
 - **[CareConnect-Practitioner-1]**  A CareConnect profile which carries information about the healthcare professional.
-- **[COFE-Related-Person-1]** An NHS Digital profile which carries information for a person with a relationship with the patient.
+- **[COFE-Related-Person-1]** An NHS Digital profile which carries information about a person with a relationship to the patient.
 - **[CareConnect-COFE-Encounter-1]** An NHS Digital profile which carries information an encounter between a care professional and the patient (or patient's record).
-- **[CareConnect-Organization-1]**  A CareConnect profile which carries details of the Organization.
-- **[COFE-Location-1]**  An NHS Digital profile which carries information and details on the physical location and the services provided.
+- **[CareConnect-Organization-1]**  A CareConnect profile which carries details of an Organization such as a company, institution, corporation, department, community group, healthcare practice group.
+- **[COFE-Location-1]**  An NHS Digital profile which carries details and position information for a physical place where services are provided and resources and participants may be stored, found, contained or accommodated.
 - **[COFE-Device-1]**  An NHS Digital profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.
 
 ----------
 **Examples**
 
-The following example contains a composition resource and has been converted to a txt file  to allow better viewing within a web browser, xml copies are available within the examples folder within this specification.
+The following example contains an instance of a DocumentReference resource and has been converted to a txt file  to allow better viewing within a web browser, xml copies are available within the examples folder within this specification.
 
 
 This is an example of an eDischarge document Bundle [COFE-XML-1.txt]
@@ -30,7 +30,7 @@ This is an example of an eDischarge document Bundle after rendering [COFE-Render
 [CareConnect-TOC-Encounter-1]:	careconnect-toc-encounter-1.html
 [CareConnect-Patient-1]: 	careconnect-patient-1.html
 [CareConnect-Practitioner-1]:	careconnect-practitioner-1.html
-[COFE-Related-Person-1]: 	cofe-related-person-1.html
+[COFE-Related-Person-1]: 	cofe-relatedperson-1.html
 [CareConnect-Organization-1]: careconnect-organization-1.html
 [COFE-Location-1]: cofe-location-1.html
 [COFE-Device-1]: cofe-device-1.html

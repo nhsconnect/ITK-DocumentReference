@@ -17,12 +17,12 @@ Some examples of the information carried in the CDA header are:
 
 This specification has been produced to enable the "NonXML Body" approach supported by CDA to be supported in FHIR. The structure and approach do differ, however the principle is the same.
 
-The FHIR Specification uses the Document Reference resource in place of the CDA header structure to allow the inclusion of pre-existing documents which are non-FHIR based within a message bundle. A pertinent example could be a pdf document requesting further information about a patient or containing other types of supporting information. The Binary Resource is used to carry the actual embedded document. As in CDA the embedded document is base64 encoded and has a MIME type to identify the format/type of embedded document. For more information on FHIR documents and their implementation, please consult the relevant [FHIR document guidelines].
+This FHIR specification uses the Document Reference resource in place of the CDA header structure to allow the inclusion of pre-existing documents which are non-FHIR based within a message bundle. A pertinent example could be a pdf document requesting further information about a patient or containing other types of supporting information. The Binary Resource is used to carry the actual embedded document. As in CDA the embedded document is base64 encoded and has a MIME type to identify the format/type of embedded document. For more information on FHIR documents and their implementation, please consult the relevant [FHIR document guidelines].
 
 **Further Information**
 
 This FHIR Document reference specification is based on and intended to be used alongside the published [FHIR DSTU2 1.0.1] (October 2015) specification. 
 
-[FHIR DSTU2 1.0.1]: http://hl7.org/fhir/index.html
+[FHIR DSTU2 1.0.1]: http://hl7.org/fhir/DSTU2/index.html
 [FHIR document guidelines]: https://www.hl7.org/fhir/DSTU2/documents.html
 

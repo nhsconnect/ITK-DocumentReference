@@ -1,1 +1,1 @@
-An extension to detail the authorization.
+An extension carrying the authoriser of the document.

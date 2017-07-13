@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-11T17:14:41.367+01:00" />
+    <lastUpdated value="2017-07-12T14:57:12.275+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -4817,7 +4817,7 @@
       <short value="preliminary | final | appended | amended | entered-in-error" />
       <definition value="The status of the underlying document." />
       <comments value="The document that is pointed to might be in various lifecycle states." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="DocumentReference.docStatus" />
@@ -5200,7 +5200,7 @@
       <definition value="A representation of the meaning of the code in the system, following the rules of the system." />
       <comments value="Note that FHIR strings may not exceed 1MB in size" />
       <requirements value="Need to be able to carry a human-readable meaning of the code for readers that do not know  the system." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Coding.display" />
@@ -11128,7 +11128,6 @@
     </element>
     <element>
       <path value="DocumentReference.docStatus" />
-      <min value="1" />
       <binding>
         <strength value="required" />
         <description value="The workflow status of the underlying document." />
@@ -11146,6 +11145,10 @@
     </element>
     <element>
       <path value="DocumentReference.docStatus.coding.code" />
+      <min value="1" />
+    </element>
+    <element>
+      <path value="DocumentReference.docStatus.coding.display" />
       <min value="1" />
     </element>
     <element>

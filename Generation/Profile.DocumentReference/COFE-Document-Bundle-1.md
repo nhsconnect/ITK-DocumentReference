@@ -32,6 +32,6 @@ This is an example of an eDischarge document Bundle after rendering [COFE-Render
 [CareConnect-Practitioner-1]:	careconnect-practitioner-1.html
 [COFE-Related-Person-1]: 	cofe-relatedperson-1.html
 [CareConnect-Organization-1]: careconnect-organization-1.html
-[COFE-Location-1]: cofe-location-1.html
+[COFE-Location-1]: careconnect-location-1.html
 [COFE-Device-1]: cofe-device-1.html
 [CareConnect-COFE-Encounter-1]: careconnect-cofe-encounter-1.html

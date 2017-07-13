@@ -7,80 +7,125 @@
 	</meta>
 	<type value="document"/>
 	<entry>
+		<fullUrl value="urn:uuid:d81fac1b-1bf5-4e8c-a16c-eeead038e77d"/>
 		<resource>
 			<DocumentReference>
-	<id value="d81fac1b-1bf5-4e8c-a16c-eeead038e77d"/>
-	<meta>
-		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1"/>
-	</meta>
-<!-- Information Recipient 1 -->
-	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
-		<valueReference>
-			<reference value="Practitioner/8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
-		</valueReference>
-	</extension>
-	<!-- Information Recipient 2 -->
-	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
-		<valueReference>
-			<reference value="Practitioner/5e414a77-d394-4248-a631-00e45ddb64a0"/>
-		</valueReference>
-	</extension>
-	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1">
-		<valueCodeableConcept>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="394576009"/>
-				<display value="Accident &amp; emergency"/>
-			</coding>
-		</valueCodeableConcept>
-	</extension>
-	<subject>
-		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
-	</subject>
-	<type>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="373942005"/>
-			<display value="Discharge summary"/>
-		</coding>
-	</type>
-	<author>
-		<reference value="Practitioner/9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
-		<display value="Dr Tom Jones"/>
-	</author>
-		<custodian>
-		<reference value="Organization/e1580b71-99bd-4c5b-8d54-9b420418135f"/>
-		<display value="Leeds Community Healthcare NHS Trust"/>
-	</custodian>
-	<indexed value="2015-02-17T10:00:00+00:00"/>
-	<status value="current"/>
-		<content>
-		<attachment>
-<contentType value="application/pdf"/>
-<title value="Text Document"/>		
-		</attachment>
-</content>		
-<context>
-	<related>
-		<ref>
-			<reference value="Binary/1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
-			<display value="Test Text Document (base64 encoded)"/>
-		</ref>
-	</related>
-</context>
-</DocumentReference>
+				<id value="d81fac1b-1bf5-4e8c-a16c-eeead038e77d"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1"/>
+				</meta>
+				<!-- Information Recipient 1 - Community physiotherapist -->
+				<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
+					<valueReference>
+						<reference value="urn:uuid:8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
+					</valueReference>
+				</extension>
+				<!-- Information Recipient 2 - patient's wife-->
+				<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1">
+					<valueReference>
+						<reference value="urn:uuid:dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
+					</valueReference>
+				</extension>
+				<extension url="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1">
+					<valueCodeableConcept>
+						<coding>
+							<system value="http://snomed.info/sct"/>
+							<code value="310098005"/>
+							<display value="Hospital-based physiotherapy service (qualifier value)"/>
+						</coding>
+					</valueCodeableConcept>
+				</extension>
+				<subject>
+					<reference value="urn:uuid:31686b67-9f20-4644-9a54-193d2f91de57"/>
+				</subject>
+				<type>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="819991000000104"/>
+						<display value="Allied health professional assessment record (record artifact)"/>
+					</coding>
+				</type>
+				<!--Physiotherapist document author-->
+				<author>
+					<reference value="urn:uuid:9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+				</author>
+				<!--Hospital as document custodian-->
+				<custodian>
+					<reference value="urn:uuid:f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+				</custodian>
+				<indexed value="2017-04-17T10:00:00+00:00"/>
+				<status value="current"/>
+				<docStatus>
+					<coding>
+						<system value="http://hl7.org/fhir/composition-status"/>
+						<code value="final"/>
+						<display value="Final"/>
+					</coding>
+				</docStatus>
+				<content>
+					<attachment>
+						<url value="urn:uuid:1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
+					</attachment>
+				</content>
+				<context>
+					<encounter>
+						<reference value="urn:uuid:4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
+					</encounter>
+				</context>
+			</DocumentReference>
+		</resource>
+	</entry>
+	<!--Hospital physiotherapist as the document author-->
+	<entry>
+		<fullUrl value="urn:uuid:9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+		<resource>
+			<Practitioner>
+				<id value="9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+				<meta>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1"/>
+				</meta>
+				<name>
+					<family value="Jones"/>
+					<given value="Tess"/>
+					<prefix value="Mrs"/>
+				</name>
+				<telecom>
+					<system value="phone"/>
+					<value value="01136323201"/>
+					<use value="work"/>
+				</telecom>
+				<address>
+					<line value="Leeds Teaching Hospital"/>
+					<line value="Great George Street"/>
+					<city value="Leeds"/>
+					<postalCode value="LS1 3EX"/>
+				</address>
+				<practitionerRole>
+					<managingOrganization>
+						<reference value="urn:uuid:f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+					</managingOrganization>
+					<role>
+						<coding>
+							<system value="https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1"/>
+							<code value="R1110"/>
+							<display value="Physiotherapist"/>
+						</coding>
+					</role>
+				</practitionerRole>
+			</Practitioner>
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="urn:uuid:8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
 		<resource>
 			<!-- Information Recipient 1 -->
 			<Practitioner>
 				<id value="8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/CareConnect-Practitioner-1"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1"/>
 				</meta>
 				<name>
-					<family value="Smith"/>
+					<family value="Morris"/>
 					<given value="Angela"/>
 					<prefix value="Mrs"/>
 				</name>
@@ -91,15 +136,15 @@
 				</telecom>
 				<practitionerRole>
 					<managingOrganization>
-						<reference value="f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
-						<display value="MGP Medical Centre"/>
+						<reference value="urn:uuid:e1580b71-99bd-4c5b-8d54-9b420418135f"/>
 					</managingOrganization>
 					<role>
 						<coding>
-							<system value="https://fhir.nhs.uk/job-role-name-1"/>
-							<code value="NR0700"/>
-							<display value="Community Nurse"/>
+							<system value="https://fhir.hl7.org.uk/CareConnect-SDSJobRoleName-1"/>
+							<code value="R1110"/>
+							<display value="Physiotherapist"/>
 						</coding>
+						<text value="Community Physiotherapist"/>
 					</role>
 				</practitionerRole>
 			</Practitioner>
@@ -107,103 +152,101 @@
 	</entry>
 	<!-- Information recipient 2 -->
 	<entry>
+		<fullUrl value="urn:uuid:dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
+		<!-- A person related to the patient. -->
 		<resource>
-			<Practitioner>
-				<id value="5e414a77-d394-4248-a631-00e45ddb64a0"/>
+			<RelatedPerson>
+				<id value="dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-practitioner-1"/>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1"/>
 				</meta>
-				<identifier>
-					<system value="https://fhir.nhs.uk/Id/sds-identifier"/>
-					<value value="GP12345600"/>
-				</identifier>
+				<patient>
+					<reference value="urn:uuid:31686b67-9f20-4644-9a54-193d2f91de57"/>
+				</patient>
+				<relationship>
+					<coding>
+						<system value="http://hl7.org/fhir/patient-contact-relationship"/>
+						<code value="partner"/>
+						<display value="Partner"/>
+					</coding>
+				</relationship>
 				<name>
-					<family value="Lorenzo"/>
-					<given value="John"/>
-					<prefix value="Dr"/>
+					<use value="usual"/>
+					<family value="Smith"/>
+					<given value="Sarah"/>
 				</name>
 				<telecom>
 					<system value="phone"/>
-					<value value="01634111222"/>
-					<use value="work"/>
+					<value value="0712345678"/>
+					<use value="mobile"/>
 				</telecom>
 				<telecom>
 					<system value="email"/>
-					<value value="John.Lorenzo@MMC.co.uk"/>
+					<value value="mrssmith@mymail.com"/>
 				</telecom>
-				<practitionerRole>
-					<managingOrganization>
-						<reference value="f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
-						<display value="MGP Medical Centre"/>
-					</managingOrganization>
-					<role>
-						<coding>
-							<system value="https://fhir.nhs.uk/job-role-name-1"/>
-							<code value="NR9100"/>
-							<display value="Named GP"/>
-						</coding>
-					</role>
-				</practitionerRole>
-			</Practitioner>
+				<gender value="female"/>
+			</RelatedPerson>
 		</resource>
 	</entry>
 	<entry>
-		<!-- The GP surgery where the information recipients are based -->
+		<fullUrl value="urn:uuid:f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+		<!-- The hospital where the original encounter occurred -->
 		<resource>
 			<Organization>
 				<id value="f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-organization-1"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1"/>
 				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
-					<value value="GP123456"/>
+					<value value="RR8"/>
 				</identifier>
 				<type>
 					<coding>
-						<system value="http://hl7.org/fhir/ValueSet/organization-type"/>
+						<system value="http://hl7.org/fhir/organization-type"/>
 						<code value="prov"/>
 						<display value="Healthcare Provider"/>
 					</coding>
 				</type>
-				<name value="MGP Medical Centre"/>
+				<name value="Leeds Teaching Hospitals NHS Trust"/>
 				<telecom>
 					<system value="phone"/>
-					<value value="01634111223"/>
+					<value value="01134111223"/>
 					<use value="work"/>
 				</telecom>
 				<telecom>
 					<system value="email"/>
-					<value value="Admin@MMC.co.uk"/>
+					<value value="switchboard@ltht.co.uk"/>
 				</telecom>
 				<address>
 					<use value="work"/>
-					<line value="1 MGP House"/>
-					<line value="Overtown"/>
+					<line value="Leeds General Infirmary"/>
+					<line value="Great George Street"/>
 					<line value="Leeds"/>
-					<line value="LS21 7PA"/>
+					<line value="LS1 3EX"/>
 				</address>
 			</Organization>
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="urn:uuid:31686b67-9f20-4644-9a54-193d2f91de57"/>
 		<!-- The patient -->
 		<resource>
 			<Patient>
 				<id value="31686b67-9f20-4644-9a54-193d2f91de57"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-patient-1"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Patient-1"/>
 				</meta>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-EthnicCategory-1-Extension">
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-EthnicCategory-1">
 					<valueCodeableConcept>
 						<coding>
-							<system value="http://hl7.org.uk/fhir/CareConnect-EthnicCategory-1"/>
+							<system value="https://fhir.hl7.org.uk/CareConnect-EthnicCategory-1"/>
 							<code value="A"/>
 							<display value="British, Mixed British"/>
 						</coding>
 					</valueCodeableConcept>
 				</extension>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-ReligiousAffiliation-1-Extension">
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-ReligiousAffiliation-1">
 					<valueCodeableConcept>
 						<coding>
 							<system value="http://snomed.info/sct"/>
@@ -212,32 +255,29 @@
 						</coding>
 					</valueCodeableConcept>
 				</extension>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-OrganDonor-1-Extension">
-					<valueBoolean value="true"/>
-				</extension>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-ResidentialStatus-1-Extension">
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-ResidentialStatus-1">
 					<valueCodeableConcept>
 						<coding>
-							<system value="http://hl7.org.uk/fhir/ValueSet/CareConnect-ResidentialStatus"/>
+							<system value="https://fhir.hl7.org.uk/CareConnect-ResidentialStatus-1"/>
 							<code value="H"/>
 							<display value="UK Resident"/>
 						</coding>
 					</valueCodeableConcept>
 				</extension>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-TreatmentCategory-1-Extension">
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-TreatmentCategory-1">
 					<valueCodeableConcept>
 						<coding>
-							<system value="http://hl7.org.uk/fhir/ValueSet/CareConnect-TreatmentCategory"/>
+							<system value="https://fhir.hl7.org.uk/CareConnect-TreatmentCategory-1"/>
 							<code value="8"/>
 							<display value="Not applicable"/>
 						</coding>
 					</valueCodeableConcept>
 				</extension>
-				<extension url="http://hl7.org.uk/fhir/CareConnect-NhsCommunication-1-Extension">
+				<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-NHSCommunication-1">
 					<extension url="language">
 						<valueCodeableConcept>
 							<coding>
-								<system value="http://hl7.org.uk/fhir/ValueSet/CareConnect-HumanLanguage"/>
+								<system value="https://fhir.hl7.org.uk/CareConnect-HumanLanguage-1"/>
 								<code value="en"/>
 								<display value="English"/>
 							</coding>
@@ -278,7 +318,7 @@
 					</extension>
 				</extension>
 				<identifier>
-					<extension url="http://hl7.org.uk/fhir/CareConnect-NhsNumberVerificationStatus-1-Extension">
+					<extension url="https://fhir.hl7.org.uk/StructureDefinition/Extension-CareConnect-NHSNumberVerificationStatus-1">
 						<valueCodeableConcept>
 							<coding>
 								<system value="http://hl7.org.uk/fhir/ValueSet/CareConnect-NhsNumberVerificationStatus"/>
@@ -294,7 +334,7 @@
 				<name>
 					<use value="usual"/>
 					<family value="Smith"/>
-					<given value="Richard"/>
+					<given value="Jon"/>
 					<prefix value="Mr"/>
 				</name>
 				<gender value="male"/>
@@ -324,7 +364,7 @@
 					<name>
 						<use value="usual"/>
 						<family value="Smith"/>
-						<given value="Joy"/>
+						<given value="Sarah"/>
 						<prefix value="Mrs"/>
 					</name>
 					<telecom>
@@ -339,76 +379,64 @@
 					<gender value="female"/>
 				</contact>
 				<careProvider>
-					<reference value="Organization/f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
-					<display value="MGP Medical Centre"/>
+					<reference value="urn:uuid:f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
 				</careProvider>
 			</Patient>
 		</resource>
 	</entry>
 	<entry>
-		<resource>
-			<Practitioner>
-				<id value="9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
-				<meta>
-					<profile value="http://hl7.org.uk/fhir/CareConnect-Practitioner-1"/>
-				</meta>
-				<name>
-					<family value="Jones"/>
-					<given value="Tom"/>
-					<prefix value="Mr"/>
-				</name>
-				<telecom>
-					<system value="phone"/>
-					<value value="01136323200"/>
-					<use value="work"/>
-				</telecom>
-				<address>
-					<line value="Leeds Teaching Hospital"/>
-					<line value="Great George Street"/>
-					<city value="Leeds"/>
-					<postalCode value="LS1 3EX"/>
-				</address>
-				<practitionerRole>
-					<managingOrganization>
-						<reference value="Organization/e1580b71-99bd-4c5b-8d54-9b420418135f"/>
-						<display value="Leeds Community Healthcare NHS Trust"/>
-					</managingOrganization>
-					<role>
-						<coding>
-							<system value="https://fhir.nhs.uk/ValueSet/sds-job-role-name-1"/>
-							<code value="NR0110"/>
-							<display value="Specialist Registrar"/>
-						</coding>
-					</role>
-				</practitionerRole>
-			</Practitioner>
-		</resource>
-	</entry>
-	<entry>
+		<fullUrl value="urn:uuid:4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
 		<resource>
 			<Encounter>
 				<id value="4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/CareConnect-Encounter-1"/>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1"/>
 				</meta>
 				<identifier>
+					<system value="https://fhir.nhs.uk/encounter-id"/>
 					<value value="13c73015-d8fa-4844-8d68-4f856883eca8"/>
 				</identifier>
-				<status value="finished"/>
+				<status value="in-progress"/>
+				<class value="inpatient"/>
 				<type>
 					<coding>
 						<system value="http://snomed.info/sct"/>
-						<code value="4525004"/>
-						<display value="Emergency department patient visit"/>
+						<code value="83362003"/>
+						<display value="Final inpatient visit with instructions at discharge (procedure)"/>
 					</coding>
 				</type>
 				<patient>
-					<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
-					<display value="Richard Smith"/>
+					<reference value="urn:uuid:31686b67-9f20-4644-9a54-193d2f91de57"/>
 				</patient>
+				<!--Physiotherapist who made assessment of patient's mobility-->
+				<participant>
+					<type>
+						<coding>
+							<system value="http://hl7.org/fhir/participant-type"/>
+							<code value="PPRF"/>
+							<display value="primary performer"/>
+						</coding>
+					</type>
+					<individual>
+						<reference value="9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+					</individual>
+				</participant>
+				<participant>
+					<type>
+						<coding>
+							<system value="http://hl7.org/fhir/participant-type"/>
+							<code value="PART"/>
+							<display value="Participation"/>
+						</coding>
+					</type>
+					<individual>
+						<reference value="dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
+					</individual>
+				</participant>
 				<period>
-					<start value="2015-02-12T09:00:00+00:00"/>
-					<end value="2016-02-16T09:00:00+00:00"/>
+					<start value="2017-04-24"/>
+					<!--Proposed discharge date-->
+					<end value="2017-05-06"/>
 				</period>
 				<hospitalization>
 					<dischargeDisposition>
@@ -421,19 +449,19 @@
 				</hospitalization>
 				<location>
 					<location>
-						<reference value="Location/01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
-						<display value="Accident and Emergency department"/>
+						<reference value="urn:uuid:01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
 					</location>
 				</location>
 			</Encounter>
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="urn:uuid:01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
 		<resource>
 			<Location>
 				<id value="01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
 				<meta>
-					<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-Location-1"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Location-1"/>
 				</meta>
 				<name value="Accident and emergency department of Leeds Teaching Hospital"/>
 				<type>
@@ -447,11 +475,12 @@
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="urn:uuid:e1580b71-99bd-4c5b-8d54-9b420418135f"/>
 		<resource>
 			<Organization>
 				<id value="e1580b71-99bd-4c5b-8d54-9b420418135f"/>
 				<meta>
-					<profile value="http://hl7.org.uk/fhir/CareConnect-Organization-1"/>
+					<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Organization-1"/>
 				</meta>
 				<identifier>
 					<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
@@ -459,7 +488,7 @@
 				</identifier>
 				<type>
 					<coding>
-						<system value="http://hl7.org/fhir/ValueSet/organization-type"/>
+						<system value="http://hl7.org/fhir/organization-type"/>
 						<code value="prov"/>
 						<display value="Healthcare Provider"/>
 					</coding>
@@ -482,14 +511,15 @@
 		</resource>
 	</entry>
 	<entry>
+		<fullUrl value="urn:uuid:1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
 		<resource>
 			<Binary>
-	<id value="1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
-	<meta>
-		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1"/>
-	</meta>
-<contentType value="application/pdf"/>
-<content value="JVBERi0xLjQKJeLjz9MKMSAwIG9iagogICA8PCAKICAgICAgL1RpdGxlICgpCiAgICAgIC9BdXRo
+				<id value="1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1"/>
+				</meta>
+				<contentType value="application/pdf"/>
+				<content value="JVBERi0xLjQKJeLjz9MKMSAwIG9iagogICA8PCAKICAgICAgL1RpdGxlICgpCiAgICAgIC9BdXRo
 b3IgKCkKICAgICAgL1N1YmplY3QgKCkKICAgICAgL0tleXdvcmRzICgpCiAgICAgIC9DcmVhdG9y
 ICh5RXhwb3J0IDEuNSkKICAgICAgL1Byb2R1Y2VyIChvcmcuZnJlZWhlcC5ncmFwaGljc2lvLnBk
 Zi5ZUERGR3JhcGhpY3MyRCAxLjUpCiAgICAgIC9DcmVhdGlvbkRhdGUgKEQ6MjAxNzAxMzExNDE4
@@ -16548,7 +16578,7 @@ MDAwMDkwOTkzOSAwMDAwMCBuIAowMDAwOTA5OTYxIDAwMDAwIG4gCjAwMDA5MTAyNjIgMDAwMDAg
 biAKMDAwMDkxMDYzMiAwMDAwMCBuIAowMDAwOTEwNjU0IDAwMDAwIG4gCnRyYWlsZXIKPDwgCiAg
 IC9TaXplIDkzCiAgIC9Sb290IDIgMCBSCiAgIC9JbmZvIDEgMCBSCj4+CnN0YXJ0eHJlZgo5MTMz
 NjUKJSVFT0YK"/>
-</Binary>
+			</Binary>
 		</resource>
 	</entry>
 </Bundle>

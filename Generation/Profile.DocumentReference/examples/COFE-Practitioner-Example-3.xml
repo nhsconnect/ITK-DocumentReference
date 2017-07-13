@@ -3,7 +3,7 @@
 <Practitioner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/practitioner.xsd" xmlns="http://hl7.org/fhir">
 	<id value="5e414a77-d394-4248-a631-00e45ddb64a0"/>
 	<meta>
-		<profile value="http://hl7.org.uk/fhir/StructureDefinition/CareConnect-practitioner-1"/>
+		<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1"/>
 	</meta>
 	<identifier>
 		<system value="https://fhir.nhs.uk/Id/sds-identifier"/>

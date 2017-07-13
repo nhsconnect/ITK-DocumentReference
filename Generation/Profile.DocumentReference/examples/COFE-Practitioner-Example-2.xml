@@ -3,7 +3,7 @@
 <Practitioner xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/practitioner.xsd" xmlns="http://hl7.org/fhir">
 	<id value="8ece9986-9af0-4882-b0cf-23a96ea7b509"/>
 	<meta>
-		<profile value="http://hl7.org.uk/fhir/CareConnect-Practitioner-1"/>
+		<profile value="https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1"/>
 	</meta>
 	<name>
 		<family value="Smith"/>

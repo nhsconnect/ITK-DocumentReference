@@ -9,7 +9,7 @@
   "STRUCTURES_JSON" : "FALSE",
   "OPERATIONS_XML"   : "FALSE",
   "OPERATIONS_JSON" : "FALSE",
-  "DMS_TITLE"		:   "CDA On FHIR England - Document Reference",
+  "DMS_TITLE"		:   "ITK - Document Reference",
   "DMS_VERSION"		:	"1.0.0-alpha.1",
   "SCHEMAS"			:	"TRUE"
 }

@@ -22,7 +22,7 @@ select index.html >> copy
 select chapter*\*.png >> copy
 select chapter*\*.pdf >> copy
 select chapter*\*.txt >> copy
-select chapter*\*.html >> copy
+//select chapter*\*.html >> copy
 select chapter*\*.vsd >> copy
 //select chapter*\*.xml >> copy
 //select chapter*\*.gif >> copy

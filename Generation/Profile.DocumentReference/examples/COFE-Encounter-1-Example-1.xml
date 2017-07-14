@@ -1,42 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--This example message is provided for illustrative purposes only. It has had no clinical validation. Where there are conflicts with the written message specification or schema, the specification or schema shall be considered to take precedence-->
 <Encounter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/encounter.xsd" xmlns="http://hl7.org/fhir">
-	<id value="4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
-	<meta>
-		<profile value="http://hl7.org.uk/fhir/CareConnect-Encounter-1"/>
-	</meta>
-	<identifier>
-		<value value="13c73015-d8fa-4844-8d68-4f856883eca8"/>
-	</identifier>
-	<status value="finished"/>
-	<type>
-		<coding>
-			<system value="http://snomed.info/sct"/>
-			<code value="4525004"/>
-			<display value="Emergency department patient visit"/>
-		</coding>
-	</type>
-	<patient>
-		<reference value="Patient/31686b67-9f20-4644-9a54-193d2f91de57"/>
-		<display value="Richard Smith"/>
-	</patient>
-	<period>
-		<start value="2015-02-12T09:00:00+00:00"/>
-		<end value="2016-02-16T09:00:00+00:00"/>
-	</period>
-	<hospitalization>
-		<dischargeDisposition>
-			<coding>
-				<system value="http://snomed.info/sct"/>
-				<code value="306689006"/>
-				<display value="Discharge to home"/>
-			</coding>
-		</dischargeDisposition>
-	</hospitalization>
-	<location>
-		<location>
-			<reference value="Location/01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
-			<display value="Accident and Emergency department"/>
-		</location>
-	</location>
-</Encounter>
+					<id value="4f36b35a-ad18-4ea9-a3fb-c893f709e88a"/>
+				<meta>
+					<profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1"/>
+				</meta>
+				<identifier>
+					<system value="https://fhir.nhs.uk/encounter-id"/>
+					<value value="13c73015-d8fa-4844-8d68-4f856883eca8"/>
+				</identifier>
+				<status value="in-progress"/>
+				<class value="inpatient"/>
+				<type>
+					<coding>
+						<system value="http://snomed.info/sct"/>
+						<code value="83362003"/>
+						<display value="Final inpatient visit with instructions at discharge (procedure)"/>
+					</coding>
+				</type>
+				<patient>
+					<reference value="urn:uuid:31686b67-9f20-4644-9a54-193d2f91de57"/>
+				</patient>
+				<!--Physiotherapist who made assessment of patient's mobility-->
+				<participant>
+					<type>
+						<coding>
+							<system value="http://hl7.org/fhir/participant-type"/>
+							<code value="PPRF"/>
+							<display value="primary performer"/>
+						</coding>
+					</type>
+					<individual>
+						<reference value="9ff4a692-c1d7-4dd6-9e0b-f44e77348faf"/>
+					</individual>
+				</participant>
+				<participant>
+					<type>
+						<coding>
+							<system value="http://hl7.org/fhir/participant-type"/>
+							<code value="PART"/>
+							<display value="Participation"/>
+						</coding>
+					</type>
+					<individual>
+						<reference value="dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
+					</individual>
+				</participant>
+				<period>
+					<start value="2017-04-24"/>
+					<!--Proposed discharge date-->
+					<end value="2017-05-06"/>
+				</period>
+				<hospitalization>
+					<dischargeDisposition>
+						<coding>
+							<system value="http://hl7.org/fhir/discharge-disposition"/>
+							<code value="home"/>
+							<display value="Home"/>
+						</coding>
+					</dischargeDisposition>
+				</hospitalization>
+				<location>
+					<location>
+						<reference value="urn:uuid:01bb1ccc-577b-4a4a-9fb0-9c8fe9f21fa3"/>
+					</location>
+				</location>
+				<serviceProvider>
+					<reference value="urn:uuid:f9f24f89-646b-4a19-a6b1-cabfa3b612e1"/>
+				</serviceProvider>
+			</Encounter>

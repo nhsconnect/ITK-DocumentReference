@@ -1,9 +1,5 @@
 ## FHIR Document Architecture ##
 
-
-## FHIR Messaging Implementation and Architecture ##
-
-
 **Document Reference Interactions**
 
 This section provides implementers with the information required to utilise the Document Reference Domain Message Specification.

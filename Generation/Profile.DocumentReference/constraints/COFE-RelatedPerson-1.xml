@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-11T14:26:27.792+01:00" />
+    <lastUpdated value="2017-07-13T23:29:38.017+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="9" />
@@ -2970,7 +2970,6 @@
       <type>
         <code value="code" />
       </type>
-      <fixedCode value="http://hl7.org/fhir/contact-point-system" />
       <exampleCode value="phone" />
       <condition value="ele-1" />
       <condition value="cpt-2" />
@@ -3055,7 +3054,7 @@
     </element>
     <element>
       <path value="RelatedPerson.telecom.use" />
-      <short value="A vocabulary that may be used to give further information about the type of contact details contained in the value element." />
+      <short value="home | work | temp | old | mobile - purpose of this contact point" />
       <definition value="Identifies the purpose for the contact point." />
       <comments value="This is labeled as &quot;Is Modifier&quot; because applications should not mistake a temporary or old contact etc.for a current/permanent one. Applications can assume that a contact is current unless it explicitly says that it is temporary or old." />
       <requirements value="Need to track the way a person uses this contact, so a user can choose which is appropriate for their purpose." />
@@ -4908,7 +4907,6 @@
     <element>
       <path value="RelatedPerson.telecom.system" />
       <min value="1" />
-      <fixedCode value="http://hl7.org/fhir/contact-point-system" />
       <exampleCode value="phone" />
     </element>
     <element>
@@ -4918,7 +4916,6 @@
     </element>
     <element>
       <path value="RelatedPerson.telecom.use" />
-      <short value="A vocabulary that may be used to give further information about the type of contact details contained in the value element." />
       <exampleCode value="work" />
       <binding>
         <strength value="required" />

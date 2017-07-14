@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-11T16:14:41.447+01:00" />
+    <lastUpdated value="2017-07-14T14:57:31.37+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -11,8 +11,9 @@
     <valueInteger value="0" />
   </extension>
   <url value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
+  <version value="1.0.0" />
   <name value="COFE-Device-1" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
     <name value="Interoperability Team" />
@@ -22,9 +23,10 @@
       <use value="work" />
     </telecom>
   </contact>
-  <date value="2015-09-22T11:02:49+01:00" />
-  <description value="An NHS Digital profile which identifies an instance of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device." />
-  <copyright value="Copyright © 2016 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
+  <date value="2017-07-14" />
+  <description value="This resource is primarily used for recording which device performed an action and can also be used to track device location. It is also used for prescribing and dispensing devices for patient use. If the device is implanted in a patient, then the patient element will be present, and there would be no location." />
+  <requirements value="A device could be the author of a document in this ITK Document Reference message." />
+  <copyright value="Copyright © 2017 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.1" />
   <kind value="resource" />
   <constrainedType value="Device" />

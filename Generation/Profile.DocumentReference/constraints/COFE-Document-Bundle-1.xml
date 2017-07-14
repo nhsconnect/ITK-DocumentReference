@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-12T14:07:47.352+01:00" />
+    <lastUpdated value="2017-07-14T15:02:29.252+01:00" />
     <tag>
       <system value="urn:hscic:examples" />
       <code value="COFE-Bundle-Example-1" />
@@ -13,8 +13,9 @@
     </tag>
   </meta>
   <url value="https://fhir.nhs.uk/StructureDefinition/cofe-document-bundle-1" />
+  <version value="1.0.0" />
   <name value="COFE-Document-Bundle-1" />
-  <status value="draft" />
+  <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
     <name value="Interoperability Team" />
@@ -24,8 +25,10 @@
       <use value="work" />
     </telecom>
   </contact>
-  <date value="2016-08-03T00:00:00+01:00" />
-  <description value="This Bundle resource is constrained to represent a container to collect a combination of the COFE Document resources." />
+  <date value="2017-07-14" />
+  <description value="This Bundle resource is constrained to represent a container to collect a combination of the ITK Document resources." />
+  <requirements value="There is a requirement to gather together a collection of resources into a single instance with containing context." />
+  <copyright value="Copyright © 2017 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.2" />
   <kind value="resource" />
   <constrainedType value="Bundle" />
@@ -2270,9 +2273,6 @@
       <binding>
         <strength value="required" />
         <description value="Indicates the purpose of a bundle- how it was intended to be used" />
-        <valueSetReference>
-          <reference value="http://hl7.org/fhir/ValueSet/bundle-type" />
-        </valueSetReference>
       </binding>
     </element>
     <element>

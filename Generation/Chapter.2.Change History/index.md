@@ -12,7 +12,10 @@
  - Replaced Extension-Care-Setting-Type-1 profile with Extension-COFE-Care-Setting-Type-1.
  - Made all values in extensions mandatory.
  - Added CareConnect-Practitioner-1 as a reference within Extension-COFE-Informant-1.
- - Added COFE-Related-Person-1 and CareConnect-Patient-1 as references within Extension-COFE-Information-Recipient-1.   
+ - Added COFE-Related-Person-1 and CareConnect-Patient-1 as references within Extension-COFE-Information-Recipient-1.
+ - Updated COFE-Bundle-Example-1 xml example.
+ - Removed xml examples based on individual profiles. 
+ - Added text and diagrams to Architecture page. 
 
 ### Version: 1.0; Status: Draft A #
 

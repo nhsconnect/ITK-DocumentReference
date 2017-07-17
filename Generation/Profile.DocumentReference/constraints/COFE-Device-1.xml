@@ -1102,7 +1102,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="DXH12345" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2383,7 +2383,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="AA 1001-C" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2422,7 +2422,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="8.15-04" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3284,7 +3284,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="phone" />
+      
       <condition value="ele-1" />
       <condition value="cpt-2" />
       <constraint>
@@ -3337,7 +3337,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="0191 4021111" />
+      <exampleString value="" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3382,7 +3382,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="work" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3720,7 +3720,7 @@
       <path value="Device.identifier.value" />
       <short value="System or medical device identifier" />
       <min value="1" />
-      <exampleString value="DXH12345" />
+      
     </element>
     <element>
       <path value="Device.identifier.period" />
@@ -3788,11 +3788,11 @@
     </element>
     <element>
       <path value="Device.model" />
-      <exampleString value="AA 1001-C" />
+      
     </element>
     <element>
       <path value="Device.version" />
-      <exampleString value="8.15-04" />
+      
     </element>
     <element>
       <path value="Device.udi" />
@@ -3839,16 +3839,16 @@
     <element>
       <path value="Device.contact.system" />
       <min value="1" />
-      <exampleCode value="phone" />
+      
     </element>
     <element>
       <path value="Device.contact.value" />
       <min value="1" />
-      <exampleString value="0191 4021111" />
+      <exampleString value="" />
     </element>
     <element>
       <path value="Device.contact.use" />
-      <exampleCode value="work" />
+      
     </element>
   </differential>
 </StructureDefinition>

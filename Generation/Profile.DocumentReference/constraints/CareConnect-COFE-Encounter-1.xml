@@ -1145,7 +1145,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -7517,7 +7517,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">

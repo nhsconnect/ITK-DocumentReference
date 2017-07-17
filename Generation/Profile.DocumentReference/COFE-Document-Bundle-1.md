@@ -13,17 +13,15 @@ The COFE-Document-Bundle-1 bundle resource profile is used in the CDA on FHIR Do
 ----------
 **Examples**
 
-The following example contains an instance of a DocumentReference resource and has been converted to a txt file  to allow better viewing within a web browser, xml copies are available within the examples folder within this specification.
+The following example contains an instance of a DocumentReference resource and has been converted to a txt file  to allow better viewing within a web browser, an xml copy is available within the examples folder in this specification.
 
 
-This is an example of an eDischarge document Bundle [COFE-XML-1.txt]
+This is an example of an a document Bundle [COFE-Bundle-Example-1.txt]
  
-This is an example of an eDischarge document Bundle after rendering [COFE-Rendered-1.html]
 
 ----------
 
-[COFE-XML-1.txt]: ../Chapter.5.Examples/COFE-DocumentReference-Bundle-1-Example.txt
-[COFE-Rendered-1.html]: ../Chapter.5.Examples/COFE-DocumentReference-Bundle-1-Example.html
+[COFE-Bundle-Example-1.txt]: ../Chapter.5.Examples/COFE-Bundle-Example-1.txt
 
 [COFE-DocumentReference-1]: cofe-documentreference-1.html
 [COFE-Binary-1]: cofe-binary-1.html

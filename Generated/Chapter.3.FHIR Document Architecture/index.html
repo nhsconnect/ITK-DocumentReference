@@ -1,8 +1,11 @@
 
+
+
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
-			<title>CDA On FHIR England - Document Reference - FHIR Implementation Guide</title>
+			<title>ITK - Document Reference - FHIR Implementation Guide</title>
 
 			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<meta name="author" content="HSCIC" />        
@@ -61,7 +64,7 @@
                 </a>
                 <div id="specificationName">
          
-                        <b>CDA On FHIR England - Document Reference</b>
+                        <b>ITK - Document Reference</b>
                   
                 </div>
 
@@ -148,7 +151,41 @@
 							
 									<div class="panel panel - default">
 											<h2>FHIR Document Architecture</h2>
-<p>The CDA On FHIR England - Document Reference is based on the HL7 <a href="http://hl7.org/fhir/documents.html">FHIR DSTU2</a> Document Implementation. </p>
+<p><strong>Document Reference Interactions</strong></p>
+<p>This section provides implementers with the information required to utilise the Document Reference Domain Message Specification.</p>
+<p>All the profiles for the FHIR interface are based on the HL7 <a href="http://hl7.org/fhir/DSTU2/documents.html">FHIR DSTU2</a> 1.0.2 Messaging Implementation (Oct 2015) Messaging Implementation and support multiple interactions. </p>
+<p>Note 1: When using MESH, additional MESH acknowledgements and responses will be available.The MESH acknowledgements and responses not defined in this specification.</p>
+<p>Note 2: Further information regarding the ITK FHIR acknowledgements which may be used with these interactions is available in the ITK FHIR Bundle specification.  </p>
+<hr />
+<p><strong>DOC-DocumentReference-Primary-Recipient-1 Interaction</strong> </p>
+<p>The sending system will construct a Document Reference FHIR Document and send it to the primary recipient's receiving system.</p>
+<ul>
+<li><em>Sender:</em> Document Reference Sending system</li>
+<li><em>Receiver:</em>  Document Reference Recipient system</li>
+<li><em>Message: Wire Format:</em> <a href="../Profile.DocumentReference/Profile.DocumentReference.html">DocumentReference-1</a></li>
+</ul>
+<hr />
+<p><strong>DOC-DocumentReference-Copy-Recipient-1 Interaction</strong> </p>
+<p>The sending system will construct a Document Reference FHIR Document and send it to the copy recipient's receiving system.</p>
+<ul>
+<li><em>Sender:</em>  Document Reference Sending system</li>
+<li><em>Receiver:</em>  Document Reference Recipient system</li>
+<li><em>Message: Wire Format:</em> <a href="../Profile.DocumentReference/Profile.DocumentReference.html">DocumentReference-1</a></li>
+</ul>
+<p><strong>Acknowledgements Interactions</strong></p>
+<p>Dependent on system set up the following interactions may be utilised.</p>
+<ul>
+<li>RSP-ITK-Infrastructure-Acknowledgement-Response-1</li>
+<li>RSP-ITK-Business-Acknowledgement-Response-1</li>
+</ul>
+<hr />
+<p><strong>Document Reference FHIR Document Interactions Diagram</strong>
+</br></p>
+<p>The diagram shows the Document Reference Interactions:</p>
+<p></br></p>
+<div style="display: block;"><img  src="DocRefInteractions.jpg" alt="DocRefInteractions">
+</div>  
+<p><br></p>
 <hr />
 
 									</div>

@@ -1,5 +1,8 @@
 
+
+
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 			<title>DocumentReference - FHIR Implementation Guide</title>
@@ -766,7 +769,7 @@
           <td>
             <div class="binding-description" xmlns="http://www.w3.org/1999/xhtml">
               <p>Identifies the purpose for this identifier, if known .</p>
-              <p>The codes SHALL be taken from <a href="http://hl7.org/fhir/ValueSet/identifier-use">http://hl7.org/fhir/ValueSet/identifier-use</a></p>
+              <p>The codes SHALL be taken from <a href="http://hl7.org/fhir/DSTU2/valueset-identifier-use.html">http://hl7.org/fhir/DSTU2/valueset-identifier-use.html</a></p>
             </div>
           </td>
         </tr>
@@ -821,7 +824,7 @@
           <td>
             <div class="binding-description" xmlns="http://www.w3.org/1999/xhtml">
               <p>A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.</p>
-              <p>The codes SHALL be taken from the following if appropriate, otherwise an alternate coding may be included instead. <a href="http://hl7.org/fhir/ValueSet/identifier-type">http://hl7.org/fhir/ValueSet/identifier-type</a></p>
+              <p>The codes SHALL be taken from the following if appropriate, otherwise an alternate coding may be included instead. <a href="http://hl7.org/fhir/DSTU2/valueset-identifier-type.html">http://hl7.org/fhir/DSTU2/valueset-identifier-type.html</a></p>
             </div>
           </td>
         </tr>
@@ -2568,7 +2571,7 @@
           <td>
             <div class="binding-description" xmlns="http://www.w3.org/1999/xhtml">
               <p>The status of the document reference.</p>
-              <p>The codes SHALL be taken from <a href="http://hl7.org/fhir/ValueSet/document-reference-status">http://hl7.org/fhir/ValueSet/document-reference-status</a></p>
+              <p>The codes SHALL be taken from <a href="http://hl7.org/fhir/DSTU2/valueset-document-reference-status.html">http://hl7.org/fhir/DSTU2/valueset-document-reference-status.html</a></p>
             </div>
           </td>
         </tr>
@@ -2606,7 +2609,7 @@
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>1..*</td>
+          <td>0..*</td>
         </tr>
         <tr>
           <td>
@@ -2858,35 +2861,17 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td>
-            <p>A representation of the meaning of the code in the system, following the rules of the system.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..1 ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#string" xmlns="http://www.w3.org/1999/xhtml">String</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.</p>
-          </td>
+          <td>1..*</td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
-          <td>
-            <p>Note that FHIR strings may not exceed 1MB in size</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td colspan="2" class="structure">

@@ -1,1 +1,1 @@
-An extension to detail the care setting type.
+An extension to detail the care setting type for the correspondence.

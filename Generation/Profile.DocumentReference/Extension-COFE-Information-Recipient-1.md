@@ -1,1 +1,1 @@
-An extension to detail the information recipient.
+An extension to detail the primary information recipient. The primary information recipients of the document are usually expected to perform some action on receipt of it. There can be more than one primary recipient.

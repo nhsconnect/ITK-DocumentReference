@@ -16,7 +16,7 @@
     </telecom>
   </contact>
   <date value="2015-09-22T20:02:49+10:00" />
-  <description value="Extension for CDA information recipient." />
+  <description value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
@@ -162,7 +162,7 @@
     <element>
       <path value="Extension.value[x]" />
       <name value="Information Recipient" />
-      <short value="Extension for CDA information recipient." />
+      <short value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -355,7 +355,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Information Recipient" />
-      <short value="Extension for CDA information recipient." />
+      <short value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
       <min value="1" />
       <type>
         <code value="Reference" />

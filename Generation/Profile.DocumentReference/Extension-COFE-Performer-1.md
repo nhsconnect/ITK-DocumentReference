@@ -1,1 +1,1 @@
-An extension to detail the performer.
+The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document.

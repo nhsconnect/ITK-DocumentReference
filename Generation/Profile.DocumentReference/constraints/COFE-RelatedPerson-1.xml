@@ -1106,7 +1106,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -1516,7 +1516,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="RA9:SOUTH DEVON HEALTHCARE NHS TRUST" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2972,7 +2972,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="phone" />
+      
       <condition value="ele-1" />
       <condition value="cpt-2" />
       <constraint>
@@ -3025,7 +3025,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="0191 4021122" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3070,7 +3070,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="work" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3560,7 +3560,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="home" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3612,7 +3612,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="both" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3664,7 +3664,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="137 Nowhere Street, Erewhon 9132" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3709,7 +3709,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="137 Nowhere Street" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3758,7 +3758,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="Erewhon" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3807,7 +3807,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="Madison" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3897,7 +3897,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="9132" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -4842,7 +4842,7 @@
     </element>
     <element>
       <path value="RelatedPerson.identifier.assigner.display" />
-      <exampleString value="RA9:SOUTH DEVON HEALTHCARE NHS TRUST" />
+      
     </element>
     <element>
       <path value="RelatedPerson.patient" />
@@ -4909,16 +4909,16 @@
     <element>
       <path value="RelatedPerson.telecom.system" />
       <min value="1" />
-      <exampleCode value="phone" />
+      
     </element>
     <element>
       <path value="RelatedPerson.telecom.value" />
       <min value="1" />
-      <exampleString value="0191 4021122" />
+      
     </element>
     <element>
       <path value="RelatedPerson.telecom.use" />
-      <exampleCode value="work" />
+      
       <binding>
         <strength value="required" />
         <valueSetReference>

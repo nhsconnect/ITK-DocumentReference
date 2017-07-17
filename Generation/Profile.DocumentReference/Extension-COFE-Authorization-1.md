@@ -1,1 +1,1 @@
-An extension carrying the authoriser of the document.
+The Authorisation Extension carries information about an individual or individuals who have overall responsibility for the document.

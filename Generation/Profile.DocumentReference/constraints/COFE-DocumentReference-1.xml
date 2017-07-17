@@ -349,7 +349,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Data Enterer Extension" />
-      <short value="Data Enterer" />
+      <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -387,7 +387,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Informant Extension" />
-      <short value="Refers to who informed" />
+      <short value="The Informant Extension references one or more people who informed the author about information contained in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -425,7 +425,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Information Recipient Extension" />
-      <short value="Information Recipient" />
+      <short value="The Information Recipient Extension references the primary information recipient(s) of the document who is/are usually expected to perform some action on receipt of a document.  " />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -463,7 +463,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Participant Extension" />
-      <short value="Extension for COFE participant." />
+      <short value="The Participant extension carries details of people,organisations or devices that are involved in some way with the document. " />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -501,7 +501,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Performer Extension" />
-      <short value="Performer Extension" />
+      <short value="The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -539,7 +539,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Authorization Extension" />
-      <short value="Extension carrying the authoriser of the document." />
+      <short value="The Authorisation Extension carries information about an individual or individuals who have overall responsibility for the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -577,7 +577,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="CareSettingType" />
-      <short value="Care Setting Type" />
+      <short value="The Care Setting Type Extension carries details of the Correspondence Care Setting Type." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -1393,7 +1393,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2565,7 +2565,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3550,7 +3550,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="373942005" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3595,7 +3595,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="Discharge summary" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -4725,7 +4725,7 @@
     </element>
     <element>
       <path value="DocumentReference.indexed" />
-      <short value="When this document reference created" />
+      <short value="When this document reference was created" />
       <definition value="When the document reference was created." />
       <comments value="Referencing/indexing time is used for tracking, organizing versions and searching." />
       <min value="1" />
@@ -6593,7 +6593,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="GBR" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -6675,7 +6675,7 @@
       <type>
         <code value="uri" />
       </type>
-      <exampleUri value="http://www.acme.com/logo-small.png" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -10309,7 +10309,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="123456" />
+      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -10943,7 +10943,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Data Enterer Extension" />
-      <short value="Data Enterer" />
+      <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-data-enterer-1" />
@@ -10960,7 +10960,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Information Recipient Extension" />
-      <short value="Information Recipient" />
+      <short value="The Information Recipient Extension references the primary information recipient(s) of the document who is/are usually expected to perform some action on receipt of a document.  " />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1" />
@@ -10969,7 +10969,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Participant Extension" />
-      <short value="Extension for COFE participant." />
+      <short value="The Participant extension carries details of people,organisations or devices that are involved in some way with the document. " />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
@@ -10978,7 +10978,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Performer Extension" />
-      <short value="Performer Extension" />
+      <short value="The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-performer-1" />
@@ -10995,7 +10995,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="CareSettingType" />
-      <short value="Care Setting Type" />
+      <short value="The Care Setting Type Extension carries details of the Correspondence Care Setting Type." />
       <max value="1" />
       <type>
         <code value="Extension" />
@@ -11081,12 +11081,12 @@
     <element>
       <path value="DocumentReference.type.coding.code" />
       <min value="1" />
-      <exampleCode value="373942005" />
+      
     </element>
     <element>
       <path value="DocumentReference.type.coding.display" />
       <min value="1" />
-      <exampleString value="Discharge summary" />
+      
     </element>
     <element>
       <path value="DocumentReference.type.coding.userSelected" />
@@ -11181,7 +11181,7 @@
     </element>
     <element>
       <path value="DocumentReference.content.attachment.language" />
-      <exampleCode value="GBR" />
+      
     </element>
     <element>
       <path value="DocumentReference.content.attachment.data" />

@@ -1,1 +1,1 @@
-An extension to detail the participant.
+An extension to detail the participant. Participants are people,organisations or devices that are involved in some way with the document. 

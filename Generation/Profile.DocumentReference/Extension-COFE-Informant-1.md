@@ -1,1 +1,1 @@
-An extension to detail the informant.
+An extension to detail the informant; a person who informed the document's author about information contained in the document.

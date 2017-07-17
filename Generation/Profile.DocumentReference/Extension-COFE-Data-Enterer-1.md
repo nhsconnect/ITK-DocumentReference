@@ -1,1 +1,1 @@
-An extension to detail the data enterer.
+An extension to detail the data enterer who is the person who entered the information contained in the document.

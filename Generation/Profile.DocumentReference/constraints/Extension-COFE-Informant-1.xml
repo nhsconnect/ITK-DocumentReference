@@ -28,7 +28,7 @@
   <snapshot>
     <element>
       <path value="Extension" />
-      <short value="Refers to who informed" />
+      <short value="The Informant Extension references one or more people who informed the author about information contained in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <min value="0" />
       <max value="*" />
@@ -340,7 +340,7 @@
   <differential>
     <element>
       <path value="Extension" />
-      <short value="Refers to who informed" />
+      <short value="The Informant Extension references one or more people who informed the author about information contained in the document." />
     </element>
     <element>
       <path value="Extension.url" />

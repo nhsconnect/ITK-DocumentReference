@@ -6,7 +6,7 @@ This section provides implementers with the information required to utilise the 
 
 All the profiles for the FHIR interface are based on the HL7 [FHIR DSTU2] 1.0.2 Messaging Implementation (Oct 2015) Messaging Implementation and support multiple interactions. 
 
-Note 1: When using MESH, additional MESH acknowledgements and responses will be available.The MESH acknowledgements and responses not defined in this specification.
+Note 1: When using MESH, additional MESH acknowledgements and responses will be available. The MESH acknowledgements and responses not defined in this specification.
 
 Note 2: Further information regarding the ITK FHIR acknowledgements which may be used with these interactions is available in the ITK FHIR Bundle specification.  
 

@@ -4,17 +4,17 @@
     <lastUpdated value="2017-07-14T15:02:29.252+01:00" />
     <tag>
       <system value="urn:hscic:examples" />
-      <code value="COFE-Bundle-Example-1" />
-      <display value="Example bundle for COFE document header" />
+      <code value="ITK-Bundle-Example-1" />
+      <display value="Example bundle for ITK document header" />
     </tag>
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="1" />
     </tag>
   </meta>
-  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-document-bundle-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/ITK-Document-Bundle-1" />
   <version value="1.0.0" />
-  <name value="COFE-Document-Bundle-1" />
+  <name value="ITK-Document-Bundle-1" />
   <status value="active" />
   <publisher value="NHS Digital" />
   <contact>

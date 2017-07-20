@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-14T15:11:20.815+01:00" />
+    <lastUpdated value="2017-07-19T13:57:35.408+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -10,9 +10,9 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="2" />
   </extension>
-  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/ITK-DocumentReference-1" />
   <version value="1.0.0" />
-  <name value="COFE-DocumentReference-1" />
+  <name value="ITK-DocumentReference-1" />
   <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
@@ -363,7 +363,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-data-enterer-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -401,7 +401,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informant-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -439,7 +439,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -477,7 +477,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -515,7 +515,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-performer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-performer-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -553,7 +553,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-authorization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-authorization-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -591,7 +591,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -1393,7 +1393,7 @@
       <type>
         <code value="string" />
       </type>
-      
+      <exampleString value="123456" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2565,7 +2565,7 @@
       <type>
         <code value="string" />
       </type>
-      
+      <exampleString value="123456" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3550,7 +3550,6 @@
       <type>
         <code value="code" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3595,7 +3594,6 @@
       <type>
         <code value="string" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -4245,7 +4243,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-Device-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -4725,7 +4723,7 @@
     </element>
     <element>
       <path value="DocumentReference.indexed" />
-      <short value="When this document reference was created" />
+      <short value="When this document reference created" />
       <definition value="When the document reference was created." />
       <comments value="Referencing/indexing time is used for tracking, organizing versions and searching." />
       <min value="1" />
@@ -5533,7 +5531,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-DocumentReference-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -6593,7 +6591,7 @@
       <type>
         <code value="code" />
       </type>
-      
+      <exampleCode value="en-AU" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -6675,7 +6673,7 @@
       <type>
         <code value="uri" />
       </type>
-      
+      <exampleUri value="http://www.acme.com/logo-small.png" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -7339,7 +7337,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-ITK-Encounter-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -10309,7 +10307,7 @@
       <type>
         <code value="string" />
       </type>
-      
+      <exampleString value="123456" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -10946,7 +10944,7 @@
       <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-data-enterer-1" />
       </type>
     </element>
     <element>
@@ -10954,7 +10952,7 @@
       <name value="Informant Extension" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-informant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informant-1" />
       </type>
     </element>
     <element>
@@ -10963,7 +10961,7 @@
       <short value="The Information Recipient Extension references the primary information recipient(s) of the document who is/are usually expected to perform some action on receipt of a document.  " />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
       </type>
     </element>
     <element>
@@ -10972,7 +10970,7 @@
       <short value="The Participant extension carries details of people,organisations or devices that are involved in some way with the document. " />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
       </type>
     </element>
     <element>
@@ -10981,7 +10979,7 @@
       <short value="The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document." />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-performer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-performer-1" />
       </type>
     </element>
     <element>
@@ -10989,7 +10987,7 @@
       <name value="Authorization Extension" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-authorization-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-authorization-1" />
       </type>
     </element>
     <element>
@@ -10999,7 +10997,7 @@
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
       </type>
     </element>
     <element>
@@ -11081,12 +11079,10 @@
     <element>
       <path value="DocumentReference.type.coding.code" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="DocumentReference.type.coding.display" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="DocumentReference.type.coding.userSelected" />
@@ -11109,7 +11105,7 @@
       </type>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-device-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-Device-1" />
       </type>
     </element>
     <element>
@@ -11168,7 +11164,7 @@
       <path value="DocumentReference.relatesTo.target" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-documentreference-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-DocumentReference-1" />
       </type>
     </element>
     <element>
@@ -11178,10 +11174,6 @@
     <element>
       <path value="DocumentReference.content.attachment.contentType" />
       <exampleCode value="application/pdf" />
-    </element>
-    <element>
-      <path value="DocumentReference.content.attachment.language" />
-      
     </element>
     <element>
       <path value="DocumentReference.content.attachment.data" />
@@ -11199,7 +11191,7 @@
       <path value="DocumentReference.context.encounter" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-COFE-Encounter-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/CareConnect-ITK-Encounter-1" />
       </type>
     </element>
     <element>

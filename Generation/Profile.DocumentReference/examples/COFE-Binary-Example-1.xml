@@ -3,7 +3,7 @@
 <Binary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/binary.xsd" xmlns="http://hl7.org/fhir">
 	<id value="1868a8af-feaf-4f11-90d1-66da928d6bbc"/>
 	<meta>
-		<profile value="https://fhir.nhs.uk/StructureDefinition/cofe-binary-1"/>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/ITK-Binary-1"/>
 	</meta>
 <contentType value="application/pdf"/>
 <content value="JVBERi0xLjQKJeLjz9MKMSAwIG9iagogICA8PCAKICAgICAgL1RpdGxlICgpCiAgICAgIC9BdXRo

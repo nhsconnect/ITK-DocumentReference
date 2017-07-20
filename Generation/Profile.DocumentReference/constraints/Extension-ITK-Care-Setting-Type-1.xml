@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-10T21:22:58.289+01:00" />
+    <lastUpdated value="2017-07-20T09:57:18.981+01:00" />
   </meta>
-  <url value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
   <version value="1" />
-  <name value="Extension-COFE-Care-Setting-Type-1" />
-  <status value="draft" />
+  <name value="Extension-ITK-Care-Setting-Type-1" />
+  <status value="active" />
   <date value="2015-09-22T11:02:49+01:00" />
   <description value="Extension for a Care Setting." />
   <fhirVersion value="1.0.1" />
@@ -131,7 +131,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -650,7 +650,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
     </element>
     <element>
       <path value="Extension.valueCodeableConcept" />

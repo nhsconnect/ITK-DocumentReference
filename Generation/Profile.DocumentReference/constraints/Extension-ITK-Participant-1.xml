@@ -3,9 +3,9 @@
   <meta>
     <lastUpdated value="2017-07-10T21:37:43.675+01:00" />
   </meta>
-  <url value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
-  <name value="Extension-COFE-Participant-1" />
-  <status value="draft" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
+  <name value="Extension-ITK-Participant-1" />
+  <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
     <name value="Interoperability Team" />
@@ -16,7 +16,7 @@
     </telecom>
   </contact>
   <date value="2015-09-22T20:02:49+10:00" />
-  <description value="Extension for COFE participant ." />
+  <description value="Extension for ITK participant ." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
@@ -140,7 +140,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -174,7 +174,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-RelatedPerson-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -340,7 +340,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-cofe-participant-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
     </element>
     <element>
       <path value="Extension.valueReference" />
@@ -349,7 +349,7 @@
       <min value="1" />
       <type>
         <code value="Reference" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-RelatedPerson-1" />
       </type>
     </element>
     <element>

@@ -149,12 +149,12 @@
 							
 <div class="panel panel - default" xmlns="http://www.w3.org/1999/xhtml">
   <div class="panel-heading">
-    <h3 class="panel-title">Extension-COFE-Care-Setting-Type-1</h3>
+    <h3 class="panel-title">Extension-ITK-Informant-1</h3>
   </div>
   <div class="panel-body">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <p>
-        <b>Extension-COFE-Care-Setting-Type-1</b>
+        <b>Extension-ITK-Informant-1</b>
       </p>
       <table class="dict">
         <tr>
@@ -267,41 +267,31 @@
         </tr>
         <tr>
           <td>Fixed Value</td>
-          <td>https://fhir.nhs.uk/StructureDefinition/extension-cofe-care-setting-type-1</td>
+          <td>https://fhir.nhs.uk/StructureDefinition/extension-itk-informant-1</td>
         </tr>
         <tr>
           <td colspan="2" class="structure">
-            <a name="Extension.CareSettingType"></a>
-            <b>Extension.valueCodeableConcept(CareSettingType)</b>
+            <a name="Extension.Informant"></a>
+            <b>Extension.value[x](Informant)</b>
           </td>
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td></td>
+          <td>
+            <p>Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list).</p>
+          </td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>1..*</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/terminologies.html">Binding</a>
-          </td>
-          <td>
-            <div class="binding-description" xmlns="http://www.w3.org/1999/xhtml">
-              <p>Correspondence care setting type</p>
-              <p>The codes SHOULD be taken from <a href="care-setting-type-1.html">https://fhir.nhs.uk/ValueSet/care-setting-type-1</a></p>; other codes may be used where these codes are not suitable</div>
-          </td>
+          <td>1..1 ?</td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
           </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#codeableconcept" xmlns="http://www.w3.org/1999/xhtml">CodeableConcept</a>
-          </td>
+          <td>Choice of: <ul><li><a href="careconnect-practitioner-1.html" xmlns="http://www.w3.org/1999/xhtml">https://fhir.hl7.org.uk/StructureDefinition/CareConnect-Practitioner-1</a></li><li><a href="itk-relatedperson-1.html" xmlns="http://www.w3.org/1999/xhtml">https://fhir.nhs.uk/StructureDefinition/ITK-RelatedPerson-1</a></li></ul></td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
@@ -309,8 +299,8 @@
         </tr>
         <tr>
           <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.id"></a>
-            <b>Extension.valueCodeableConcept.id</b>
+            <a name="Extension.value[x].id"></a>
+            <b>Extension.value[x].id</b>
           </td>
         </tr>
         <tr>
@@ -341,8 +331,8 @@
         </tr>
         <tr>
           <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.extension"></a>
-            <b>Extension.valueCodeableConcept.extension</b>
+            <a name="Extension.value[x].extension"></a>
+            <b>Extension.value[x].extension</b>
           </td>
         </tr>
         <tr>
@@ -377,122 +367,46 @@
         </tr>
         <tr>
           <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding"></a>
-            <b>Extension.valueCodeableConcept.coding</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>1..1</td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.id"></a>
-            <b>Extension.valueCodeableConcept.coding.id</b>
+            <a name="Extension.value[x].reference"></a>
+            <b>Extension.value[x].reference</b>
           </td>
         </tr>
         <tr>
           <td width="150px">Definition</td>
           <td>
-            <p>unique id for the element within a resource (for internal references).</p>
+            <p>A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.</p>
           </td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..1 ?</td>
+          <td>1..1 ?</td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
           </td>
           <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#id" xmlns="http://www.w3.org/1999/xhtml">Id</a>
+            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#string" xmlns="http://www.w3.org/1999/xhtml">String</a>
           </td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
           <td>
-            <p>RFC 4122</p>
+            <p>Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure "/[type]/[id]" then it should be assumed that the reference is to a FHIR RESTful server.</p>
           </td>
         </tr>
         <tr>
           <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.extension"></a>
-            <b>Extension.valueCodeableConcept.coding.extension</b>
+            <a name="Extension.value[x].display"></a>
+            <b>Extension.value[x].display</b>
           </td>
         </tr>
         <tr>
           <td width="150px">Definition</td>
           <td>
-            <p>May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>0..* ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#extension" xmlns="http://www.w3.org/1999/xhtml">Extension</a>
-          </td>
-        </tr>
-        <tr>
-          <td>Aliases</td>
-          <td>extensions, user content</td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td>
-            <p>There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.</p>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.system"></a>
-            <b>Extension.valueCodeableConcept.coding.system</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>1..*</td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.version"></a>
-            <b>Extension.valueCodeableConcept.coding.version</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td>
-            <p>The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured. and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.</p>
+            <p>Plain text narrative that identifies the resource in addition to the resource reference.</p>
           </td>
         </tr>
         <tr>
@@ -512,123 +426,7 @@
         <tr>
           <td width="150px">Comments</td>
           <td>
-            <p>Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.</p>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.code"></a>
-            <b>Extension.valueCodeableConcept.coding.code</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>1..*</td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.display"></a>
-            <b>Extension.valueCodeableConcept.coding.display</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>1..*</td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.coding.userSelected"></a>
-            <b>Extension.valueCodeableConcept.coding.userSelected</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td>
-            <p>Indicates that this coding was chosen by a user directly - i.e. off a pick list of available items (codes or displays).</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>0..1 ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#boolean" xmlns="http://www.w3.org/1999/xhtml">Boolean</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.</p>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td>
-            <p>Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.</p>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" class="structure">
-            <a name="Extension.valueCodeableConcept.text"></a>
-            <b>Extension.valueCodeableConcept.text</b>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Definition</td>
-          <td>
-            <p>A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
-          </td>
-          <td>0..1 ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#string" xmlns="http://www.w3.org/1999/xhtml">String</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.</p>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Comments</td>
-          <td>
-            <p>Very often the text is the same as a displayName of one of the codings.</p>
+            <p>This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.</p>
           </td>
         </tr>
       </table>

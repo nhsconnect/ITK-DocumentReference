@@ -10,9 +10,9 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
     <valueInteger value="0" />
   </extension>
-  <url value="https://fhir.nhs.uk/StructureDefinition/cofe-relatedperson-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/ITK-RelatedPerson-1" />
   <version value="1.0.0" />
-  <name value="COFE-RelatedPerson-1" />
+  <name value="ITK-RelatedPerson-1" />
   <status value="active" />
   <publisher value="NHS Digital" />
   <contact>

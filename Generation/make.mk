@@ -19,7 +19,7 @@ select IGResource.xml >> valuesetIndex $template >> save
 
 // Copy static files
 select index.html >> copy
-select chapter*\*.png >> copy
+//select chapter*\*.png >> copy
 select chapter*\*.pdf >> copy
 select chapter*\*.txt >> copy
 //select chapter*\*.html >> copy

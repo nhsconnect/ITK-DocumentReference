@@ -1,4 +1,4 @@
-The ITK-Document-Bundle-1 bundle profile is used in the CDA on FHIR Document Reference interface as a container to collect the following profiles: 
+The ITK-Document-Bundle-1 bundle profile is used in the ITK Document Reference interface as a container to collect the following profiles: 
 
 - **[ITK-DocumentReference-1]**  An NHS Digital DocumentReference profile used to carry base64 encoded binary content defined by a format other than FHIR, for example a PDF file or an image file. This encoded content must be included in the message bundle.
 - **[ITK-Binary-1]**  An NHS Digital profile which stores a health or social care document in a base64 binary format.  

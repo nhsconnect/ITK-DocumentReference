@@ -1,1 +1,1 @@
-This constrained FHIR document reference resource is used for general references to pre-existing documents which are not authored and assembled in FHIR. The Binary Resource is referenced within DocumentReference and is used to carry the actual embedded document.
+This constrained FHIR DocumentReference resource is used for general references to pre-existing documents which are not authored and assembled in FHIR. The Binary Resource is referenced within DocumentReference and is used to carry the actual embedded document.

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-09T21:30:37.462+01:00" />
+    <lastUpdated value="2017-07-21T11:14:52.473+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="5" />
@@ -5241,7 +5241,9 @@
       <binding>
         <strength value="example" />
         <description value="Used to categorize the organization" />
-        <valueSetUri value="http://hl7.org/fhir/ValueSet/organization-type" />
+        <valueSetReference>
+          <reference value="http://hl7.org/fhir/ValueSet/organization-type" />
+        </valueSetReference>
       </binding>
       <mapping>
         <identity value="rim" />
@@ -9926,13 +9928,6 @@
       <path value="Organization.active" />
       <short value="Date the organization became active, and if inactive, the date the organization became inactive." />
       <definition value="Date the organization became active, and if inactive, the date the organization became inactive." />
-    </element>
-    <element>
-      <path value="Organization.type" />
-      <binding>
-        <strength value="example" />
-        <valueSetUri value="http://hl7.org/fhir/ValueSet/organization-type" />
-      </binding>
     </element>
     <element>
       <path value="Organization.type.coding.system" />

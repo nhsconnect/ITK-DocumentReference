@@ -1,15 +1,17 @@
 # FHIR Document #
 
-The FHIR resource profiles within this message specification have been created to support the CDA on FHIR Document Reference Header:
+The FHIR resource profiles within this message specification have been created to support the ITK Document Reference Header:
 
 
-**[CDA On FHIR England - Document Reference Header]** - FHIR resource profiles combined to support a generic CDA on FHIR Document Reference Header.
+**[CDA On FHIR England - Document Reference Header]** - FHIR resource profiles combined to support a generic ITK Document Reference Header.
 
-**CDA on FHIR England Document Header**
+**CDA on FHIR England Document Reference Header: Visual Representations**
 
-A visual representation of the CDA on FHIR England Document Reference header is available. The preview image below can be <a href="COFEDocumentHeaderHTMLv0.1.png" target="_blank">opened in a new tab</a> or [downloaded as PDF].
+A visual representation of the ITK Document Reference header can be [downloaded as a PDF].
 
-<div><a href="COFEDocumentHeaderHTMLv0.1.png" target="_blank"><img  src="COFEDocumentHeaderHTMLv0.1.png" alt="Interactions" height="300px" width="600px"></a></div>  
+An image of the ITK Document Reference profile's extensions and their associated references can also be  [downloaded in PDF format].
+
+These diagrams are for illustrative purposes only and do not show the full details of all elements for each profile.
 
 **Contained Element/Resources**
 
@@ -26,4 +28,5 @@ The various downloads (including Schema files) and reference implementations are
 [Profiling FHIR]: http://hl7.org/fhir/DSTU2/profiling.html
 [FHIR website]: http://hl7.org/fhir/DSTU2/index.html
 [Base Resource Definitions]: http://hl7.org/fhir/DSTU2/resource.html
-[downloaded as PDF]:COFEDocumentHeaderHTMLv0.1.pdf
+[downloaded as a PDF]:DiagramDocRefReferences.pdf
+[downloaded in PDF format]:DiagramDocRefExtensions.pdf 

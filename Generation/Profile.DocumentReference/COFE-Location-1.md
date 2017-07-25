@@ -1,1 +1,0 @@
-This location resource represents a Health Care Facility. 

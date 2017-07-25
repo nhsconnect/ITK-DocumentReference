@@ -1,1 +1,0 @@
-The Appointment resource provides information on the booking of a healthcare event.

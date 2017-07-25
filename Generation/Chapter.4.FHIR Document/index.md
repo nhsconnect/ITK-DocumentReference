@@ -11,7 +11,7 @@ A visual representation of the ITK Document Reference header can be [downloaded 
 
 An image of the ITK Document Reference profile's extensions and their associated references can also be  [downloaded in PDF format].
 
-These diagrams are for illustrative purposes only and do not show the full details of all elements for each profile.
+These diagrams are for illustrative purposes only and do not show the full details of all elements for each profile and focus on the major references between profiles.
 
 **Contained Element/Resources**
 

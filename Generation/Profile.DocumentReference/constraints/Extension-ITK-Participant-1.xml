@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-25T10:26:16.913+01:00" />
+    <lastUpdated value="2017-07-25T14:29:14.325+01:00" />
   </meta>
   <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
   <name value="Extension-ITK-Participant-1" />
@@ -163,7 +163,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Participant" />
-      <short value="Extension for ITK participant." />
+      <short value="Reference to the ITK participant(s)." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -345,7 +345,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Participant" />
-      <short value="Extension for ITK participant." />
+      <short value="Reference to the ITK participant(s)." />
       <min value="1" />
       <type>
         <code value="Reference" />

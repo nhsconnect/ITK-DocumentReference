@@ -16,7 +16,7 @@
     </telecom>
   </contact>
   <date value="2015-09-22T20:02:49+10:00" />
-  <description value="Extension for CDA performer." />
+  <description value="Extension for ITK performer." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
@@ -162,7 +162,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Performer" />
-      <short value="Extension for CDA performer." />
+      <short value="Extension for ITK performer." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -343,7 +343,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Performer" />
-      <short value="Extension for CDA performer." />
+      <short value="Extension for ITK performer." />
       <min value="1" />
       <type>
         <code value="Reference" />

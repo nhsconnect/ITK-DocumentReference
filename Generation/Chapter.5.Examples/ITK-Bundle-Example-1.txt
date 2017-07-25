@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Bundle xml example-->
-<Bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir" xsi:schemaLocation="http://hl7.org/fhir ../../Schemas/bundle.xsd">
+<Bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://hl7.org/fhir">
 	<id value="320d7908-d1ae-48aa-b055-94561076b945"/>
 	<meta>
 		<profile value="https://fhir.nhs.uk/StructureDefinition/ITK-Document-Bundle-1"/>

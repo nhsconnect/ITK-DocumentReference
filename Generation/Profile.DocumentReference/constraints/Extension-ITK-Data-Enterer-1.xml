@@ -16,7 +16,7 @@
     </telecom>
   </contact>
   <date value="2015-09-22T20:02:49+10:00" />
-  <description value="Extension for CDA data enterer (transcriptionist)." />
+  <description value="Extension for ITK data enterer (transcriptionist)." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
@@ -162,7 +162,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Data Enterer" />
-      <short value="Extension for CDA data enterer (transcriptionist)." />
+      <short value="Extension for ITK data enterer (transcriptionist)." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -344,7 +344,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Data Enterer" />
-      <short value="Extension for CDA data enterer (transcriptionist)." />
+      <short value="Extension for ITK data enterer (transcriptionist)." />
       <min value="1" />
       <type>
         <code value="Reference" />

@@ -3304,39 +3304,21 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td>
-            <p>An alternative location where the data can be accessed.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..1 ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#uri" xmlns="http://www.w3.org/1999/xhtml">Uri</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>The data needs to be transmitted by reference.</p>
-          </td>
+          <td>1..*</td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
-          <td>
-            <p>If both data and url are provided, the url SHALL point to the same content as the data contains. Urls may be relative references or may reference transient locations such as a wrapping envelope using cid: though this has ramifications for using signatures. Relative URLs are interpreted relative to the service url, like a resource reference, rather than relative to the resource itself. If a URL is provided, it SHALL resolve to actual data.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>Example</td>
-          <td>http://www.acme.com/logo-small.png</td>
+          <td>urn:uuid:1868a8af-feaf-4f11-90d1-66da928d6bbc</td>
         </tr>
         <tr>
           <td colspan="2" class="structure">
@@ -3384,39 +3366,21 @@
         </tr>
         <tr>
           <td width="150px">Definition</td>
-          <td>
-            <p>A label or set of text to display in place of the data.</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>
             <a href="http://www.hl7.org/fhir/DSTU2/conformance-rules.html#conformance">Control</a>
           </td>
-          <td>0..1 ?</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html">Type</a>
-          </td>
-          <td>
-            <a href="http://www.hl7.org/fhir/DSTU2/datatypes.html#string" xmlns="http://www.w3.org/1999/xhtml">String</a>
-          </td>
-        </tr>
-        <tr>
-          <td width="150px">Requirements</td>
-          <td>
-            <p>Applications need a label to display to a human user in place of the actual data if the data cannot be rendered or perceived by the viewer.</p>
-          </td>
+          <td>0..*</td>
         </tr>
         <tr>
           <td width="150px">Comments</td>
-          <td>
-            <p>Note that FHIR strings may not exceed 1MB in size</p>
-          </td>
+          <td></td>
         </tr>
         <tr>
           <td>Example</td>
-          <td>Official Corporate Logo</td>
+          <td>Allied health professional assessment record (record artifact)</td>
         </tr>
         <tr>
           <td colspan="2" class="structure">

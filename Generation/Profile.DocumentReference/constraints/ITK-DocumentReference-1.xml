@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-19T13:57:35.408+01:00" />
+    <lastUpdated value="2017-07-25T10:06:11.812+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -463,7 +463,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Participant Extension" />
-      <short value="The Participant extension carries details of people,organisations or devices that are involved in some way with the document. " />
+      <short value="An extension carrying details of a person or people related to the patient who is/are involved in some way in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
@@ -10967,7 +10967,7 @@
     <element>
       <path value="DocumentReference.extension" />
       <name value="Participant Extension" />
-      <short value="The Participant extension carries details of people,organisations or devices that are involved in some way with the document. " />
+      <short value="An extension carrying details of a person or people related to the patient who is/are involved in some way in the document." />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />

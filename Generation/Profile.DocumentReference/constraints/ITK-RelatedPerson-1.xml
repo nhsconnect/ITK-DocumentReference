@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-14T14:59:47.807+01:00" />
+    <lastUpdated value="2017-07-23T01:12:35.056+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="9" />
@@ -1516,7 +1516,6 @@
       <type>
         <code value="string" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2972,7 +2971,6 @@
       <type>
         <code value="code" />
       </type>
-      
       <condition value="ele-1" />
       <condition value="cpt-2" />
       <constraint>
@@ -3025,7 +3023,6 @@
       <type>
         <code value="string" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3070,7 +3067,6 @@
       <type>
         <code value="code" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -4909,16 +4905,13 @@
     <element>
       <path value="RelatedPerson.telecom.system" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="RelatedPerson.telecom.value" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="RelatedPerson.telecom.use" />
-      
       <binding>
         <strength value="required" />
         <valueSetReference>

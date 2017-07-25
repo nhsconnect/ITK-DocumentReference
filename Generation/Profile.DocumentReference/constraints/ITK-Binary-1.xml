@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-14T14:32:11.271+01:00" />
+    <lastUpdated value="2017-07-24T15:24:15.812+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="3" />
@@ -36,7 +36,7 @@
       <path value="Binary" />
       <short value="Pure binary content defined by some other format than FHIR" />
       <definition value="A binary resource can contain any content, whether text, image, pdf, zip archive, etc." />
-      <comments value="Typically, Binary resources are used for handling content such as:  * CDA Documents (i.e. with XDS) * PDF Documents * Images (the Media resource is preferred for handling images, but not possible when the content is already binary - e.g. XDS)." />
+      <comments value="Typically, Binary resources are used for handling content such as:  * ITK Documents (i.e. with XDS) * PDF Documents * Images (the Media resource is preferred for handling images, but not possible when the content is already binary - e.g. XDS)." />
       <min value="0" />
       <max value="*" />
       <base>
@@ -260,6 +260,7 @@
   <differential>
     <element>
       <path value="Binary" />
+      <comments value="Typically, Binary resources are used for handling content such as:  * ITK Documents (i.e. with XDS) * PDF Documents * Images (the Media resource is preferred for handling images, but not possible when the content is already binary - e.g. XDS)." />
       <type>
         <code value="Binary" />
       </type>

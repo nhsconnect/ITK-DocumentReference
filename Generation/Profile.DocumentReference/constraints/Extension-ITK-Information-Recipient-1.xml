@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-10T21:34:10.892+01:00" />
+    <lastUpdated value="2017-07-25T14:28:01.618+01:00" />
   </meta>
   <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
   <name value="Extension-ITK-Information-Recipient-1" />
@@ -162,7 +162,7 @@
     <element>
       <path value="Extension.value[x]" />
       <name value="Information Recipient" />
-      <short value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
+      <short value="Reference to the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -355,7 +355,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Information Recipient" />
-      <short value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
+      <short value="Reference to the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it." />
       <min value="1" />
       <type>
         <code value="Reference" />

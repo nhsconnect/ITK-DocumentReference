@@ -153,7 +153,7 @@
     </element>
     <element>
       <path value="Extension.valueCodeableConcept" />
-      <name value="CareSettingType" />
+      <name value="Care Setting Type" />
       <short value="Value of extension" />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
@@ -654,7 +654,7 @@
     </element>
     <element>
       <path value="Extension.valueCodeableConcept" />
-      <name value="CareSettingType" />
+      <name value="Care Setting Type" />
       <min value="1" />
       <type>
         <code value="CodeableConcept" />

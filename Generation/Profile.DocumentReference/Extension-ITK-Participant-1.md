@@ -1,1 +1,1 @@
-An extension to detail the participant. Participants are people,organisations or devices that are involved in some way with the document. 
+An extension carrying details of a person or people related to the patient who is/are involved in some way in the document.

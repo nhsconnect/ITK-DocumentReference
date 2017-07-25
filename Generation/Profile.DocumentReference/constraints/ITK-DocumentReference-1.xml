@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-25T10:06:11.812+01:00" />
+    <lastUpdated value="2017-07-25T19:53:44.186+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -6663,7 +6663,7 @@
       <definition value="An alternative location where the data can be accessed." />
       <comments value="If both data and url are provided, the url SHALL point to the same content as the data contains. Urls may be relative references or may reference transient locations such as a wrapping envelope using cid: though this has ramifications for using signatures. Relative URLs are interpreted relative to the service url, like a resource reference, rather than relative to the resource itself. If a URL is provided, it SHALL resolve to actual data." />
       <requirements value="The data needs to be transmitted by reference." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Attachment.url" />
@@ -6673,7 +6673,7 @@
       <type>
         <code value="uri" />
       </type>
-      <exampleUri value="http://www.acme.com/logo-small.png" />
+      <exampleUri value="urn:uuid:1868a8af-feaf-4f11-90d1-66da928d6bbc" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -6786,7 +6786,7 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="Official Corporate Logo" />
+      <exampleString value="Allied health professional assessment record (record artifact)" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -11180,8 +11180,17 @@
       <max value="0" />
     </element>
     <element>
+      <path value="DocumentReference.content.attachment.url" />
+      <min value="1" />
+      <exampleUri value="urn:uuid:1868a8af-feaf-4f11-90d1-66da928d6bbc" />
+    </element>
+    <element>
       <path value="DocumentReference.content.attachment.size" />
       <max value="0" />
+    </element>
+    <element>
+      <path value="DocumentReference.content.attachment.title" />
+      <exampleString value="Allied health professional assessment record (record artifact)" />
     </element>
     <element>
       <path value="DocumentReference.content.format" />

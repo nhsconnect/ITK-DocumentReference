@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-10T21:08:33.815+01:00" />
+    <lastUpdated value="2017-07-25T14:37:17.195+01:00" />
   </meta>
   <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-authorization-1" />
   <name value="Extension-ITK-Authorization-1" />
@@ -163,7 +163,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Authorization" />
-      <short value="The Authorisation Extension carries information about an individual or individuals who have overall responsibility for the document." />
+      <short value="A reference to an individual or individuals who have overall responsibility for the document." />
       <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <min value="1" />
       <max value="1" />
@@ -345,7 +345,7 @@
     <element>
       <path value="Extension.valueReference" />
       <name value="Authorization" />
-      <short value="The Authorisation Extension carries information about an individual or individuals who have overall responsibility for the document." />
+      <short value="A reference to an individual or individuals who have overall responsibility for the document." />
       <min value="1" />
       <type>
         <code value="Reference" />

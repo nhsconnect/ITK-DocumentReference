@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-14T14:57:31.37+01:00" />
+    <lastUpdated value="2017-07-25T22:48:57.371+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -1102,7 +1102,7 @@
       <type>
         <code value="string" />
       </type>
-      
+      <exampleString value="123456" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -1681,11 +1681,6 @@
         <xpath value="@value|f:*|h:div" />
       </constraint>
       <isSummary value="true" />
-      <binding>
-        <strength value="preferred" />
-        <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a type of device." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/device-type-1" />
-      </binding>
       <mapping>
         <identity value="rim" />
         <map value="n/a" />
@@ -2383,7 +2378,6 @@
       <type>
         <code value="string" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -2422,7 +2416,6 @@
       <type>
         <code value="string" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3284,7 +3277,6 @@
       <type>
         <code value="code" />
       </type>
-      
       <condition value="ele-1" />
       <condition value="cpt-2" />
       <constraint>
@@ -3337,7 +3329,6 @@
       <type>
         <code value="string" />
       </type>
-      <exampleString value="" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3382,7 +3373,6 @@
       <type>
         <code value="code" />
       </type>
-      
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3720,7 +3710,6 @@
       <path value="Device.identifier.value" />
       <short value="System or medical device identifier" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="Device.identifier.period" />
@@ -3748,11 +3737,6 @@
       <path value="Device.type.coding" />
       <short value="SNOMED CT representation of the device type" />
       <max value="1" />
-      <binding>
-        <strength value="preferred" />
-        <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a type of device." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/device-type-1" />
-      </binding>
     </element>
     <element>
       <path value="Device.type.coding.system" />
@@ -3785,14 +3769,6 @@
         <code value="Reference" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/ITK-RelatedPerson-1" />
       </type>
-    </element>
-    <element>
-      <path value="Device.model" />
-      
-    </element>
-    <element>
-      <path value="Device.version" />
-      
     </element>
     <element>
       <path value="Device.udi" />
@@ -3839,16 +3815,10 @@
     <element>
       <path value="Device.contact.system" />
       <min value="1" />
-      
     </element>
     <element>
       <path value="Device.contact.value" />
       <min value="1" />
-      <exampleString value="" />
-    </element>
-    <element>
-      <path value="Device.contact.use" />
-      
     </element>
   </differential>
 </StructureDefinition>

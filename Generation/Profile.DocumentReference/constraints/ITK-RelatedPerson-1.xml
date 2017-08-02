@@ -4370,7 +4370,7 @@
       <type>
         <code value="code" />
       </type>
-      <exampleCode value="en-AU" />
+     
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">

@@ -26,7 +26,7 @@
 						<reference value="urn:uuid:dd1e5b1d-a012-4169-8260-6bbe3599398a"/>
 					</valueReference>
 				</extension>
-				<extension url="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1">
+				<extension url="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1">
 					<valueCodeableConcept>
 						<coding>
 							<system value="http://snomed.info/sct"/>

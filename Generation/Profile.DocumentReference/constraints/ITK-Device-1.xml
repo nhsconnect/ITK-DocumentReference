@@ -1561,7 +1561,7 @@
       <binding>
         <strength value="preferred" />
         <description value="Defines the nature of the device and the kind of functionality/services/behavior that may be expected from it." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/device-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -3731,7 +3731,7 @@
       <path value="Device.type" />
       <binding>
         <strength value="preferred" />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/device-type-1" />
+        <valueSetUri value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
       </binding>
     </element>
     <element>

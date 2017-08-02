@@ -19,7 +19,7 @@
 			<display value="Dr John Lorenzo"/>
 		</valueReference>
 	</extension>
-	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1">
+	<extension url="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1">
 		<valueCodeableConcept>
 			<coding>
 				<system value="http://snomed.info/sct"/>

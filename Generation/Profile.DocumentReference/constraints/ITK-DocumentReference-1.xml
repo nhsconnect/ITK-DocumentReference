@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-28T22:05:02.978+01:00" />
+    <lastUpdated value="2017-08-01T23:37:34.762+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -16,7 +16,7 @@
   <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
-    <name value="InteroperabilityTeam" />
+    <name value="Interoperability Team" />
     <telecom>
       <system value="email" />
       <value value="interoperabilityteam@nhs.net" />
@@ -32,11 +32,6 @@
     <identity value="v2" />
     <uri value="http://hl7.org/v2" />
     <name value="HL7 v2" />
-  </mapping>
-  <mapping>
-    <identity value="xds" />
-    <uri value="http://ihe.net/xds" />
-    <name value="XDS" />
   </mapping>
   <kind value="resource" />
   <constrainedType value="DocumentReference" />
@@ -348,7 +343,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Data Enterer Extension" />
+      <name value="dataEnterer" />
       <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -363,7 +358,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-dataenterer-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -386,7 +381,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Informant Extension" />
+      <name value="informant" />
       <short value="The Informant Extension references one or more people who informed the author about information contained in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -424,7 +419,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Information Recipient Extension" />
+      <name value="informationRecipient" />
       <short value="The Information Recipient Extension references the primary information recipient(s) of the document who is/are usually expected to perform some action on receipt of a document.  " />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -439,7 +434,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informationrecipient-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -462,7 +457,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Participant Extension" />
+      <name value="participant" />
       <short value="An extension carrying details of a person or people related to the patient who is/are involved in some way in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -500,7 +495,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Performer Extension" />
+      <name value="performer" />
       <short value="The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -538,7 +533,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Authorization Extension" />
+      <name value="authorization" />
       <short value="The Authorisation Extension carries information about an individual or individuals who have overall responsibility for the document." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -576,7 +571,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="CareSettingType" />
+      <name value="careSettingType" />
       <short value="The Care Setting Type Extension carries details of the Correspondence Care Setting Type." />
       <definition value="Optional Extensions Element - found in all resources." />
       <comments value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
@@ -591,7 +586,7 @@
       </base>
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -3222,7 +3217,7 @@
         <strength value="preferred" />
         <description value="Correspondence document type" />
         <valueSetReference>
-          <reference value="https://fhir.nhs.uk/ValueSet/document-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/DocumentType-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -6591,7 +6586,7 @@
       <type>
         <code value="code" />
       </type>
-      
+     
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -10940,16 +10935,18 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Data Enterer Extension" />
+      <name value="dataEnterer" />
       <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
+      <definition value="Optional Extensions Element - found in all resources." />
+      <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-data-enterer-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-dataenterer-1" />
       </type>
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Informant Extension" />
+      <name value="informant" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informant-1" />
@@ -10957,16 +10954,16 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Information Recipient Extension" />
+      <name value="informationRecipient" />
       <short value="The Information Recipient Extension references the primary information recipient(s) of the document who is/are usually expected to perform some action on receipt of a document.  " />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informationrecipient-1" />
       </type>
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Participant Extension" />
+      <name value="participant" />
       <short value="An extension carrying details of a person or people related to the patient who is/are involved in some way in the document." />
       <type>
         <code value="Extension" />
@@ -10975,7 +10972,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Performer Extension" />
+      <name value="performer" />
       <short value="The Performer Extension carries information about an individual or individuals who perform(s) one or multiple action(s) described in the document." />
       <type>
         <code value="Extension" />
@@ -10984,7 +10981,7 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="Authorization Extension" />
+      <name value="authorization" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-authorization-1" />
@@ -10992,12 +10989,12 @@
     </element>
     <element>
       <path value="DocumentReference.extension" />
-      <name value="CareSettingType" />
+      <name value="careSettingType" />
       <short value="The Care Setting Type Extension carries details of the Correspondence Care Setting Type." />
       <max value="1" />
       <type>
         <code value="Extension" />
-        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
+        <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1" />
       </type>
     </element>
     <element>
@@ -11066,7 +11063,7 @@
         <strength value="preferred" />
         <description value="Correspondence document type" />
         <valueSetReference>
-          <reference value="https://fhir.nhs.uk/ValueSet/document-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/DocumentType-1" />
         </valueSetReference>
       </binding>
     </element>

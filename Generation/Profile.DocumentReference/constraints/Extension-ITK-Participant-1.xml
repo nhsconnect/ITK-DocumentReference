@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-25T14:29:14.325+01:00" />
+    <lastUpdated value="2017-08-01T22:57:51.038+01:00" />
   </meta>
   <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-participant-1" />
+  <version value="1.0.0" />
   <name value="Extension-ITK-Participant-1" />
   <status value="active" />
   <publisher value="NHS Digital" />
@@ -15,15 +16,15 @@
       <use value="work" />
     </telecom>
   </contact>
-  <date value="2015-09-22T20:02:49+10:00" />
+  <date value="2017-08-01" />
   <description value="Extension for ITK participant ." />
+  <copyright value="Copyright © 2017 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
   <contextType value="resource" />
-  <context value="Composition" />
-  <context value="Observation" />
+  <context value="DocumentReference" />
   <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <snapshot>
     <element>

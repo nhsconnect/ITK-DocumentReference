@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-25T14:28:01.618+01:00" />
+    <lastUpdated value="2017-08-01T22:56:05.356+01:00" />
   </meta>
-  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
-  <name value="Extension-ITK-Information-Recipient-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informationrecipient-1" />
+  <version value="1.0.0" />
+  <name value="Extension-ITK-InformationRecipient-1" />
   <status value="active" />
   <publisher value="NHS Digital" />
   <contact>
@@ -15,14 +16,15 @@
       <use value="work" />
     </telecom>
   </contact>
-  <date value="2015-09-22T20:02:49+10:00" />
+  <date value="2017-08-01" />
   <description value="Extension for the primary information recipient(s) of the document who are usually expected to perform some action on receipt of it.." />
+  <copyright value="Copyright © 2017 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
   <contextType value="resource" />
-  <context value="Composition" />
+  <context value="DocumentReference" />
   <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <snapshot>
     <element>
@@ -139,7 +141,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informationrecipient-1" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -350,7 +352,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-information-recipient-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-informationrecipient-1" />
     </element>
     <element>
       <path value="Extension.valueReference" />

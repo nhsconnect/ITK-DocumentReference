@@ -1,20 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-20T09:57:18.981+01:00" />
+    <lastUpdated value="2017-08-01T23:25:07.239+01:00" />
   </meta>
-  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
-  <version value="1" />
-  <name value="Extension-ITK-Care-Setting-Type-1" />
+  <url value="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1" />
+  <version value="1.0.0" />
+  <name value="Extension-ITK-CareSettingType-1" />
   <status value="active" />
+  <publisher value="NHS Digital" />
+  <contact>
+    <name value="Interoperability Team" />
+    <telecom>
+      <system value="email" />
+      <value value="interoperabilityteam@nhs.net" />
+      <use value="work" />
+    </telecom>
+  </contact>
   <date value="2015-09-22T11:02:49+01:00" />
   <description value="Extension for a Care Setting." />
+  <copyright value="Copyright © 2017 Health and Social Care Information Centre.&#xD;&#xA;NHS Digital is the trading name of the Health and Social Care Information Centre." />
   <fhirVersion value="1.0.1" />
   <kind value="datatype" />
   <constrainedType value="Extension" />
   <abstract value="false" />
   <contextType value="resource" />
-  <context value="Composition" />
+  <context value="DocumentReference" />
   <base value="http://hl7.org/fhir/StructureDefinition/Extension" />
   <snapshot>
     <element>
@@ -131,7 +141,7 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -180,7 +190,7 @@
         <strength value="preferred" />
         <description value="Correspondence care setting type" />
         <valueSetReference>
-          <reference value="https://fhir.nhs.uk/ValueSet/care-setting-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/CareSettingType-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -650,7 +660,7 @@
     </element>
     <element>
       <path value="Extension.url" />
-      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-care-setting-type-1" />
+      <fixedUri value="https://fhir.nhs.uk/StructureDefinition/extension-itk-caresettingtype-1" />
     </element>
     <element>
       <path value="Extension.valueCodeableConcept" />
@@ -663,7 +673,7 @@
         <strength value="preferred" />
         <description value="Correspondence care setting type" />
         <valueSetReference>
-          <reference value="https://fhir.nhs.uk/ValueSet/care-setting-type-1" />
+          <reference value="https://fhir.nhs.uk/ValueSet/CareSettingType-1" />
         </valueSetReference>
       </binding>
     </element>

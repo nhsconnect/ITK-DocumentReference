@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-07-29T22:28:26.924+01:00" />
+    <lastUpdated value="2017-08-15T12:22:06.888+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -1561,7 +1561,9 @@
       <binding>
         <strength value="preferred" />
         <description value="Defines the nature of the device and the kind of functionality/services/behavior that may be expected from it." />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
+        <valueSetReference>
+          <reference value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
+        </valueSetReference>
       </binding>
       <mapping>
         <identity value="rim" />
@@ -3731,7 +3733,9 @@
       <path value="Device.type" />
       <binding>
         <strength value="preferred" />
-        <valueSetUri value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
+        <valueSetReference>
+          <reference value="https://fhir.nhs.uk/ValueSet/DeviceType-1" />
+        </valueSetReference>
       </binding>
     </element>
     <element>

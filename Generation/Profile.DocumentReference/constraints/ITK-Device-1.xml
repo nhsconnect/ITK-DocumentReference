@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-08-19T23:19:13.312+01:00" />
+    <lastUpdated value="2017-08-30T10:06:54.728+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -1102,8 +1102,7 @@
       <type>
         <code value="string" />
       </type>
-      
-      <condition value="ele-1" />
+        <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
           <valueString value="children()" />
@@ -1663,7 +1662,7 @@
       <comments value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labelled as UserSelected = true." />
       <requirements value="Allows for translations and alternate encodings within a code system.  Also supports communication of the same instance to systems requiring different encodings." />
       <min value="0" />
-      <max value="1" />
+      <max value="*" />
       <base>
         <path value="CodeableConcept.coding" />
         <min value="0" />
@@ -3740,7 +3739,6 @@
     <element>
       <path value="Device.type.coding" />
       <short value="SNOMED CT representation of the device type" />
-      <max value="1" />
     </element>
     <element>
       <path value="Device.type.coding.system" />

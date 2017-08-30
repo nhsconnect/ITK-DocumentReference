@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-08-15T12:22:06.888+01:00" />
+    <lastUpdated value="2017-08-19T23:19:13.312+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="10" />
@@ -1794,7 +1794,6 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://snomed.info/sct" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -3746,7 +3745,6 @@
     <element>
       <path value="Device.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element>
       <path value="Device.type.coding.version" />

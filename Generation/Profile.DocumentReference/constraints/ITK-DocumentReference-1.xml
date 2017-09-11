@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <meta>
-    <lastUpdated value="2017-08-01T23:37:34.762+01:00" />
+    <lastUpdated value="2017-09-11T10:09:58.303+01:00" />
     <tag>
       <system value="urn:hscic:publishOrder" />
       <code value="2" />
@@ -3457,7 +3457,6 @@
       <type>
         <code value="uri" />
       </type>
-      <fixedUri value="http://snomed.info/sct" />
       <condition value="ele-1" />
       <constraint>
         <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-expression">
@@ -10937,8 +10936,6 @@
       <path value="DocumentReference.extension" />
       <name value="dataEnterer" />
       <short value="The Data Enterer Extension references the Data Enterer or transcriptionist for this document." />
-      <definition value="Optional Extensions Element - found in all resources." />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.nhs.uk/StructureDefinition/extension-itk-dataenterer-1" />
@@ -11075,7 +11072,6 @@
     <element>
       <path value="DocumentReference.type.coding.system" />
       <min value="1" />
-      <fixedUri value="http://snomed.info/sct" />
     </element>
     <element>
       <path value="DocumentReference.type.coding.version" />
